@@ -1,5 +1,6 @@
 ---
 title: Startup challenges and how to improve your odds by 10x
+tags: "cloud, customer-growth, distribution, funding, open-source, PMF, revenue, SaaS"
 date: '2024-02-18 01:47:55'
 author:
   name: Kamal Gupta

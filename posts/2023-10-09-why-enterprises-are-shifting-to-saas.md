@@ -1,5 +1,6 @@
 ---
 title: Why Enterprises are Shifting to SaaS
+tags: "cloud, enterprise, SaaS"
 date: '2023-10-09 19:42:33'
 author:
   name: Abhishek Gupta

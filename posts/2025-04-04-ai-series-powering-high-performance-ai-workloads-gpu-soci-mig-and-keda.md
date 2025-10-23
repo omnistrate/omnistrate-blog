@@ -1,5 +1,6 @@
 ---
 title: '[AI Series] Powering High-Performance AI Workloads: GPU, SOCI, MIG, and KEDA'
+tags: "AI, AI features, Omnistrate, SaaS"
 date: '2025-04-04 02:58:31'
 author:
   name: Kamal Gupta

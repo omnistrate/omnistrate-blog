@@ -1,5 +1,6 @@
 ---
 title: 'Building DIY Control Planes with Kubernetes, ArgoCD & Terraform (Part 1 of 3)'
+tags: "BYOC, CloudNative, ControlPlane, DevOps, MultiCloud, PlatformEngineering, SaaS"
 date: '2025-06-12 03:34:29'
 author:
   name: Kamal Gupta

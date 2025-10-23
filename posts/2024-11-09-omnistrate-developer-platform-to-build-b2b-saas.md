@@ -1,5 +1,6 @@
 ---
 title: 'Omnistrate: Developer Platform to Build B2B SaaS'
+tags: "cloud, press-release, SaaS"
 date: '2024-11-09 20:50:40'
 author:
   name: Kamal Gupta

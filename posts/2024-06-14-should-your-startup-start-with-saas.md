@@ -1,5 +1,6 @@
 ---
 title: Should Your Startup Start with SaaS?
+tags: "cloud, SaaS, startups"
 date: '2024-06-14 15:30:08'
 author:
   name: Kamal Gupta

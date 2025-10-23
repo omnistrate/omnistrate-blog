@@ -1,5 +1,6 @@
 ---
 title: Custom Sidecars support for Omnistrate resources
+tags: "cloud, k8s, OTEL, sidecars"
 date: '2025-02-20 21:46:09'
 author:
   name: Tomislav Simeunovic

@@ -1,5 +1,6 @@
 ---
 title: Strategies for Seamless SaaS Deployment
+tags: "cloud, SaaS, saas provisioning, tenant management, tenant provisioning"
 date: '2024-02-01 21:05:04'
 author:
   name: Kamal Gupta

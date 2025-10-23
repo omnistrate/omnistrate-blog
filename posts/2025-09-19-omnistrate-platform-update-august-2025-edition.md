@@ -1,5 +1,6 @@
 ---
 title: Omnistrate Platform Update - August 2025 edition
+tags: "Platform Updates, Features, MCP, AI"
 date: '2025-09-19 22:01:13'
 author:
   name: Pablo Berton

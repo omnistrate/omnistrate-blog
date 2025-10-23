@@ -1,5 +1,6 @@
 ---
 title: Omnistrate just made building B2B SaaS easier than ever!
+tags: "cloud, platform, product-release, SaaS, update" 
 date: '2024-11-12 13:40:24'
 author:
   name: Kamal Gupta

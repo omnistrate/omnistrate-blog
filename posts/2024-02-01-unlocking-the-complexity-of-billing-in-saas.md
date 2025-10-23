@@ -1,5 +1,6 @@
 ---
 title: Unlocking the Complexity of Billing in SaaS
+tags: "billing, cloud, marketplace, metering, SaaS"
 date: '2024-02-01 21:13:02'
 author:
   name: Kamal Gupta

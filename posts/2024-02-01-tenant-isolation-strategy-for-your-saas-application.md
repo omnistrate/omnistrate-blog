@@ -1,5 +1,6 @@
 ---
 title: Tenant Isolation Strategy for Your SaaS Application
+tags: "cloud, SaaS, tenant isolation"
 date: '2024-02-01 21:03:07'
 author:
   name: Kamal Gupta

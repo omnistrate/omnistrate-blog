@@ -1,5 +1,6 @@
 ---
 title: Challenges in streamlining SaaS User Experiences
+tags: "cloud, SaaS, saas management, UX" 
 date: '2024-02-01 21:09:56'
 author:
   name: Kamal Gupta

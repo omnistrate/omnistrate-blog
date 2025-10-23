@@ -1,5 +1,6 @@
 ---
 title: 'Build vs. Buy: Why Platform Teams Choose Omnistrate for Their Control Plane'
+tags: "build vs buy, cloud, Omnistrate, platform, SaaS"
 date: '2025-02-27 04:16:04'
 author:
   name: Kamal Gupta

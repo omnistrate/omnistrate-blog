@@ -1,5 +1,6 @@
 ---
 title: 'Cloud Native vs Cloud Agnostic: Weighing the Trade-Offs'
+tags: "cloud, cloud-agnostic, cloud-native"
 date: '2023-02-24 09:31:17'
 author:
   name: Abhishek Gupta

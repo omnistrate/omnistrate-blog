@@ -1,5 +1,6 @@
 ---
 title: 'SaaS Reliability: Achieving High Availability'
+tags: "cloud, high availability, reliability, SaaS"
 date: '2024-02-01 21:06:26'
 author:
   name: Kamal Gupta

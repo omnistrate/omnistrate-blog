@@ -1,5 +1,6 @@
 ---
 title: 'AI for B2B: From Training to Tenant Management and Day-2 Ops'
+tags: "AI, b2b, cloud, SaaS"
 date: '2024-10-15 02:15:19'
 author:
   name: Kamal Gupta

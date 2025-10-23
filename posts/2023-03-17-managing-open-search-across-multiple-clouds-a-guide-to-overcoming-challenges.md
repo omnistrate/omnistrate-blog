@@ -1,5 +1,6 @@
 ---
 title: "Managing Open Search  \U0001F50D  Across Multiple Clouds: A Guide to Overcoming Challenges"
+tags: "cloud, cloud-native, elastic, multi-cloud, open-search"
 date: '2023-03-17 15:37:23'
 author:
   name: Abhishek Gupta

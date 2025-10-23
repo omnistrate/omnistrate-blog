@@ -1,5 +1,6 @@
 ---
 title: Day 2 Operations - SaaS Maintenance
+tags: "cloud, platform engineering, SaaS"
 date: '2023-10-14 22:16:04'
 author:
   name: Joshua Buss

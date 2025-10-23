@@ -1,5 +1,6 @@
 ---
 title: 'The Art of Scaling Distributed Multi Cloud Systems: Best Practices and Lessons Learned'
+tags: "cloud, cloud-native, distributed, multi-cloud, security"
 date: '2023-06-18 07:09:02'
 author:
   name: Abhishek Gupta

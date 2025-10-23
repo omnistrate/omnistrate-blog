@@ -1,5 +1,6 @@
 ---
 title: 'Omnistrate Joins CNCF Family, Sponsors CNCF, and Open Sources SaaSBuilder'
+tags: "cloud-native, cncf, kubecon, Omnistrate, press-release, SaaS"
 date: '2024-07-21 01:15:02'
 author:
   name: Kamal Gupta

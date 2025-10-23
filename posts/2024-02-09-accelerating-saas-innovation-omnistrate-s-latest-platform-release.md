@@ -1,5 +1,6 @@
 ---
 title: 'Accelerating SaaS Innovation: Omnistrate''s Latest Platform Release'
+tags: "cloud, SaaS"
 date: '2024-02-09 17:26:39'
 author:
   name: Kamal Gupta

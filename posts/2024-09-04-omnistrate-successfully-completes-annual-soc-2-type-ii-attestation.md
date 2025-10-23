@@ -1,5 +1,6 @@
 ---
 title: "Omnistrate Successfully Completes Annual SOC 2 Type II Attestation \U0001F6E1️\U0001F680"
+tags: "cloud, compliance, security, soc2"
 date: '2024-09-04 05:20:26'
 author:
   name: Amit Sharma

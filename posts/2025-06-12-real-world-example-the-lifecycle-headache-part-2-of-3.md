@@ -1,5 +1,6 @@
 ---
 title: 'Real-World Example: The Lifecycle Headache (Part 2 of 3)'
+tags: "BYOC, ControlPlane, DevOps, MultiCloud, PlatformEngineering, SaaS"
 date: '2025-06-12 08:23:54'
 author:
   name: Kamal Gupta

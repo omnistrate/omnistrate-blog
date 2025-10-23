@@ -1,5 +1,6 @@
 ---
 title: Omnistrate Strengthens AWS Partnership with Key Milestones
+tags: "aws, marketplace, Omnistrate, press-release, SaaS"
 date: '2024-07-21 02:31:17'
 author:
   name: Kamal Gupta

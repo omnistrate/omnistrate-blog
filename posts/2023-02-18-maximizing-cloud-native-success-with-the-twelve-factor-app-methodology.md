@@ -1,5 +1,6 @@
 ---
 title: "Maximizing Cloud-Native Success with the Twelve-Factor App Methodology \U0001FAE1"
+tags: "12-factors, cloud, cloud-native"
 date: '2023-02-18 04:03:46'
 author:
   name: Abhishek Gupta

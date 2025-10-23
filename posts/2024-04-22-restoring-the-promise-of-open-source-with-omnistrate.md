@@ -1,5 +1,6 @@
 ---
 title: Restoring the Promise of Open Source with Omnistrate
+tags: "cloud, open-source, SaaS"
 date: '2024-04-22 04:05:55'
 author:
   name: Kamal Gupta

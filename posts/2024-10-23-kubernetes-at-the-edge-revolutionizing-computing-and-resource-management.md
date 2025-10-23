@@ -1,5 +1,6 @@
 ---
 title: 'Kubernetes at the Edge: Revolutionizing Computing and Resource Management'
+tags: "Kubernetes, OpenSource"
 date: '2024-10-23 10:37:38'
 author:
   name: Matteo Bianchi

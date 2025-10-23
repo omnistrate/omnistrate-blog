@@ -1,5 +1,6 @@
 ---
 title: Need for SaaS abstractions
+tags: "abstractions, cloud, operating systems, OS, SaaS"
 date: '2024-01-30 22:36:10'
 author:
   name: Kamal Gupta

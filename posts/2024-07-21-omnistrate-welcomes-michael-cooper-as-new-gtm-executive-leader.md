@@ -1,5 +1,6 @@
 ---
 title: Omnistrate Welcomes Michael Cooper as New GTM Executive Leader
+tags: "gtm, leadership, Omnistrate, press-release, SaaS"
 date: '2024-07-21 01:09:41'
 author:
   name: Kamal Gupta

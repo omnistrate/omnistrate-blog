@@ -1,5 +1,6 @@
 ---
 title: 'AWS and Omnistrate partnered to bring Percona Ivee Cloud '
+tags: "case-study, Omnistrate, percona, SaaS"
 date: '2024-10-16 16:35:13'
 author:
   name: Kamal Gupta

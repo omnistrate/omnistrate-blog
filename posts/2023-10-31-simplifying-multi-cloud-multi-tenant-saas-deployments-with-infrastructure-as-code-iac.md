@@ -1,5 +1,6 @@
 ---
 title: 'Simplifying Multi-Cloud, Multi-Tenant SaaS Deployments with Infrastructure as Code (IaC)'
+tags: "cloud, cloud-agnostic, cloud-native, SaaS"
 date: '2023-10-31 09:20:45'
 author:
   name: Abhishek Gupta

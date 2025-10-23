@@ -1,5 +1,6 @@
 ---
 title: Introducing Omnistrate Platform
+tags: "cloud, multi-cloud, open-source, SaaS"
 date: '2024-01-28 20:20:40'
 author:
   name: Kamal Gupta

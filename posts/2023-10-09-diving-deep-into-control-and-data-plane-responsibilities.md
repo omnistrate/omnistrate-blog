@@ -1,5 +1,6 @@
 ---
 title: Diving Deep into Control and Data Plane Responsibilities
+tags: "cloud, control plane, data plane, SaaS"
 date: '2023-10-09 12:57:09'
 author:
   name: Abhishek Gupta

@@ -1,5 +1,6 @@
 ---
 title: Build your own Software Platform in days
+tags: "BYOC, ControlPlane, Distribution Channels, OnPrem, PaaS, SaaS"
 date: '2025-06-22 00:01:11'
 author:
   name: Kamal Gupta

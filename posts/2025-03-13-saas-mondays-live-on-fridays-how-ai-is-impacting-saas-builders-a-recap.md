@@ -1,5 +1,6 @@
 ---
 title: 'SaaS Mondays, Live on Fridays: How AI is impacting SaaS Builders (A Recap)'
+tags: "AI, AI Agent, aws, Cloud Marketplace, ControlPlane, SaaS" 
 date: '2025-03-13 16:13:57'
 author:
   name: Michael Cooper

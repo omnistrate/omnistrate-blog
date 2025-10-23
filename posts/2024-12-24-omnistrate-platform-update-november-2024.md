@@ -1,5 +1,6 @@
 ---
 title: Omnistrate Platform Update (November 2024)
+tags: "cloud, platform, product-release, SaaS, update"
 date: '2024-12-24 00:12:33'
 author:
   name: Kamal Gupta

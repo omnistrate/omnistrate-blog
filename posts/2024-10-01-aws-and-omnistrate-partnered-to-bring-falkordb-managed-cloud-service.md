@@ -1,5 +1,6 @@
 ---
 title: AWS and Omnistrate partnered to bring FalkorDB Managed Cloud Service
+tags: "case-study, falkordb, Omnistrate, SaaS"
 date: '2024-10-01 12:13:56'
 author:
   name: Kamal Gupta

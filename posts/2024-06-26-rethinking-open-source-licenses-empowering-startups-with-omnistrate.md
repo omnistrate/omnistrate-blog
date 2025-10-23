@@ -1,5 +1,6 @@
 ---
 title: 'Rethinking Open Source Licenses: Empowering Startups with Omnistrate'
+tags: "cloud, Innovation, open-source, SaaS, startups"
 date: '2024-06-26 13:58:21'
 author:
   name: Kamal Gupta

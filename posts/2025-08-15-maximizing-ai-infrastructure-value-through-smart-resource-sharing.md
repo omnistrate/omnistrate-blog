@@ -1,5 +1,6 @@
 ---
 title: Maximizing AI Infrastructure Value Through Smart Resource Sharing
+tags: "AaaS, AI, cloud, gpu, platform, SaaS"
 date: '2025-08-15 02:06:11'
 author:
   name: Pablo Berton

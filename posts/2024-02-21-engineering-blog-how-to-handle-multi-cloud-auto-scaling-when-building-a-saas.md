@@ -1,5 +1,6 @@
 ---
 title: 'Engineering Blog: How to handle multi-cloud auto-scaling when building a SaaS?'
+tags: "autoscaling, aws, engineering-blog, gcp, hpa, karpenter, Kubernetes, SaaS, startup, vpa"
 date: '2024-02-21 11:44:41'
 author:
   name: Matteo Bianchi

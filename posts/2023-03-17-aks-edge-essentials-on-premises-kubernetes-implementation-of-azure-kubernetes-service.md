@@ -1,5 +1,6 @@
 ---
 title: AKS Edge Essentials - On-premises Kubernetes implementation of Azure Kubernetes Service
+tags: "cloud, cloud-agnostic, cloud-native, Kubernetes"
 date: '2023-03-17 15:15:22'
 author:
   name: Abhishek Gupta

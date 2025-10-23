@@ -1,5 +1,6 @@
 ---
 title: Navigating the Operational Puzzle of SaaS
+tags: "cloud, day-2, operations, SaaS"
 date: '2024-02-01 21:14:57'
 author:
   name: Kamal Gupta

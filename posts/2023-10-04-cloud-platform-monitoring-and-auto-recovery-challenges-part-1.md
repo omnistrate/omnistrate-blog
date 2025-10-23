@@ -1,5 +1,6 @@
 ---
 title: Cloud Platform Monitoring and Auto-Recovery Challenges - Part 1
+tags: "cloud, fault-tolerance, monitoring, platform engineering"
 date: '2023-10-04 03:08:26'
 author:
   name: Joshua Buss

@@ -1,5 +1,6 @@
 ---
 title: Challenges in Building SaaS Billing
+tags: "billing, cloud, metrics, platform engineering, SaaS"
 date: '2023-10-12 16:38:44'
 author:
   name: Joshua Buss

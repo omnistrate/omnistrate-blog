@@ -1,5 +1,6 @@
 ---
 title: Provisioning and Deployments - Your SaaS Foundation
+tags: "cloud, platform engineering, provisioning, SaaS"
 date: '2023-10-12 00:54:53'
 author:
   name: Joshua Buss

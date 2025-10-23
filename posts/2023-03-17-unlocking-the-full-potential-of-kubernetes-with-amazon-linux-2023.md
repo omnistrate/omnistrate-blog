@@ -1,5 +1,6 @@
 ---
 title: Unlocking the Full Potential of Kubernetes with Amazon Linux 2023
+tags: "aws, cloud, cloud-agnostic, cloud-native, Kubernetes"
 date: '2023-03-17 15:26:51'
 author:
   name: Abhishek Gupta

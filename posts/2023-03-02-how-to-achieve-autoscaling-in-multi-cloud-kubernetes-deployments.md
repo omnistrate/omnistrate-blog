@@ -1,5 +1,6 @@
 ---
 title: How to Achieve Autoscaling in Multi-Cloud Kubernetes Deployments
+tags: "cloud, cloud-native, multi-cloud"
 date: '2023-03-02 18:44:30'
 author:
   name: Abhishek Gupta

@@ -1,5 +1,6 @@
 ---
 title: Understanding SaaS billing models
+tags: "billing, cloud, open-source, SaaS"
 date: '2024-04-09 09:09:28'
 author:
   name: Kamal Gupta

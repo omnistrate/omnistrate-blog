@@ -1,5 +1,6 @@
 ---
 title: Why we built Omnistrate?
+tags: "cloud, multi-cloud, open-source, SaaS"
 date: '2024-01-28 11:53:53'
 author:
   name: Kamal Gupta

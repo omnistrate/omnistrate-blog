@@ -1,5 +1,6 @@
 ---
 title: SaaS Capabilities - What Does it Really Entail?
+tags: "cloud, platform engineering, SaaS"
 date: '2023-10-12 19:03:20'
 author:
   name: Joshua Buss

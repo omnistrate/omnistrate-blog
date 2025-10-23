@@ -1,5 +1,6 @@
 ---
 title: '[AI Series] What is BYOC, and why does it matter? (Apps must “Go to the Data” in 2025)'
+tags: "AI, BYOA, BYOC, Omnistrate, SaaS"
 date: '2025-02-02 20:01:03'
 author:
   name: Michael Cooper

@@ -1,5 +1,6 @@
 ---
 title: Introduction to Control Plane and Data Plane
+tags: "cloud, control-plane, data-plane, SaaS"
 date: '2023-09-26 16:55:20'
 author:
   name: Abhishek Gupta

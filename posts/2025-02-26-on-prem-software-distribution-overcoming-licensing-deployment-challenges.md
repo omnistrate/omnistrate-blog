@@ -1,5 +1,6 @@
 ---
 title: 'On-Prem Software Distribution: Overcoming Licensing & Deployment Challenges'
+tags: "build vs buy, cloud, Omnistrate, platform, SaaS"
 date: '2025-02-26 04:12:28'
 author:
   name: Kamal Gupta

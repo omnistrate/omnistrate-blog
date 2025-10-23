@@ -1,5 +1,6 @@
 ---
 title: 'Moving to Cell-Based Architecture: Lessons from Neon'
+tags: "architecture, cell, cloud, platform"
 date: '2025-08-15 01:51:11'
 author:
   name: Pablo Berton

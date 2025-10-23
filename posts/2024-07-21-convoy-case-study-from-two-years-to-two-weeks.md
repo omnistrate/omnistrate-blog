@@ -1,5 +1,6 @@
 ---
 title: 'Convoy Case Study: From Two Years to Two Weeks'
+tags: "case-study, Convoy, Omnistrate, SaaS"
 date: '2024-07-21 02:16:19'
 author:
   name: Kamal Gupta

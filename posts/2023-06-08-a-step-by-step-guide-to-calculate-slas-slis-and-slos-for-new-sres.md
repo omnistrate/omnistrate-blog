@@ -1,5 +1,6 @@
 ---
 title: 'A Step-by-Step Guide to Calculate SLAs, SLIs, and SLOs for new SREs'
+tags: "cloud, cloud-native, monitoring, multi-cloud, sre"
 date: '2023-06-08 04:00:10'
 author:
   name: Abhishek Gupta

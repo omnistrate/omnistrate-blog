@@ -1,5 +1,6 @@
 ---
 title: '[AI Series] Cost Controls & Insights'
+tags: "AI, cost, Insights, Omnistrate, SaaS"
 date: '2025-04-04 02:31:41'
 author:
   name: Kamal Gupta

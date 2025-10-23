@@ -1,5 +1,6 @@
 ---
 title: Omnistrate Platform Update (August 2024)
+tags: "Omnistrate, platform, product-release, SaaS, update"
 date: '2024-09-13 02:00:25'
 author:
   name: Kamal Gupta

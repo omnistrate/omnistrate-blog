@@ -1,5 +1,6 @@
 ---
 title: What is a Cloud?
+tags: "aws, azure, cloud, cloud fundamentals, gcp"
 date: '2023-02-16 00:12:53'
 author:
   name: Team Omnistrate

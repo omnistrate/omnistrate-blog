@@ -1,5 +1,6 @@
 ---
 title: 'Kubernetes and container networking in multi-cloud environments: Why it is not easy and why you need Sparta like skills'
+tags: "aws, cloud, cloud-agnostic, cloud-native, Kubernetes" 
 date: '2023-06-08 04:08:39'
 author:
   name: Abhishek Gupta

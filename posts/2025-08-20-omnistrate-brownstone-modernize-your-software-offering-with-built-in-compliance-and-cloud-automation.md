@@ -1,5 +1,6 @@
 ---
 title: 'Omnistrate + Brownstone: Modernize Your Software Offering with Built-In Compliance and Cloud Automation'
+tags: "Brownstone consulting, Omnistrate, partnership, SaaS"
 date: '2025-08-20 16:33:17'
 author:
   name: Kamal Gupta

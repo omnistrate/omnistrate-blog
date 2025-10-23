@@ -1,5 +1,6 @@
 ---
 title: Helping entrepreneurs to improve their startup success odds by 10x
+tags: "cost, Entrepreneurship, SaaS, startups, time"
 date: '2024-03-03 18:21:24'
 author:
   name: Kamal Gupta

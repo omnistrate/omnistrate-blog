@@ -1,5 +1,6 @@
 ---
 title: Where did the Cloud model go wrong?
+tags: "cloud, open-source"
 date: '2023-02-28 20:20:38'
 author:
   name: Team Omnistrate

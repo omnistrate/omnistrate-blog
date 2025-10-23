@@ -1,5 +1,6 @@
 ---
 title: Why is the SaaS Paradigm so Powerful?
+tags: "cloud, multi-cloud, SaaS"
 date: '2023-09-27 20:24:07'
 author:
   name: Abhishek Gupta

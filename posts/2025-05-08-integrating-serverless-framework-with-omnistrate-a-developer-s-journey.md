@@ -1,5 +1,6 @@
 ---
 title: 'Integrating Serverless Framework with Omnistrate: A Developer''s Journey'
+tags: "Omnistrate, SaaS, serverless, terraform"
 date: '2025-05-08 00:34:02'
 author:
   name: Nolan McCafferty

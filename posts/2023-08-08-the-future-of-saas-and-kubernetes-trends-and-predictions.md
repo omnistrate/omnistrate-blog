@@ -1,5 +1,6 @@
 ---
 title: 'The Future of SaaS and Kubernetes: Trends and Predictions'
+tags: "cloud, Kubernetes, SaaS"
 date: '2023-08-08 03:27:44'
 author:
   name: Abhishek Gupta

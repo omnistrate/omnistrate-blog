@@ -1,5 +1,6 @@
 ---
 title: What is a SaaS Control Plane?
+tags: "cloud, k8s, Kubernetes, multi-cloud, open-source, SaaS, terraform"
 date: '2024-01-28 20:16:31'
 author:
   name: Kamal Gupta

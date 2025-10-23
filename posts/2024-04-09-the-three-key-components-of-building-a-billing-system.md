@@ -1,5 +1,6 @@
 ---
 title: The Three Key Components of Building a Billing System
+tags: "billing, cloud, SaaS"
 date: '2024-04-09 09:27:06'
 author:
   name: Kamal Gupta

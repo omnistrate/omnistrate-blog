@@ -1,5 +1,6 @@
 ---
 title: An Introduction to Kubernetes-based Event-Driven Autoscaling
+tags: "cloud, cloud-agnostic, cloud-native, event-driven" 
 date: '2023-03-16 06:20:59'
 author:
   name: Abhishek Gupta

@@ -1,5 +1,6 @@
 ---
 title: Why Kubernetes Is the Foundation of Modern Cloud Infrastructure
+tags: "Kubernetes, Omnistrate, OpenSource, SaaS"
 date: '2024-10-23 10:25:00'
 author:
   name: Matteo Bianchi

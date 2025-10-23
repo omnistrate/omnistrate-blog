@@ -1,5 +1,6 @@
 ---
 title: 'Distributed System Design — Scaling from 0–1K, 1K -10K, 10K-100K, 100K-1M, and 1M to 1B users.'
+tags: "12-factors, cloud, cloud-native, scaling"
 date: '2023-06-18 07:45:52'
 author:
   name: Abhishek Gupta

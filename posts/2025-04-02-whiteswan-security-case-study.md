@@ -1,5 +1,6 @@
 ---
 title: Whiteswan Security Case Study
+tags: "BYOA, BYOC, case-study, Omnistrate, onprem-copilot, whiteswan-security"
 date: '2025-04-02 07:04:38'
 author:
   name: Kamal Gupta

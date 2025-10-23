@@ -1,5 +1,6 @@
 ---
 title: 'Control Plane: Unpacking the Build vs Buy Dilemma'
+tags: "build vs buy, cloud, control plane, SaaS"
 date: '2024-01-31 00:27:02'
 author:
   name: Kamal Gupta

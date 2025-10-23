@@ -1,5 +1,6 @@
 ---
 title: ABCs of Control Plane
+tags: "cloud, control plane, control-plane, SaaS"
 date: '2024-03-03 21:44:30'
 author:
   name: Kamal Gupta

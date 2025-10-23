@@ -1,5 +1,6 @@
 ---
 title: Omnistrate Platform Update (February 2024)
+tags: "platform, SaaS, startup, update"
 date: '2024-03-08 14:00:42'
 author:
   name: Matteo Bianchi

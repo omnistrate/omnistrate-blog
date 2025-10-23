@@ -1,5 +1,6 @@
 ---
 title: Why OSS Creators need to start with SaaS
+tags: "cloud, Cloud Marketplace, open-source, SaaS"
 date: '2024-06-18 20:26:55'
 author:
   name: Michael Cooper

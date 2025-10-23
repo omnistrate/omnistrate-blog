@@ -1,5 +1,6 @@
 ---
 title: 'Omnistrate + Open Source: Building Together'
+tags: "cloud, open-source, SaaS"
 date: '2024-11-10 00:18:43'
 author:
   name: Kamal Gupta

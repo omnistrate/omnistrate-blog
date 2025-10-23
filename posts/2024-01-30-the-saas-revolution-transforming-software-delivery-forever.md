@@ -1,5 +1,6 @@
 ---
 title: 'The SaaS Revolution: Transforming Software Delivery Forever'
+tags: "cloud, SaaS, software delivery, technology"
 date: '2024-01-30 22:15:45'
 author:
   name: Kamal Gupta

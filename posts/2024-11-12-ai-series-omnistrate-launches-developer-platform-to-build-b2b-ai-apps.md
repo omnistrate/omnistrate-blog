@@ -1,5 +1,6 @@
 ---
 title: '[AI Series] Omnistrate Launches Developer Platform to Build B2B AI Apps'
+tags: "AI, cloud, press-release, SaaS"
 date: '2024-11-12 17:32:34'
 author:
   name: Kamal Gupta

@@ -1,5 +1,6 @@
 ---
 title: 'Multi-Cloud: How to manage Complexity and Opportunity on day-1'
+tags: "multi-cloud, platform engineering"
 date: '2024-03-03 21:17:01'
 author:
   name: Kamal Gupta

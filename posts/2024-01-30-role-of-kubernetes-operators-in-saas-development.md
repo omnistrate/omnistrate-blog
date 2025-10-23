@@ -1,5 +1,6 @@
 ---
 title: Role of Kubernetes Operators in SaaS Development
+tags: "cloud, k8s, k8s operator, Kubernetes, operator, SaaS" 
 date: '2024-01-30 23:53:43'
 author:
   name: Kamal Gupta

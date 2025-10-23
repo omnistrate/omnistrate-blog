@@ -1,5 +1,6 @@
 ---
 title: Omnistrate Successfully Achieves SOC 2 Type II Compliance and Completes External Penetration Testing
+tags: "Omnistrate, press-release, SaaS, security"
 date: '2024-07-21 01:30:24'
 author:
   name: Kamal Gupta

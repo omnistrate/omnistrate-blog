@@ -1,5 +1,6 @@
 ---
 title: Top 5 SaaS mistakes to avoid
+tags: "cloud, SaaS" 
 date: '2024-01-30 22:43:26'
 author:
   name: Kamal Gupta

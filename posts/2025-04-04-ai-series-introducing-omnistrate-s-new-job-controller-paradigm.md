@@ -1,5 +1,6 @@
 ---
 title: '[AI Series] Introducing Omnistrate''s New Job Controller Paradigm'
+tags: "AI, Jobs, Omnistrate, SaaS, Scheduling"
 date: '2025-04-04 01:37:30'
 author:
   name: Alok Nikhil

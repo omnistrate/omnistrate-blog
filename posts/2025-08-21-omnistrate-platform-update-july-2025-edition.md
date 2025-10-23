@@ -1,5 +1,6 @@
 ---
 title: Omnistrate Platform Update - July 2025 edition
+tags: "cloud, platform, product-release, SaaS, update"
 date: '2025-08-21 21:29:22'
 author:
   name: Pablo Berton

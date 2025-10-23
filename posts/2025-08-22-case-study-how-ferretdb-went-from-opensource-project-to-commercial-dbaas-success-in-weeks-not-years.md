@@ -1,5 +1,6 @@
 ---
 title: 'Case Study: How FerretDB went from OpenSource Project to Commercial DBaaS success in weeks, not years'
+tags: "case-study, cloud, DBaaS, FerretDB, MultiCloud, Omnistrate, PostgreSQL"
 date: '2025-08-22 12:59:30'
 author:
   name: Kamal Gupta

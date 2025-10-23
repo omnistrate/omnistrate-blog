@@ -1,5 +1,6 @@
 ---
 title: 'Inside the Cloud - Understanding IaaS, PaaS and SaaS'
+tags: "aws, azure, cloud, cloud fundamentals, gcp"
 date: '2023-07-17 07:51:31'
 author:
   name: Amit Sharma

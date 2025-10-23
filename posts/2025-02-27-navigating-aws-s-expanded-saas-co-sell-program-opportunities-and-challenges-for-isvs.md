@@ -1,5 +1,6 @@
 ---
 title: 'Navigating AWS’s Expanded SaaS Co-Sell Program: Opportunities and Challenges for ISVs'
+tags: "aws, cloud, CoSell, ISV, marketplace, SaaS"
 date: '2025-02-27 01:18:44'
 author:
   name: Kamal Gupta

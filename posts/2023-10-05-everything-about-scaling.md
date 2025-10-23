@@ -1,5 +1,6 @@
 ---
 title: Everything about Scaling
+tags: "autoscaling, cloud, platform engineering, scale, scaling"
 date: '2023-10-05 21:23:25'
 author:
   name: Joshua Buss

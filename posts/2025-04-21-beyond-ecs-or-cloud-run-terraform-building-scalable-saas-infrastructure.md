@@ -1,5 +1,6 @@
 ---
 title: 'Beyond ECS or Cloud Run + Terraform: Building Scalable SaaS Infrastructure'
+tags: "cloud, cloud-run, ecs, Omnistrate, SaaS, terraform"
 date: '2025-04-21 03:45:55'
 author:
   name: Kamal Gupta

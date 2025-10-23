@@ -1,5 +1,6 @@
 ---
 title: "Omnistrate’s Journey of Trust Continues - From SOC 2 Type I to Type II \U0001F6E1️✨"
+tags: "cloud, compliance, security, soc2"
 date: '2023-09-18 00:45:02'
 author:
   name: Omnistrate Team

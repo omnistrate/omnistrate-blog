@@ -1,5 +1,6 @@
 ---
 title: "Omnistrate Achieves SOC 2 Type I Compliance: Upholding Security and Trust \U0001F396️"
+tags: "cloud-security-standard, compliance, data-security, soc2"
 date: '2023-05-11 15:24:07'
 author:
   name: Amit Sharma

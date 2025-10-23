@@ -1,5 +1,6 @@
 ---
 title: Emergence/Future of Open-source and Cloud
+tags: "cloud, open-source"
 date: '2023-02-22 23:34:55'
 author:
   name: Team Omnistrate

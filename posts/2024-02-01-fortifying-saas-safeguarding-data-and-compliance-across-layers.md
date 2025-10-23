@@ -1,5 +1,6 @@
 ---
 title: 'Fortifying SaaS: Safeguarding Data and Compliance Across Layers'
+tags: "cloud, compliance, SaaS, security"
 date: '2024-02-01 21:11:10'
 author:
   name: Kamal Gupta

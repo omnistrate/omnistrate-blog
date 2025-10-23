@@ -1,5 +1,6 @@
 ---
 title: 'Lifecycle Management and Infrastructure Cleanup: The Overlooked Challenge of Efficiently Decommissioning Resources'
+tags: "cloud, cloud-agnostic, cloud-native, SaaS"
 date: '2023-11-07 05:11:20'
 author:
   name: Abhishek Gupta

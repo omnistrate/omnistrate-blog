@@ -1,5 +1,6 @@
 ﻿---
 title: Revolutionize Your DevOps and SRE with Omnistrate's new MCP server
+tags: "agent, agentic ai, AI, cloud, DevOps, mcp, sre"
 date: '2025-09-18 15:21:22'
 author:
   name: Alok Nikhil
