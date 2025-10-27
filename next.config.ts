@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+const redirects = require('./redirect-mapping.json');
 
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  async redirects() {
+    return redirects;
+  },
 };
 
-export default nextConfig;
+module.exports = nextConfig;

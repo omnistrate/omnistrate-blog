@@ -1,0 +1,98 @@
+/* postcss-ignore-next-line */
+@apply text-4xl mt-12 mb-6 leading-tight font-bold;
+.markdown {
+  @apply text-lg leading-relaxed;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  @apply my-6;
+}
+
+/* Headings */
+.markdown h1 {
+  @apply text-4xl mt-12 mb-6 leading-tight font-bold;
+}
+
+.markdown h2 {
+  @apply text-3xl mt-12 mb-4 leading-snug font-semibold;
+}
+
+.markdown h3 {
+  @apply text-2xl mt-8 mb-4 leading-snug font-semibold;
+}
+
+.markdown h4 {
+  @apply text-xl mt-6 mb-3 leading-snug font-medium;
+}
+
+.markdown h5 {
+  @apply text-lg mt-6 mb-3 leading-snug font-medium;
+}
+
+.markdown h6 {
+  @apply text-base mt-4 mb-2 leading-snug font-medium;
+}
+
+/* Lists */
+.markdown ul {
+  @apply list-disc pl-6;
+}
+
+.markdown ol {
+  @apply list-decimal pl-6;
+}
+
+.markdown li {
+  @apply my-2;
+}
+
+/* Nested lists */
+.markdown ul ul,
+.markdown ol ul {
+  @apply list-disc ml-6 mt-2;
+}
+
+.markdown ul ol,
+.markdown ol ol {
+  @apply list-decimal ml-6 mt-2;
+}
+
+/* Links */
+.markdown a {
+  @apply text-blue-600 hover:text-blue-800 underline transition-colors duration-200;
+}
+
+/* Dark mode link support */
+.dark .markdown a {
+  @apply text-blue-400 hover:text-blue-300;
+}
+
+/* Blockquotes */
+.markdown blockquote {
+  @apply border-l-4 border-gray-300 pl-4 italic text-gray-700;
+}
+
+.dark .markdown blockquote {
+  @apply border-gray-600 text-gray-300;
+}
+
+/* Inline code */
+.markdown code {
+  @apply bg-gray-100 px-1 py-0.5 rounded text-sm font-mono;
+}
+
+.dark .markdown code {
+  @apply bg-gray-800;
+}
+
+/* Strong and emphasis */
+.markdown strong {
+  @apply font-bold;
+}
+
+.markdown em {
+  @apply italic;
+}
