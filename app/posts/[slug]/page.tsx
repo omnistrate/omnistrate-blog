@@ -1,12 +1,12 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
-import markdownToHtml from "@/lib/markdownToHtml";
 
 import { PostBody } from "@/app/components/post-body";
 import { PostHeader } from "@/app/components/post-header";
 import { PostTags } from "@/app/components/post-tags";
 import { Container } from "@/app/components/container";
+import { markdownToHtml } from "@/lib/markdownToHtml";
 
 export default async function Post({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);

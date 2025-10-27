@@ -20,9 +20,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}>
+      <body
+        className={cn(inter.className, "antialiased min-h-screen flex flex-col dark:bg-slate-900 dark:text-slate-400")}
+      >
         <Navbar />
-        <main className="min-h-screen pt-16">{children}</main>
+        <main className="flex-1 pt-16">{children}</main>
         <Footer />
       </body>
     </html>

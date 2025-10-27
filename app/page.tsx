@@ -4,7 +4,7 @@ import { getAllPosts } from "@/lib/api";
 import { PostTags } from "@/app/components/post-tags";
 import { Container } from "./components/container";
 
-export default function Index() {
+const Homepage = () => {
   const allPosts = getAllPosts();
 
   return (
@@ -90,4 +90,6 @@ export default function Index() {
       </Container>
     </main>
   );
-}
+};
+
+export default Homepage;
