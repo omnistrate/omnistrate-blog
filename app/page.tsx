@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { getAllPosts } from "@/lib/api";
+import { getAllPosts } from "@/actions/post";
 
 import { Container } from "./components/container";
 import { PostTags } from "./posts/[slug]/components/post-tags";
 
-const Homepage = () => {
-  const allPosts = getAllPosts();
+const Homepage = async () => {
+  const allPosts = await getAllPosts();
 
   return (
     <main>
