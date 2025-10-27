@@ -1,7 +1,7 @@
-import { Author } from "@/types/author";
+import { Avatar } from "@/app/components/avatar";
+import { DateFormatter } from "@/app/components/date-formatter";
 
-import { Avatar } from "./avatar";
-import { DateFormatter } from "./date-formatter";
+import { Author } from "@/types/author";
 
 type PostHeaderProps = {
   title: string;

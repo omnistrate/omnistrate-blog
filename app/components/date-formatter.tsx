@@ -10,7 +10,7 @@ export const DateFormatter: React.FC<DateFormatterProps> = ({ dateString }) => {
   try {
     const date = parseISO(dateString);
     return <time dateTime={dateString}>{format(date, "LLLL	d, yyyy")}</time>;
-  } catch (error) {
+  } catch {
     return <span>Invalid date</span>;
   }
 };

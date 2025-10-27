@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { getAllPosts } from "@/lib/api";
 
-import { PostTags } from "@/app/components/post-tags";
 import { Container } from "./components/container";
+import { PostTags } from "./posts/[slug]/components/post-tags";
 
 const Homepage = () => {
   const allPosts = getAllPosts();

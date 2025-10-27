@@ -24,34 +24,34 @@ export const Footer = () => {
               <h3 className="text-gray-400 font-normal mb-4">Company</h3>
               <ul className="space-y-2">
                 <li>
-                  <a
+                  <Link
                     href="https://www.omnistrate.com/about"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     About Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.omnistrate.com/contact"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.omnistrate.com/careers"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Careers
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -61,54 +61,54 @@ export const Footer = () => {
               <h3 className="text-gray-400 font-normal mb-4">Product</h3>
               <ul className="space-y-2">
                 <li>
-                  <a
+                  <Link
                     href="https://omnistrate.cloud/signin"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Sign In
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://omnistrate.cloud/signup"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Sign Up
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://omnistrate.com/pricing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Pricing
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.omnistrate.com/support"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Support
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.omnistrate.com/demo"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Demo
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -118,49 +118,49 @@ export const Footer = () => {
               <h3 className="text-gray-400 font-normal mb-4">Resources</h3>
               <ul className="space-y-2">
                 <li>
-                  <a href="/" className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]">
+                  <Link href="/" className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]">
                     Engineering Blog
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.omnistrate.com/community"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Community
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.omnistrate.com/partners"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Partners
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.omnistrate.com/press"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Press Release
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.omnistrate.com/aws-saas-offer"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     AWS SaaS Offer
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -170,54 +170,54 @@ export const Footer = () => {
               <h3 className="text-gray-400 font-normal mb-4">Documentation</h3>
               <ul className="space-y-2">
                 <li>
-                  <a
+                  <Link
                     href="https://docs.omnistrate.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Quick Start
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://docs.omnistrate.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Tutorial
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://api.omnistrate.cloud/docs/external/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     API Reference
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.omnistrate.com/terms"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Terms of Service
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     href="https://www.omnistrate.com/privacy-policy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-700 hover:text-gray-900 transition-colors text-[15px]"
                   >
                     Privacy Policy
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -2,11 +2,11 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
 
-import { PostBody } from "@/app/components/post-body";
-import { PostHeader } from "@/app/components/post-header";
-import { PostTags } from "@/app/components/post-tags";
 import { Container } from "@/app/components/container";
 import { markdownToHtml } from "@/lib/markdownToHtml";
+import { PostHeader } from "./components/post-header";
+import { PostTags } from "./components/post-tags";
+import { PostBody } from "./components/post-body";
 
 export default async function Post({ params }: { params: { slug: string } }) {
   const post = getPostBySlug(params.slug);

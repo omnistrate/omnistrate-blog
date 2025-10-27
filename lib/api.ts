@@ -7,7 +7,7 @@ import { Post } from "@/types/post";
 const postsDirectory = join(process.cwd(), "posts");
 
 // Helper function to parse tags from either string or array format
-function parseTags(tags: any): string[] {
+function parseTags(tags: string): string[] {
   if (!tags) return [];
 
   // If already an array, return it
