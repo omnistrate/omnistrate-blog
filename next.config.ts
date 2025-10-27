@@ -1,11 +1,11 @@
-const redirects = require("./redirect-mapping.json");
+import { NextConfig } from "next";
+import redirects from "./redirect-mapping.json";
 
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+const nextConfig: NextConfig = {
   async redirects() {
     return redirects;
   },
   output: "standalone"
 };
 
-module.exports = nextConfig;
+export default nextConfig;

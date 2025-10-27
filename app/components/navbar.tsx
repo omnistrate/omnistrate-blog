@@ -1,8 +1,9 @@
 "use client";
+
 import Link from "next/link";
 import { useState } from "react";
 
-const Header = () => {
+export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
@@ -24,27 +25,42 @@ const Header = () => {
             <Link href="/" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
               Home
             </Link>
-            <a href="https://omnistrate.com/about" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
+            <a
+              href="https://omnistrate.com/about"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium"
+            >
               About Us
             </a>
-            <Link href="https://omnistrate.com/documentation" target="_blank" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
+            <Link
+              href="https://omnistrate.com/documentation"
+              target="_blank"
+              className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium"
+            >
               Documentation
             </Link>
-            <Link href="https://omnistrate.com/pricing" target="_blank" className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium">
+            <Link
+              href="https://omnistrate.com/pricing"
+              target="_blank"
+              className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium"
+            >
               Pricing
             </Link>
           </nav>
 
           {/* Desktop CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Link 
-              href="https://omnistrate.com/sign-in" target="_blank"
+            <Link
+              href="https://omnistrate.com/sign-in"
+              target="_blank"
               className="text-gray-700 hover:text-gray-900 px-3 py-2 text-sm font-medium border border-gray-300 rounded-md hover:border-gray-400"
             >
               Sign in
             </Link>
-            <Link 
-              href="https://omnistrate.com/book-demo" target="_blank"
+            <Link
+              href="https://omnistrate.com/book-demo"
+              target="_blank"
               className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 text-sm font-medium rounded-md"
             >
               Book a demo
@@ -97,7 +113,10 @@ const Header = () => {
             <Link href="/support" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
               Support
             </Link>
-            <Link href="/documentation" className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium">
+            <Link
+              href="/documentation"
+              className="text-gray-700 hover:text-gray-900 block px-3 py-2 text-base font-medium"
+            >
               Documentation
             </Link>
           </div>
@@ -106,5 +125,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

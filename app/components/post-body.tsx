@@ -1,14 +1,11 @@
-type Props = {
+type PostBodyProps = {
   content: string;
 };
 
-export function PostBody({ content }: Props) {
+export const PostBody: React.FC<PostBodyProps> = ({ content }) => {
   return (
     <div className="max-w-2xl mx-auto">
-      <div
-        className="prose prose-lg max-w-none dark:prose-invert"
-        dangerouslySetInnerHTML={{ __html: content }}
-      />
+      <div className="prose prose-lg max-w-none dark:prose-invert" dangerouslySetInnerHTML={{ __html: content }} />
     </div>
   );
-}
+};

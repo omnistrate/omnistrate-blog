@@ -1,12 +1,10 @@
-// app/components/post-tags.tsx
-
-type Props = {
+type PostTagsProps = {
   tags: string[];
   className?: string;
   align?: "left" | "center";
 };
 
-export function PostTags({ tags, className = "", align = "left" }: Props) {
+export const PostTags: React.FC<PostTagsProps> = ({ tags, className = "", align = "left" }) => {
   if (!tags || tags.length === 0) return null;
 
   const alignmentClass = align === "center" ? "justify-center" : "justify-start";
@@ -23,4 +21,4 @@ export function PostTags({ tags, className = "", align = "left" }: Props) {
       ))}
     </div>
   );
-}
+};

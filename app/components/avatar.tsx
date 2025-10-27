@@ -1,14 +1,12 @@
-type Props = {
+type AvatarProps = {
   name: string;
   picture: string;
 };
 
-const Avatar = ({ name, picture }: Props) => {
+export const Avatar: React.FC<AvatarProps> = ({ name, picture }) => {
   return (
     <div className="flex items-center">
-      {picture && (
-        <img src={picture} className="w-12 h-12 rounded-full mr-4" alt={name} />
-      )}
+      {picture && <img src={picture} className="w-12 h-12 rounded-full mr-4" alt={name} />}
       {!picture && (
         <div className="w-12 h-12 rounded-full mr-4 bg-gray-300 dark:bg-gray-700 flex items-center justify-center text-gray-600 dark:text-gray-300 font-bold">
           {name.charAt(0).toUpperCase()}
@@ -18,5 +16,3 @@ const Avatar = ({ name, picture }: Props) => {
     </div>
   );
 };
-
-export default Avatar;
