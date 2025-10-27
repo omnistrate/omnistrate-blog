@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next";
 import { getAllPosts } from "@/actions/post";
+import { SITE_URL } from "@/constants/site";
 
 const sitemap = async (): Promise<MetadataRoute.Sitemap> => {
   const posts = await getAllPosts();
 
   const postEntries: MetadataRoute.Sitemap = posts.map((post) => ({
-    url: `https://blog.omnistrate.com/posts/${post.slug}`,
+    url: `${SITE_URL}/posts/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: "monthly",
     priority: 0.8
@@ -13,7 +14,7 @@ const sitemap = async (): Promise<MetadataRoute.Sitemap> => {
 
   return [
     {
-      url: "https://blog.omnistrate.com",
+      url: SITE_URL,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 1
