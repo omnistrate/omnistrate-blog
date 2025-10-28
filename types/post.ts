@@ -14,3 +14,13 @@ export type Post = {
   content: string;
   preview?: boolean;
 };
+
+export type PostMetadata = {
+  slug: string;
+  title: string;
+  date: string;
+  author?: Author;
+  excerpt?: string;
+  coverImage?: string;
+  tags?: string[];
+};

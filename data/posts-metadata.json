@@ -1,0 +1,2146 @@
+[
+  {
+    "slug": "omnistrate-platform-update-august-2025-edition",
+    "title": "Omnistrate Platform Update - August 2025 edition",
+    "date": "2025-09-19 22:01:13",
+    "author": {
+      "name": "Pablo Berton",
+      "email": "pberton@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Exciting New Features in Omnistrate Omnistrate MCP tool We're excited to introduce the Omnistrate MCP tool, designed to seamlessly connect your favorite AI agents with Omnistrate.",
+    "tags": [
+      "Platform Updates",
+      "Features",
+      "MCP",
+      "AI"
+    ]
+  },
+  {
+    "slug": "revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server",
+    "title": "Revolutionize Your DevOps and SRE with Omnistrate's new MCP server",
+    "date": "2025-09-18 15:21:22",
+    "author": {
+      "name": "Alok Nikhil",
+      "email": "alok@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Harness the power of natural language to simplify complex cloud operations. We are thrilled to announce a new way to interact with the Omnistrate platform: native Agentic AI integrations powered by our new server.",
+    "tags": [
+      "agent",
+      "agentic ai",
+      "AI",
+      "cloud",
+      "DevOps",
+      "mcp",
+      "sre"
+    ]
+  },
+  {
+    "slug": "case-study-how-ferretdb-went-from-opensource-project-to-commercial-dbaas-success-in-weeks-not-years",
+    "title": "Case Study: How FerretDB went from OpenSource Project to Commercial DBaaS success in weeks, not years",
+    "date": "2025-08-22 12:59:30",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Omnistrate gave us an enterprise-grade control plane without the need to hire or build one in-house.",
+    "tags": [
+      "case-study",
+      "cloud",
+      "DBaaS",
+      "FerretDB",
+      "MultiCloud",
+      "Omnistrate",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-july-2025-edition",
+    "title": "Omnistrate Platform Update - July 2025 edition",
+    "date": "2025-08-21 21:29:22",
+    "author": {
+      "name": "Pablo Berton",
+      "email": "pberton@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Exciting New Features in Omnistrate We’ve expanded the power and flexibility of deployment cell management, giving you greater control over how workloads are isolated, maintained, and accessed.",
+    "tags": [
+      "cloud",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "omnistrate-brownstone-modernize-your-software-offering-with-built-in-compliance-and-cloud-automation",
+    "title": "Omnistrate + Brownstone: Modernize Your Software Offering with Built-In Compliance and Cloud Automation",
+    "date": "2025-08-20 16:33:17",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Bringing software to the cloud is only half the challenge—proving it’s secure, compliant, and enterprise-ready is what unlocks adoption in regulated industries and large-scale procurement pipelines.",
+    "tags": [
+      "Brownstone consulting",
+      "Omnistrate",
+      "partnership",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "maximizing-ai-infrastructure-value-through-smart-resource-sharing",
+    "title": "Maximizing AI Infrastructure Value Through Smart Resource Sharing",
+    "date": "2025-08-15 02:06:11",
+    "author": {
+      "name": "Pablo Berton",
+      "email": "pberton@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Organizations today face mounting pressure to deliver AI capabilities while managing exploding infrastructure costs.",
+    "tags": [
+      "AaaS",
+      "AI",
+      "cloud",
+      "gpu",
+      "platform",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "moving-to-cell-based-architecture-lessons-from-neon",
+    "title": "Moving to Cell-Based Architecture: Lessons from Neon",
+    "date": "2025-08-15 01:51:11",
+    "author": {
+      "name": "Pablo Berton",
+      "email": "pberton@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "The recent stability issues at Neon provide a compelling case study of what happens when products grow beyond their initial architectural assumptions.",
+    "tags": [
+      "architecture",
+      "cell",
+      "cloud",
+      "platform"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-jun-2025",
+    "title": "Omnistrate Platform Update (Jun 2025)",
+    "date": "2025-07-11 04:43:29",
+    "author": {
+      "name": "Pablo Berton",
+      "email": "pberton@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Exciting New Features in Omnistrate We're thrilled to introduce several powerful updates that enhance flexibility, security, and operational control across the Omnistrate platform.",
+    "tags": [
+      "cloud",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "build-your-own-software-platform-in-days",
+    "title": "Build your own Software Platform in days",
+    "date": "2025-06-22 00:01:11",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In the software industry, entrepreneurs have to go through 4 phases of innovation to build a product: Idea: What change are they trying to make?",
+    "tags": [
+      "BYOC",
+      "ControlPlane",
+      "Distribution Channels",
+      "OnPrem",
+      "PaaS",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3",
+    "title": "Enter Omnistrate: Developer platform to build your Software Distribution (Part 3 of 3)",
+    "date": "2025-06-12 14:27:03",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Now in Part 3, we turn to the solution: What if you didn’t have to abandon your existing stack, but could augment it with a purpose-built control plane, one that handled tenant lifecycle, deployment..",
+    "tags": [
+      "BYOC",
+      "CloudNative",
+      "ControlPlane",
+      "DevOps",
+      "MultiCloud",
+      "PlatformEngineering",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "real-world-example-the-lifecycle-headache-part-2-of-3",
+    "title": "Real-World Example: The Lifecycle Headache (Part 2 of 3)",
+    "date": "2025-06-12 08:23:54",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Imagine a data analytics SaaS startup, “DataCo”, that wants to build Redis SaaS as an example.",
+    "tags": [
+      "BYOC",
+      "ControlPlane",
+      "DevOps",
+      "MultiCloud",
+      "PlatformEngineering",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "building-diy-control-planes-with-kubernetes-argocd-terraform-part-1-of-3",
+    "title": "Building DIY Control Planes with Kubernetes, ArgoCD & Terraform (Part 1 of 3)",
+    "date": "2025-06-12 03:34:29",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Modern platform engineering teams often assemble “DIY” control planes for their Products using open-source building blocks: Kubernetes for the runtime, Terraform for infrastructure provisioning, and..",
+    "tags": [
+      "BYOC",
+      "CloudNative",
+      "ControlPlane",
+      "DevOps",
+      "MultiCloud",
+      "PlatformEngineering",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-may-2025",
+    "title": "Omnistrate Platform Update (May 2025)",
+    "date": "2025-06-10 16:23:04",
+    "author": {
+      "name": "Pablo Berton",
+      "email": "pberton@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Exciting New Features in Omnistrate End-customer SSO support in SaaSPortal End-customer SSO support in SaaSPortal enables it to easily integrate with your customers’ Identity Provider (IdP),...",
+    "tags": [
+      "cloud",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-april-2025",
+    "title": "Omnistrate Platform Update (April 2025)",
+    "date": "2025-05-14 23:38:27",
+    "author": {
+      "name": "Pablo Berton",
+      "email": "pberton@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Exciting New Features in Omnistrate We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!",
+    "tags": [
+      "cloud",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "integrating-serverless-framework-with-omnistrate-a-developer-s-journey",
+    "title": "Integrating Serverless Framework with Omnistrate: A Developer's Journey",
+    "date": "2025-05-08 00:34:02",
+    "author": {
+      "name": "Nolan McCafferty",
+      "email": "nolanm@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Over the past few weeks, I've been leading an initiative to integrate the Serverless Framework with our Omnistrate platform.",
+    "tags": [
+      "Omnistrate",
+      "SaaS",
+      "serverless",
+      "terraform"
+    ]
+  },
+  {
+    "slug": "beyond-ecs-or-cloud-run-terraform-building-scalable-saas-infrastructure",
+    "title": "Beyond ECS or Cloud Run + Terraform: Building Scalable SaaS Infrastructure",
+    "date": "2025-04-21 03:45:55",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Many B2B startups start their cloud journey with AWS ECS or GCP Cloud Run. It's understandable—they're familiar, quick to set up, and tightly integrated with the hyperscalers' ecosystems.",
+    "tags": [
+      "cloud",
+      "cloud-run",
+      "ecs",
+      "Omnistrate",
+      "SaaS",
+      "terraform"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-march-2025",
+    "title": "Omnistrate Platform Update (March 2025)",
+    "date": "2025-04-12 02:41:39",
+    "author": {
+      "name": "Pablo Berton",
+      "email": "pberton@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Exciting New Features in Omnistrate We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!",
+    "tags": [
+      "cloud",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "ai-series-powering-high-performance-ai-workloads-gpu-soci-mig-and-keda",
+    "title": "[AI Series] Powering High-Performance AI Workloads: GPU, SOCI, MIG, and KEDA",
+    "date": "2025-04-04 02:58:31",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In previous posts, we explored BYOA deployments, AI job scheduling, and cost control and insights.",
+    "tags": [
+      "AI",
+      "AI features",
+      "Omnistrate",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "ai-series-cost-controls-insights",
+    "title": "[AI Series] Cost Controls & Insights",
+    "date": "2025-04-04 02:31:41",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In our previous blogs, we discussed two foundational pillars of AI infrastructure: BYOA (Bring Your Own Account) for secure, scalable deployments and Jobs Support for managing bursty and...",
+    "tags": [
+      "AI",
+      "cost",
+      "Insights",
+      "Omnistrate",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "ai-series-introducing-omnistrate-s-new-job-controller-paradigm",
+    "title": "[AI Series] Introducing Omnistrate's New Job Controller Paradigm",
+    "date": "2025-04-04 01:37:30",
+    "author": {
+      "name": "Alok Nikhil",
+      "email": "alok@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Omnistrate, the industry's first SaaS Control Plane as a Service, has launched a powerful new Jobs controller paradigm that enables businesses to efficiently manage and execute workloads across...",
+    "tags": [
+      "AI",
+      "Jobs",
+      "Omnistrate",
+      "SaaS",
+      "Scheduling"
+    ]
+  },
+  {
+    "slug": "whiteswan-security-case-study",
+    "title": "Whiteswan Security Case Study",
+    "date": "2025-04-02 07:04:38",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Security startups don’t have time or resources to reinvent cloud infrastructure.",
+    "tags": [
+      "BYOA",
+      "BYOC",
+      "case-study",
+      "Omnistrate",
+      "onprem-copilot",
+      "whiteswan-security"
+    ]
+  },
+  {
+    "slug": "why-cloud-marketplaces-are-the-new-launchpad-for-saas-startups",
+    "title": "Why Cloud Marketplaces Are the New Launchpad for SaaS Startups",
+    "date": "2025-03-27 23:33:10",
+    "author": {
+      "name": "Michael Cooper",
+      "email": "michaelc@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "We hosted our second SaaS Mondays , Live on Fridays on Friday.",
+    "tags": [
+      "AWS Marketplace"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-february-2025",
+    "title": "Omnistrate Platform Update (February 2025)",
+    "date": "2025-03-14 20:38:11",
+    "author": {
+      "name": "Pablo Berton",
+      "email": "pberton@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Exciting New Features in Omnistrate We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!",
+    "tags": [
+      "cloud",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "saas-mondays-live-on-fridays-how-ai-is-impacting-saas-builders-a-recap",
+    "title": "SaaS Mondays, Live on Fridays: How AI is impacting SaaS Builders (A Recap)",
+    "date": "2025-03-13 16:13:57",
+    "author": {
+      "name": "Michael Cooper",
+      "email": "michaelc@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "On March 7th, 2025, we kicked off the inaugural session of SaaS Mondays, Live on Fridays, a new biweekly LinkedIn Live series dedicated to fostering discussions among SaaS builders, founders,...",
+    "tags": [
+      "AI",
+      "AI Agent",
+      "aws",
+      "Cloud Marketplace",
+      "ControlPlane",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "build-vs-buy-why-platform-teams-choose-omnistrate-for-their-control-plane",
+    "title": "Build vs. Buy: Why Platform Teams Choose Omnistrate for Their Control Plane",
+    "date": "2025-02-27 04:16:04",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "One of the most common questions for any developer-focused product is whether to build or buy.",
+    "tags": [
+      "build vs buy",
+      "cloud",
+      "Omnistrate",
+      "platform",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "navigating-aws-s-expanded-saas-co-sell-program-opportunities-and-challenges-for-isvs",
+    "title": "Navigating AWS’s Expanded SaaS Co-Sell Program: Opportunities and Challenges for ISVs",
+    "date": "2025-02-27 01:18:44",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "AWS has recently expanded its SaaS co-sell benefits, making them available to all ISV Accelerate partners, including startups.",
+    "tags": [
+      "aws",
+      "cloud",
+      "CoSell",
+      "ISV",
+      "marketplace",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "beyond-helm-building-scalable-saas-infrastructure",
+    "title": "Beyond Helm: Building Scalable SaaS Infrastructure",
+    "date": "2025-02-26 04:49:20",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "A while ago I wrote, why Terraform tool is not enough for SaaS [here][1].",
+    "tags": [
+      "cloud",
+      "helm",
+      "Omnistrate",
+      "SaaS",
+      "terraform"
+    ]
+  },
+  {
+    "slug": "on-prem-software-distribution-overcoming-licensing-deployment-challenges",
+    "title": "On-Prem Software Distribution: Overcoming Licensing & Deployment Challenges",
+    "date": "2025-02-26 04:12:28",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In our previous post on BYOC, we discussed different approaches to SaaS distribution and specifically discussed BYOC model in detail.",
+    "tags": [
+      "build vs buy",
+      "cloud",
+      "Omnistrate",
+      "platform",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "custom-sidecars-support-for-omnistrate-resources",
+    "title": "Custom Sidecars support for Omnistrate resources",
+    "date": "2025-02-20 21:46:09",
+    "author": {
+      "name": "Tomislav Simeunovic",
+      "email": "tomislavs@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "We’re excited to announce support for custom sidecars, enabling greater flexibility and extensibility in your deployments.",
+    "tags": [
+      "cloud",
+      "k8s",
+      "OTEL",
+      "sidecars"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-january-2025",
+    "title": "Omnistrate Platform Update (January 2025)",
+    "date": "2025-02-19 22:55:17",
+    "author": {
+      "name": "Pablo Berton",
+      "email": "pberton@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "🚀 Exciting New Features in Omnistrate We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform! Revamped SaaSBuilder We have revamped SaaSBuilder!",
+    "tags": [
+      "cloud",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience",
+    "title": "Reimagining SaaSBuilder: A More Intuitive, Efficient and Streamlined Experience",
+    "date": "2025-02-19 18:48:08",
+    "author": {
+      "name": "Nihal Mohammed",
+      "email": "nihalm@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Introduction SaaSBuilder provides a ready-to-use interface for our customers to quickly launch their SaaS offerings on Omnistrate Platform.",
+    "tags": [
+      "open-source",
+      "saasbuilder"
+    ]
+  },
+  {
+    "slug": "omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service",
+    "title": "Omnistrate Enables CrystalDB to Transform AutoDBA into a Multi-Cloud Cloud Service",
+    "date": "2025-02-19 18:09:26",
+    "author": {
+      "name": "Michael Cooper",
+      "email": "michaelc@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "\"Omnistrate made it easy for us to launch AutoDBA as a SaaS product.",
+    "tags": [
+      "case-study",
+      "cloud",
+      "crystaldb",
+      "Omnistrate",
+      "open-source",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "ai-series-what-is-byoc-and-why-does-it-matter-apps-must-go-to-the-data-in-2025",
+    "title": "[AI Series] What is BYOC, and why does it matter? (Apps must “Go to the Data” in 2025)",
+    "date": "2025-02-02 20:01:03",
+    "author": {
+      "name": "Michael Cooper",
+      "email": "michaelc@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Applications are only as good as the data that powers them, and companies are putting more and more restrictions on where their proprietary data is accessible from.",
+    "tags": [
+      "AI",
+      "BYOA",
+      "BYOC",
+      "Omnistrate",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal",
+    "title": "Why Autoblocks.ai turned to Omnistrate to Launch their AI Development Portal",
+    "date": "2025-01-29 20:49:38",
+    "author": {
+      "name": "Michael Cooper",
+      "email": "michaelc@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "\"We chose Omnistrate because it empowered us to deliver on our promise to create a safety-first approach to building & managing AI Applications.",
+    "tags": [
+      "AI",
+      "AI-developer",
+      "autoblocks.ai",
+      "BYOA",
+      "case-study",
+      "Omnistrate",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-december-2024",
+    "title": "Omnistrate Platform Update (December 2024)",
+    "date": "2025-01-10 20:18:14",
+    "author": {
+      "name": "Amit Sharma",
+      "email": "amits@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!",
+    "tags": [
+      "cloud",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-november-2024",
+    "title": "Omnistrate Platform Update (November 2024)",
+    "date": "2024-12-24 00:12:33",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform! Omnistrate now supports Private Link in addition to VPC peering.",
+    "tags": [
+      "cloud",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "building-private-service-on-the-cloud",
+    "title": "Building Private Service On The Cloud",
+    "date": "2024-12-20 22:28:56",
+    "author": {
+      "name": "Yuhui Yuan",
+      "email": "yuhui@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Building private services on the cloud enables businesses to leverage the benefits of cloud technology, such as flexibility and scalability, while maintaining strict control over their data.",
+    "tags": [
+      "cloud",
+      "privacy",
+      "SaaS",
+      "security"
+    ]
+  },
+  {
+    "slug": "ai-series-omnistrate-launches-developer-platform-to-build-b2b-ai-apps",
+    "title": "[AI Series] Omnistrate Launches Developer Platform to Build B2B AI Apps",
+    "date": "2024-11-12 17:32:34",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In the world of B2B applications, tenancy is more than just a way to onboard new customers.",
+    "tags": [
+      "AI",
+      "cloud",
+      "press-release",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-just-made-building-b2b-saas-easier-than-ever",
+    "title": "Omnistrate just made building B2B SaaS easier than ever!",
+    "date": "2024-11-12 13:40:24",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "At Omnistrate, we’ve been hard at work expanding our platform to make B2B SaaS development as seamless as possible.",
+    "tags": [
+      "cloud",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "omnistrate-open-source-building-together",
+    "title": "Omnistrate + Open Source: Building Together",
+    "date": "2024-11-10 00:18:43",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "This space hosts a variety of projects and tools designed to help developers leverage the full potential of Omnistrate’s platform.",
+    "tags": [
+      "cloud",
+      "open-source",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-october-2024",
+    "title": "Omnistrate Platform Update (October 2024)",
+    "date": "2024-11-09 23:31:35",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "SaaS Portal has been revamped to deliver a more comprehensive experience to your customers.",
+    "tags": [
+      "Omnistrate",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "omnistrate-developer-platform-to-build-b2b-saas",
+    "title": "Omnistrate: Developer Platform to Build B2B SaaS",
+    "date": "2024-11-09 20:50:40",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Omnistrate offers the world’s first developer platform that simplifies and speeds up the development of B2B SaaS.",
+    "tags": [
+      "cloud",
+      "press-release",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "kubernetes-at-the-edge-revolutionizing-computing-and-resource-management",
+    "title": "Kubernetes at the Edge: Revolutionizing Computing and Resource Management",
+    "date": "2024-10-23 10:37:38",
+    "author": {
+      "name": "Matteo Bianchi",
+      "email": "matteob@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Kubernetes (k8s) has transformed the way applications are deployed in the cloud. However, its potential goes far beyond the traditional cloud infrastructure alone.",
+    "tags": [
+      "Kubernetes",
+      "OpenSource"
+    ]
+  },
+  {
+    "slug": "why-kubernetes-is-the-foundation-of-modern-cloud-infrastructure",
+    "title": "Why Kubernetes Is the Foundation of Modern Cloud Infrastructure",
+    "date": "2024-10-23 10:25:00",
+    "author": {
+      "name": "Matteo Bianchi",
+      "email": "matteob@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "\" In today’s landscape of software development, cloud computing has become the standard for application deployment.",
+    "tags": [
+      "Kubernetes",
+      "Omnistrate",
+      "OpenSource",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud",
+    "title": "AWS and Omnistrate partnered to bring Percona Ivee Cloud ",
+    "date": "2024-10-16 16:35:13",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Percona, known for providing world-class open-source database software, has always been at the forefront of innovation.",
+    "tags": [
+      "case-study",
+      "Omnistrate",
+      "percona",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "ai-for-b2b-from-training-to-tenant-management-and-day-2-ops",
+    "title": "AI for B2B: From Training to Tenant Management and Day-2 Ops",
+    "date": "2024-10-15 02:15:19",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Building a B2B AI application involves several critical steps, from data collection to deployment and operations management.",
+    "tags": [
+      "AI",
+      "b2b",
+      "cloud",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-september-2024",
+    "title": "Omnistrate Platform Update (September 2024)",
+    "date": "2024-10-11 00:02:05",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!",
+    "tags": [
+      "Omnistrate",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service",
+    "title": "AWS and Omnistrate partnered to bring FalkorDB Managed Cloud Service",
+    "date": "2024-10-01 12:13:56",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "“Omnistrate dramatically accelerated our GTM, cutting launch time from months to weeks.",
+    "tags": [
+      "case-study",
+      "falkordb",
+      "Omnistrate",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-august-2024",
+    "title": "Omnistrate Platform Update (August 2024)",
+    "date": "2024-09-13 02:00:25",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Omnistrate now supports a new tenancy model with Dedicated Networks for resource provisioning.",
+    "tags": [
+      "Omnistrate",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "omnistrate-successfully-completes-annual-soc-2-type-ii-attestation",
+    "title": "Omnistrate Successfully Completes Annual SOC 2 Type II Attestation 🛡️🚀",
+    "date": "2024-09-04 05:20:26",
+    "author": {
+      "name": "Amit Sharma",
+      "email": "amits@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "We are delighted to announce that Omnistrate has successfully completed its annual SOC 2 Type II attestation, a significant milestone in our ongoing commitment to safeguarding our customers' data.",
+    "tags": [
+      "cloud",
+      "compliance",
+      "security",
+      "soc2"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-july-2024",
+    "title": "Omnistrate Platform Update (July 2024)",
+    "date": "2024-08-07 23:58:55",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Product updates We are excited to announce several new features and improvements to the Omnistrate platform!",
+    "tags": [
+      "Omnistrate",
+      "platform",
+      "product-release",
+      "SaaS",
+      "update"
+    ]
+  },
+  {
+    "slug": "omnistrate-strengthens-aws-partnership-with-key-milestones",
+    "title": "Omnistrate Strengthens AWS Partnership with Key Milestones",
+    "date": "2024-07-21 02:31:17",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Omnistrate Deepens its AWS Partnership, joining AWS Marketplace and AWS ISV Accelerate Program, and will be Highlighted at AWS Event on Building Great SaaS ...",
+    "tags": [
+      "aws",
+      "marketplace",
+      "Omnistrate",
+      "press-release",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "convoy-case-study-from-two-years-to-two-weeks",
+    "title": "Convoy Case Study: From Two Years to Two Weeks",
+    "date": "2024-07-21 02:16:19",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Convoy partnered with Omnistrate to turn their Open Core Webhook gateway into a feature complete multi-cloud SaaS solution in weeks “Our friends at another company told..",
+    "tags": [
+      "case-study",
+      "Convoy",
+      "Omnistrate",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india",
+    "title": "Omnistrate Honored as 'Most Promising Technology Company in the US 2024' by Silicon India",
+    "date": "2024-07-21 01:47:20",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Omnistrate, a leading innovator in accelerating SaaS development for businesses, is proud to announce that it has been awarded the prestigious title of \"MOST...",
+    "tags": [
+      "Omnistrate",
+      "press-release",
+      "SaaS",
+      "silicon-india",
+      "top-companies"
+    ]
+  },
+  {
+    "slug": "omnistrate-successfully-achieves-soc-2-type-ii-compliance-and-completes-external-penetration-testing",
+    "title": "Omnistrate Successfully Achieves SOC 2 Type II Compliance and Completes External Penetration Testing",
+    "date": "2024-07-21 01:30:24",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "We are thrilled to announce that Omnistrate, the industry’s leading SaaS Control Plane service provider, has successfully completed an external penetration..",
+    "tags": [
+      "Omnistrate",
+      "press-release",
+      "SaaS",
+      "security"
+    ]
+  },
+  {
+    "slug": "omnistrate-joins-cncf-family-sponsors-cncf-and-open-sources-saasbuilder",
+    "title": "Omnistrate Joins CNCF Family, Sponsors CNCF, and Open Sources SaaSBuilder",
+    "date": "2024-07-21 01:15:02",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Omnistrate, the innovator in rapid SaaS development and management, is thrilled to announce that we are now part of the Cloud Native Computing Foundation...",
+    "tags": [
+      "cloud-native",
+      "cncf",
+      "kubecon",
+      "Omnistrate",
+      "press-release",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-welcomes-michael-cooper-as-new-gtm-executive-leader",
+    "title": "Omnistrate Welcomes Michael Cooper as New GTM Executive Leader",
+    "date": "2024-07-21 01:09:41",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Omnistrate is pleased to announce the appointment of Michael Cooper as the company's new GTM Executive Leader.",
+    "tags": [
+      "gtm",
+      "leadership",
+      "Omnistrate",
+      "press-release",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-june-2024",
+    "title": "Omnistrate Platform Update (June 2024)",
+    "date": "2024-07-14 21:29:37",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Hello from Omnistrate. This is our platform update for June 2024! ###Announcement:Spend an afternoon on July 26th 2024 with Omnistrate, AWS SaaS Factory and a group of select partners to learn how..",
+    "tags": [
+      "Omnistrate",
+      "platform",
+      "release-notes",
+      "SaaS",
+      "startup",
+      "update"
+    ]
+  },
+  {
+    "slug": "rethinking-open-source-licenses-empowering-startups-with-omnistrate",
+    "title": "Rethinking Open Source Licenses: Empowering Startups with Omnistrate",
+    "date": "2024-06-26 13:58:21",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "The open-source community has long been driven by principles of collaboration and innovation.",
+    "tags": [
+      "cloud",
+      "Innovation",
+      "open-source",
+      "SaaS",
+      "startups"
+    ]
+  },
+  {
+    "slug": "why-oss-creators-need-to-start-with-saas",
+    "title": "Why OSS Creators need to start with SaaS",
+    "date": "2024-06-18 20:26:55",
+    "author": {
+      "name": "Michael Cooper",
+      "email": "michaelc@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Many OSS projects are supported by a crew of volunteers trying to solve a simple problem in the world around them. And most OSS projects don’t judge their true success with monetary metrics.",
+    "tags": [
+      "cloud",
+      "Cloud Marketplace",
+      "open-source",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-may-2024",
+    "title": "Omnistrate Platform Update (May 2024)",
+    "date": "2024-06-18 09:50:21",
+    "author": {
+      "name": "Matteo Bianchi",
+      "email": "matteob@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Hello from Omnistrate 👋 This is our platform update for May 2024!",
+    "tags": [
+      "platform",
+      "SaaS",
+      "startup",
+      "update"
+    ]
+  },
+  {
+    "slug": "should-your-startup-start-with-saas",
+    "title": "Should Your Startup Start with SaaS?",
+    "date": "2024-06-14 15:30:08",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Early-stage tech companies must navigate a complex landscape of challenges and risks.",
+    "tags": [
+      "cloud",
+      "SaaS",
+      "startups"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-april-2024",
+    "title": "Omnistrate Platform Update (April 2024)",
+    "date": "2024-05-10 13:20:19",
+    "author": {
+      "name": "Matteo Bianchi",
+      "email": "matteob@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Hello from Omnistrate 👋 This is our platform update for April 2024!",
+    "tags": [
+      "platform",
+      "SaaS",
+      "startup",
+      "update"
+    ]
+  },
+  {
+    "slug": "restoring-the-promise-of-open-source-with-omnistrate",
+    "title": "Restoring the Promise of Open Source with Omnistrate",
+    "date": "2024-04-22 04:05:55",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In the early days, open source software (OSS) thrived on principles of freedom, collaboration, and innovation. However, as the cloud era dawned, the landscape shifted.",
+    "tags": [
+      "cloud",
+      "open-source",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-march-2024",
+    "title": "Omnistrate Platform Update (March 2024)",
+    "date": "2024-04-09 09:37:38",
+    "author": {
+      "name": "Matteo Bianchi",
+      "email": "matteob@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Hello from Omnistrate 👋 This is our platform update for March 2024! We are excited to share our progress towards building the Omnistrate Platform and the milestones we reached this month.",
+    "tags": [
+      "platform",
+      "SaaS",
+      "startup",
+      "update"
+    ]
+  },
+  {
+    "slug": "the-three-key-components-of-building-a-billing-system",
+    "title": "The Three Key Components of Building a Billing System",
+    "date": "2024-04-09 09:27:06",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "When building a billing system there are 3 main components to consider: Usage metering: Collect and aggregate usage data of the service.",
+    "tags": [
+      "billing",
+      "cloud",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "understanding-saas-billing-models",
+    "title": "Understanding SaaS billing models",
+    "date": "2024-04-09 09:09:28",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "When you are offering Software as a Service there are multiple options available on how to charge customers for the usage of your service.",
+    "tags": [
+      "billing",
+      "cloud",
+      "open-source",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-platform-update-february-2024",
+    "title": "Omnistrate Platform Update (February 2024)",
+    "date": "2024-03-08 14:00:42",
+    "author": {
+      "name": "Matteo Bianchi",
+      "email": "matteob@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Hello from Omnistrate 👋 This is our platform update for February 2024! We are excited to share our progress towards building the Omnistrate Platform.",
+    "tags": [
+      "platform",
+      "SaaS",
+      "startup",
+      "update"
+    ]
+  },
+  {
+    "slug": "abcs-of-control-plane",
+    "title": "ABCs of Control Plane",
+    "date": "2024-03-03 21:44:30",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Hello, and welcome to this blog of Control Plane! Today, I'm going to explain the concept of control plane for software as a service (SaaS) world, and help you understand it better.",
+    "tags": [
+      "cloud",
+      "control plane",
+      "control-plane",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "multi-cloud-how-to-manage-complexity-and-opportunity-on-day-1",
+    "title": "Multi-Cloud: How to manage Complexity and Opportunity on day-1",
+    "date": "2024-03-03 21:17:01",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "There are several advantage of running services across multiple clouds. Many organization don't consider this initially due to added complexity, effort and management cost.",
+    "tags": [
+      "multi-cloud",
+      "platform engineering"
+    ]
+  },
+  {
+    "slug": "helping-entrepreneurs-to-improve-their-startup-success-odds-by-10x",
+    "title": "Helping entrepreneurs to improve their startup success odds by 10x",
+    "date": "2024-03-03 18:21:24",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "As entrepreneurs, we know that time and money are our most valuable assets. Imagine if we have a mechanism to test our ideas and validate them in no time without spending a fortune.",
+    "tags": [
+      "cost",
+      "Entrepreneurship",
+      "SaaS",
+      "startups",
+      "time"
+    ]
+  },
+  {
+    "slug": "engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-saas",
+    "title": "Engineering Blog: How to handle multi-cloud auto-scaling when building a SaaS?",
+    "date": "2024-02-21 11:44:41",
+    "author": {
+      "name": "Matteo Bianchi",
+      "email": "matteob@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "How Omnistrate can unburden you by managing a smart scaling system that works multi-cloud out of the box This is our first issue of a brand new Engineering series at Omnistrate.",
+    "tags": [
+      "autoscaling",
+      "aws",
+      "engineering-blog",
+      "gcp",
+      "hpa",
+      "karpenter",
+      "Kubernetes",
+      "SaaS",
+      "startup",
+      "vpa"
+    ]
+  },
+  {
+    "slug": "startup-challenges-and-how-to-improve-your-odds-by-10x",
+    "title": "Startup challenges and how to improve your odds by 10x",
+    "date": "2024-02-18 01:47:55",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Starting a business is tough, and it's no secret that many startups don't make it.",
+    "tags": [
+      "cloud",
+      "customer-growth",
+      "distribution",
+      "funding",
+      "open-source",
+      "PMF",
+      "revenue",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "accelerating-saas-innovation-omnistrate-s-latest-platform-release",
+    "title": "Accelerating SaaS Innovation: Omnistrate's Latest Platform Release",
+    "date": "2024-02-09 17:26:39",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Over the past year of relentless building, we’ve released a number of features in our platform that made it easy to build, access, and operate SaaS for our customers.",
+    "tags": [
+      "cloud",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "navigating-the-operational-puzzle-of-saas",
+    "title": "Navigating the Operational Puzzle of SaaS",
+    "date": "2024-02-01 21:14:57",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Building SaaS is just one part of the challenge. Operating a SaaS is another major challenge.",
+    "tags": [
+      "cloud",
+      "day-2",
+      "operations",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "unlocking-the-complexity-of-billing-in-saas",
+    "title": "Unlocking the Complexity of Billing in SaaS",
+    "date": "2024-02-01 21:13:02",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "One of the core tenets of SaaS is to be able to meter tenant usage and then bill your customers. However, there are a lot of challenges in handling that.",
+    "tags": [
+      "billing",
+      "cloud",
+      "marketplace",
+      "metering",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "fortifying-saas-safeguarding-data-and-compliance-across-layers",
+    "title": "Fortifying SaaS: Safeguarding Data and Compliance Across Layers",
+    "date": "2024-02-01 21:11:10",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "One of the core tenets of SaaS is to be secure. Security spans across many layers from controlling access with IP whitelisting or Private Link, validating access with authentication to validate...",
+    "tags": [
+      "cloud",
+      "compliance",
+      "SaaS",
+      "security"
+    ]
+  },
+  {
+    "slug": "challenges-in-streamlining-saas-user-experiences",
+    "title": "Challenges in streamlining SaaS User Experiences",
+    "date": "2024-02-01 21:09:56",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "To interact with the SaaS service, we will need to build some sort of UX (API, GUI, CLI) interaction.",
+    "tags": [
+      "cloud",
+      "SaaS",
+      "saas management",
+      "UX"
+    ]
+  },
+  {
+    "slug": "saas-reliability-achieving-high-availability",
+    "title": "SaaS Reliability: Achieving High Availability",
+    "date": "2024-02-01 21:06:26",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "SaaS applications need to be highly available, with several 9’s of SLA.",
+    "tags": [
+      "cloud",
+      "high availability",
+      "reliability",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "strategies-for-seamless-saas-deployment",
+    "title": "Strategies for Seamless SaaS Deployment",
+    "date": "2024-02-01 21:05:04",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "SaaS provisioning requires tenant account creation, user provisioning, figuring out the tenant placement, configuring the tenant, and storing all the metadata.",
+    "tags": [
+      "cloud",
+      "SaaS",
+      "saas provisioning",
+      "tenant management",
+      "tenant provisioning"
+    ]
+  },
+  {
+    "slug": "tenant-isolation-strategy-for-your-saas-application",
+    "title": "Tenant Isolation Strategy for Your SaaS Application",
+    "date": "2024-02-01 21:03:07",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "A SaaS application serves several tenants, and each tenant should be isolated from one another.",
+    "tags": [
+      "cloud",
+      "SaaS",
+      "tenant isolation"
+    ]
+  },
+  {
+    "slug": "control-plane-unpacking-the-build-vs-buy-dilemma",
+    "title": "Control Plane: Unpacking the Build vs Buy Dilemma",
+    "date": "2024-01-31 00:27:02",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Building software distribution channel(s) is hard, costly and time-consuming. I have discussed the challenges in building and operating your Control Plane before.",
+    "tags": [
+      "build vs buy",
+      "cloud",
+      "control plane",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "role-of-kubernetes-operators-in-saas-development",
+    "title": "Role of Kubernetes Operators in SaaS Development",
+    "date": "2024-01-30 23:53:43",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Kubernetes (K8s) Operators serve as effective tools for automating certain aspects of the control plane.",
+    "tags": [
+      "cloud",
+      "k8s",
+      "k8s operator",
+      "Kubernetes",
+      "operator",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "beyond-terraform-building-scalable-saas-infrastructure",
+    "title": "Beyond Terraform: Building Scalable SaaS Infrastructure",
+    "date": "2024-01-30 23:37:29",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "We think that Terraform is an excellent IaC tool if you want to setup your cloud infrastructure once. However, when it comes to SaaS, we feel that it falls short on many grounds.",
+    "tags": [
+      "cloud",
+      "infrastructure management",
+      "SaaS",
+      "terraform"
+    ]
+  },
+  {
+    "slug": "hello-world-saas-design-and-its-challenges",
+    "title": "Hello world SaaS design and its challenges",
+    "date": "2024-01-30 23:09:10",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Time and time again, we observe organizations grappling with the right design, consequently entangled in perpetual operations.",
+    "tags": [
+      "cloud",
+      "Kubernetes",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "top-5-saas-mistakes-to-avoid",
+    "title": "Top 5 SaaS mistakes to avoid",
+    "date": "2024-01-30 22:43:26",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In the rapidly evolving landscape of Software as a Service (SaaS), navigating the path to success requires foresight, strategic planning, and an acute awareness of common pitfalls.",
+    "tags": [
+      "cloud",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "need-for-saas-abstractions",
+    "title": "Need for SaaS abstractions",
+    "date": "2024-01-30 22:36:10",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Developing software as a service (SaaS) in today's cloud environment can be compared to creating an application for an operating system (OS).",
+    "tags": [
+      "abstractions",
+      "cloud",
+      "operating systems",
+      "OS",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "the-saas-revolution-transforming-software-delivery-forever",
+    "title": "The SaaS Revolution: Transforming Software Delivery Forever",
+    "date": "2024-01-30 22:15:45",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Innovation is the heartbeat of the technology industry, a relentless pursuit to deliver greater value and meet evolving customer needs.",
+    "tags": [
+      "cloud",
+      "SaaS",
+      "software delivery",
+      "technology"
+    ]
+  },
+  {
+    "slug": "introducing-omnistrate-platform",
+    "title": "Introducing Omnistrate Platform",
+    "date": "2024-01-28 20:20:40",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "As we contemplated building the SaaS platform, we divided the requirements into 5 packages. If you are building a SaaS from scratch, you will likely need all the layers.",
+    "tags": [
+      "cloud",
+      "multi-cloud",
+      "open-source",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "what-is-a-saas-control-plane",
+    "title": "What is a SaaS Control Plane?",
+    "date": "2024-01-28 20:16:31",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "I was among the authors at AWS who pioneered the first SaaS control plane back in 2009, laying the groundwork for many SaaS offerings both within and beyond AWS.",
+    "tags": [
+      "cloud",
+      "k8s",
+      "Kubernetes",
+      "multi-cloud",
+      "open-source",
+      "SaaS",
+      "terraform"
+    ]
+  },
+  {
+    "slug": "why-we-built-omnistrate",
+    "title": "Why we built Omnistrate?",
+    "date": "2024-01-28 11:53:53",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "We witness the proliferation of SaaS solutions daily — from AI applications like Private ChatGPT and infrastructure services like Snowflake, to content management systems such as WordPress, and HR...",
+    "tags": [
+      "cloud",
+      "multi-cloud",
+      "open-source",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "a-200-billion-dollar-business-that-you-cannot-ignore",
+    "title": "A 200 billion dollar business that you cannot ignore",
+    "date": "2023-12-20 22:16:21",
+    "author": {
+      "name": "Matteo Bianchi",
+      "email": "matteob@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "A business generating 200 billion dollars per year, cannot be ignored. What kind of business are we talking about? SaaS.",
+    "tags": [
+      "SaaS",
+      "startup"
+    ]
+  },
+  {
+    "slug": "lifecycle-management-and-infrastructure-cleanup-the-overlooked-challenge-of-efficiently-decommissioning-resources",
+    "title": "Lifecycle Management and Infrastructure Cleanup: The Overlooked Challenge of Efficiently Decommissioning Resources",
+    "date": "2023-11-07 05:11:20",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In today's fast-paced world of cloud computing, the importance of full lifecycle management in cloud infrastructure cannot be overstated.",
+    "tags": [
+      "cloud",
+      "cloud-agnostic",
+      "cloud-native",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "simplifying-multi-cloud-multi-tenant-saas-deployments-with-infrastructure-as-code-iac",
+    "title": "Simplifying Multi-Cloud, Multi-Tenant SaaS Deployments with Infrastructure as Code (IaC)",
+    "date": "2023-10-31 09:20:45",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "The cloud landscape has evolved significantly in recent years, moving businesses beyond the confines of single cloud providers.",
+    "tags": [
+      "cloud",
+      "cloud-agnostic",
+      "cloud-native",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "day-2-operations-saas-maintenance",
+    "title": "Day 2 Operations - SaaS Maintenance",
+    "date": "2023-10-14 22:16:04",
+    "author": {
+      "name": "Joshua Buss",
+      "email": "joshua@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In my previous posts, I have covered what it takes to build a SaaS Control Plane. In this post, we will cover some of the challenges in operating a SaaS service.",
+    "tags": [
+      "cloud",
+      "platform engineering",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "saas-capabilities-what-does-it-really-entail",
+    "title": "SaaS Capabilities - What Does it Really Entail?",
+    "date": "2023-10-12 19:03:20",
+    "author": {
+      "name": "Joshua Buss",
+      "email": "joshua@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "What does it really mean for software to be available as a service?",
+    "tags": [
+      "cloud",
+      "platform engineering",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "challenges-in-building-saas-billing",
+    "title": "Challenges in Building SaaS Billing",
+    "date": "2023-10-12 16:38:44",
+    "author": {
+      "name": "Joshua Buss",
+      "email": "joshua@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "By far the most consistent area of focus I’ve had in my career is monitoring and observability.",
+    "tags": [
+      "billing",
+      "cloud",
+      "metrics",
+      "platform engineering",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "provisioning-and-deployments-your-saas-foundation",
+    "title": "Provisioning and Deployments - Your SaaS Foundation",
+    "date": "2023-10-12 00:54:53",
+    "author": {
+      "name": "Joshua Buss",
+      "email": "joshua@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Before the cloud, getting fresh hardware and deploying your new software was always done in big budget events involving procurement, finance, several IT teams and the whole process included no small..",
+    "tags": [
+      "cloud",
+      "platform engineering",
+      "provisioning",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "why-enterprises-are-shifting-to-saas",
+    "title": "Why Enterprises are Shifting to SaaS",
+    "date": "2023-10-09 19:42:33",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In today's fast-paced digital landscape, the way enterprises consume and leverage software is undergoing a profound transformation.",
+    "tags": [
+      "cloud",
+      "enterprise",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "diving-deep-into-control-and-data-plane-responsibilities",
+    "title": "Diving Deep into Control and Data Plane Responsibilities",
+    "date": "2023-10-09 12:57:09",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Building upon our initial introduction of the control and data planes, this post delves deep into the interplay between these two planes.",
+    "tags": [
+      "cloud",
+      "control plane",
+      "data plane",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "everything-about-scaling",
+    "title": "Everything about Scaling",
+    "date": "2023-10-05 21:23:25",
+    "author": {
+      "name": "Joshua Buss",
+      "email": "joshua@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Scaling - it’s the reason we’re all using this cloud thing anyway, right?",
+    "tags": [
+      "autoscaling",
+      "cloud",
+      "platform engineering",
+      "scale",
+      "scaling"
+    ]
+  },
+  {
+    "slug": "cloud-platform-monitoring-and-auto-recovery-challenges-part-2",
+    "title": "Cloud Platform Monitoring and Auto-Recovery Challenges - Part 2",
+    "date": "2023-10-05 01:52:22",
+    "author": {
+      "name": "Joshua Buss",
+      "email": "joshua@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "The Complications and Strategies In the first post of this two-part series, we introduced primary topics under the umbrella of cloud platform monitoring and went into a bit of detail for how.",
+    "tags": [
+      "cloud",
+      "fault-tolerance",
+      "monitoring",
+      "platform engineering"
+    ]
+  },
+  {
+    "slug": "cloud-platform-monitoring-and-auto-recovery-challenges-part-1",
+    "title": "Cloud Platform Monitoring and Auto-Recovery Challenges - Part 1",
+    "date": "2023-10-04 03:08:26",
+    "author": {
+      "name": "Joshua Buss",
+      "email": "joshua@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Introduction to Cloud Monitoring. Most people who work in platform engineering and cloud infrastructure are aware that you need to design both your applications and your underlying platform...",
+    "tags": [
+      "cloud",
+      "fault-tolerance",
+      "monitoring",
+      "platform engineering"
+    ]
+  },
+  {
+    "slug": "why-is-the-saas-paradigm-so-powerful",
+    "title": "Why is the SaaS Paradigm so Powerful?",
+    "date": "2023-09-27 20:24:07",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Software as a Service, commonly known as SaaS, is more than just a tech buzzword. It has reinvented the software ecosystem and redefined the user experience.",
+    "tags": [
+      "cloud",
+      "multi-cloud",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "introduction-to-control-plane-and-data-plane",
+    "title": "Introduction to Control Plane and Data Plane",
+    "date": "2023-09-26 16:55:20",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In the world of computing and cloud services, the terms \"control plane\" and “data plane” are increasingly mentioned, even though these are actually older terms that originally came about in the...",
+    "tags": [
+      "cloud",
+      "control-plane",
+      "data-plane",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "omnistrate-s-journey-of-trust-continues-from-soc-2-type-i-to-type-ii",
+    "title": "Omnistrate’s Journey of Trust Continues - From SOC 2 Type I to Type II 🛡️✨",
+    "date": "2023-09-18 00:45:02",
+    "author": {
+      "name": "Omnistrate Team",
+      "email": "founders@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Certification We are back with more exciting news. After our proud announcement of achieving the SOC 2 Type I certification, we have now achieved another significant milestone by earning the SOC.",
+    "tags": [
+      "cloud",
+      "compliance",
+      "security",
+      "soc2"
+    ]
+  },
+  {
+    "slug": "the-future-of-saas-and-kubernetes-trends-and-predictions",
+    "title": "The Future of SaaS and Kubernetes: Trends and Predictions",
+    "date": "2023-08-08 03:27:44",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Software as a Service (SaaS) is a popular and convenient way of delivering applications over the internet, without requiring users to install or maintain them on their own devices.",
+    "tags": [
+      "cloud",
+      "Kubernetes",
+      "SaaS"
+    ]
+  },
+  {
+    "slug": "inside-the-cloud-understanding-iaas-paas-and-saas",
+    "title": "Inside the Cloud - Understanding IaaS, PaaS and SaaS",
+    "date": "2023-07-17 07:51:31",
+    "author": {
+      "name": "Amit Sharma",
+      "email": "amits@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "The proliferation of various cloud computing services has resulted in the widespread adoption of several new concepts and vocabularies in the world of IT infrastructure.",
+    "tags": [
+      "aws",
+      "azure",
+      "cloud",
+      "cloud fundamentals",
+      "gcp"
+    ]
+  },
+  {
+    "slug": "distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users",
+    "title": "Distributed System Design — Scaling from 0–1K, 1K -10K, 10K-100K, 100K-1M, and 1M to 1B users.",
+    "date": "2023-06-18 07:45:52",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "One of the most challenging aspects of building a distributed system is scaling it to handle different levels of user traffic.",
+    "tags": [
+      "12-factors",
+      "cloud",
+      "cloud-native",
+      "scaling"
+    ]
+  },
+  {
+    "slug": "the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned",
+    "title": "The Art of Scaling Distributed Multi Cloud Systems: Best Practices and Lessons Learned",
+    "date": "2023-06-18 07:09:02",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Hello, fellow developers! In this blog post, I want to share with you some of the best practices and lessons learned from scaling distributed systems.",
+    "tags": [
+      "cloud",
+      "cloud-native",
+      "distributed",
+      "multi-cloud",
+      "security"
+    ]
+  },
+  {
+    "slug": "kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills",
+    "title": "Kubernetes and container networking in multi-cloud environments: Why it is not easy and why you need Sparta like skills",
+    "date": "2023-06-08 04:08:39",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "As the world of technology continues to evolve, containerization has become a popular choice for deploying applications.",
+    "tags": [
+      "aws",
+      "cloud",
+      "cloud-agnostic",
+      "cloud-native",
+      "Kubernetes"
+    ]
+  },
+  {
+    "slug": "a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres",
+    "title": "A Step-by-Step Guide to Calculate SLAs, SLIs, and SLOs for new SREs",
+    "date": "2023-06-08 04:00:10",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Service Level Agreements (SLAs), Service Level Indicators (SLIs), and Service Level Objectives (SLOs) are critical metrics for measuring the performance and reliability of IT services.",
+    "tags": [
+      "cloud",
+      "cloud-native",
+      "monitoring",
+      "multi-cloud",
+      "sre"
+    ]
+  },
+  {
+    "slug": "omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust",
+    "title": "Omnistrate Achieves SOC 2 Type I Compliance: Upholding Security and Trust 🎖️",
+    "date": "2023-05-11 15:24:07",
+    "author": {
+      "name": "Amit Sharma",
+      "email": "amits@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Omnistrate, Inc., a B2B SaaS company that revolutionizes the way software offerings are turned into multi-cloud SaaS services, is pleased to announce that it has successfully achieved Service...",
+    "tags": [
+      "cloud-security-standard",
+      "compliance",
+      "data-security",
+      "soc2"
+    ]
+  },
+  {
+    "slug": "managing-open-search-across-multiple-clouds-a-guide-to-overcoming-challenges",
+    "title": "Managing Open Search  🔍  Across Multiple Clouds: A Guide to Overcoming Challenges",
+    "date": "2023-03-17 15:37:23",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Are you tired of juggling multiple cloud providers for your Open Search needs? this guide will help you navigate the stormy waters of managing Open Search across multiple clouds.",
+    "tags": [
+      "cloud",
+      "cloud-native",
+      "elastic",
+      "multi-cloud",
+      "open-search"
+    ]
+  },
+  {
+    "slug": "unlocking-the-full-potential-of-kubernetes-with-amazon-linux-2023",
+    "title": "Unlocking the Full Potential of Kubernetes with Amazon Linux 2023",
+    "date": "2023-03-17 15:26:51",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Kubernetes has become the go-to container orchestration tool for many organizations. However, achieving the full potential of Kubernetes requires the right operating system.",
+    "tags": [
+      "aws",
+      "cloud",
+      "cloud-agnostic",
+      "cloud-native",
+      "Kubernetes"
+    ]
+  },
+  {
+    "slug": "aks-edge-essentials-on-premises-kubernetes-implementation-of-azure-kubernetes-service",
+    "title": "AKS Edge Essentials - On-premises Kubernetes implementation of Azure Kubernetes Service",
+    "date": "2023-03-17 15:15:22",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "AKS Edge Essentials, an on-premises Kubernetes implementation of Azure Kubernetes Service that automates running containerized applications at scale on PC-class or “light” edge hardware.",
+    "tags": [
+      "cloud",
+      "cloud-agnostic",
+      "cloud-native",
+      "Kubernetes"
+    ]
+  },
+  {
+    "slug": "an-introduction-to-kubernetes-based-event-driven-autoscaling",
+    "title": "An Introduction to Kubernetes-based Event-Driven Autoscaling",
+    "date": "2023-03-16 06:20:59",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Kubernetes-based event-driven autoscaling (KEDA) is a powerful tool for automating the scaling of your Kubernetes applications based on event-driven workloads.",
+    "tags": [
+      "cloud",
+      "cloud-agnostic",
+      "cloud-native",
+      "event-driven"
+    ]
+  },
+  {
+    "slug": "how-to-achieve-autoscaling-in-multi-cloud-kubernetes-deployments",
+    "title": "How to Achieve Autoscaling in Multi-Cloud Kubernetes Deployments",
+    "date": "2023-03-02 18:44:30",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Kubernetes is a popular open-source platform for managing containerized applications across multiple nodes and clusters.",
+    "tags": [
+      "cloud",
+      "cloud-native",
+      "multi-cloud"
+    ]
+  },
+  {
+    "slug": "where-did-the-cloud-model-go-wrong",
+    "title": "Where did the Cloud model go wrong?",
+    "date": "2023-02-28 20:20:38",
+    "author": {
+      "name": "Team Omnistrate",
+      "email": "team@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "In our last post, we talked about the emergence of the Cloud and we feel this is where the Cloud model went wrong.",
+    "tags": [
+      "cloud",
+      "open-source"
+    ]
+  },
+  {
+    "slug": "cloud-native-vs-cloud-agnostic-weighing-the-trade-offs",
+    "title": "Cloud Native vs Cloud Agnostic: Weighing the Trade-Offs",
+    "date": "2023-02-24 09:31:17",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Speed ​​is an important factor for business in this era when customers are looking for instant gratification. If the fact doesn’t convince you, the statistics might.",
+    "tags": [
+      "cloud",
+      "cloud-agnostic",
+      "cloud-native"
+    ]
+  },
+  {
+    "slug": "emergence-future-of-open-source-and-cloud",
+    "title": "Emergence/Future of Open-source and Cloud",
+    "date": "2023-02-22 23:34:55",
+    "author": {
+      "name": "Team Omnistrate",
+      "email": "team@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Before 2005, most of the technology was open source and enterprises were consuming open source to accomplish their business goals and the trend seems to continue to grow.",
+    "tags": [
+      "cloud",
+      "open-source"
+    ]
+  },
+  {
+    "slug": "maximizing-cloud-native-success-with-the-twelve-factor-app-methodology",
+    "title": "Maximizing Cloud-Native Success with the Twelve-Factor App Methodology 🫡",
+    "date": "2023-02-18 04:03:46",
+    "author": {
+      "name": "Abhishek Gupta",
+      "email": "abhishekg@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Twelve Factor App Methodology The Twelve-Factor App methodology is a set of best practices for building and deploying cloud-native applications.",
+    "tags": [
+      "12-factors",
+      "cloud",
+      "cloud-native"
+    ]
+  },
+  {
+    "slug": "what-is-a-cloud",
+    "title": "What is a Cloud?",
+    "date": "2023-02-16 00:12:53",
+    "author": {
+      "name": "Team Omnistrate",
+      "email": "team@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "The term Cloud isn’t a physical entity but is meant to represent the infrastructure of the internet.",
+    "tags": [
+      "aws",
+      "azure",
+      "cloud",
+      "cloud fundamentals",
+      "gcp"
+    ]
+  }
+]

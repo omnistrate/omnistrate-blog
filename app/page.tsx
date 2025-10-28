@@ -1,92 +1,60 @@
-import Link from "next/link";
-import { getAllPosts } from "@/actions/post";
+"use client";
 
+import { Search } from "lucide-react";
+import { useMemo, useState } from "react";
 import { Container } from "./components/container";
-import { PostTags } from "./posts/[slug]/components/post-tags";
+import { PostCard } from "./components/post-card";
+import postsMetadata from "@/data/posts-metadata.json";
 
-const Homepage = async () => {
-  const allPosts = await getAllPosts();
+const Homepage = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const filteredPosts = useMemo(() => {
+    if (!searchTerm.trim()) return postsMetadata;
+
+    const term = searchTerm.toLowerCase();
+    return postsMetadata.filter((post) => {
+      const titleMatch = post.title.toLowerCase().includes(term);
+      const tagMatch = post.tags?.some((tag) => tag.toLowerCase().includes(term)) || false;
+      return titleMatch || tagMatch;
+    });
+  }, [searchTerm]);
 
   return (
     <main>
       <Container>
-        {/* Search Bar - Center Aligned */}
-        <div className="flex justify-center mb-12">
-          <div className="relative w-full max-w-2xl">
-            <input
-              type="text"
-              placeholder="Search by tag (cloud, open-source)..."
-              className="w-full px-6 py-3 pr-12 text-gray-700 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-            />
-            <button className="absolute right-3 top-1/2 -translate-y-1/2 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
-              <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </button>
-          </div>
-        </div>
-
-        {/* All Posts in Grid Format */}
-        {allPosts.length > 0 && (
-          <section className="mb-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {allPosts.map((post) => (
-                <Link
-                  key={encodeURIComponent(post.slug)}
-                  href={`/posts/${encodeURIComponent(post.slug)}`}
-                  className="group flex"
-                >
-                  <div className="bg-white dark:bg-slate-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-md transition-shadow duration-200 flex flex-col w-full">
-                    {/* Cover Image with Title Overlay */}
-                    <div className="relative aspect-video bg-gradient-to-br from-teal-400 to-blue-500">
-                      {post.coverImage ? (
-                        <img src={post.coverImage} alt={post.title} className="w-full h-full object-cover" />
-                      ) : null}
-
-                      {/* Title Overlay with Gradient */}
-                      <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60 flex items-center justify-center p-4">
-                        <h3 className="font-bold text-xl md:text-2xl text-white text-center leading-tight drop-shadow-lg line-clamp-3">
-                          {post.title}
-                        </h3>
-                      </div>
-                    </div>
-
-                    {/* Card Content */}
-                    <div className="p-6 flex flex-col flex-grow">
-                      {/* Tags */}
-                      {post.tags && post.tags.length > 0 && <PostTags tags={post.tags} className="mb-3" />}
-
-                      {/* Excerpt */}
-                      {post.excerpt && (
-                        <p className="text-gray-600 dark:text-gray-300 text-sm line-clamp-3 mb-4 flex-grow">
-                          {post.excerpt}
-                        </p>
-                      )}
-
-                      {/* Author and Date */}
-                      <div className="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400 mt-auto">
-                        <span>{post.author?.name || "Omnistrate Team"}</span>
-                        <span>
-                          {new Date(post.date).toLocaleDateString("en-US", {
-                            month: "short",
-                            day: "numeric",
-                            year: "numeric"
-                          })}
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </Link>
-              ))}
+        <div className="w-full">
+          <div className="flex justify-center mb-12 mt-12 mb:mt-16">
+            <div className="relative w-full max-w-2xl">
+              <input
+                type="text"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                placeholder="Search by title or tag (cloud, kubernetes)..."
+                className="w-full px-6 py-3 pr-12 text-gray-700 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              />
+              <button className="absolute right-3 top-1/2 -translate-y-1/2 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
+                <Search className="w-4 h-4 text-white" />
+              </button>
             </div>
-          </section>
-        )}
-
-        {allPosts.length === 0 && (
-          <div className="text-center py-16">
-            <p className="text-gray-500 dark:text-gray-400">No posts found.</p>
           </div>
-        )}
+
+          {filteredPosts.length > 0 ? (
+            <section className="mb-16">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-fr">
+                {filteredPosts.map((post) => (
+                  <PostCard key={post.slug} post={post} />
+                ))}
+              </div>
+            </section>
+          ) : (
+            <div className="text-center py-16">
+              <p className="text-gray-500 dark:text-gray-400">
+                {searchTerm ? `No posts found matching "${searchTerm}"` : "No posts found."}
+              </p>
+            </div>
+          )}
+        </div>
       </Container>
     </main>
   );

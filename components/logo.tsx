@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 type LogoProps = {
-  href: string;
+  href?: string;
 };
 
 export const Logo: React.FC<LogoProps> = (props) => {

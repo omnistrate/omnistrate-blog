@@ -16,7 +16,11 @@ const buttonVariants = cva(
           "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
-        link: "text-primary underline-offset-4 hover:underline"
+        link: "text-primary underline-offset-4 hover:underline",
+        "omni-default":
+          "bg-[#121926] text-white hover:bg-primary/90 font-medium shadow-[0_2px_6px_0_#1018280F] sm:text-base",
+        "omni-outline":
+          "bg-transparent text-[#414651] hover:bg-accent hover:text-accent-foreground font-medium border border-black shadow-[0_2px_6px_0_#1018280F] sm:text-base"
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
@@ -24,7 +28,9 @@ const buttonVariants = cva(
         lg: "h-10 rounded-md px-6 has-[>svg]:px-4",
         icon: "size-9",
         "icon-sm": "size-8",
-        "icon-lg": "size-10"
+        "icon-lg": "size-10",
+        "omni-default": "py-2.5 sm:py-3 h-auto px-3 sm:px-5 rounded-lg",
+        "omni-lg": "py-3 md:py-4 h-auto px-5 sm:px-6 rounded-lg"
       }
     },
     defaultVariants: {
