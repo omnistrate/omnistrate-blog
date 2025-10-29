@@ -7,12 +7,29 @@ import "./globals.css";
 import Header from "@/components/header/Header";
 import Footer from "@/components/Footer";
 import { RootProviders } from "@/context/RootProvider";
+import { SITE_URL } from "@/constants/site";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Omnistrate Engineering Blog",
-  description: "Engineering insights and technical articles from the Omnistrate team."
+  description: "Engineering insights and technical articles from the Omnistrate team.",
+  openGraph: {
+    title: "Omnistrate Engineering Blog",
+    description: "Engineering insights and technical articles from the Omnistrate team.",
+    images: "/logos/omnistrate-logo-black-font.png"
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico"
+  },
+  twitter: {
+    site: "@omnistrate"
+  },
+  facebook: {
+    appId: "omnistrate"
+  }
 };
 
 export default function RootLayout({

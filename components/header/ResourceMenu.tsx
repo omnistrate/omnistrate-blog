@@ -4,6 +4,16 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 
 import { RESOURCE_MENU } from "./constants";
 
+type SubMenuItem = {
+  title: string;
+  text?: string;
+  icon: React.ComponentType<{ width?: string; height?: string; color?: string; style?: React.CSSProperties }>;
+  path: string;
+  target?: string;
+  bullets?: string[];
+  mobileIconColor?: string;
+};
+
 const ProductCard = styled(Box)<{ isMobile?: boolean }>(({ isMobile }) => ({
   display: "flex",
   maxWidth: isMobile ? "100%" : "1050px",
@@ -29,7 +39,7 @@ const SubitemCard = styled(Box)<{ isMobile?: boolean }>(({ isMobile }) => ({
   gap: "10px"
 }));
 
-const productCard = (subItems: any[], isMobile: boolean) => {
+const productCard = (subItems: SubMenuItem[], isMobile: boolean) => {
   return (
     <Box
       sx={{
@@ -96,7 +106,7 @@ const productCard = (subItems: any[], isMobile: boolean) => {
                       {text}
                     </Typography>
                     <Box component={"ul"}>
-                      {bullets?.map((item: any, i: number) => (
+                      {bullets?.map((item: string, i: number) => (
                         <Box
                           key={i}
                           component={"li"}

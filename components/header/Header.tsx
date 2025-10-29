@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 import NavDrawer from "./NavDrawer";
 import ResourceMenu from "./ResourceMenu";
 import { Logo } from "../logo";
-import { PRODUCT_URL } from "@/constants/site";
+import { PRODUCT_URL, WEBSITE_URL } from "@/constants/site";
 import ChevronRightIcon from "@/icons/ChevronRightIcon";
 
 // @ts-expect-error Not an error
@@ -168,10 +168,10 @@ function Header() {
                 </NavItem>
               </StyledTooltip>
 
-              <Link href="/pricing">
+              <Link href={`${WEBSITE_URL}/pricing`}>
                 <NavItem>Pricing</NavItem>
               </Link>
-              <Link href="/about">
+              <Link href={`${WEBSITE_URL}/about`}>
                 <NavItem>About</NavItem>
               </Link>
             </NavList>

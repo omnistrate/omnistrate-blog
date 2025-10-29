@@ -1,10 +1,11 @@
 "use client";
 
-import { Search } from "lucide-react";
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Container } from "./components/container";
 import { PostCard } from "./components/post-card";
+import { SearchBar } from "./components/search-bar";
+import { LoadingState } from "./components/loading-state";
 import {
   Pagination,
   PaginationContent,
@@ -17,7 +18,7 @@ import postsMetadata from "@/data/posts-metadata.json";
 
 const POSTS_PER_PAGE = 24;
 
-const Homepage = () => {
+function HomepageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const searchQuery = searchParams.get("search") || "";
@@ -70,20 +71,7 @@ const Homepage = () => {
     <main>
       <Container>
         <div className="w-full">
-          <div className="flex justify-center mb-12 mt-16 mb:mt-20 lg:mt-24">
-            <div className="relative w-full max-w-2xl">
-              <input
-                type="text"
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                placeholder="Search by title or tag (cloud, kubernetes)..."
-                className="w-full px-6 py-3 pr-12 text-gray-700 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-              />
-              <button className="absolute right-3 top-1/2 -translate-y-1/2 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
-                <Search className="w-4 h-4 text-white" />
-              </button>
-            </div>
-          </div>
+          <SearchBar value={searchTerm} onChange={setSearchTerm} />
 
           {filteredPosts.length > 0 ? (
             <>
@@ -140,16 +128,29 @@ const Homepage = () => {
               )}
             </>
           ) : (
-            <div className="text-center py-16">
-              <p className="text-gray-500 dark:text-gray-400">
-                {searchTerm ? `No posts found matching "${searchTerm}"` : "No posts found."}
-              </p>
-            </div>
+            <LoadingState message={searchTerm ? `No posts found matching "${searchTerm}"` : "No posts found."} />
           )}
         </div>
       </Container>
     </main>
   );
-};
+}
 
-export default Homepage;
+export default function Homepage() {
+  return (
+    <Suspense
+      fallback={
+        <main>
+          <Container>
+            <div className="w-full">
+              <SearchBar disabled />
+              <LoadingState />
+            </div>
+          </Container>
+        </main>
+      }
+    >
+      <HomepageContent />
+    </Suspense>
+  );
+}

@@ -1,4 +1,4 @@
-import { API_DOCS_URL, DEV_DOCS_URL, SITE_URL, YOUTUBE_CHANNEL_URL } from "@/constants/site";
+import { API_DOCS_URL, DEV_DOCS_URL, SITE_URL, WEBSITE_URL, YOUTUBE_CHANNEL_URL } from "@/constants/site";
 import QuickstartIcon from "@/icons/QuickstartIcon";
 import TutorialIcon from "@/icons/TutorialIcon";
 import BlogIcon from "@/icons/BlogIcon";
@@ -41,7 +41,7 @@ const RESOURCE_MENU = [
         title: "Omnistrate, Demystified",
         text: "Learn what goes into building a modern control plane",
         icon: ControlPlaneIcon,
-        path: "/control-plane-demystified"
+        path: `${WEBSITE_URL}/control-plane-demystified`
       }
     ]
   },
@@ -51,14 +51,14 @@ const RESOURCE_MENU = [
       {
         title: "Events",
         text: "Join Omnistrate events, webinars, and meetups to learn and connect",
-        path: "/events",
+        path: `${WEBSITE_URL}/events`,
         icon: EventsIcon
       },
       {
         title: "Partners",
         text: "Partner with Omnistrate to co-create SaaS solutions and innovate together",
         icon: PartnerIcon,
-        path: "/partners"
+        path: `${WEBSITE_URL}/partners`
       },
       {
         title: "Community",
@@ -71,7 +71,7 @@ const RESOURCE_MENU = [
         title: "AWS SaaS Offer",
         text: "Special offers for Omnistrate users on AWS Marketplace",
         icon: AWSSaaSOfferIcon,
-        path: "/aws-saas-offer"
+        path: `${WEBSITE_URL}/aws-saas-offer`
       }
     ]
   },
@@ -82,13 +82,13 @@ const RESOURCE_MENU = [
         title: "Careers",
         text: "Explore exciting career opportunities at Omnistrate",
         icon: CareerIcon,
-        path: `/careers`
+        path: `${WEBSITE_URL}/careers`
       },
       {
         title: "Support",
         text: "Reach out for any help you need with Omnistrate",
         icon: TechSupportIcon,
-        path: `/support`
+        path: `${WEBSITE_URL}/support`
       },
       {
         title: "API Status",
