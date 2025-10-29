@@ -1,5 +1,7 @@
+"use client";
+
 import Link from "next/link";
-import { PostTags } from "@/app/posts/[slug]/components/post-tags";
+import { useRouter } from "next/navigation";
 import { PostMetadata } from "@/types/post";
 
 type PostCardProps = {
@@ -7,6 +9,13 @@ type PostCardProps = {
 };
 
 export function PostCard({ post }: PostCardProps) {
+  const router = useRouter();
+
+  const handleTagClick = (e: React.MouseEvent, tag: string) => {
+    e.preventDefault();
+    e.stopPropagation();
+    router.push(`/?search=${encodeURIComponent(tag)}`);
+  };
   return (
     <Link href={`/posts/${encodeURIComponent(post.slug)}`} className="group flex h-full">
       <div className="bg-white dark:bg-slate-800 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-md transition-shadow duration-200 flex flex-col w-full">
@@ -25,15 +34,23 @@ export function PostCard({ post }: PostCardProps) {
         <div className="p-6 flex flex-col h-full">
           {post.tags && post.tags.length > 0 && (
             <div className="mb-3 flex-shrink-0 max-h-[3.5rem] overflow-hidden">
-              <PostTags tags={post.tags} />
+              <div className="flex flex-wrap gap-1">
+                {post.tags.map((tag) => (
+                  <button
+                    key={tag}
+                    onClick={(e) => handleTagClick(e, tag)}
+                    className="inline-flex items-center px-3 py-1 text-xs font-medium text-green-700 bg-green-50 dark:bg-green-900/30 dark:text-green-300 rounded-full border border-green-200 dark:border-green-800 hover:bg-green-100 dark:hover:bg-green-900/50 transition-colors cursor-pointer"
+                  >
+                    {tag}
+                  </button>
+                ))}
+              </div>
             </div>
           )}
 
           <div className="flex-grow flex flex-col min-h-0">
             {post.excerpt && (
-              <p className="text-gray-600 dark:text-gray-300 text-sm line-clamp-3 mb-4">
-                {post.excerpt}
-              </p>
+              <p className="text-gray-600 dark:text-gray-300 text-sm line-clamp-3 mb-4">{post.excerpt}</p>
             )}
           </div>
 

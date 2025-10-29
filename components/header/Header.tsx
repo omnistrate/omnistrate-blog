@@ -14,7 +14,7 @@ import { Logo } from "../logo";
 import { PRODUCT_URL } from "@/constants/site";
 import ChevronRightIcon from "@/icons/ChevronRightIcon";
 
-// @ts-ignore
+// @ts-expect-error Not an error
 const StyledTooltip = styled(({ className, title, open, setOpen, offset = [0, 0], ...props }) => {
   const handleClose = () => {
     setOpen(false);
@@ -25,7 +25,7 @@ const StyledTooltip = styled(({ className, title, open, setOpen, offset = [0, 0]
   };
 
   return (
-    // @ts-ignore
+    // @ts-expect-error Not an error
     <Tooltip
       {...props}
       open={open}
@@ -69,8 +69,8 @@ export const StyledToolbar = styled(Toolbar, {
     gridTemplateColumns: "auto 1fr",
     height: 68,
     backgroundColor: "#FFF",
-    paddingLeft: 32,
-    paddingRight: 32,
+    paddingLeft: 24,
+    paddingRight: 24,
 
     [theme.breakpoints.down("lg")]: {
       height: 60
@@ -134,7 +134,7 @@ function Header() {
         position="fixed"
         sx={{
           display: "block",
-          zIndex: 999,
+          zIndex: 1201,
           padding: "0px !important", //fixing mui bug that adds 5px padding
           backgroundColor: "white",
           boxShadow: "none",
@@ -145,12 +145,12 @@ function Header() {
           width: "100vw !important"
         }}
       >
-        {/* @ts-ignore */}
+        {/* @ts-expect-error Not an error */}
         <StyledToolbar drawerOpen={drawerOpen}>
           <div className="flex align-center ">
             <Logo />
             <NavList>
-              {/* @ts-ignore */}
+              {/* @ts-expect-error Not an error */}
               <StyledTooltip
                 title={<ResourceMenu handleClose={() => setResourceOpen(false)} />}
                 open={resourceOpen}
@@ -180,7 +180,7 @@ function Header() {
             <Box
               sx={{
                 display: {
-                  mobile: "none",
+                  xs: "none",
                   md: "block"
                 }
               }}
@@ -216,7 +216,7 @@ function Header() {
       </AppBar>
       {/* Adding second toolbar to prevent content from being hidden behind the toolbar */}
       <StyledToolbar />
-      <NavDrawer open={drawerOpen} toggleDrawer={toggleDrawer} closeDrawer={closeDrawer} />
+      <NavDrawer open={drawerOpen} closeDrawer={closeDrawer} />
     </>
   );
 }

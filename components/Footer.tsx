@@ -17,7 +17,7 @@ import { useCookieConsentContext } from "@/context/cookieConsentContext";
 
 const Grid = styled("div", {
   shouldForwardProp: (prop) => prop !== "isBelowDesktop"
-  // @ts-ignore
+  // @ts-expect-error Not an error
 })(({ isBelowDesktop }) => ({
   display: "grid",
   gridTemplateColumns: isBelowDesktop ? "repeat(5, 1fr)" : "repeat(6, 1fr)",
@@ -63,7 +63,7 @@ const SocialLogo = styled(Image)(() => ({
 
 export const StyledLink = styled("a", {
   shouldForwardProp: (prop) => prop !== "styles"
-  // @ts-ignore
+  // @ts-expect-error Not an error
 })(({ styles }) => ({
   textDecoration: "none",
   transition: "color 0.2s",
@@ -159,7 +159,7 @@ function Footer() {
                 </Link>
               </Box>
             )}
-            {/* @ts-ignore */}
+            {/* @ts-expect-error Not an error */}
             <Grid isBelowDesktop={isBelowDesktop}>
               {!isBelowDesktop && (
                 <Column>

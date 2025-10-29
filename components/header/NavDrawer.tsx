@@ -8,7 +8,7 @@ import ResourceMenu from "./ResourceMenu";
 import { PRODUCT_URL } from "@/constants/site";
 
 const Drawer = styled(MuiDrawer)(({ theme }) => ({
-  [theme.breakpoints.up("desktop")]: {
+  [theme.breakpoints.up("lg")]: {
     display: "none"
   },
   "& .MuiDrawer-paper": {
@@ -33,7 +33,7 @@ const ListItem = styled("li", {
   shouldForwardProp: (prop) => {
     return prop !== "hideAboveMobile";
   }
-})(({ theme, hideAboveMobile }) => ({
+})<{ hideAboveMobile?: boolean }>(({ theme, hideAboveMobile }) => ({
   color: "#f5f5f7",
   fontSize: 18,
   padding: "16px 0px",
@@ -42,17 +42,22 @@ const ListItem = styled("li", {
     borderTop: "none"
   },
   borderTop: "1px solid #424245",
-  [theme.breakpoints.up("tablet")]: {
+  [theme.breakpoints.up("md")]: {
     display: hideAboveMobile ? "none" : "block"
   }
 }));
 
-function NavDrawer(props) {
+interface NavDrawerProps {
+  open: boolean;
+  closeDrawer: () => void;
+}
+
+function NavDrawer(props: NavDrawerProps) {
   const { open, closeDrawer } = props;
   const [developerMenu, setDeveloperMenu] = useState(false);
 
   const theme = useTheme();
-  const isDesktop = useMediaQuery(theme.breakpoints.up("desktop"));
+  const isDesktop = useMediaQuery(theme.breakpoints.up("lg"));
   if (isDesktop && open) {
     closeDrawer();
   }
@@ -61,7 +66,7 @@ function NavDrawer(props) {
     setDeveloperMenu((prev) => !prev);
   };
 
-  const iconStyle = {
+  const iconStyle: React.CSSProperties = {
     position: "absolute",
     right: 0
   };

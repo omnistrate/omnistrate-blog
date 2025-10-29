@@ -80,7 +80,7 @@ function CookieConsentModal() {
               <StyledButton
                 size="large"
                 variant="contained"
-                //@ts-ignore
+                // @ts-expect-error fontColor is a valid prop
                 fontColor="#000000"
                 bgColor="#ffffff"
                 onClick={handleAllowNecessary}
@@ -90,7 +90,7 @@ function CookieConsentModal() {
               <StyledButton
                 size="large"
                 variant="contained"
-                //@ts-ignore
+                // @ts-expect-error fontColor is a valid prop
                 fontColor="#ffffff"
                 bgColor="#000000"
                 onClick={handleAllowAll}

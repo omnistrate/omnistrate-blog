@@ -1,7 +1,5 @@
-type ContainerProps = {
-  children?: React.ReactNode;
-};
+import { cn } from "@/lib/utils";
 
-export const Container: React.FC<ContainerProps> = ({ children }) => {
-  return <div className="container mx-auto px-5">{children}</div>;
+export const Container: React.FC<React.ComponentProps<"div">> = (props) => {
+  return <div {...props} className={cn("container mx-auto px-6", props.className)} />;
 };

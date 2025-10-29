@@ -4,13 +4,13 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 
 import { RESOURCE_MENU } from "./constants";
 
-const ProductCard = styled(Box)(({ isMobile }) => ({
+const ProductCard = styled(Box)<{ isMobile?: boolean }>(({ isMobile }) => ({
   display: "flex",
   maxWidth: isMobile ? "100%" : "1050px",
   margin: isMobile ? "0" : "24px 20px"
 }));
 
-const StyledLink = styled(Link)(({ isMobile, target }) => ({
+const StyledLink = styled(Link)<{ isMobile?: boolean; target?: string }>(({ isMobile, target }) => ({
   textDecoration: "none",
   display: "flex",
   alignItems: "center",
@@ -23,14 +23,13 @@ const StyledLink = styled(Link)(({ isMobile, target }) => ({
   }
 }));
 
-const SubitemCard = styled(Box)`
-  display: flex;
-  align-items: ${(isMobile) => (isMobile ? "flex-start" : "center")};
-  gap: 10px;
-  flexwrap: wrap;
-`;
+const SubitemCard = styled(Box)<{ isMobile?: boolean }>(({ isMobile }) => ({
+  display: "flex",
+  alignItems: isMobile ? "flex-start" : "center",
+  gap: "10px"
+}));
 
-const productCard = (subItems, isMobile) => {
+const productCard = (subItems: any[], isMobile: boolean) => {
   return (
     <Box
       sx={{
@@ -51,12 +50,12 @@ const productCard = (subItems, isMobile) => {
             maxWidth: "100%"
           }}
         >
-          <StyledLink href={path} target={target || ""}>
+          <StyledLink href={path} target={target || ""} isMobile={isMobile}>
             <SubitemCard
+              isMobile={isMobile}
               onClick={(e) => {
                 if (!path) e.preventDefault();
               }}
-              isMobile={isMobile}
             >
               <Box sx={{ flexShrink: 0 }}>
                 <Icon style={{}} width="32" height="32" color={isMobile ? mobileIconColor : "#000000"} />
@@ -97,7 +96,7 @@ const productCard = (subItems, isMobile) => {
                       {text}
                     </Typography>
                     <Box component={"ul"}>
-                      {bullets?.map((item, i) => (
+                      {bullets?.map((item: any, i: number) => (
                         <Box
                           key={i}
                           component={"li"}
@@ -124,11 +123,11 @@ const productCard = (subItems, isMobile) => {
   );
 };
 
-const resourceItems = (isMobile) => {
+const resourceItems = (isMobile: boolean) => {
   return RESOURCE_MENU.map((item) => (
     <Box
       key={item.title}
-      backgroundColor={item.title === "Quick Links" && !isMobile ? "#F9FAFB" : "unset"}
+      bgcolor={item.title === "Quick Links" && !isMobile ? "#F9FAFB" : "unset"}
       sx={{
         padding: !isMobile ? "0px" : "0px 20px 20px 20px"
       }}
@@ -159,20 +158,22 @@ const resourceItems = (isMobile) => {
   ));
 };
 
-export default function ResourceMenu({ handleClose }) {
+export default function ResourceMenu({ handleClose }: { handleClose?: () => void }) {
   const isMobile = useMediaQuery("(max-width:1135px)");
 
-  const ProductCardStyles = {
-    backgroundColor: isMobile ? "unset" : "#ffffff",
-    display: "flex",
-    flexDirection: isMobile ? "column" : "row",
-    margin: 0,
-    marginLeft: isMobile ? "0px" : "10px",
-    padding: isMobile ? "0px" : "20px 24px"
-  };
-
   return (
-    <ProductCard style={ProductCardStyles} onClick={handleClose}>
+    <ProductCard
+      isMobile={isMobile}
+      style={{
+        backgroundColor: isMobile ? "unset" : "#ffffff",
+        display: "flex",
+        flexDirection: isMobile ? "column" : "row",
+        margin: 0,
+        marginLeft: isMobile ? "0px" : "10px",
+        padding: isMobile ? "0px" : "20px 24px"
+      }}
+      onClick={handleClose}
+    >
       {resourceItems(isMobile)}
     </ProductCard>
   );
