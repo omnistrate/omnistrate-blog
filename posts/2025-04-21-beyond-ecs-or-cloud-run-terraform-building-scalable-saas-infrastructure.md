@@ -1,13 +1,17 @@
 ---
 title: 'Beyond ECS or Cloud Run + Terraform: Building Scalable SaaS Infrastructure'
-tags: "cloud, cloud-run, ecs, Omnistrate, SaaS, terraform"
+tags: 'cloud, cloud-run, ecs, Omnistrate, SaaS, terraform'
 date: '2025-04-21 03:45:55'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Many B2B startups start their cloud journey with AWS ECS or GCP Cloud Run. It''s understandable—they''re familiar, quick to set up, and tightly integrated with the hyperscalers'' ecosystems.'
+excerpt: >-
+  Many B2B startups start their cloud journey with AWS ECS or GCP Cloud Run.
+  It's understandable—they're familiar, quick to set up, and tightly integrated
+  with the hyperscalers' ecosystems.
 slug: beyond-ecs-or-cloud-run-terraform-building-scalable-saas-infrastructure
+readTime: 2
 ---
 
 Many B2B startups start their cloud journey with AWS ECS or GCP Cloud Run. It's understandable—they're familiar, quick to set up, and tightly integrated with the hyperscalers' ecosystems. Throw in some Terraform, and you have a hello-world deployment workflow that seems "good enough" to get your SaaS up and running.

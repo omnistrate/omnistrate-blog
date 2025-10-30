@@ -14,13 +14,17 @@ type SubMenuItem = {
   mobileIconColor?: string;
 };
 
-const ProductCard = styled(Box)<{ isMobile?: boolean }>(({ isMobile }) => ({
+const ProductCard = styled(Box, {
+  shouldForwardProp: (prop) => prop !== "isMobile"
+})<{ isMobile?: boolean }>(({ isMobile }) => ({
   display: "flex",
   maxWidth: isMobile ? "100%" : "1050px",
   margin: isMobile ? "0" : "24px 20px"
 }));
 
-const StyledLink = styled(Link)<{ isMobile?: boolean; target?: string }>(({ isMobile, target }) => ({
+const StyledLink = styled(Link, {
+  shouldForwardProp: (prop) => prop !== "isMobile"
+})<{ isMobile?: boolean; target?: string }>(({ isMobile, target }) => ({
   textDecoration: "none",
   display: "flex",
   alignItems: "center",
@@ -33,7 +37,9 @@ const StyledLink = styled(Link)<{ isMobile?: boolean; target?: string }>(({ isMo
   }
 }));
 
-const SubitemCard = styled(Box)<{ isMobile?: boolean }>(({ isMobile }) => ({
+const SubitemCard = styled(Box, {
+  shouldForwardProp: (prop) => prop !== "isMobile"
+})<{ isMobile?: boolean }>(({ isMobile }) => ({
   display: "flex",
   alignItems: isMobile ? "flex-start" : "center",
   gap: "10px"

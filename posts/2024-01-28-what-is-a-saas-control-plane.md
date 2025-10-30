@@ -1,13 +1,17 @@
 ---
 title: What is a SaaS Control Plane?
-tags: "cloud, k8s, Kubernetes, multi-cloud, open-source, SaaS, terraform"
+tags: 'cloud, k8s, Kubernetes, multi-cloud, open-source, SaaS, terraform'
 date: '2024-01-28 20:16:31'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'I was among the authors at AWS who pioneered the first SaaS control plane back in 2009, laying the groundwork for many SaaS offerings both within and beyond AWS.'
+excerpt: >-
+  I was among the authors at AWS who pioneered the first SaaS control plane back
+  in 2009, laying the groundwork for many SaaS offerings both within and beyond
+  AWS.
 slug: what-is-a-saas-control-plane
+readTime: 14
 ---
 
 I was among the authors at AWS who pioneered the first SaaS control plane back in 2009, laying the groundwork for many SaaS offerings both within and beyond AWS. Crafting the SaaS control plane, we delved deep into fundamental questions:

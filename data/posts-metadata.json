@@ -14,7 +14,8 @@
       "Features",
       "MCP",
       "AI"
-    ]
+    ],
+    "readTime": 7
   },
   {
     "slug": "revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server",
@@ -34,7 +35,8 @@
       "DevOps",
       "mcp",
       "sre"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "case-study-how-ferretdb-went-from-opensource-project-to-commercial-dbaas-success-in-weeks-not-years",
@@ -54,7 +56,8 @@
       "MultiCloud",
       "Omnistrate",
       "PostgreSQL"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "omnistrate-platform-update-july-2025-edition",
@@ -72,7 +75,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 7
   },
   {
     "slug": "omnistrate-brownstone-modernize-your-software-offering-with-built-in-compliance-and-cloud-automation",
@@ -89,7 +93,8 @@
       "Omnistrate",
       "partnership",
       "SaaS"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "maximizing-ai-infrastructure-value-through-smart-resource-sharing",
@@ -108,7 +113,8 @@
       "gpu",
       "platform",
       "SaaS"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "moving-to-cell-based-architecture-lessons-from-neon",
@@ -125,7 +131,8 @@
       "cell",
       "cloud",
       "platform"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "omnistrate-platform-update-jun-2025",
@@ -143,7 +150,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 7
   },
   {
     "slug": "build-your-own-software-platform-in-days",
@@ -162,7 +170,8 @@
       "OnPrem",
       "PaaS",
       "SaaS"
-    ]
+    ],
+    "readTime": 7
   },
   {
     "slug": "enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3",
@@ -182,7 +191,8 @@
       "MultiCloud",
       "PlatformEngineering",
       "SaaS"
-    ]
+    ],
+    "readTime": 15
   },
   {
     "slug": "real-world-example-the-lifecycle-headache-part-2-of-3",
@@ -201,7 +211,8 @@
       "MultiCloud",
       "PlatformEngineering",
       "SaaS"
-    ]
+    ],
+    "readTime": 9
   },
   {
     "slug": "building-diy-control-planes-with-kubernetes-argocd-terraform-part-1-of-3",
@@ -221,7 +232,8 @@
       "MultiCloud",
       "PlatformEngineering",
       "SaaS"
-    ]
+    ],
+    "readTime": 19
   },
   {
     "slug": "omnistrate-platform-update-may-2025",
@@ -239,7 +251,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "omnistrate-platform-update-april-2025",
@@ -257,7 +270,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "integrating-serverless-framework-with-omnistrate-a-developer-s-journey",
@@ -274,7 +288,8 @@
       "SaaS",
       "serverless",
       "terraform"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "beyond-ecs-or-cloud-run-terraform-building-scalable-saas-infrastructure",
@@ -293,7 +308,8 @@
       "Omnistrate",
       "SaaS",
       "terraform"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "omnistrate-platform-update-march-2025",
@@ -311,7 +327,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "ai-series-powering-high-performance-ai-workloads-gpu-soci-mig-and-keda",
@@ -328,7 +345,8 @@
       "AI features",
       "Omnistrate",
       "SaaS"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "ai-series-cost-controls-insights",
@@ -346,7 +364,8 @@
       "Insights",
       "Omnistrate",
       "SaaS"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "ai-series-introducing-omnistrate-s-new-job-controller-paradigm",
@@ -364,7 +383,8 @@
       "Omnistrate",
       "SaaS",
       "Scheduling"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "whiteswan-security-case-study",
@@ -383,7 +403,8 @@
       "Omnistrate",
       "onprem-copilot",
       "whiteswan-security"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "why-cloud-marketplaces-are-the-new-launchpad-for-saas-startups",
@@ -397,7 +418,8 @@
     "excerpt": "We hosted our second SaaS Mondays , Live on Fridays on Friday.",
     "tags": [
       "AWS Marketplace"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "omnistrate-platform-update-february-2025",
@@ -415,7 +437,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "saas-mondays-live-on-fridays-how-ai-is-impacting-saas-builders-a-recap",
@@ -434,7 +457,8 @@
       "Cloud Marketplace",
       "ControlPlane",
       "SaaS"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "build-vs-buy-why-platform-teams-choose-omnistrate-for-their-control-plane",
@@ -452,7 +476,8 @@
       "Omnistrate",
       "platform",
       "SaaS"
-    ]
+    ],
+    "readTime": 7
   },
   {
     "slug": "navigating-aws-s-expanded-saas-co-sell-program-opportunities-and-challenges-for-isvs",
@@ -471,7 +496,8 @@
       "ISV",
       "marketplace",
       "SaaS"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "beyond-helm-building-scalable-saas-infrastructure",
@@ -489,7 +515,8 @@
       "Omnistrate",
       "SaaS",
       "terraform"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "on-prem-software-distribution-overcoming-licensing-deployment-challenges",
@@ -507,7 +534,8 @@
       "Omnistrate",
       "platform",
       "SaaS"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "custom-sidecars-support-for-omnistrate-resources",
@@ -524,7 +552,8 @@
       "k8s",
       "OTEL",
       "sidecars"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "omnistrate-platform-update-january-2025",
@@ -542,7 +571,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience",
@@ -557,7 +587,8 @@
     "tags": [
       "open-source",
       "saasbuilder"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service",
@@ -576,7 +607,8 @@
       "Omnistrate",
       "open-source",
       "SaaS"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "ai-series-what-is-byoc-and-why-does-it-matter-apps-must-go-to-the-data-in-2025",
@@ -594,7 +626,8 @@
       "BYOC",
       "Omnistrate",
       "SaaS"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal",
@@ -614,7 +647,8 @@
       "case-study",
       "Omnistrate",
       "SaaS"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "omnistrate-platform-update-december-2024",
@@ -632,7 +666,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "omnistrate-platform-update-november-2024",
@@ -650,7 +685,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "building-private-service-on-the-cloud",
@@ -667,7 +703,8 @@
       "privacy",
       "SaaS",
       "security"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "ai-series-omnistrate-launches-developer-platform-to-build-b2b-ai-apps",
@@ -684,7 +721,8 @@
       "cloud",
       "press-release",
       "SaaS"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "omnistrate-just-made-building-b2b-saas-easier-than-ever",
@@ -702,7 +740,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "omnistrate-open-source-building-together",
@@ -718,7 +757,8 @@
       "cloud",
       "open-source",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "omnistrate-platform-update-october-2024",
@@ -736,7 +776,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "omnistrate-developer-platform-to-build-b2b-saas",
@@ -752,7 +793,8 @@
       "cloud",
       "press-release",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "kubernetes-at-the-edge-revolutionizing-computing-and-resource-management",
@@ -767,7 +809,8 @@
     "tags": [
       "Kubernetes",
       "OpenSource"
-    ]
+    ],
+    "readTime": 7
   },
   {
     "slug": "why-kubernetes-is-the-foundation-of-modern-cloud-infrastructure",
@@ -784,7 +827,8 @@
       "Omnistrate",
       "OpenSource",
       "SaaS"
-    ]
+    ],
+    "readTime": 7
   },
   {
     "slug": "aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud",
@@ -801,7 +845,8 @@
       "Omnistrate",
       "percona",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "ai-for-b2b-from-training-to-tenant-management-and-day-2-ops",
@@ -818,7 +863,8 @@
       "b2b",
       "cloud",
       "SaaS"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "omnistrate-platform-update-september-2024",
@@ -836,7 +882,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service",
@@ -853,7 +900,8 @@
       "falkordb",
       "Omnistrate",
       "SaaS"
-    ]
+    ],
+    "readTime": 7
   },
   {
     "slug": "omnistrate-platform-update-august-2024",
@@ -871,7 +919,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "omnistrate-successfully-completes-annual-soc-2-type-ii-attestation",
@@ -888,7 +937,8 @@
       "compliance",
       "security",
       "soc2"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "omnistrate-platform-update-july-2024",
@@ -906,7 +956,8 @@
       "product-release",
       "SaaS",
       "update"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "omnistrate-strengthens-aws-partnership-with-key-milestones",
@@ -924,7 +975,8 @@
       "Omnistrate",
       "press-release",
       "SaaS"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "convoy-case-study-from-two-years-to-two-weeks",
@@ -941,7 +993,8 @@
       "Convoy",
       "Omnistrate",
       "SaaS"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india",
@@ -959,7 +1012,8 @@
       "SaaS",
       "silicon-india",
       "top-companies"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "omnistrate-successfully-achieves-soc-2-type-ii-compliance-and-completes-external-penetration-testing",
@@ -976,7 +1030,8 @@
       "press-release",
       "SaaS",
       "security"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "omnistrate-joins-cncf-family-sponsors-cncf-and-open-sources-saasbuilder",
@@ -995,7 +1050,8 @@
       "Omnistrate",
       "press-release",
       "SaaS"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "omnistrate-welcomes-michael-cooper-as-new-gtm-executive-leader",
@@ -1013,7 +1069,8 @@
       "Omnistrate",
       "press-release",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "omnistrate-platform-update-june-2024",
@@ -1032,7 +1089,8 @@
       "SaaS",
       "startup",
       "update"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "rethinking-open-source-licenses-empowering-startups-with-omnistrate",
@@ -1050,7 +1108,8 @@
       "open-source",
       "SaaS",
       "startups"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "why-oss-creators-need-to-start-with-saas",
@@ -1067,7 +1126,8 @@
       "Cloud Marketplace",
       "open-source",
       "SaaS"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "omnistrate-platform-update-may-2024",
@@ -1084,7 +1144,8 @@
       "SaaS",
       "startup",
       "update"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "should-your-startup-start-with-saas",
@@ -1100,7 +1161,8 @@
       "cloud",
       "SaaS",
       "startups"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "omnistrate-platform-update-april-2024",
@@ -1117,7 +1179,8 @@
       "SaaS",
       "startup",
       "update"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "restoring-the-promise-of-open-source-with-omnistrate",
@@ -1133,7 +1196,8 @@
       "cloud",
       "open-source",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "omnistrate-platform-update-march-2024",
@@ -1150,7 +1214,8 @@
       "SaaS",
       "startup",
       "update"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "the-three-key-components-of-building-a-billing-system",
@@ -1166,7 +1231,8 @@
       "billing",
       "cloud",
       "SaaS"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "understanding-saas-billing-models",
@@ -1183,7 +1249,8 @@
       "cloud",
       "open-source",
       "SaaS"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "omnistrate-platform-update-february-2024",
@@ -1200,7 +1267,8 @@
       "SaaS",
       "startup",
       "update"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "abcs-of-control-plane",
@@ -1217,7 +1285,8 @@
       "control plane",
       "control-plane",
       "SaaS"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "multi-cloud-how-to-manage-complexity-and-opportunity-on-day-1",
@@ -1232,7 +1301,8 @@
     "tags": [
       "multi-cloud",
       "platform engineering"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "helping-entrepreneurs-to-improve-their-startup-success-odds-by-10x",
@@ -1250,7 +1320,8 @@
       "SaaS",
       "startups",
       "time"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-saas",
@@ -1273,7 +1344,8 @@
       "SaaS",
       "startup",
       "vpa"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "startup-challenges-and-how-to-improve-your-odds-by-10x",
@@ -1294,7 +1366,8 @@
       "PMF",
       "revenue",
       "SaaS"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "accelerating-saas-innovation-omnistrate-s-latest-platform-release",
@@ -1309,7 +1382,8 @@
     "tags": [
       "cloud",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "navigating-the-operational-puzzle-of-saas",
@@ -1326,7 +1400,8 @@
       "day-2",
       "operations",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "unlocking-the-complexity-of-billing-in-saas",
@@ -1344,7 +1419,8 @@
       "marketplace",
       "metering",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "fortifying-saas-safeguarding-data-and-compliance-across-layers",
@@ -1361,7 +1437,8 @@
       "compliance",
       "SaaS",
       "security"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "challenges-in-streamlining-saas-user-experiences",
@@ -1378,7 +1455,8 @@
       "SaaS",
       "saas management",
       "UX"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "saas-reliability-achieving-high-availability",
@@ -1395,7 +1473,8 @@
       "high availability",
       "reliability",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "strategies-for-seamless-saas-deployment",
@@ -1413,7 +1492,8 @@
       "saas provisioning",
       "tenant management",
       "tenant provisioning"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "tenant-isolation-strategy-for-your-saas-application",
@@ -1429,7 +1509,8 @@
       "cloud",
       "SaaS",
       "tenant isolation"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "control-plane-unpacking-the-build-vs-buy-dilemma",
@@ -1446,7 +1527,8 @@
       "cloud",
       "control plane",
       "SaaS"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "role-of-kubernetes-operators-in-saas-development",
@@ -1465,7 +1547,8 @@
       "Kubernetes",
       "operator",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "beyond-terraform-building-scalable-saas-infrastructure",
@@ -1482,7 +1565,8 @@
       "infrastructure management",
       "SaaS",
       "terraform"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "hello-world-saas-design-and-its-challenges",
@@ -1498,7 +1582,8 @@
       "cloud",
       "Kubernetes",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "top-5-saas-mistakes-to-avoid",
@@ -1513,7 +1598,8 @@
     "tags": [
       "cloud",
       "SaaS"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "need-for-saas-abstractions",
@@ -1531,7 +1617,8 @@
       "operating systems",
       "OS",
       "SaaS"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "the-saas-revolution-transforming-software-delivery-forever",
@@ -1548,7 +1635,8 @@
       "SaaS",
       "software delivery",
       "technology"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "introducing-omnistrate-platform",
@@ -1565,7 +1653,8 @@
       "multi-cloud",
       "open-source",
       "SaaS"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "what-is-a-saas-control-plane",
@@ -1585,7 +1674,8 @@
       "open-source",
       "SaaS",
       "terraform"
-    ]
+    ],
+    "readTime": 14
   },
   {
     "slug": "why-we-built-omnistrate",
@@ -1602,7 +1692,8 @@
       "multi-cloud",
       "open-source",
       "SaaS"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "a-200-billion-dollar-business-that-you-cannot-ignore",
@@ -1617,7 +1708,8 @@
     "tags": [
       "SaaS",
       "startup"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "lifecycle-management-and-infrastructure-cleanup-the-overlooked-challenge-of-efficiently-decommissioning-resources",
@@ -1634,7 +1726,8 @@
       "cloud-agnostic",
       "cloud-native",
       "SaaS"
-    ]
+    ],
+    "readTime": 10
   },
   {
     "slug": "simplifying-multi-cloud-multi-tenant-saas-deployments-with-infrastructure-as-code-iac",
@@ -1651,7 +1744,8 @@
       "cloud-agnostic",
       "cloud-native",
       "SaaS"
-    ]
+    ],
+    "readTime": 7
   },
   {
     "slug": "day-2-operations-saas-maintenance",
@@ -1667,7 +1761,8 @@
       "cloud",
       "platform engineering",
       "SaaS"
-    ]
+    ],
+    "readTime": 9
   },
   {
     "slug": "saas-capabilities-what-does-it-really-entail",
@@ -1683,7 +1778,8 @@
       "cloud",
       "platform engineering",
       "SaaS"
-    ]
+    ],
+    "readTime": 7
   },
   {
     "slug": "challenges-in-building-saas-billing",
@@ -1701,7 +1797,8 @@
       "metrics",
       "platform engineering",
       "SaaS"
-    ]
+    ],
+    "readTime": 11
   },
   {
     "slug": "provisioning-and-deployments-your-saas-foundation",
@@ -1718,7 +1815,8 @@
       "platform engineering",
       "provisioning",
       "SaaS"
-    ]
+    ],
+    "readTime": 12
   },
   {
     "slug": "why-enterprises-are-shifting-to-saas",
@@ -1734,7 +1832,8 @@
       "cloud",
       "enterprise",
       "SaaS"
-    ]
+    ],
+    "readTime": 12
   },
   {
     "slug": "diving-deep-into-control-and-data-plane-responsibilities",
@@ -1751,7 +1850,8 @@
       "control plane",
       "data plane",
       "SaaS"
-    ]
+    ],
+    "readTime": 10
   },
   {
     "slug": "everything-about-scaling",
@@ -1769,7 +1869,8 @@
       "platform engineering",
       "scale",
       "scaling"
-    ]
+    ],
+    "readTime": 16
   },
   {
     "slug": "cloud-platform-monitoring-and-auto-recovery-challenges-part-2",
@@ -1786,7 +1887,8 @@
       "fault-tolerance",
       "monitoring",
       "platform engineering"
-    ]
+    ],
+    "readTime": 11
   },
   {
     "slug": "cloud-platform-monitoring-and-auto-recovery-challenges-part-1",
@@ -1803,7 +1905,8 @@
       "fault-tolerance",
       "monitoring",
       "platform engineering"
-    ]
+    ],
+    "readTime": 10
   },
   {
     "slug": "why-is-the-saas-paradigm-so-powerful",
@@ -1819,7 +1922,8 @@
       "cloud",
       "multi-cloud",
       "SaaS"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "introduction-to-control-plane-and-data-plane",
@@ -1836,7 +1940,8 @@
       "control-plane",
       "data-plane",
       "SaaS"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "omnistrate-s-journey-of-trust-continues-from-soc-2-type-i-to-type-ii",
@@ -1853,7 +1958,8 @@
       "compliance",
       "security",
       "soc2"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "the-future-of-saas-and-kubernetes-trends-and-predictions",
@@ -1869,7 +1975,8 @@
       "cloud",
       "Kubernetes",
       "SaaS"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "inside-the-cloud-understanding-iaas-paas-and-saas",
@@ -1887,7 +1994,8 @@
       "cloud",
       "cloud fundamentals",
       "gcp"
-    ]
+    ],
+    "readTime": 10
   },
   {
     "slug": "distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users",
@@ -1904,7 +2012,8 @@
       "cloud",
       "cloud-native",
       "scaling"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned",
@@ -1922,7 +2031,8 @@
       "distributed",
       "multi-cloud",
       "security"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills",
@@ -1940,7 +2050,8 @@
       "cloud-agnostic",
       "cloud-native",
       "Kubernetes"
-    ]
+    ],
+    "readTime": 13
   },
   {
     "slug": "a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres",
@@ -1958,7 +2069,8 @@
       "monitoring",
       "multi-cloud",
       "sre"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust",
@@ -1975,7 +2087,8 @@
       "compliance",
       "data-security",
       "soc2"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "managing-open-search-across-multiple-clouds-a-guide-to-overcoming-challenges",
@@ -1993,7 +2106,8 @@
       "elastic",
       "multi-cloud",
       "open-search"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "unlocking-the-full-potential-of-kubernetes-with-amazon-linux-2023",
@@ -2011,7 +2125,8 @@
       "cloud-agnostic",
       "cloud-native",
       "Kubernetes"
-    ]
+    ],
+    "readTime": 3
   },
   {
     "slug": "aks-edge-essentials-on-premises-kubernetes-implementation-of-azure-kubernetes-service",
@@ -2028,7 +2143,8 @@
       "cloud-agnostic",
       "cloud-native",
       "Kubernetes"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "an-introduction-to-kubernetes-based-event-driven-autoscaling",
@@ -2045,7 +2161,8 @@
       "cloud-agnostic",
       "cloud-native",
       "event-driven"
-    ]
+    ],
+    "readTime": 5
   },
   {
     "slug": "how-to-achieve-autoscaling-in-multi-cloud-kubernetes-deployments",
@@ -2061,7 +2178,8 @@
       "cloud",
       "cloud-native",
       "multi-cloud"
-    ]
+    ],
+    "readTime": 7
   },
   {
     "slug": "where-did-the-cloud-model-go-wrong",
@@ -2076,7 +2194,8 @@
     "tags": [
       "cloud",
       "open-source"
-    ]
+    ],
+    "readTime": 2
   },
   {
     "slug": "cloud-native-vs-cloud-agnostic-weighing-the-trade-offs",
@@ -2092,7 +2211,8 @@
       "cloud",
       "cloud-agnostic",
       "cloud-native"
-    ]
+    ],
+    "readTime": 10
   },
   {
     "slug": "emergence-future-of-open-source-and-cloud",
@@ -2107,7 +2227,8 @@
     "tags": [
       "cloud",
       "open-source"
-    ]
+    ],
+    "readTime": 4
   },
   {
     "slug": "maximizing-cloud-native-success-with-the-twelve-factor-app-methodology",
@@ -2123,7 +2244,8 @@
       "12-factors",
       "cloud",
       "cloud-native"
-    ]
+    ],
+    "readTime": 6
   },
   {
     "slug": "what-is-a-cloud",
@@ -2141,6 +2263,7 @@
       "cloud",
       "cloud fundamentals",
       "gcp"
-    ]
+    ],
+    "readTime": 6
   }
 ]

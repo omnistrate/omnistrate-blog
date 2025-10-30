@@ -1,13 +1,17 @@
 ---
 title: Introducing Omnistrate Platform
-tags: "cloud, multi-cloud, open-source, SaaS"
+tags: 'cloud, multi-cloud, open-source, SaaS'
 date: '2024-01-28 20:20:40'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'As we contemplated building the SaaS platform, we divided the requirements into 5 packages. If you are building a SaaS from scratch, you will likely need all the layers.'
+excerpt: >-
+  As we contemplated building the SaaS platform, we divided the requirements
+  into 5 packages. If you are building a SaaS from scratch, you will likely need
+  all the layers.
 slug: introducing-omnistrate-platform
+readTime: 5
 ---
 
 As we contemplated building the SaaS platform, we divided the [requirements][1] into 5 packages. If you are building a SaaS from scratch, you will likely need all the layers. 

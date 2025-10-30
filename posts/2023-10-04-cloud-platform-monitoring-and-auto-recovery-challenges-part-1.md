@@ -1,13 +1,17 @@
 ---
 title: Cloud Platform Monitoring and Auto-Recovery Challenges - Part 1
-tags: "cloud, fault-tolerance, monitoring, platform engineering"
+tags: 'cloud, fault-tolerance, monitoring, platform engineering'
 date: '2023-10-04 03:08:26'
 author:
   name: Joshua Buss
   email: joshua@omnistrate.com
   picture: ''
-excerpt: Introduction to Cloud Monitoring. Most people who work in platform engineering and cloud infrastructure are aware that you need to design both your applications and your underlying platform...
+excerpt: >-
+  Introduction to Cloud Monitoring. Most people who work in platform engineering
+  and cloud infrastructure are aware that you need to design both your
+  applications and your underlying platform...
 slug: cloud-platform-monitoring-and-auto-recovery-challenges-part-1
+readTime: 10
 ---
 
 <h2>Introduction to Cloud Monitoring</h2>

@@ -1,13 +1,17 @@
 ---
 title: "Omnistrate Successfully Completes Annual SOC 2 Type II Attestation \U0001F6E1️\U0001F680"
-tags: "cloud, compliance, security, soc2"
+tags: 'cloud, compliance, security, soc2'
 date: '2024-09-04 05:20:26'
 author:
   name: Amit Sharma
   email: amits@omnistrate.com
   picture: ''
-excerpt: 'We are delighted to announce that Omnistrate has successfully completed its annual SOC 2 Type II attestation, a significant milestone in our ongoing commitment to safeguarding our customers'' data.'
+excerpt: >-
+  We are delighted to announce that Omnistrate has successfully completed its
+  annual SOC 2 Type II attestation, a significant milestone in our ongoing
+  commitment to safeguarding our customers' data.
 slug: omnistrate-successfully-completes-annual-soc-2-type-ii-attestation
+readTime: 2
 ---
 
 We are delighted to announce that Omnistrate has successfully completed its annual SOC 2 Type II attestation, a significant milestone in our ongoing commitment to safeguarding our customers' data. This achievement demonstrates our commitment to maintaining the highest standards of security, accessibility, and confidentiality.

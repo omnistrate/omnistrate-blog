@@ -1,13 +1,17 @@
 ---
-title: Omnistrate Enables CrystalDB to Transform AutoDBA into a Multi-Cloud Cloud Service
-tags: "case-study, cloud, crystaldb, Omnistrate, open-source, SaaS"
+title: >-
+  Omnistrate Enables CrystalDB to Transform AutoDBA into a Multi-Cloud Cloud
+  Service
+tags: 'case-study, cloud, crystaldb, Omnistrate, open-source, SaaS'
 date: '2025-02-19 18:09:26'
 author:
   name: Michael Cooper
   email: michaelc@omnistrate.com
   picture: ''
 excerpt: '"Omnistrate made it easy for us to launch AutoDBA as a SaaS product.'
-slug: omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service
+slug: >-
+  omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service
+readTime: 3
 ---
 
 > "Omnistrate made it easy for us to launch AutoDBA as a SaaS product.

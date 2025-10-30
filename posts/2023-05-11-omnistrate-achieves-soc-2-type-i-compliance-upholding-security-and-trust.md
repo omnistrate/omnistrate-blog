@@ -1,13 +1,17 @@
 ---
 title: "Omnistrate Achieves SOC 2 Type I Compliance: Upholding Security and Trust \U0001F396️"
-tags: "cloud-security-standard, compliance, data-security, soc2"
+tags: 'cloud-security-standard, compliance, data-security, soc2'
 date: '2023-05-11 15:24:07'
 author:
   name: Amit Sharma
   email: amits@omnistrate.com
   picture: ''
-excerpt: 'Omnistrate, Inc., a B2B SaaS company that revolutionizes the way software offerings are turned into multi-cloud SaaS services, is pleased to announce that it has successfully achieved Service...'
+excerpt: >-
+  Omnistrate, Inc., a B2B SaaS company that revolutionizes the way software
+  offerings are turned into multi-cloud SaaS services, is pleased to announce
+  that it has successfully achieved Service...
 slug: omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust
+readTime: 4
 ---
 
 Omnistrate, Inc., a B2B SaaS company that revolutionizes the way software offerings are turned into multi-cloud SaaS services, is pleased to announce that it has successfully achieved Service Organization Control (SOC) 2 Type I compliance. This accomplishment serves as an industry-recognized validation of Omnistrate's commitment to maintaining the highest standards of security, confidentiality, and availability for its customers' data across multi-cloud environments.

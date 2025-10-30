@@ -1,13 +1,19 @@
 ---
-title: '[AI Series] What is BYOC, and why does it matter? (Apps must “Go to the Data” in 2025)'
-tags: "AI, BYOA, BYOC, Omnistrate, SaaS"
+title: >-
+  [AI Series] What is BYOC, and why does it matter? (Apps must “Go to the Data”
+  in 2025)
+tags: 'AI, BYOA, BYOC, Omnistrate, SaaS'
 date: '2025-02-02 20:01:03'
 author:
   name: Michael Cooper
   email: michaelc@omnistrate.com
   picture: ''
-excerpt: 'Applications are only as good as the data that powers them, and companies are putting more and more restrictions on where their proprietary data is accessible from.'
+excerpt: >-
+  Applications are only as good as the data that powers them, and companies are
+  putting more and more restrictions on where their proprietary data is
+  accessible from.
 slug: ai-series-what-is-byoc-and-why-does-it-matter-apps-must-go-to-the-data-in-2025
+readTime: 6
 ---
 
 Applications are only as good as the data that powers them, and companies are putting more and more restrictions on where their proprietary data is accessible from.  In 2025 we see these issues accelerating even faster, as companies will find even more reasons to not allow their proprietary data outside of their realm of control.  

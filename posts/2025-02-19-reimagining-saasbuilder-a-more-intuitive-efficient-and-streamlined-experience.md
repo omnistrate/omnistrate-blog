@@ -1,13 +1,18 @@
 ---
-title: 'Reimagining SaaSBuilder: A More Intuitive, Efficient and Streamlined Experience'
-tags: "open-source, saasbuilder"
+title: >-
+  Reimagining SaaSBuilder: A More Intuitive, Efficient and Streamlined
+  Experience
+tags: 'open-source, saasbuilder'
 date: '2025-02-19 18:48:08'
 author:
   name: Nihal Mohammed
   email: nihalm@omnistrate.com
   picture: ''
-excerpt: Introduction SaaSBuilder provides a ready-to-use interface for our customers to quickly launch their SaaS offerings on Omnistrate Platform.
+excerpt: >-
+  Introduction SaaSBuilder provides a ready-to-use interface for our customers
+  to quickly launch their SaaS offerings on Omnistrate Platform.
 slug: reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience
+readTime: 6
 ---
 
 

@@ -1,13 +1,17 @@
 ---
 title: 'Accelerating SaaS Innovation: Omnistrate''s Latest Platform Release'
-tags: "cloud, SaaS"
+tags: 'cloud, SaaS'
 date: '2024-02-09 17:26:39'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Over the past year of relentless building, we’ve released a number of features in our platform that made it easy to build, access, and operate SaaS for our customers.'
+excerpt: >-
+  Over the past year of relentless building, we’ve released a number of features
+  in our platform that made it easy to build, access, and operate SaaS for our
+  customers.
 slug: accelerating-saas-innovation-omnistrate-s-latest-platform-release
+readTime: 2
 ---
 
 Over the past year of relentless building, we’ve released a number of features in our platform that made it easy to build, access, and operate SaaS for our customers. We want to share with everyone what we have achieved so far.

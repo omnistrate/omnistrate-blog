@@ -1,13 +1,16 @@
 ---
 title: AWS and Omnistrate partnered to bring FalkorDB Managed Cloud Service
-tags: "case-study, falkordb, Omnistrate, SaaS"
+tags: 'case-study, falkordb, Omnistrate, SaaS'
 date: '2024-10-01 12:13:56'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: '“Omnistrate dramatically accelerated our GTM, cutting launch time from months to weeks.'
+excerpt: >-
+  “Omnistrate dramatically accelerated our GTM, cutting launch time from months
+  to weeks.
 slug: aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service
+readTime: 7
 ---
 
 ![AWS Logo][6]

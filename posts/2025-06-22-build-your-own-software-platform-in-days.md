@@ -1,13 +1,16 @@
 ---
 title: Build your own Software Platform in days
-tags: "BYOC, ControlPlane, Distribution Channels, OnPrem, PaaS, SaaS"
+tags: 'BYOC, ControlPlane, Distribution Channels, OnPrem, PaaS, SaaS'
 date: '2025-06-22 00:01:11'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'In the software industry, entrepreneurs have to go through 4 phases of innovation to build a product: Idea: What change are they trying to make?'
+excerpt: >-
+  In the software industry, entrepreneurs have to go through 4 phases of
+  innovation to build a product: Idea: What change are they trying to make?
 slug: build-your-own-software-platform-in-days
+readTime: 7
 ---
 
 In the software industry, entrepreneurs have to go through 4 phases of innovation to build a product:

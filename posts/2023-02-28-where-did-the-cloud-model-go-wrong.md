@@ -1,13 +1,16 @@
 ---
 title: Where did the Cloud model go wrong?
-tags: "cloud, open-source"
+tags: 'cloud, open-source'
 date: '2023-02-28 20:20:38'
 author:
   name: Team Omnistrate
   email: team@omnistrate.com
   picture: ''
-excerpt: 'In our last post, we talked about the emergence of the Cloud and we feel this is where the Cloud model went wrong.'
+excerpt: >-
+  In our last post, we talked about the emergence of the Cloud and we feel this
+  is where the Cloud model went wrong.
 slug: where-did-the-cloud-model-go-wrong
+readTime: 2
 ---
 
 In our last [post][1], we talked about the emergence of the Cloud and we feel this is where the Cloud model went wrong. 

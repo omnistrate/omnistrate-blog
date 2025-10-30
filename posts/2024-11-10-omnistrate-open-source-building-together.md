@@ -1,13 +1,16 @@
 ---
 title: 'Omnistrate + Open Source: Building Together'
-tags: "cloud, open-source, SaaS"
+tags: 'cloud, open-source, SaaS'
 date: '2024-11-10 00:18:43'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'This space hosts a variety of projects and tools designed to help developers leverage the full potential of Omnistrate’s platform.'
+excerpt: >-
+  This space hosts a variety of projects and tools designed to help developers
+  leverage the full potential of Omnistrate’s platform.
 slug: omnistrate-open-source-building-together
+readTime: 2
 ---
 
 We’re also expanding our Open Source contributions, fostering community collaboration with new GitHub organizations, and bringing tools and SDKs for a better developer experience.

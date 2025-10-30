@@ -1,7 +1,6 @@
 "use client";
 
-import { useMemo, useState, useEffect, Suspense } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useMemo, useState, useEffect, useRef } from "react";
 import { Container } from "./components/container";
 import { PostCard } from "./components/post-card";
 import { SearchBar } from "./components/search-bar";
@@ -15,33 +14,18 @@ import {
   PaginationPrevious
 } from "@/components/ui/pagination";
 import postsMetadata from "@/data/posts-metadata.json";
+import { DisplayLG, TextMD, TextXL } from "@/components/text";
 
 const POSTS_PER_PAGE = 24;
 
-function HomepageContent() {
-  const router = useRouter();
-  const searchParams = useSearchParams();
-  const searchQuery = searchParams.get("search") || "";
-
-  const [searchTerm, setSearchTerm] = useState(searchQuery);
+function Homepage() {
+  const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
+  const searchBarRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    setSearchTerm(searchQuery);
     setCurrentPage(1); // Reset to page 1 when search changes
-  }, [searchQuery]);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      if (searchTerm.trim() && searchTerm !== searchQuery) {
-        router.push(`/?search=${encodeURIComponent(searchTerm)}`);
-      } else if (!searchTerm.trim() && searchQuery) {
-        router.push("/");
-      }
-    }, 300);
-
-    return () => clearTimeout(timer);
-  }, [searchTerm, searchQuery, router]);
+  }, [searchTerm]);
 
   const filteredPosts = useMemo(() => {
     if (!searchTerm.trim()) return postsMetadata;
@@ -64,93 +48,92 @@ function HomepageContent() {
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    const element = searchBarRef.current;
+    if (element) {
+      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+      const offsetPosition = elementPosition - 100; // Add 100px offset for better visibility
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
   };
 
   return (
-    <main>
-      <Container>
-        <div className="w-full">
-          <SearchBar value={searchTerm} onChange={setSearchTerm} />
+    <Container>
+      <TextMD className="text-center mb-3 mt- 8 md:mt-12 lg:mt-16">Our blog</TextMD>
+      <DisplayLG className="text-center mb-6 tracking-tight">Insights for the Builders of Cloud Platforms</DisplayLG>
+      <TextXL className="font-normal text-[#535862] text-center mx-auto max-w-4xl">
+        Stories, lessons, and product deep dives from the team behind Omnistrate — helping you launch, scale, and
+        distribute SaaS smarter.
+      </TextXL>
 
-          {filteredPosts.length > 0 ? (
-            <>
-              <section className="mb-8">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-fr">
-                  {paginatedPosts.map((post) => (
-                    <PostCard key={post.slug} post={post} />
-                  ))}
-                </div>
-              </section>
+      <SearchBar
+        ref={searchBarRef}
+        value={searchTerm}
+        onChange={setSearchTerm}
+        currentPage={currentPage}
+        totalPages={totalPages}
+      />
 
-              {totalPages > 1 && (
-                <Pagination className="mb-16">
-                  <PaginationContent>
-                    <PaginationItem>
-                      <PaginationPrevious
-                        href="#"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          if (currentPage > 1) handlePageChange(currentPage - 1);
-                        }}
-                        className={currentPage === 1 ? "pointer-events-none opacity-50" : "cursor-pointer"}
-                      />
-                    </PaginationItem>
+      {filteredPosts.length > 0 ? (
+        <>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12 mb-16 md:mb-20">
+            {paginatedPosts.map((post) => (
+              <PostCard key={post.slug} post={post} />
+            ))}
+          </div>
 
-                    {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-                      <PaginationItem key={page}>
-                        <PaginationLink
-                          href="#"
-                          onClick={(e) => {
-                            e.preventDefault();
-                            handlePageChange(page);
-                          }}
-                          isActive={currentPage === page}
-                          className="cursor-pointer"
-                        >
-                          {page}
-                        </PaginationLink>
-                      </PaginationItem>
-                    ))}
+          {totalPages > 1 && (
+            <Pagination className="mb-16">
+              <PaginationContent>
+                <PaginationItem>
+                  <PaginationPrevious
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      if (currentPage > 1) handlePageChange(currentPage - 1);
+                    }}
+                    className={currentPage === 1 ? "pointer-events-none opacity-50" : "cursor-pointer"}
+                  />
+                </PaginationItem>
 
-                    <PaginationItem>
-                      <PaginationNext
-                        href="#"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          if (currentPage < totalPages) handlePageChange(currentPage + 1);
-                        }}
-                        className={currentPage === totalPages ? "pointer-events-none opacity-50" : "cursor-pointer"}
-                      />
-                    </PaginationItem>
-                  </PaginationContent>
-                </Pagination>
-              )}
-            </>
-          ) : (
-            <LoadingState message={searchTerm ? `No posts found matching "${searchTerm}"` : "No posts found."} />
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                  <PaginationItem key={page}>
+                    <PaginationLink
+                      href="#"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        handlePageChange(page);
+                      }}
+                      isActive={currentPage === page}
+                      className="cursor-pointer"
+                    >
+                      {page}
+                    </PaginationLink>
+                  </PaginationItem>
+                ))}
+
+                <PaginationItem>
+                  <PaginationNext
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      if (currentPage < totalPages) handlePageChange(currentPage + 1);
+                    }}
+                    className={currentPage === totalPages ? "pointer-events-none opacity-50" : "cursor-pointer"}
+                  />
+                </PaginationItem>
+              </PaginationContent>
+            </Pagination>
           )}
-        </div>
-      </Container>
-    </main>
+        </>
+      ) : (
+        <LoadingState message={searchTerm ? `No posts found matching "${searchTerm}"` : "No posts found."} />
+      )}
+    </Container>
   );
 }
 
-export default function Homepage() {
-  return (
-    <Suspense
-      fallback={
-        <main>
-          <Container>
-            <div className="w-full">
-              <SearchBar disabled />
-              <LoadingState />
-            </div>
-          </Container>
-        </main>
-      }
-    >
-      <HomepageContent />
-    </Suspense>
-  );
-}
+export default Homepage;

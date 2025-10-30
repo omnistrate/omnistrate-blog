@@ -1,13 +1,17 @@
 ---
 title: Omnistrate Platform Update (May 2025)
-tags: "cloud, platform, product-release, SaaS, update"
+tags: 'cloud, platform, product-release, SaaS, update'
 date: '2025-06-10 16:23:04'
 author:
   name: Pablo Berton
   email: pberton@omnistrate.com
   picture: ''
-excerpt: "Exciting New Features in Omnistrate End-customer SSO support in SaaSPortal End-customer SSO support in SaaSPortal enables it to easily integrate with your customers’ Identity Provider (IdP),..."
+excerpt: >-
+  Exciting New Features in Omnistrate End-customer SSO support in SaaSPortal
+  End-customer SSO support in SaaSPortal enables it to easily integrate with
+  your customers’ Identity Provider (IdP),...
 slug: omnistrate-platform-update-may-2025
+readTime: 6
 ---
 
 

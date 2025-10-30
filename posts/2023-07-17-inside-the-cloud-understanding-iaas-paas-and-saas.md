@@ -1,13 +1,17 @@
 ---
 title: 'Inside the Cloud - Understanding IaaS, PaaS and SaaS'
-tags: "aws, azure, cloud, cloud fundamentals, gcp"
+tags: 'aws, azure, cloud, cloud fundamentals, gcp'
 date: '2023-07-17 07:51:31'
 author:
   name: Amit Sharma
   email: amits@omnistrate.com
   picture: ''
-excerpt: The proliferation of various cloud computing services has resulted in the widespread adoption of several new concepts and vocabularies in the world of IT infrastructure.
+excerpt: >-
+  The proliferation of various cloud computing services has resulted in the
+  widespread adoption of several new concepts and vocabularies in the world of
+  IT infrastructure.
 slug: inside-the-cloud-understanding-iaas-paas-and-saas
+readTime: 10
 ---
 
 The proliferation of various cloud computing services has resulted in the widespread adoption of several new concepts and vocabularies in the world of IT infrastructure. IaaS, PaaS, and SaaS are frequently given examples of these cloud services. Yet, there isn't always enough information on hand to make the distinctions among these categories of cloud deployment models very clear. This article aims to clarify these concepts, go deeper into their background, present examples, explain use cases, and emphasize their main differences.

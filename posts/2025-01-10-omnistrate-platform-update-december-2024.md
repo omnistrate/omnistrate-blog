@@ -1,13 +1,16 @@
 ---
 title: Omnistrate Platform Update (December 2024)
-tags: "cloud, platform, product-release, SaaS, update"
+tags: 'cloud, platform, product-release, SaaS, update'
 date: '2025-01-10 20:18:14'
 author:
   name: Amit Sharma
   email: amits@omnistrate.com
   picture: ''
-excerpt: We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!
+excerpt: >-
+  We’re thrilled to introduce several powerful updates that enhance the
+  Omnistrate platform!
 slug: omnistrate-platform-update-december-2024
+readTime: 5
 ---
 
 ![Omnistrate Updates](https://mcusercontent.com/08ffbac64293e1abc50999571/images/e69cda54-a65c-9baf-49a1-b1e4a87b689d.png)

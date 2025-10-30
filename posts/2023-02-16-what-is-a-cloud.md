@@ -1,13 +1,16 @@
 ---
 title: What is a Cloud?
-tags: "aws, azure, cloud, cloud fundamentals, gcp"
+tags: 'aws, azure, cloud, cloud fundamentals, gcp'
 date: '2023-02-16 00:12:53'
 author:
   name: Team Omnistrate
   email: team@omnistrate.com
   picture: ''
-excerpt: The term Cloud isn’t a physical entity but is meant to represent the infrastructure of the internet.
+excerpt: >-
+  The term Cloud isn’t a physical entity but is meant to represent the
+  infrastructure of the internet.
 slug: what-is-a-cloud
+readTime: 6
 ---
 
 The term Cloud isn’t a physical entity but is meant to represent the infrastructure of the internet. It’s called Cloud to signify that the users of the Cloud don’t have to worry about the underlying complexities of the infrastructure but can use it as building blocks for their application. Behind the scenes, the cloud is a vast network of physical machines across the globe connected together and abstracted for its end users for dedicated tasks from running applications to storing data to managed applications.

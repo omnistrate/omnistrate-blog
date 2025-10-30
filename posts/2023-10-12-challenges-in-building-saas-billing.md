@@ -1,13 +1,16 @@
 ---
 title: Challenges in Building SaaS Billing
-tags: "billing, cloud, metrics, platform engineering, SaaS"
+tags: 'billing, cloud, metrics, platform engineering, SaaS'
 date: '2023-10-12 16:38:44'
 author:
   name: Joshua Buss
   email: joshua@omnistrate.com
   picture: ''
-excerpt: By far the most consistent area of focus I’ve had in my career is monitoring and observability.
+excerpt: >-
+  By far the most consistent area of focus I’ve had in my career is monitoring
+  and observability.
 slug: challenges-in-building-saas-billing
+readTime: 11
 ---
 
 By far the most consistent area of focus I’ve had in my career is monitoring and observability.  Way back in 2005 while at Orbitz, I had the opportunity to learn from and work alongside Chris Davis, the original author of Graphite.  It was an enormous success both at Orbitz and within the industry as a whole, and it’s been an honor and privilege to essentially ride that initial wave of monitoring innovation my whole career.

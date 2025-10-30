@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Box, styled, Typography, useMediaQuery, useTheme } from "@mui/material";
+import { Box, styled, useMediaQuery, useTheme } from "@mui/material";
 
 import SocLogo from "@/public/footer/soc-logo.svg";
 import fbLogo from "@/public/footer/fb.png";
@@ -14,6 +14,7 @@ import omnistrateLogo from "@/public/logos/omnistrate-logo-black-font.png";
 import { API_DOCS_URL, PRODUCT_URL, SITE_URL, WEBSITE_URL, YOUTUBE_CHANNEL_URL } from "@/constants/site";
 import { SectionContainer } from "./SectionComponents";
 import { useCookieConsentContext } from "@/context/cookieConsentContext";
+import { TextSM } from "./text";
 
 const Grid = styled("div", {
   shouldForwardProp: (prop) => prop !== "isBelowDesktop"
@@ -130,9 +131,7 @@ const MobileFooter = () => {
         <Box mb="24px">
           <Image src={SocLogo} alt="soc logo" className="mx-auto" />
         </Box>
-        <Typography fontSize="14px" lineHeight="20px" color="#9CA3AF">
-          © {new Date().getFullYear()} Omnistrate, Inc. All rights reserved.
-        </Typography>
+        <TextSM className="text-[#9CA3AF]">© {new Date().getFullYear()} Omnistrate, Inc. All rights reserved.</TextSM>
       </Box>
     </>
   );
@@ -146,15 +145,15 @@ function Footer() {
   const { openCookieConsentModal } = useCookieConsentContext();
 
   return (
-    <footer>
-      <SectionContainer className="border-t border-[#E9EAEB]">
+    <footer className="border-t border-[#E9EAEB]">
+      <SectionContainer>
         {isBelowTablet ? (
           <MobileFooter />
         ) : (
           <>
             {isBelowDesktop && (
               <Box mb="26px">
-                <Link href="/">
+                <Link href={WEBSITE_URL}>
                   <OmnistrateLogo />
                 </Link>
               </Box>
@@ -163,7 +162,7 @@ function Footer() {
             <Grid isBelowDesktop={isBelowDesktop}>
               {!isBelowDesktop && (
                 <Column>
-                  <Link href="/">
+                  <Link href={WEBSITE_URL}>
                     <OmnistrateLogo />
                   </Link>
                 </Column>
@@ -301,9 +300,9 @@ function Footer() {
               </Column>
             </Grid>
             <Box className="flex items-center justify-end">
-              <Typography fontSize="14px" lineHeight="20px" color="#6B7280">
+              <TextSM className="text-[#6B7280]">
                 © {new Date().getFullYear()} Omnistrate, Inc. All rights reserved.
-              </Typography>
+              </TextSM>
             </Box>
           </>
         )}

@@ -1,6 +1,6 @@
 ---
 title: Everything about Scaling
-tags: "autoscaling, cloud, platform engineering, scale, scaling"
+tags: 'autoscaling, cloud, platform engineering, scale, scaling'
 date: '2023-10-05 21:23:25'
 author:
   name: Joshua Buss
@@ -8,6 +8,7 @@ author:
   picture: ''
 excerpt: 'Scaling - it’s the reason we’re all using this cloud thing anyway, right?'
 slug: everything-about-scaling
+readTime: 16
 ---
 
 Scaling - it’s the reason we’re all using this cloud thing anyway, right?  Surely all of your applications have been tested to effortlessly scale from 0 to 1,000 in milliseconds, and your databases can rebalance after scaling within minutes with zero impact to anything important, correct?

@@ -1,13 +1,16 @@
 ---
 title: Startup challenges and how to improve your odds by 10x
-tags: "cloud, customer-growth, distribution, funding, open-source, PMF, revenue, SaaS"
+tags: 'cloud, customer-growth, distribution, funding, open-source, PMF, revenue, SaaS'
 date: '2024-02-18 01:47:55'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Starting a business is tough, and it''s no secret that many startups don''t make it.'
+excerpt: >-
+  Starting a business is tough, and it's no secret that many startups don't make
+  it.
 slug: startup-challenges-and-how-to-improve-your-odds-by-10x
+readTime: 4
 ---
 
 Starting a business is tough, and it's no secret that many startups don't make it. Every founder faces big challenges like finding customers who love their product, making enough money to keep going, and convincing investors to believe in their vision.

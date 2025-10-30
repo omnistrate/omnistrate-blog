@@ -1,13 +1,16 @@
 ---
 title: 'The SaaS Revolution: Transforming Software Delivery Forever'
-tags: "cloud, SaaS, software delivery, technology"
+tags: 'cloud, SaaS, software delivery, technology'
 date: '2024-01-30 22:15:45'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Innovation is the heartbeat of the technology industry, a relentless pursuit to deliver greater value and meet evolving customer needs.'
+excerpt: >-
+  Innovation is the heartbeat of the technology industry, a relentless pursuit
+  to deliver greater value and meet evolving customer needs.
 slug: the-saas-revolution-transforming-software-delivery-forever
+readTime: 3
 ---
 
 *Innovation is the heartbeat of the technology industry, a relentless pursuit to deliver greater value and meet evolving customer needs.*

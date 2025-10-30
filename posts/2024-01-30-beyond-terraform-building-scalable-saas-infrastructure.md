@@ -1,13 +1,17 @@
 ---
 title: 'Beyond Terraform: Building Scalable SaaS Infrastructure'
-tags: "cloud, infrastructure management, SaaS, terraform"
+tags: 'cloud, infrastructure management, SaaS, terraform'
 date: '2024-01-30 23:37:29'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'We think that Terraform is an excellent IaC tool if you want to setup your cloud infrastructure once. However, when it comes to SaaS, we feel that it falls short on many grounds.'
+excerpt: >-
+  We think that Terraform is an excellent IaC tool if you want to setup your
+  cloud infrastructure once. However, when it comes to SaaS, we feel that it
+  falls short on many grounds.
 slug: beyond-terraform-building-scalable-saas-infrastructure
+readTime: 5
 ---
 
 We think that Terraform is an excellent IaC tool if you want to setup your cloud infrastructure once. However, when it comes to SaaS, we feel that it falls short on many grounds. Here are the basic set of things that are missing in Terraform to even accomplish proper infrastructure management for building SaaS.

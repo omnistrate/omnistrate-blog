@@ -1,13 +1,17 @@
 ---
 title: Provisioning and Deployments - Your SaaS Foundation
-tags: "cloud, platform engineering, provisioning, SaaS"
+tags: 'cloud, platform engineering, provisioning, SaaS'
 date: '2023-10-12 00:54:53'
 author:
   name: Joshua Buss
   email: joshua@omnistrate.com
   picture: ''
-excerpt: 'Before the cloud, getting fresh hardware and deploying your new software was always done in big budget events involving procurement, finance, several IT teams and the whole process included no small..'
+excerpt: >-
+  Before the cloud, getting fresh hardware and deploying your new software was
+  always done in big budget events involving procurement, finance, several IT
+  teams and the whole process included no small..
 slug: provisioning-and-deployments-your-saas-foundation
+readTime: 12
 ---
 
 Before the cloud, getting fresh hardware and deploying your new software was always done in big budget events involving procurement, finance, several IT teams and the whole process included no small amount of arguing most of the time.

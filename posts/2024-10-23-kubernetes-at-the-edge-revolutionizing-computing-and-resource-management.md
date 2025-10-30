@@ -1,13 +1,17 @@
 ---
 title: 'Kubernetes at the Edge: Revolutionizing Computing and Resource Management'
-tags: "Kubernetes, OpenSource"
+tags: 'Kubernetes, OpenSource'
 date: '2024-10-23 10:37:38'
 author:
   name: Matteo Bianchi
   email: matteob@omnistrate.com
   picture: ''
-excerpt: 'Kubernetes (k8s) has transformed the way applications are deployed in the cloud. However, its potential goes far beyond the traditional cloud infrastructure alone.'
+excerpt: >-
+  Kubernetes (k8s) has transformed the way applications are deployed in the
+  cloud. However, its potential goes far beyond the traditional cloud
+  infrastructure alone.
 slug: kubernetes-at-the-edge-revolutionizing-computing-and-resource-management
+readTime: 7
 ---
 
 Kubernetes (k8s) has transformed the way applications are deployed in the cloud. However, its potential goes far beyond the traditional cloud infrastructure alone. As computing moves towards edge environments, Kubernetes is proving to be a great enabler for managing distributed applications at the edge.

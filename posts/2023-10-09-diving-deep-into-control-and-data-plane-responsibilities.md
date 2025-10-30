@@ -1,13 +1,16 @@
 ---
 title: Diving Deep into Control and Data Plane Responsibilities
-tags: "cloud, control plane, data plane, SaaS"
+tags: 'cloud, control plane, data plane, SaaS'
 date: '2023-10-09 12:57:09'
 author:
   name: Abhishek Gupta
   email: abhishekg@omnistrate.com
   picture: ''
-excerpt: 'Building upon our initial introduction of the control and data planes, this post delves deep into the interplay between these two planes.'
+excerpt: >-
+  Building upon our initial introduction of the control and data planes, this
+  post delves deep into the interplay between these two planes.
 slug: diving-deep-into-control-and-data-plane-responsibilities
+readTime: 10
 ---
 
 Building upon our initial [introduction][1] of the control and data planes, this post delves deep into the interplay between these two planes. Shedding light on their individual roles and their combined impact on the overall SaaS experience. As we navigate through this post, we'll uncover the magic behind how these components work in tandem to ensure seamless operations, swift data transfers, and a scalable environment.

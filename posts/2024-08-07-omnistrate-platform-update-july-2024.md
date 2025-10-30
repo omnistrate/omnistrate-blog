@@ -1,13 +1,16 @@
 ---
 title: Omnistrate Platform Update (July 2024)
-tags: "Omnistrate, platform, product-release, SaaS, update"
+tags: 'Omnistrate, platform, product-release, SaaS, update'
 date: '2024-08-07 23:58:55'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Product updates We are excited to announce several new features and improvements to the Omnistrate platform!'
+excerpt: >-
+  Product updates We are excited to announce several new features and
+  improvements to the Omnistrate platform!
 slug: omnistrate-platform-update-july-2024
+readTime: 4
 ---
 
 Omnistrate, if you don’t know it already, is your SaaS Co-Pilot to build and operate a SaaS Control Plane in days!

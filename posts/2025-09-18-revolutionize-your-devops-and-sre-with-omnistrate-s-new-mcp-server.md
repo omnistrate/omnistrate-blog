@@ -1,13 +1,17 @@
-﻿---
+---
 title: Revolutionize Your DevOps and SRE with Omnistrate's new MCP server
-tags: "agent, agentic ai, AI, cloud, DevOps, mcp, sre"
+tags: 'agent, agentic ai, AI, cloud, DevOps, mcp, sre'
 date: '2025-09-18 15:21:22'
 author:
   name: Alok Nikhil
   email: alok@omnistrate.com
   picture: ''
-excerpt: "Harness the power of natural language to simplify complex cloud operations. We are thrilled to announce a new way to interact with the Omnistrate platform: native Agentic AI integrations powered by our new server."
+excerpt: >-
+  Harness the power of natural language to simplify complex cloud operations. We
+  are thrilled to announce a new way to interact with the Omnistrate platform:
+  native Agentic AI integrations powered by our new server.
 slug: revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server
+readTime: 4
 ---
 
 **Harness the power of natural language to simplify complex cloud operations.**

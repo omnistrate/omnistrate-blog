@@ -1,38 +1,25 @@
-import { Avatar } from "@/app/components/avatar";
-import { DateFormatter } from "@/app/components/date-formatter";
+import { PostChip } from "@/app/components/post-chip";
+import { DisplayMD, TextXL, TextXS } from "@/components/text";
 
-import { Author } from "@/types/author";
+import { Home } from "lucide-react";
 
 type PostHeaderProps = {
   title: string;
-  date: string;
-  author: Author;
+  excerpt: string;
+  readTime: string;
 };
 
-export const PostHeader: React.FC<PostHeaderProps> = ({ title, date, author }) => {
+export const PostHeader: React.FC<PostHeaderProps> = ({ title, excerpt, readTime }) => {
   return (
-    <div className="py-12 md:py-16 mb-12 border-b border-gray-200 dark:border-gray-800">
-      <div className="mx-auto px-6 text-center" style={{ maxWidth: '1280px' }}>
-        {/* Date */}
-        <div className="mb-6">
-          <time className="text-gray-600 dark:text-gray-400 text-sm md:text-base">
-            <DateFormatter dateString={date} />
-          </time>
-        </div>
-
-        {/* Title */}
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-8 leading-tight">
-          {title}
-        </h1>
-
-        {/* Author */}
-        <div className="flex items-center justify-center gap-3">
-          <Avatar name={author.name} picture={author.picture} />
-          <div className="text-left">
-            <p className="text-gray-900 dark:text-white font-medium"></p>
-          </div>
-        </div>
+    <div className="max-w-3xl">
+      <div className="rounded-full w-fit flex items-center border border-[#E3E8EF] py-0.5 px-2 mb-4">
+        <Home className="w-3 h-3 mr-0.5" />
+        <TextXS className="font-medium text-[#364152]">Blog</TextXS>
       </div>
+
+      <PostChip category="Product Experience" readTime={readTime} className="mb-4" />
+      <DisplayMD className="tracking-tight mb-6">{title}</DisplayMD>
+      <TextXL className="font-normal text-[#535862]">{excerpt}</TextXL>
     </div>
   );
 };

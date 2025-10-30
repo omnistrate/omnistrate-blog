@@ -1,13 +1,19 @@
 ---
-title: 'Distributed System Design — Scaling from 0–1K, 1K -10K, 10K-100K, 100K-1M, and 1M to 1B users.'
-tags: "12-factors, cloud, cloud-native, scaling"
+title: >-
+  Distributed System Design — Scaling from 0–1K, 1K -10K, 10K-100K, 100K-1M, and
+  1M to 1B users.
+tags: '12-factors, cloud, cloud-native, scaling'
 date: '2023-06-18 07:45:52'
 author:
   name: Abhishek Gupta
   email: abhishekg@omnistrate.com
   picture: ''
-excerpt: One of the most challenging aspects of building a distributed system is scaling it to handle different levels of user traffic.
-slug: distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users
+excerpt: >-
+  One of the most challenging aspects of building a distributed system is
+  scaling it to handle different levels of user traffic.
+slug: >-
+  distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users
+readTime: 5
 ---
 
 One of the most challenging aspects of building a distributed system is scaling it to handle different levels of user traffic. In this blog post, I will discuss some of the common techniques and trade-offs involved in scaling a distributed system from 1 to 1 billion users. 

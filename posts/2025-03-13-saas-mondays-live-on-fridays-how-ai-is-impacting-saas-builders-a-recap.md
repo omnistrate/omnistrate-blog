@@ -1,13 +1,17 @@
 ---
 title: 'SaaS Mondays, Live on Fridays: How AI is impacting SaaS Builders (A Recap)'
-tags: "AI, AI Agent, aws, Cloud Marketplace, ControlPlane, SaaS" 
+tags: 'AI, AI Agent, aws, Cloud Marketplace, ControlPlane, SaaS'
 date: '2025-03-13 16:13:57'
 author:
   name: Michael Cooper
   email: michaelc@omnistrate.com
   picture: ''
-excerpt: 'On March 7th, 2025, we kicked off the inaugural session of SaaS Mondays, Live on Fridays, a new biweekly LinkedIn Live series dedicated to fostering discussions among SaaS builders, founders,...'
+excerpt: >-
+  On March 7th, 2025, we kicked off the inaugural session of SaaS Mondays, Live
+  on Fridays, a new biweekly LinkedIn Live series dedicated to fostering
+  discussions among SaaS builders, founders,...
 slug: saas-mondays-live-on-fridays-how-ai-is-impacting-saas-builders-a-recap
+readTime: 4
 ---
 
 On March 7th, 2025, we kicked off the inaugural session of **[SaaS Mondays][1], Live on Fridays**, a new biweekly LinkedIn Live series dedicated to fostering discussions among SaaS builders, founders, and industry leaders. Hosted by [Michael Cooper][2] (GTM Lead, Omnistrate), the session featured insights from:

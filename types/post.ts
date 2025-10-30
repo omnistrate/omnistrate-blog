@@ -8,6 +8,7 @@ export type Post = {
   author: Author;
   excerpt: string;
   tags?: string[];
+  readTime?: number;
   ogImage: {
     url: string;
   };
@@ -23,4 +24,5 @@ export type PostMetadata = {
   excerpt?: string;
   coverImage?: string;
   tags?: string[];
+  readTime?: number;
 };

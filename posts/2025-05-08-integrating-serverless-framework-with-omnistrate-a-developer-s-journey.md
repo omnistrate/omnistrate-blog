@@ -1,13 +1,16 @@
 ---
 title: 'Integrating Serverless Framework with Omnistrate: A Developer''s Journey'
-tags: "Omnistrate, SaaS, serverless, terraform"
+tags: 'Omnistrate, SaaS, serverless, terraform'
 date: '2025-05-08 00:34:02'
 author:
   name: Nolan McCafferty
   email: nolanm@omnistrate.com
   picture: ''
-excerpt: 'Over the past few weeks, I''ve been leading an initiative to integrate the Serverless Framework with our Omnistrate platform.'
+excerpt: >-
+  Over the past few weeks, I've been leading an initiative to integrate the
+  Serverless Framework with our Omnistrate platform.
 slug: integrating-serverless-framework-with-omnistrate-a-developer-s-journey
+readTime: 3
 ---
 
 Over the past few weeks, I've been leading an initiative to integrate the [Serverless Framework](https://www.serverless.com/) with our Omnistrate platform. Today, I'm excited to share the technical details of this integration and how it can help developers maintain their serverless applications while gaining enterprise SaaS capabilities.

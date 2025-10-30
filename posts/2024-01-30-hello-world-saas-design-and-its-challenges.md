@@ -1,13 +1,16 @@
 ---
 title: Hello world SaaS design and its challenges
-tags: "cloud, Kubernetes, SaaS"
+tags: 'cloud, Kubernetes, SaaS'
 date: '2024-01-30 23:09:10'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Time and time again, we observe organizations grappling with the right design, consequently entangled in perpetual operations.'
+excerpt: >-
+  Time and time again, we observe organizations grappling with the right design,
+  consequently entangled in perpetual operations.
 slug: hello-world-saas-design-and-its-challenges
+readTime: 2
 ---
 
 Time and time again, we observe organizations grappling with the right design, consequently entangled in perpetual operations. Initially, with 5 or 10 customers, everything seems promising, but as you scale, the cracks start to appear from every direction.

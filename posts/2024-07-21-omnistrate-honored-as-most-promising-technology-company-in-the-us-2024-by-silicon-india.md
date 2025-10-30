@@ -1,13 +1,20 @@
 ---
-title: Omnistrate Honored as 'Most Promising Technology Company in the US 2024' by Silicon India
-tags: "Omnistrate, press-release, SaaS, silicon-india, top-companies" 
+title: >-
+  Omnistrate Honored as 'Most Promising Technology Company in the US 2024' by
+  Silicon India
+tags: 'Omnistrate, press-release, SaaS, silicon-india, top-companies'
 date: '2024-07-21 01:47:20'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Omnistrate, a leading innovator in accelerating SaaS development for businesses, is proud to announce that it has been awarded the prestigious title of "MOST...'
-slug: omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india
+excerpt: >-
+  Omnistrate, a leading innovator in accelerating SaaS development for
+  businesses, is proud to announce that it has been awarded the prestigious
+  title of "MOST...
+slug: >-
+  omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india
+readTime: 2
 ---
 
 Redwood City, California – 07/15/2024 – Omnistrate, a leading innovator in accelerating SaaS development for businesses, is proud to announce that it has been awarded the prestigious title of "MOST PROMISING TECHNOLOGY COMPANY FOUNDED OR MANAGED BY INDIANS IN THE US 2024" by [Silicon India][1].

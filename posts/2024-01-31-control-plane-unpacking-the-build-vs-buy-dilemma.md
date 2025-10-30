@@ -1,13 +1,17 @@
 ---
 title: 'Control Plane: Unpacking the Build vs Buy Dilemma'
-tags: "build vs buy, cloud, control plane, SaaS"
+tags: 'build vs buy, cloud, control plane, SaaS'
 date: '2024-01-31 00:27:02'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Building software distribution channel(s) is hard, costly and time-consuming. I have discussed the challenges in building and operating your Control Plane before.'
+excerpt: >-
+  Building software distribution channel(s) is hard, costly and time-consuming.
+  I have discussed the challenges in building and operating your Control Plane
+  before.
 slug: control-plane-unpacking-the-build-vs-buy-dilemma
+readTime: 5
 ---
 
 Building software distribution channel(s) is hard, costly and time-consuming. I have discussed the challenges in building and operating your Control Plane before. To learn more, please see [older version here][1] and [newer version here][2]

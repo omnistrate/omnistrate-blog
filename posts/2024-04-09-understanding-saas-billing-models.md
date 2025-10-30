@@ -1,13 +1,16 @@
 ---
 title: Understanding SaaS billing models
-tags: "billing, cloud, open-source, SaaS"
+tags: 'billing, cloud, open-source, SaaS'
 date: '2024-04-09 09:09:28'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: When you are offering Software as a Service there are multiple options available on how to charge customers for the usage of your service.
+excerpt: >-
+  When you are offering Software as a Service there are multiple options
+  available on how to charge customers for the usage of your service.
 slug: understanding-saas-billing-models
+readTime: 6
 ---
 
 When you are offering Software as a Service there are multiple options available on how to charge customers for the usage of your service. A couple popular models are Subscription Based and Usage Based.

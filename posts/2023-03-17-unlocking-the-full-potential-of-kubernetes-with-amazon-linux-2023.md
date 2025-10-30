@@ -1,13 +1,17 @@
 ---
 title: Unlocking the Full Potential of Kubernetes with Amazon Linux 2023
-tags: "aws, cloud, cloud-agnostic, cloud-native, Kubernetes"
+tags: 'aws, cloud, cloud-agnostic, cloud-native, Kubernetes'
 date: '2023-03-17 15:26:51'
 author:
   name: Abhishek Gupta
   email: abhishekg@omnistrate.com
   picture: ''
-excerpt: 'Kubernetes has become the go-to container orchestration tool for many organizations. However, achieving the full potential of Kubernetes requires the right operating system.'
+excerpt: >-
+  Kubernetes has become the go-to container orchestration tool for many
+  organizations. However, achieving the full potential of Kubernetes requires
+  the right operating system.
 slug: unlocking-the-full-potential-of-kubernetes-with-amazon-linux-2023
+readTime: 3
 ---
 
 *Kubernetes* has become the go-to container orchestration tool for many organizations. However, achieving the full potential of Kubernetes requires the right operating system. 

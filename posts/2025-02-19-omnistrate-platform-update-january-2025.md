@@ -1,6 +1,6 @@
 ---
 title: Omnistrate Platform Update (January 2025)
-tags: "cloud, platform, product-release, SaaS, update"
+tags: 'cloud, platform, product-release, SaaS, update'
 date: '2025-02-19 22:55:17'
 author:
   name: Pablo Berton
@@ -8,6 +8,7 @@ author:
   picture: ''
 excerpt: "\U0001F680 Exciting New Features in Omnistrate We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform! Revamped SaaSBuilder We have revamped SaaSBuilder!"
 slug: omnistrate-platform-update-january-2025
+readTime: 4
 ---
 
 

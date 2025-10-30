@@ -1,13 +1,16 @@
 ---
 title: 'AWS and Omnistrate partnered to bring Percona Ivee Cloud '
-tags: "case-study, Omnistrate, percona, SaaS"
+tags: 'case-study, Omnistrate, percona, SaaS'
 date: '2024-10-16 16:35:13'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Percona, known for providing world-class open-source database software, has always been at the forefront of innovation.'
+excerpt: >-
+  Percona, known for providing world-class open-source database software, has
+  always been at the forefront of innovation.
 slug: aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud
+readTime: 2
 ---
 
 ![AWS Logo][6]

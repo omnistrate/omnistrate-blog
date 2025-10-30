@@ -1,13 +1,17 @@
 ---
 title: 'Fortifying SaaS: Safeguarding Data and Compliance Across Layers'
-tags: "cloud, compliance, SaaS, security"
+tags: 'cloud, compliance, SaaS, security'
 date: '2024-02-01 21:11:10'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'One of the core tenets of SaaS is to be secure. Security spans across many layers from controlling access with IP whitelisting or Private Link, validating access with authentication to validate...'
+excerpt: >-
+  One of the core tenets of SaaS is to be secure. Security spans across many
+  layers from controlling access with IP whitelisting or Private Link,
+  validating access with authentication to validate...
 slug: fortifying-saas-safeguarding-data-and-compliance-across-layers
+readTime: 2
 ---
 
 One of the core tenets of SaaS is to be secure. Security spans across many layers from controlling access with IP whitelisting or Private Link, validating access with authentication to validate identity, authorization to assign permissions to users within tenant organizations, auditing to record every activity, tenant isolation to guard against malicious tenants, regulatory requirements from securing third-party services accesses to operational processes to achieve different compliance standards, and so on.

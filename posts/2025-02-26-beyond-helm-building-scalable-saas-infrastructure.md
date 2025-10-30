@@ -1,6 +1,6 @@
 ---
 title: 'Beyond Helm: Building Scalable SaaS Infrastructure'
-tags: "cloud, helm, Omnistrate, SaaS, terraform"
+tags: 'cloud, helm, Omnistrate, SaaS, terraform'
 date: '2025-02-26 04:49:20'
 author:
   name: Kamal Gupta
@@ -8,6 +8,7 @@ author:
   picture: ''
 excerpt: 'A while ago I wrote, why Terraform tool is not enough for SaaS [here][1].'
 slug: beyond-helm-building-scalable-saas-infrastructure
+readTime: 5
 ---
 
 A while ago I wrote, why Terraform tool is not enough for SaaS [here][1]. Today, I am extending the same series for Helm -- covering the purpose they serve and why they are NOT enough to build your cloud offering or control plane.

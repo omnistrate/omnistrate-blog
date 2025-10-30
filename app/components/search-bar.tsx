@@ -1,27 +1,37 @@
-import { Search } from "lucide-react";
+import { forwardRef } from "react";
+import { TextMD } from "@/components/text";
 
 interface SearchBarProps {
   value?: string;
-  onChange?: (value: string) => void;
+  onChange: (value: string) => void;
   disabled?: boolean;
+  currentPage?: number;
+  totalPages?: number;
 }
 
-export function SearchBar({ value = "", onChange, disabled = false }: SearchBarProps) {
-  return (
-    <div className="flex justify-center mb-12 mt-16 mb:mt-20 lg:mt-24">
-      <div className="relative w-full max-w-2xl">
-        <input
-          type="text"
-          value={value}
-          onChange={(e) => onChange?.(e.target.value)}
-          placeholder="Search by title or tag (cloud, kubernetes)..."
-          className="w-full px-6 py-3 pr-12 text-gray-700 bg-white border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-          disabled={disabled}
-        />
-        <button className="absolute right-3 top-1/2 -translate-y-1/2 w-8 h-8 bg-green-500 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors">
-          <Search className="w-4 h-4 text-white" />
-        </button>
+export const SearchBar = forwardRef<HTMLDivElement, SearchBarProps>(
+  ({ value = "", onChange, disabled = false, currentPage, totalPages }, ref) => {
+    return (
+      <div ref={ref} className="flex flex-col items-center mb-12 mt-8 lg:mt-12">
+        <div className="relative w-full" style={{ maxWidth: "566px" }}>
+          <input
+            type="text"
+            value={value}
+            onChange={(e) => onChange(e.target.value)}
+            placeholder="Search"
+            className="w-full h-12 px-6 pr-12 text-[#535862] bg-white border border-[#D5D7DA] rounded-lg"
+            style={{ boxShadow: "0px 1px 2px 0px #0A0D120D" }}
+            disabled={disabled}
+          />
+        </div>
+        {currentPage && totalPages && (
+          <TextMD className="mt-4 font-medium">
+            Page {currentPage} of {totalPages}
+          </TextMD>
+        )}
       </div>
-    </div>
-  );
-}
+    );
+  }
+);
+
+SearchBar.displayName = "SearchBar";

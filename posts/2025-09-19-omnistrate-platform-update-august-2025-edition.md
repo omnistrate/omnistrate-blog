@@ -1,13 +1,17 @@
 ---
 title: Omnistrate Platform Update - August 2025 edition
-tags: "Platform Updates, Features, MCP, AI"
+tags: 'Platform Updates, Features, MCP, AI'
 date: '2025-09-19 22:01:13'
 author:
   name: Pablo Berton
   email: pberton@omnistrate.com
   picture: ''
-excerpt: "Exciting New Features in Omnistrate Omnistrate MCP tool We're excited to introduce the Omnistrate MCP tool, designed to seamlessly connect your favorite AI agents with Omnistrate."
+excerpt: >-
+  Exciting New Features in Omnistrate Omnistrate MCP tool We're excited to
+  introduce the Omnistrate MCP tool, designed to seamlessly connect your
+  favorite AI agents with Omnistrate.
 slug: omnistrate-platform-update-august-2025-edition
+readTime: 7
 ---
 
 

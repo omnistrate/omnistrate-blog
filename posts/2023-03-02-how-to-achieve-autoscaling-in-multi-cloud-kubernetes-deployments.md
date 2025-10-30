@@ -1,13 +1,16 @@
 ---
 title: How to Achieve Autoscaling in Multi-Cloud Kubernetes Deployments
-tags: "cloud, cloud-native, multi-cloud"
+tags: 'cloud, cloud-native, multi-cloud'
 date: '2023-03-02 18:44:30'
 author:
   name: Abhishek Gupta
   email: abhishekg@omnistrate.com
   picture: ''
-excerpt: Kubernetes is a popular open-source platform for managing containerized applications across multiple nodes and clusters.
+excerpt: >-
+  Kubernetes is a popular open-source platform for managing containerized
+  applications across multiple nodes and clusters.
 slug: how-to-achieve-autoscaling-in-multi-cloud-kubernetes-deployments
+readTime: 7
 ---
 
 **Kubernetes** is a popular open-source platform for managing containerized applications across multiple nodes and clusters. It provides features such as service discovery, load balancing, orchestration, scaling, and self-healing. However, running Kubernetes across different cloud providers, such as AWS, Azure, Google Cloud, etc., can pose some challenges and complexities, such as network connectivity, resource synchronization, and cost optimization.

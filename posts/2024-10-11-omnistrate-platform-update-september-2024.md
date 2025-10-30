@@ -1,13 +1,16 @@
 ---
 title: Omnistrate Platform Update (September 2024)
-tags: "Omnistrate, platform, product-release, SaaS, update"
+tags: 'Omnistrate, platform, product-release, SaaS, update'
 date: '2024-10-11 00:02:05'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!'
+excerpt: >-
+  We’re thrilled to introduce several powerful updates that enhance the
+  Omnistrate platform!
 slug: omnistrate-platform-update-september-2024
+readTime: 3
 ---
 
 Omnistrate, if you don’t know it already, is your developer platform to build your B2B SaaS!

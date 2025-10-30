@@ -1,12 +1,13 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
+import { WEBSITE_URL } from "@/constants/site";
 
 type LogoProps = {
   href?: string;
 };
 
 export const Logo: React.FC<LogoProps> = (props) => {
-  const { href = "/" } = props;
+  const { href = WEBSITE_URL } = props;
 
   return (
     <Link href={href}>

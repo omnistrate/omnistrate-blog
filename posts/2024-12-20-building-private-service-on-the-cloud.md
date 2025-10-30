@@ -1,13 +1,17 @@
 ---
 title: Building Private Service On The Cloud
-tags: "cloud, privacy, SaaS, security"
+tags: 'cloud, privacy, SaaS, security'
 date: '2024-12-20 22:28:56'
 author:
   name: Yuhui Yuan
   email: yuhui@omnistrate.com
   picture: ''
-excerpt: 'Building private services on the cloud enables businesses to leverage the benefits of cloud technology, such as flexibility and scalability, while maintaining strict control over their data.'
+excerpt: >-
+  Building private services on the cloud enables businesses to leverage the
+  benefits of cloud technology, such as flexibility and scalability, while
+  maintaining strict control over their data.
 slug: building-private-service-on-the-cloud
+readTime: 4
 ---
 
 Building private services on the cloud enables businesses to leverage the benefits of cloud technology, such as flexibility and scalability, while maintaining strict control over their data. This is particularly important for organizations handling sensitive information, as a private cloud environment enhances security and ensures compliance with specific regulatory requirements.

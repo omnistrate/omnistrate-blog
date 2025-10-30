@@ -1,13 +1,19 @@
 ---
-title: 'Case Study: How FerretDB went from OpenSource Project to Commercial DBaaS success in weeks, not years'
-tags: "case-study, cloud, DBaaS, FerretDB, MultiCloud, Omnistrate, PostgreSQL"
+title: >-
+  Case Study: How FerretDB went from OpenSource Project to Commercial DBaaS
+  success in weeks, not years
+tags: 'case-study, cloud, DBaaS, FerretDB, MultiCloud, Omnistrate, PostgreSQL'
 date: '2025-08-22 12:59:30'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Omnistrate gave us an enterprise-grade control plane without the need to hire or build one in-house.'
-slug: case-study-how-ferretdb-went-from-opensource-project-to-commercial-dbaas-success-in-weeks-not-years
+excerpt: >-
+  Omnistrate gave us an enterprise-grade control plane without the need to hire
+  or build one in-house.
+slug: >-
+  case-study-how-ferretdb-went-from-opensource-project-to-commercial-dbaas-success-in-weeks-not-years
+readTime: 5
 ---
 
 > "Omnistrate gave us an enterprise-grade control plane without the need

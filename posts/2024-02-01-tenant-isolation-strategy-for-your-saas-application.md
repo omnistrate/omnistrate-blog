@@ -1,13 +1,16 @@
 ---
 title: Tenant Isolation Strategy for Your SaaS Application
-tags: "cloud, SaaS, tenant isolation"
+tags: 'cloud, SaaS, tenant isolation'
 date: '2024-02-01 21:03:07'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'A SaaS application serves several tenants, and each tenant should be isolated from one another.'
+excerpt: >-
+  A SaaS application serves several tenants, and each tenant should be isolated
+  from one another.
 slug: tenant-isolation-strategy-for-your-saas-application
+readTime: 3
 ---
 
 A SaaS application serves several tenants, and each tenant should be isolated from one another. Depending on where and how you want to deploy, you may choose one or more types of isolation for your application.

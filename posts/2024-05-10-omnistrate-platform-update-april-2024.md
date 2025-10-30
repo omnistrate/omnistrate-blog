@@ -1,6 +1,6 @@
 ---
 title: Omnistrate Platform Update (April 2024)
-tags: "platform, SaaS, startup, update"
+tags: 'platform, SaaS, startup, update'
 date: '2024-05-10 13:20:19'
 author:
   name: Matteo Bianchi
@@ -8,6 +8,7 @@ author:
   picture: ''
 excerpt: "Hello from Omnistrate \U0001F44B This is our platform update for April 2024!"
 slug: omnistrate-platform-update-april-2024
+readTime: 2
 ---
 
 Hello from Omnistrate 👋

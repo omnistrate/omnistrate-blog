@@ -1,13 +1,17 @@
 ---
 title: Omnistrate Platform Update (Jun 2025)
-tags: "cloud, platform, product-release, SaaS, update"
+tags: 'cloud, platform, product-release, SaaS, update'
 date: '2025-07-11 04:43:29'
 author:
   name: Pablo Berton
   email: pberton@omnistrate.com
   picture: ''
-excerpt: "Exciting New Features in Omnistrate We're thrilled to introduce several powerful updates that enhance flexibility, security, and operational control across the Omnistrate platform."
+excerpt: >-
+  Exciting New Features in Omnistrate We're thrilled to introduce several
+  powerful updates that enhance flexibility, security, and operational control
+  across the Omnistrate platform.
 slug: omnistrate-platform-update-jun-2025
+readTime: 7
 ---
 
 

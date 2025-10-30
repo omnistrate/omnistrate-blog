@@ -1,13 +1,16 @@
 ---
 title: Navigating the Operational Puzzle of SaaS
-tags: "cloud, day-2, operations, SaaS"
+tags: 'cloud, day-2, operations, SaaS'
 date: '2024-02-01 21:14:57'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: Building SaaS is just one part of the challenge. Operating a SaaS is another major challenge.
+excerpt: >-
+  Building SaaS is just one part of the challenge. Operating a SaaS is another
+  major challenge.
 slug: navigating-the-operational-puzzle-of-saas
+readTime: 2
 ---
 
 Building SaaS is just one part of the challenge. Operating a SaaS is another major challenge. We will need fleet-wide observability on what tenant-level activity is happening in the fleet including any operational issues, assistance with debugging active issues like metrics and logging, ability to hot patch tenants, rollout security fixes in <24 hours. In addition, we will need reliable monitoring, recovery mechanisms to common issues with full auditing of events on what happened. In case, things are not recoverable for any reason, we will need a reliable alerting mechanism so that you can stay ahead of your customers and address the issues quickly.

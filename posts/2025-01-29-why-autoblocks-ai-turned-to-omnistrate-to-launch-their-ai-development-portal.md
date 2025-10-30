@@ -1,13 +1,16 @@
 ---
 title: Why Autoblocks.ai turned to Omnistrate to Launch their AI Development Portal
-tags: "AI, AI-developer, autoblocks.ai, BYOA, case-study, Omnistrate, SaaS"
+tags: 'AI, AI-developer, autoblocks.ai, BYOA, case-study, Omnistrate, SaaS'
 date: '2025-01-29 20:49:38'
 author:
   name: Michael Cooper
   email: michaelc@omnistrate.com
   picture: ''
-excerpt: '"We chose Omnistrate because it empowered us to deliver on our promise to create a safety-first approach to building & managing AI Applications.'
+excerpt: >-
+  "We chose Omnistrate because it empowered us to deliver on our promise to
+  create a safety-first approach to building & managing AI Applications.
 slug: why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal
+readTime: 4
 ---
 
 > "We chose Omnistrate because it empowered us to deliver on our promise

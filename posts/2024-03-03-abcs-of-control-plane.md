@@ -1,13 +1,17 @@
 ---
 title: ABCs of Control Plane
-tags: "cloud, control plane, control-plane, SaaS"
+tags: 'cloud, control plane, control-plane, SaaS'
 date: '2024-03-03 21:44:30'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Hello, and welcome to this blog of Control Plane! Today, I''m going to explain the concept of control plane for software as a service (SaaS) world, and help you understand it better.'
+excerpt: >-
+  Hello, and welcome to this blog of Control Plane! Today, I'm going to explain
+  the concept of control plane for software as a service (SaaS) world, and help
+  you understand it better.
 slug: abcs-of-control-plane
+readTime: 4
 ---
 
 Hello, and welcome to this blog of Control Plane! 

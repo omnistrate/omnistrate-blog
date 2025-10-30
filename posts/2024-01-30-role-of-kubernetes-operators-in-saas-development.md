@@ -1,13 +1,16 @@
 ---
 title: Role of Kubernetes Operators in SaaS Development
-tags: "cloud, k8s, k8s operator, Kubernetes, operator, SaaS" 
+tags: 'cloud, k8s, k8s operator, Kubernetes, operator, SaaS'
 date: '2024-01-30 23:53:43'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: Kubernetes (K8s) Operators serve as effective tools for automating certain aspects of the control plane.
+excerpt: >-
+  Kubernetes (K8s) Operators serve as effective tools for automating certain
+  aspects of the control plane.
 slug: role-of-kubernetes-operators-in-saas-development
+readTime: 2
 ---
 
 Kubernetes (K8s) Operators serve as effective tools for automating certain aspects of the control plane. In fact, if you already possess an operator and are considering building your end-to-end SaaS solution, please refer to this [page][1]. 

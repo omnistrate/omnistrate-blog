@@ -1,13 +1,16 @@
 ---
 title: "Maximizing Cloud-Native Success with the Twelve-Factor App Methodology \U0001FAE1"
-tags: "12-factors, cloud, cloud-native"
+tags: '12-factors, cloud, cloud-native'
 date: '2023-02-18 04:03:46'
 author:
   name: Abhishek Gupta
   email: abhishekg@omnistrate.com
   picture: ''
-excerpt: Twelve Factor App Methodology The Twelve-Factor App methodology is a set of best practices for building and deploying cloud-native applications.
+excerpt: >-
+  Twelve Factor App Methodology The Twelve-Factor App methodology is a set of
+  best practices for building and deploying cloud-native applications.
 slug: maximizing-cloud-native-success-with-the-twelve-factor-app-methodology
+readTime: 6
 ---
 
 > Twelve Factor App Methodology

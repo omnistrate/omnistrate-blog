@@ -1,13 +1,17 @@
 ---
 title: Omnistrate Platform Update (November 2024)
-tags: "cloud, platform, product-release, SaaS, update"
+tags: 'cloud, platform, product-release, SaaS, update'
 date: '2024-12-24 00:12:33'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform! Omnistrate now supports Private Link in addition to VPC peering.'
+excerpt: >-
+  We’re thrilled to introduce several powerful updates that enhance the
+  Omnistrate platform! Omnistrate now supports Private Link in addition to VPC
+  peering.
 slug: omnistrate-platform-update-november-2024
+readTime: 4
 ---
 
 ![Omnistrate features][2]

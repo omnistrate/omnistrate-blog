@@ -1,13 +1,16 @@
 ---
 title: Omnistrate Platform Update (October 2024)
-tags: "Omnistrate, platform, product-release, SaaS, update"
+tags: 'Omnistrate, platform, product-release, SaaS, update'
 date: '2024-11-09 23:31:35'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'SaaS Portal has been revamped to deliver a more comprehensive experience to your customers.'
+excerpt: >-
+  SaaS Portal has been revamped to deliver a more comprehensive experience to
+  your customers.
 slug: omnistrate-platform-update-october-2024
+readTime: 4
 ---
 
 ![Omnistrate features][2]

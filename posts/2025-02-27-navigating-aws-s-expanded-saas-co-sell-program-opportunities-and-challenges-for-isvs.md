@@ -1,13 +1,19 @@
 ---
-title: 'Navigating AWS’s Expanded SaaS Co-Sell Program: Opportunities and Challenges for ISVs'
-tags: "aws, cloud, CoSell, ISV, marketplace, SaaS"
+title: >-
+  Navigating AWS’s Expanded SaaS Co-Sell Program: Opportunities and Challenges
+  for ISVs
+tags: 'aws, cloud, CoSell, ISV, marketplace, SaaS'
 date: '2025-02-27 01:18:44'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'AWS has recently expanded its SaaS co-sell benefits, making them available to all ISV Accelerate partners, including startups.'
-slug: navigating-aws-s-expanded-saas-co-sell-program-opportunities-and-challenges-for-isvs
+excerpt: >-
+  AWS has recently expanded its SaaS co-sell benefits, making them available to
+  all ISV Accelerate partners, including startups.
+slug: >-
+  navigating-aws-s-expanded-saas-co-sell-program-opportunities-and-challenges-for-isvs
+readTime: 3
 ---
 
 AWS has recently expanded its SaaS co-sell benefits, making them available to all ISV Accelerate partners, including startups. Previously, this program was invite-only, but now, more ISVs have the opportunity to leverage AWS’s vast sales network and funding support.

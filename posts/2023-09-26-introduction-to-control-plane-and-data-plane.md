@@ -1,13 +1,17 @@
 ---
 title: Introduction to Control Plane and Data Plane
-tags: "cloud, control-plane, data-plane, SaaS"
+tags: 'cloud, control-plane, data-plane, SaaS'
 date: '2023-09-26 16:55:20'
 author:
   name: Abhishek Gupta
   email: abhishekg@omnistrate.com
   picture: ''
-excerpt: 'In the world of computing and cloud services, the terms "control plane" and “data plane” are increasingly mentioned, even though these are actually older terms that originally came about in the...'
+excerpt: >-
+  In the world of computing and cloud services, the terms "control plane" and
+  “data plane” are increasingly mentioned, even though these are actually older
+  terms that originally came about in the...
 slug: introduction-to-control-plane-and-data-plane
+readTime: 5
 ---
 
 In the world of computing and cloud services, the terms "control plane" and “data plane” are increasingly mentioned, even though these are actually older terms that originally came about in the networking world. This blog post aims to dive into the history of these concepts, where they are used and why, and how they’ve been extended into the emerging domain of SaaS. Let's dive in.

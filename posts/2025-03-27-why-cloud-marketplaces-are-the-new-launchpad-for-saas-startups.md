@@ -1,6 +1,6 @@
 ---
 title: Why Cloud Marketplaces Are the New Launchpad for SaaS Startups
-tags: "AWS Marketplace"
+tags: AWS Marketplace
 date: '2025-03-27 23:33:10'
 author:
   name: Michael Cooper
@@ -8,6 +8,7 @@ author:
   picture: ''
 excerpt: 'We hosted our second SaaS Mondays , Live on Fridays on Friday.'
 slug: why-cloud-marketplaces-are-the-new-launchpad-for-saas-startups
+readTime: 5
 ---
 
 We hosted our second [SaaS Mondays](1) , Live on Fridays on Friday.

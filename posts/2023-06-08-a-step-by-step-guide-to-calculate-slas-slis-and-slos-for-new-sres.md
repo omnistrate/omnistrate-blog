@@ -1,13 +1,17 @@
 ---
 title: 'A Step-by-Step Guide to Calculate SLAs, SLIs, and SLOs for new SREs'
-tags: "cloud, cloud-native, monitoring, multi-cloud, sre"
+tags: 'cloud, cloud-native, monitoring, multi-cloud, sre'
 date: '2023-06-08 04:00:10'
 author:
   name: Abhishek Gupta
   email: abhishekg@omnistrate.com
   picture: ''
-excerpt: 'Service Level Agreements (SLAs), Service Level Indicators (SLIs), and Service Level Objectives (SLOs) are critical metrics for measuring the performance and reliability of IT services.'
+excerpt: >-
+  Service Level Agreements (SLAs), Service Level Indicators (SLIs), and Service
+  Level Objectives (SLOs) are critical metrics for measuring the performance and
+  reliability of IT services.
 slug: a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres
+readTime: 6
 ---
 
 Service Level Agreements (SLAs), Service Level Indicators (SLIs), and Service Level Objectives (SLOs) are critical metrics for measuring the performance and reliability of IT services. These metrics provide valuable insights into the quality of service provided to customers and help teams identify areas for improvement. In this blog post, we’ll provide a step-by-step guide to calculating **SLAs, SLIs, and SLOs** for your IT services, using an example of a microservices-based ecommerce application.

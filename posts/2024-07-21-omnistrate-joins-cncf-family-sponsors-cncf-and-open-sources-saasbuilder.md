@@ -1,13 +1,17 @@
 ---
 title: 'Omnistrate Joins CNCF Family, Sponsors CNCF, and Open Sources SaaSBuilder'
-tags: "cloud-native, cncf, kubecon, Omnistrate, press-release, SaaS"
+tags: 'cloud-native, cncf, kubecon, Omnistrate, press-release, SaaS'
 date: '2024-07-21 01:15:02'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Omnistrate, the innovator in rapid SaaS development and management, is thrilled to announce that we are now part of the Cloud Native Computing Foundation...'
+excerpt: >-
+  Omnistrate, the innovator in rapid SaaS development and management, is
+  thrilled to announce that we are now part of the Cloud Native Computing
+  Foundation...
 slug: omnistrate-joins-cncf-family-sponsors-cncf-and-open-sources-saasbuilder
+readTime: 3
 ---
 
 **Redwood City, California – 07/10/2024** – Omnistrate, the innovator in rapid SaaS development and management, is thrilled to announce that we are now part of the Cloud Native Computing Foundation (CNCF) family. This milestone marks our commitment to advancing cloud-native technologies and contributing to the global SaaS ecosystem. Additionally, we are excited to sponsor CNCF, where we look forward to engaging with thousands of SaaS enthusiasts, discussing challenges, sharing experiences, and exploring new synergies.

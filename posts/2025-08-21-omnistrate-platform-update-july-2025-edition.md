@@ -1,13 +1,17 @@
 ---
 title: Omnistrate Platform Update - July 2025 edition
-tags: "cloud, platform, product-release, SaaS, update"
+tags: 'cloud, platform, product-release, SaaS, update'
 date: '2025-08-21 21:29:22'
 author:
   name: Pablo Berton
   email: pberton@omnistrate.com
   picture: ''
-excerpt: "Exciting New Features in Omnistrate We’ve expanded the power and flexibility of deployment cell management, giving you greater control over how workloads are isolated, maintained, and accessed."
+excerpt: >-
+  Exciting New Features in Omnistrate We’ve expanded the power and flexibility
+  of deployment cell management, giving you greater control over how workloads
+  are isolated, maintained, and accessed.
 slug: omnistrate-platform-update-july-2025-edition
+readTime: 7
 ---
 
 

@@ -1,13 +1,17 @@
 ---
 title: Omnistrate Strengthens AWS Partnership with Key Milestones
-tags: "aws, marketplace, Omnistrate, press-release, SaaS"
+tags: 'aws, marketplace, Omnistrate, press-release, SaaS'
 date: '2024-07-21 02:31:17'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Omnistrate Deepens its AWS Partnership, joining AWS Marketplace and AWS ISV Accelerate Program, and will be Highlighted at AWS Event on Building Great SaaS ...'
+excerpt: >-
+  Omnistrate Deepens its AWS Partnership, joining AWS Marketplace and AWS ISV
+  Accelerate Program, and will be Highlighted at AWS Event on Building Great
+  SaaS ...
 slug: omnistrate-strengthens-aws-partnership-with-key-milestones
+readTime: 3
 ---
 
 **Omnistrate Deepens its AWS Partnership, joining AWS Marketplace and AWS ISV Accelerate Program, and will be Highlighted at AWS Event on Building Great SaaS**

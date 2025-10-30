@@ -1,13 +1,17 @@
 ---
 title: 'Convoy Case Study: From Two Years to Two Weeks'
-tags: "case-study, Convoy, Omnistrate, SaaS"
+tags: 'case-study, Convoy, Omnistrate, SaaS'
 date: '2024-07-21 02:16:19'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Convoy partnered with Omnistrate to turn their Open Core Webhook gateway into a feature complete multi-cloud SaaS solution in weeks “Our friends at another company told..'
+excerpt: >-
+  Convoy partnered with Omnistrate to turn their Open Core Webhook gateway into
+  a feature complete multi-cloud SaaS solution in weeks “Our friends at another
+  company told..
 slug: convoy-case-study-from-two-years-to-two-weeks
+readTime: 6
 ---
 
 ![Omnistrate Convoy Logos][1]

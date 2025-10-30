@@ -1,13 +1,16 @@
 ---
 title: Challenges in streamlining SaaS User Experiences
-tags: "cloud, SaaS, saas management, UX" 
+tags: 'cloud, SaaS, saas management, UX'
 date: '2024-02-01 21:09:56'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'To interact with the SaaS service, we will need to build some sort of UX (API, GUI, CLI) interaction.'
+excerpt: >-
+  To interact with the SaaS service, we will need to build some sort of UX (API,
+  GUI, CLI) interaction.
 slug: challenges-in-streamlining-saas-user-experiences
+readTime: 2
 ---
 
 To interact with the SaaS service, we will need to build some sort of UX (API, GUI, CLI) interaction. We will need UX for your core application and also for management operations like tenant onboarding, access control, account management, auditing, etc. For HubSpot, the core application is CRM, for MongoDB it's the database, for Zendesk it's customer service software.
