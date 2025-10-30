@@ -97,7 +97,7 @@ function cleanExcerpt(text, maxLength = 200) {
 }
 
 // Main execution
-const postsDir = '_posts';
+const postsDir = 'posts';
 const files = fs.readdirSync(postsDir).filter(f => f.endsWith('.md'));
 
 let fixed = 0;

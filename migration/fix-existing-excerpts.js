@@ -21,7 +21,7 @@ function cleanExcerpt(text) {
 }
 
 // Read all markdown files
-const postsDir = '_posts';
+const postsDir = 'posts';
 const files = fs.readdirSync(postsDir).filter(f => f.endsWith('.md'));
 
 files.forEach(file => {

@@ -12,7 +12,7 @@ type PostHeaderProps = {
 export const PostHeader: React.FC<PostHeaderProps> = ({ title, date, author }) => {
   return (
     <div className="py-12 md:py-16 mb-12 border-b border-gray-200 dark:border-gray-800">
-      <div className="max-w-4xl mx-auto px-4 text-center">
+      <div className="mx-auto px-6 text-center" style={{ maxWidth: '1280px' }}>
         {/* Date */}
         <div className="mb-6">
           <time className="text-gray-600 dark:text-gray-400 text-sm md:text-base">
@@ -21,7 +21,7 @@ export const PostHeader: React.FC<PostHeaderProps> = ({ title, date, author }) =
         </div>
 
         {/* Title */}
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-8 leading-tight px-4">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-8 leading-tight">
           {title}
         </h1>
 

@@ -21,7 +21,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
   return (
     <main className="pt-16">
       <Container>
-        <div className="max-w-4xl mx-auto py-8">
+        <div className="py-8">
           <article className="mb-16">
             <PostHeader title={post.title} date={post.date} author={post.author} />
             {post.tags && post.tags.length > 0 && <PostTags tags={post.tags} className="mb-8" align="center" />}
