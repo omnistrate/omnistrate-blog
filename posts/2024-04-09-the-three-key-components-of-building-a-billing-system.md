@@ -1,13 +1,18 @@
 ---
 title: The Three Key Components of Building a Billing System
-tags: "billing, cloud, SaaS"
+tags: 'billing, cloud, SaaS'
 date: '2024-04-09 09:27:06'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'When building a billing system there are 3 main components to consider: Usage metering: Collect and aggregate usage data of the service.'
+excerpt: >-
+  When building a billing system there are 3 main components to consider: Usage
+  metering: Collect and aggregate usage data of the service.
 slug: the-three-key-components-of-building-a-billing-system
+readTime: 6
+coverImage: ''
+category: Engineering & Tech
 ---
 
 When building a billing system there are 3 main components to consider:

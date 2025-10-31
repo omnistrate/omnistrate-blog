@@ -1,13 +1,19 @@
 ---
 title: Strategies for Seamless SaaS Deployment
-tags: "cloud, SaaS, saas provisioning, tenant management, tenant provisioning"
+tags: 'cloud, SaaS, saas provisioning, tenant management, tenant provisioning'
 date: '2024-02-01 21:05:04'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'SaaS provisioning requires tenant account creation, user provisioning, figuring out the tenant placement, configuring the tenant, and storing all the metadata.'
+excerpt: >-
+  SaaS provisioning requires tenant account creation, user provisioning,
+  figuring out the tenant placement, configuring the tenant, and storing all the
+  metadata.
 slug: strategies-for-seamless-saas-deployment
+readTime: 3
+coverImage: ''
+category: Engineering & Tech
 ---
 
 SaaS provisioning requires tenant account creation, user provisioning, figuring out the tenant placement, configuring the tenant, and storing all the metadata. We also need to set up all the infrastructure, deploy software, configure software based on user input, enable monitoring, set up certificates, secure end-to-end access, safely coordinate everything during failures, and notify users of the provisioning progress.

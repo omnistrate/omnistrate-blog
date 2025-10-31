@@ -1,13 +1,20 @@
 ---
 title: Cloud Platform Monitoring and Auto-Recovery Challenges - Part 2
-tags: "cloud, fault-tolerance, monitoring, platform engineering"
+tags: 'cloud, fault-tolerance, monitoring, platform engineering'
 date: '2023-10-05 01:52:22'
 author:
   name: Joshua Buss
   email: joshua@omnistrate.com
   picture: ''
-excerpt: 'The Complications and Strategies In the first post of this two-part series, we introduced primary topics under the umbrella of cloud platform monitoring and went into a bit of detail for how.'
+excerpt: >-
+  The Complications and Strategies In the first post of this two-part series, we
+  introduced primary topics under the umbrella of cloud platform monitoring and
+  went into a bit of detail for how.
 slug: cloud-platform-monitoring-and-auto-recovery-challenges-part-2
+readTime: 11
+coverImage: >-
+  /images/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-2-1.jpg
+category: Engineering & Tech
 ---
 
 <h2>The Complications and Strategies</h2>
@@ -77,4 +84,4 @@ Like almost every other solution mentioned so far however, these techniques do c
 
 Hopefully these two articles have given you a deeper insight into both how to go about getting your cloud platform to that next level of high-availability and how difficult it can be.  In our next post in this series we’ll explore how the need for monitoring extends beyond simply handling failures - you also need to know when to scale up your infrastructure, and the various ways that can be done.  Let us know in the comments if you have more ideas!
 
-  [1]: https://drive.google.com/thumbnail?id=14pzGd6HkCuRgFjQn82nvuIHeNCkLrNu4&sz=w720
+  [1]: /images/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-2-1.jpg

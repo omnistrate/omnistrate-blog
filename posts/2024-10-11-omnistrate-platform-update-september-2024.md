@@ -1,13 +1,18 @@
 ---
 title: Omnistrate Platform Update (September 2024)
-tags: "Omnistrate, platform, product-release, SaaS, update"
+tags: 'Omnistrate, platform, product-release, SaaS, update'
 date: '2024-10-11 00:02:05'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!'
+excerpt: >-
+  We’re thrilled to introduce several powerful updates that enhance the
+  Omnistrate platform!
 slug: omnistrate-platform-update-september-2024
+readTime: 3
+coverImage: /images/posts/omnistrate-platform-update-september-2024-1.png
+category: Product Updates
 ---
 
 Omnistrate, if you don’t know it already, is your developer platform to build your B2B SaaS!
@@ -72,9 +77,9 @@ We are the Operating system of your SaaS, offering enterprise-grade capabilities
 We also have [amazing docs][5], a [Slack community][9], a [YouTube channel][6], Twitter (whoops, [X][8]) and of course a [LinkedIn page][7] where you can follow us to stay updated with our latest news 🟩
 
   [1]: https://drive.google.com/thumbnail?id=1TLmi87MFqPI2Sm9JVAETnu49nCbI6A5g&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1s7okjnKAgZxSH8HPb5I20MYgq_OykNie&sz=w720
-  [3]: https://drive.google.com/thumbnail?id=15j67oj3YtZ4koYYCH403Ij7iVkC5o2DI&sz=w720
-  [4]: https://drive.google.com/thumbnail?id=1a0Daob83fE17rAI7KfD4RPU-VXcv7xeq&sz=w720
+  [2]: /images/posts/omnistrate-platform-update-september-2024-1.png
+  [3]: /images/posts/omnistrate-platform-update-september-2024-2.png
+  [4]: /images/posts/omnistrate-platform-update-september-2024-3.png
   [5]: http://docs.omnistrate.com
   [6]: https://www.youtube.com/@omnistrate
   [7]: https://www.linkedin.com/company/omnistrate/

@@ -1,13 +1,23 @@
 ---
-title: Omnistrate Honored as 'Most Promising Technology Company in the US 2024' by Silicon India
-tags: "Omnistrate, press-release, SaaS, silicon-india, top-companies" 
+title: >-
+  Omnistrate Honored as 'Most Promising Technology Company in the US 2024' by
+  Silicon India
+tags: 'Omnistrate, press-release, SaaS, silicon-india, top-companies'
 date: '2024-07-21 01:47:20'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Omnistrate, a leading innovator in accelerating SaaS development for businesses, is proud to announce that it has been awarded the prestigious title of "MOST...'
-slug: omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india
+excerpt: >-
+  Omnistrate, a leading innovator in accelerating SaaS development for
+  businesses, is proud to announce that it has been awarded the prestigious
+  title of "MOST...
+slug: >-
+  omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india
+readTime: 2
+coverImage: >-
+  /images/posts/omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india-1.jpg
+category: Miscellaneous
 ---
 
 Redwood City, California – 07/15/2024 – Omnistrate, a leading innovator in accelerating SaaS development for businesses, is proud to announce that it has been awarded the prestigious title of "MOST PROMISING TECHNOLOGY COMPANY FOUNDED OR MANAGED BY INDIANS IN THE US 2024" by [Silicon India][1].
@@ -41,7 +51,7 @@ Omnistrate empowers Independent Software Vendors (ISVs) to build and manage thei
 
 
   [1]: https://www.siliconindia.com/
-  [2]: https://drive.google.com/thumbnail?id=15nAZOt4B9w0uE0kHERERKgdbTiucwxaU&sz=w720
+  [2]: /images/posts/omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india-1.jpg
   [3]: https://www.linkedin.com/in/kkgupta2/
   [4]: https://www.linkedin.com/in/nikhilalok/
   [5]: https://www.siliconindia.com/vendor/omnistrate-accelerating-saas-development-for-businesses-cid-4360.html

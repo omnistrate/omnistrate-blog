@@ -1,13 +1,18 @@
 ---
 title: '[AI Series] Powering High-Performance AI Workloads: GPU, SOCI, MIG, and KEDA'
-tags: "AI, AI features, Omnistrate, SaaS"
+tags: 'AI, AI features, Omnistrate, SaaS'
 date: '2025-04-04 02:58:31'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'In previous posts, we explored BYOA deployments, AI job scheduling, and cost control and insights.'
+excerpt: >-
+  In previous posts, we explored BYOA deployments, AI job scheduling, and cost
+  control and insights.
 slug: ai-series-powering-high-performance-ai-workloads-gpu-soci-mig-and-keda
+readTime: 4
+coverImage: ''
+category: Engineering & Tech
 ---
 
 In previous posts, we explored [BYOA][1] deployments, [AI job scheduling][2], and [cost control and insights][3]. In this blog, we focus on the performance accelerators and scalability layers Omnistrate offers out of the box—purpose-built for AI workloads that demand fast startup, efficient resource usage, and intelligent scaling.

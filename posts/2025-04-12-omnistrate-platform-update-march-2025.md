@@ -1,20 +1,25 @@
 ---
 title: Omnistrate Platform Update (March 2025)
-tags: "cloud, platform, product-release, SaaS, update"
+tags: 'cloud, platform, product-release, SaaS, update'
 date: '2025-04-12 02:41:39'
 author:
   name: Pablo Berton
   email: pberton@omnistrate.com
   picture: ''
-excerpt: "Exciting New Features in Omnistrate We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!"
+excerpt: >-
+  Exciting New Features in Omnistrate We’re thrilled to introduce several
+  powerful updates that enhance the Omnistrate platform!
 slug: omnistrate-platform-update-march-2025
+readTime: 5
+coverImage: /images/posts/omnistrate-platform-update-march-2025-1.png
+category: Product Updates
 ---
 
 
 ## 🚀 Exciting New Features in Omnistrate
 
 
-![Omnistrate Updates](https://mcusercontent.com/08ffbac64293e1abc50999571/images/d3a62aec-c94b-505f-10d3-5cc405b197a3.png)
+![Omnistrate Updates](/images/posts/omnistrate-platform-update-march-2025-1.png)
 
 We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!
 
@@ -60,7 +65,7 @@ Omnistrate’s **On-prem Copilot** is built to empower support and implementatio
 ### Join Azure Private Beta
 
 
-[![AzurePreview](https://mcusercontent.com/08ffbac64293e1abc50999571/images/4df2ff73-9a98-7677-9044-7ac480145e33.png)](https://www.omnistrate.com/contact)
+[![AzurePreview](/images/posts/omnistrate-platform-update-march-2025-2.png)](https://www.omnistrate.com/contact)
 
 We’re excited to open up our Azure private beta! Seamlessly port your existing service or onboard new services to Azure Cloud using Omnistrate’s fully managed platform. Whether you're expanding to multi-cloud or starting fresh on Azure, we make the experience smooth, automated, and scalable.
 
@@ -95,7 +100,7 @@ AI is reshaping how software gets built, but the smartest AI builders are levera
 ### Omnistrate joins NVIDIA Inception
 
 
-[![NVDA](https://mcusercontent.com/08ffbac64293e1abc50999571/images/e6fff0a0-7f7e-d42f-917b-fab59b967d5f.png)](https://nvda.ws/2BvtUc9)
+[![NVDA](/images/posts/omnistrate-platform-update-march-2025-3.png)](https://nvda.ws/2BvtUc9)
 
 We are pleased to announce that Omnistrate has joined NVIDIA Inception, a program focused on nurturing companies revolutionizing industries with technological advancements.  
 

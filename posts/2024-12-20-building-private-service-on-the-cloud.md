@@ -1,13 +1,19 @@
 ---
 title: Building Private Service On The Cloud
-tags: "cloud, privacy, SaaS, security"
+tags: 'cloud, privacy, SaaS, security'
 date: '2024-12-20 22:28:56'
 author:
   name: Yuhui Yuan
   email: yuhui@omnistrate.com
   picture: ''
-excerpt: 'Building private services on the cloud enables businesses to leverage the benefits of cloud technology, such as flexibility and scalability, while maintaining strict control over their data.'
+excerpt: >-
+  Building private services on the cloud enables businesses to leverage the
+  benefits of cloud technology, such as flexibility and scalability, while
+  maintaining strict control over their data.
 slug: building-private-service-on-the-cloud
+readTime: 4
+coverImage: /images/posts/building-private-service-on-the-cloud-1.png
+category: Engineering & Tech
 ---
 
 Building private services on the cloud enables businesses to leverage the benefits of cloud technology, such as flexibility and scalability, while maintaining strict control over their data. This is particularly important for organizations handling sensitive information, as a private cloud environment enhances security and ensures compliance with specific regulatory requirements.
@@ -70,12 +76,12 @@ The final Omnistrate service plan specification can be found [here][10].
 
 After preparing the deployment artifacts, you can build your private service plan using the specification file on Omnistrate. This will make your private service offering ready for use. You can try the example above on Omnistrate, and if you have any questions, feel free to contact support@omnistrate.com.
 
-  [1]: https://drive.google.com/thumbnail?id=1nyvj4hFEhO4ZclEgdjz--AoqYJZGrGM2&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=15HDDkgmNCYG_tJSWvpo7IQVv_IEj8hsw&sz=w720
-  [3]: https://drive.google.com/thumbnail?id=1Dr5-rvG61yNuSY9mIw5cIpBnH1CxCdTh&sz=w720
+  [1]: /images/posts/building-private-service-on-the-cloud-1.png
+  [2]: /images/posts/building-private-service-on-the-cloud-2.png
+  [3]: /images/posts/building-private-service-on-the-cloud-3.png
   [4]: https://docs.aws.amazon.com/vpc/latest/privatelink/create-endpoint-service.html#connect-to-endpoint-service.
-  [5]: https://drive.google.com/thumbnail?id=1TmpEtoQp1skukyG6JWYuRF2D-puR07bU&sz=w720
-  [6]: https://drive.google.com/thumbnail?id=18P_jxs9GDAyWAQIkQqeFr4bMXXEykGG_&sz=w720
+  [5]: /images/posts/building-private-service-on-the-cloud-4.png
+  [6]: /images/posts/building-private-service-on-the-cloud-5.png
   [7]: https://github.com/omnistrate-community/private-link-example
   [8]: https://github.com/omnistrate-community/private-link-example/blob/main/terraform/main.tf
   [9]: https://github.com/omnistrate-community/private-link-example/blob/main/kustomize/targetGroupBinding.yaml

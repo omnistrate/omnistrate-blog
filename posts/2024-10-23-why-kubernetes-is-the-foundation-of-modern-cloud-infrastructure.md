@@ -1,13 +1,18 @@
 ---
 title: Why Kubernetes Is the Foundation of Modern Cloud Infrastructure
-tags: "Kubernetes, Omnistrate, OpenSource, SaaS"
+tags: 'Kubernetes, Omnistrate, OpenSource, SaaS'
 date: '2024-10-23 10:25:00'
 author:
   name: Matteo Bianchi
   email: matteob@omnistrate.com
   picture: ''
-excerpt: '" In today’s landscape of software development, cloud computing has become the standard for application deployment.'
+excerpt: >-
+  " In today’s landscape of software development, cloud computing has become the
+  standard for application deployment.
 slug: why-kubernetes-is-the-foundation-of-modern-cloud-infrastructure
+readTime: 7
+coverImage: ''
+category: Engineering & Tech
 ---
 
 > "In a cloud-native world, Kubernetes is the foundation that lets you

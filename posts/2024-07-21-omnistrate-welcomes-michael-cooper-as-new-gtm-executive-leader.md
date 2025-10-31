@@ -1,13 +1,18 @@
 ---
 title: Omnistrate Welcomes Michael Cooper as New GTM Executive Leader
-tags: "gtm, leadership, Omnistrate, press-release, SaaS"
+tags: 'gtm, leadership, Omnistrate, press-release, SaaS'
 date: '2024-07-21 01:09:41'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Omnistrate is pleased to announce the appointment of Michael Cooper as the company''s new GTM Executive Leader.'
+excerpt: >-
+  Omnistrate is pleased to announce the appointment of Michael Cooper as the
+  company's new GTM Executive Leader.
 slug: omnistrate-welcomes-michael-cooper-as-new-gtm-executive-leader
+readTime: 2
+coverImage: ''
+category: Miscellaneous
 ---
 
 **Redwood City, California – 07/07/2024**  – Omnistrate is pleased to announce the appointment of Michael Cooper as the company's new GTM Executive Leader. With a remarkable career in sales and marketing, Michael brings a wealth of experience and strategic vision to his new role.

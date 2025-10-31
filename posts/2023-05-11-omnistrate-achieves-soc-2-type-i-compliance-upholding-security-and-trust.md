@@ -1,13 +1,20 @@
 ---
 title: "Omnistrate Achieves SOC 2 Type I Compliance: Upholding Security and Trust \U0001F396️"
-tags: "cloud-security-standard, compliance, data-security, soc2"
+tags: 'cloud-security-standard, compliance, data-security, soc2'
 date: '2023-05-11 15:24:07'
 author:
   name: Amit Sharma
   email: amits@omnistrate.com
   picture: ''
-excerpt: 'Omnistrate, Inc., a B2B SaaS company that revolutionizes the way software offerings are turned into multi-cloud SaaS services, is pleased to announce that it has successfully achieved Service...'
+excerpt: >-
+  Omnistrate, Inc., a B2B SaaS company that revolutionizes the way software
+  offerings are turned into multi-cloud SaaS services, is pleased to announce
+  that it has successfully achieved Service...
 slug: omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust
+readTime: 4
+coverImage: >-
+  /images/posts/omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust-1.png
+category: Product Updates
 ---
 
 Omnistrate, Inc., a B2B SaaS company that revolutionizes the way software offerings are turned into multi-cloud SaaS services, is pleased to announce that it has successfully achieved Service Organization Control (SOC) 2 Type I compliance. This accomplishment serves as an industry-recognized validation of Omnistrate's commitment to maintaining the highest standards of security, confidentiality, and availability for its customers' data across multi-cloud environments.
@@ -34,4 +41,4 @@ What's Next for Omnistrate
 --------------------------
 Omnistrate's achievement of SOC 2 Type I compliance demonstrates its commitment to upholding the highest security standards in its service offerings. Having successfully achieved SOC 2 Type 1 attestation, the company's next objective is to obtain SOC 2 Type 2 attestation, which evaluates the effectiveness of controls over a specified period. This step will further solidify Omnistrate's dedication to maintaining rigorous security standards and consistently enhancing its control environment, providing clients with the assurance they need to entrust their valuable data and services to Omnistrate. To learn more about Omnistrate, its service offerings, and security practices, please write to us at security@omnistrate.com
 
-  [1]: https://drive.google.com/thumbnail?id=1pmHhbIrCfvNG-Y3iVUzncY4hJHkVbKRr&sz=w720
+  [1]: /images/posts/omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust-1.png

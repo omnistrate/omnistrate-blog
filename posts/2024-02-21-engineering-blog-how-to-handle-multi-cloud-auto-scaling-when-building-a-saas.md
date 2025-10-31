@@ -1,13 +1,22 @@
 ---
 title: 'Engineering Blog: How to handle multi-cloud auto-scaling when building a SaaS?'
-tags: "autoscaling, aws, engineering-blog, gcp, hpa, karpenter, Kubernetes, SaaS, startup, vpa"
+tags: >-
+  autoscaling, aws, engineering-blog, gcp, hpa, karpenter, Kubernetes, SaaS,
+  startup, vpa
 date: '2024-02-21 11:44:41'
 author:
   name: Matteo Bianchi
   email: matteob@omnistrate.com
   picture: ''
-excerpt: How Omnistrate can unburden you by managing a smart scaling system that works multi-cloud out of the box This is our first issue of a brand new Engineering series at Omnistrate.
+excerpt: >-
+  How Omnistrate can unburden you by managing a smart scaling system that works
+  multi-cloud out of the box This is our first issue of a brand new Engineering
+  series at Omnistrate.
 slug: engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-saas
+readTime: 4
+coverImage: >-
+  /images/posts/engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-saas-1.png
+category: Engineering & Tech
 ---
 
 How Omnistrate can unburden you by managing a smart scaling system that works multi-cloud out of the box
@@ -74,7 +83,7 @@ You can try it yourself and let us know what you think, sign up on [omnistrate.c
   [2]: https://blog.omnistrate.com/posts/40
   [3]: https://karpenter.sh/
   [4]: https://github.com/Azure/karpenter 
-  [5]: https://drive.google.com/thumbnail?id=1Ccc8Laq9CiXoembC5kHu4X9HwKNs-Eyh&sz=w720 
-  [6]: https://drive.google.com/thumbnail?id=1j9q9w2tjGPjDaq3alWfqOwohs6P3uPWu&sz=w720
+  [5]: /images/posts/engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-saas-1.png 
+  [6]: /images/posts/engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-saas-2.png
   [7]: https://omnistrate.cloud/signup
 

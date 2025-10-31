@@ -1,13 +1,19 @@
 ---
 title: '[AI Series] Cost Controls & Insights'
-tags: "AI, cost, Insights, Omnistrate, SaaS"
+tags: 'AI, cost, Insights, Omnistrate, SaaS'
 date: '2025-04-04 02:31:41'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'In our previous blogs, we discussed two foundational pillars of AI infrastructure: BYOA (Bring Your Own Account) for secure, scalable deployments and Jobs Support for managing bursty and...'
+excerpt: >-
+  In our previous blogs, we discussed two foundational pillars of AI
+  infrastructure: BYOA (Bring Your Own Account) for secure, scalable deployments
+  and Jobs Support for managing bursty and...
 slug: ai-series-cost-controls-insights
+readTime: 4
+coverImage: ''
+category: Engineering & Tech
 ---
 
 In our previous blogs, we discussed two foundational pillars of AI infrastructure: [BYOA (Bring Your Own Account)][1] for secure, scalable deployments and [Jobs Support][2] for managing bursty and scheduled workloads.

@@ -1,13 +1,21 @@
 ---
-title: 'Reimagining SaaSBuilder: A More Intuitive, Efficient and Streamlined Experience'
-tags: "open-source, saasbuilder"
+title: >-
+  Reimagining SaaSBuilder: A More Intuitive, Efficient and Streamlined
+  Experience
+tags: 'open-source, saasbuilder'
 date: '2025-02-19 18:48:08'
 author:
   name: Nihal Mohammed
   email: nihalm@omnistrate.com
   picture: ''
-excerpt: Introduction SaaSBuilder provides a ready-to-use interface for our customers to quickly launch their SaaS offerings on Omnistrate Platform.
+excerpt: >-
+  Introduction SaaSBuilder provides a ready-to-use interface for our customers
+  to quickly launch their SaaS offerings on Omnistrate Platform.
 slug: reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience
+readTime: 6
+coverImage: >-
+  /images/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience-1.png
+category: Product Updates
 ---
 
 
@@ -177,10 +185,10 @@ If you are using the new SaaSBuilder, we would love to hear your thoughts. Your 
 
 Stay tuned for more updates, and happy building!
 
-  [1]: https://drive.google.com/thumbnail?id=1rdDvuWWu_GjVduC-pKYu7BDnCXO8BJU4&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1oL1_pba7qWElRAj1aLT1EA_3hvktUYSx&sz=w720
-  [3]: https://drive.google.com/thumbnail?id=10cI7cyCS3d2O3npcOCn2krcAU35UcaGU&sz=w480
-  [4]: https://drive.google.com/thumbnail?id=1JxmYdXjiaMFbPr_KvHTp7jOFNx5QTY1N&sz=w720
-  [5]: https://drive.google.com/thumbnail?id=10zFGZjUr3nupnQ3jaEJrAXYNI0MaZmlM&sz=w720
-  [6]: https://drive.google.com/thumbnail?id=1nLETDxZA5tVKjeSXisNddlYhoiPO6CJq&sz=w720
-  [7]: https://drive.google.com/thumbnail?id=10ZiqyUqDWsXTYR6pNr9htizPu9GyRHL_&sz=w720
+  [1]: /images/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience-1.png
+  [2]: /images/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience-2.png
+  [3]: /images/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience-3.png
+  [4]: /images/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience-4.png
+  [5]: /images/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience-5.png
+  [6]: /images/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience-6.png
+  [7]: /images/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience-7.png

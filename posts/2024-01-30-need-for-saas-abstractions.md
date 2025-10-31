@@ -1,13 +1,18 @@
 ---
 title: Need for SaaS abstractions
-tags: "abstractions, cloud, operating systems, OS, SaaS"
+tags: 'abstractions, cloud, operating systems, OS, SaaS'
 date: '2024-01-30 22:36:10'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: Developing software as a service (SaaS) in today's cloud environment can be compared to creating an application for an operating system (OS).
+excerpt: >-
+  Developing software as a service (SaaS) in today's cloud environment can be
+  compared to creating an application for an operating system (OS).
 slug: need-for-saas-abstractions
+readTime: 3
+coverImage: ''
+category: Industry Insights
 ---
 
 Developing software as a service (SaaS) in today's cloud environment can be compared to creating an application for an operating system (OS). Just as developers don't concern themselves with the intricacies of CPU scheduling or memory management when writing applications for Windows or Linux, similar abstractions are needed in the cloud.

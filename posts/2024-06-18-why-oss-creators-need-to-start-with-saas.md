@@ -1,13 +1,19 @@
 ---
 title: Why OSS Creators need to start with SaaS
-tags: "cloud, Cloud Marketplace, open-source, SaaS"
+tags: 'cloud, Cloud Marketplace, open-source, SaaS'
 date: '2024-06-18 20:26:55'
 author:
   name: Michael Cooper
   email: michaelc@omnistrate.com
   picture: ''
-excerpt: Many OSS projects are supported by a crew of volunteers trying to solve a simple problem in the world around them. And most OSS projects don’t judge their true success with monetary metrics.
+excerpt: >-
+  Many OSS projects are supported by a crew of volunteers trying to solve a
+  simple problem in the world around them. And most OSS projects don’t judge
+  their true success with monetary metrics.
 slug: why-oss-creators-need-to-start-with-saas
+readTime: 4
+coverImage: ''
+category: Industry Insights
 ---
 
 Many OSS projects are supported by a crew of volunteers trying to solve a simple problem in the world around them.  And most OSS projects don’t judge their true success with monetary metrics.

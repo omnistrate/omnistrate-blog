@@ -1,13 +1,18 @@
 ---
 title: 'Real-World Example: The Lifecycle Headache (Part 2 of 3)'
-tags: "BYOC, ControlPlane, DevOps, MultiCloud, PlatformEngineering, SaaS"
+tags: 'BYOC, ControlPlane, DevOps, MultiCloud, PlatformEngineering, SaaS'
 date: '2025-06-12 08:23:54'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Imagine a data analytics SaaS startup, “DataCo”, that wants to build Redis SaaS as an example.'
+excerpt: >-
+  Imagine a data analytics SaaS startup, “DataCo”, that wants to build Redis
+  SaaS as an example.
 slug: real-world-example-the-lifecycle-headache-part-2-of-3
+readTime: 9
+coverImage: ''
+category: Engineering & Tech
 ---
 
 Imagine a data analytics SaaS startup, “DataCo”, that wants to build Redis SaaS as an example. They use Argo CD to deploy their analytics application (a set of microservices + some Spark jobs) onto the EKS cluster.

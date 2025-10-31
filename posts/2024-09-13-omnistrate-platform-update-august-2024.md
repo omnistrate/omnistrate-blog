@@ -1,13 +1,18 @@
 ---
 title: Omnistrate Platform Update (August 2024)
-tags: "Omnistrate, platform, product-release, SaaS, update"
+tags: 'Omnistrate, platform, product-release, SaaS, update'
 date: '2024-09-13 02:00:25'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Omnistrate now supports a new tenancy model with Dedicated Networks for resource provisioning.'
+excerpt: >-
+  Omnistrate now supports a new tenancy model with Dedicated Networks for
+  resource provisioning.
 slug: omnistrate-platform-update-august-2024
+readTime: 3
+coverImage: /images/posts/omnistrate-platform-update-august-2024-1.png
+category: Product Updates
 ---
 
 Omnistrate, if you don’t know it already, is your SaaS Co-Pilot to build and operate a SaaS Control Plane in days!
@@ -74,9 +79,9 @@ We are the operating system of your SaaS, offering enterprise-grade capabilities
 We also have [amazing docs][5], a [Slack community][9], a [YouTube channel][6], Twitter (whoops, [X][8]) and of course a [LinkedIn page][7] where you can follow us to stay updated with our latest news 🟩
 
   [1]: https://drive.google.com/thumbnail?id=1KHKAuFJ_5g_mKbzSvqCK-cvn3TvSfvR3&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1hKh__sDs6gxdWkf3jUGIDvZBmzsxd6Sm&sz=w720
-  [4]: https://drive.google.com/thumbnail?id=1DWqOgx_S9r8Do-JdTsBszeNCY-SSogtK&sz=w212
-  [3]: https://drive.google.com/thumbnail?id=126EIThm3u0vptLymDzPM26sIFBCzzhDK&sz=w212
+  [2]: /images/posts/omnistrate-platform-update-august-2024-1.png
+  [4]: /images/posts/omnistrate-platform-update-august-2024-2.jpg
+  [3]: /images/posts/omnistrate-platform-update-august-2024-3.png
   [5]: http://docs.omnistrate.com
   [6]: https://www.youtube.com/@omnistrate
   [7]: https://www.linkedin.com/company/omnistrate/

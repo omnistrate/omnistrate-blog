@@ -1,13 +1,19 @@
 ---
 title: What is a SaaS Control Plane?
-tags: "cloud, k8s, Kubernetes, multi-cloud, open-source, SaaS, terraform"
+tags: 'cloud, k8s, Kubernetes, multi-cloud, open-source, SaaS, terraform'
 date: '2024-01-28 20:16:31'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'I was among the authors at AWS who pioneered the first SaaS control plane back in 2009, laying the groundwork for many SaaS offerings both within and beyond AWS.'
+excerpt: >-
+  I was among the authors at AWS who pioneered the first SaaS control plane back
+  in 2009, laying the groundwork for many SaaS offerings both within and beyond
+  AWS.
 slug: what-is-a-saas-control-plane
+readTime: 14
+coverImage: /images/posts/what-is-a-saas-control-plane-1.png
+category: Engineering & Tech
 ---
 
 I was among the authors at AWS who pioneered the first SaaS control plane back in 2009, laying the groundwork for many SaaS offerings both within and beyond AWS. Crafting the SaaS control plane, we delved deep into fundamental questions:
@@ -125,8 +131,8 @@ These are only some of the common requirements, your SaaS and your customers may
 To learn more about why we built Omnistrate Platform, please see [here][4]. In the next [blog post][5], we will cover how users can leverage a SaaS platform like Omnistrate to address many of these challenges.
 
 
-  [1]: https://drive.google.com/thumbnail?id=1A4Ukr_L0GISvab94gNmTMmIFEYmZGnrn&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1ArdrtR8SUXBI7o93svn-16z50fhOyljP&sz=w720
+  [1]: /images/posts/what-is-a-saas-control-plane-1.png
+  [2]: /images/posts/what-is-a-saas-control-plane-2.png
   [3]: email:support@omnistrate.com
   [4]: https://blog.omnistrate.com/posts/51
   [5]: https://blog.omnistrate.com/posts/53

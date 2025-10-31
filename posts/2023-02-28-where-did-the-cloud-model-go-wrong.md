@@ -1,13 +1,18 @@
 ---
 title: Where did the Cloud model go wrong?
-tags: "cloud, open-source"
+tags: 'cloud, open-source'
 date: '2023-02-28 20:20:38'
 author:
   name: Team Omnistrate
   email: team@omnistrate.com
   picture: ''
-excerpt: 'In our last post, we talked about the emergence of the Cloud and we feel this is where the Cloud model went wrong.'
+excerpt: >-
+  In our last post, we talked about the emergence of the Cloud and we feel this
+  is where the Cloud model went wrong.
 slug: where-did-the-cloud-model-go-wrong
+readTime: 2
+coverImage: /images/posts/where-did-the-cloud-model-go-wrong-1.jpg
+category: Industry Insights
 ---
 
 In our last [post][1], we talked about the emergence of the Cloud and we feel this is where the Cloud model went wrong. 
@@ -27,6 +32,6 @@ It’s no surprise that there has been a sudden rise in SaaS providers from Mong
 We would love to hear what you think.
 
   [1]: https://blog.omnistrate.com/posts/6
-  [2]: https://i.imgur.com/P5W9D9hl.png
+  [2]: /images/posts/where-did-the-cloud-model-go-wrong-1.jpg
   [3]: https://coss.media/rise-of-the-open-source-ipo/
   [4]: http://coss.media

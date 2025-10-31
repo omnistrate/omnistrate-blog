@@ -1,13 +1,19 @@
 ---
 title: Day 2 Operations - SaaS Maintenance
-tags: "cloud, platform engineering, SaaS"
+tags: 'cloud, platform engineering, SaaS'
 date: '2023-10-14 22:16:04'
 author:
   name: Joshua Buss
   email: joshua@omnistrate.com
   picture: ''
-excerpt: 'In my previous posts, I have covered what it takes to build a SaaS Control Plane. In this post, we will cover some of the challenges in operating a SaaS service.'
+excerpt: >-
+  In my previous posts, I have covered what it takes to build a SaaS Control
+  Plane. In this post, we will cover some of the challenges in operating a SaaS
+  service.
 slug: day-2-operations-saas-maintenance
+readTime: 9
+coverImage: ''
+category: Engineering & Tech
 ---
 
 In my previous posts, I have covered what it takes to *build* a SaaS Control Plane: [[Capabilities]][1][[Billing]][2][[Provisioning]][3][[Scaling]][4][[High Availability]][5][[Monitoring]][6]. In this post, we will cover some of the challenges in *operating* a SaaS service.

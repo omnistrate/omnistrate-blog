@@ -1,13 +1,19 @@
 ---
 title: 'Cloud Native vs Cloud Agnostic: Weighing the Trade-Offs'
-tags: "cloud, cloud-agnostic, cloud-native"
+tags: 'cloud, cloud-agnostic, cloud-native'
 date: '2023-02-24 09:31:17'
 author:
   name: Abhishek Gupta
   email: abhishekg@omnistrate.com
   picture: ''
-excerpt: 'Speed ​​is an important factor for business in this era when customers are looking for instant gratification. If the fact doesn’t convince you, the statistics might.'
+excerpt: >-
+  Speed ​​is an important factor for business in this era when customers are
+  looking for instant gratification. If the fact doesn’t convince you, the
+  statistics might.
 slug: cloud-native-vs-cloud-agnostic-weighing-the-trade-offs
+readTime: 10
+coverImage: ''
+category: Industry Insights
 ---
 
 Speed ​​is an important factor for business in this era when customers are looking for instant gratification. If the fact doesn’t convince you, the statistics might. An element as simple as a website’s load time carries weight. Statistics indicate that the first five seconds of a page load time have the greatest impact on conversion rates. So when consumer behavior has the greatest impact, it is profitable in the long run to modernize a business model accordingly.

@@ -1,13 +1,19 @@
 ---
 title: "Omnistrate’s Journey of Trust Continues - From SOC 2 Type I to Type II \U0001F6E1️✨"
-tags: "cloud, compliance, security, soc2"
+tags: 'cloud, compliance, security, soc2'
 date: '2023-09-18 00:45:02'
 author:
   name: Omnistrate Team
   email: founders@omnistrate.com
   picture: ''
-excerpt: 'Certification We are back with more exciting news. After our proud announcement of achieving the SOC 2 Type I certification, we have now achieved another significant milestone by earning the SOC.'
+excerpt: >-
+  Certification We are back with more exciting news. After our proud
+  announcement of achieving the SOC 2 Type I certification, we have now achieved
+  another significant milestone by earning the SOC.
 slug: omnistrate-s-journey-of-trust-continues-from-soc-2-type-i-to-type-ii
+readTime: 3
+coverImage: ''
+category: Product Updates
 ---
 
 **Certification**

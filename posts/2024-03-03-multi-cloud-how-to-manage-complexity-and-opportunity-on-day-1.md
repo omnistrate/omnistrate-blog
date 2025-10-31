@@ -1,13 +1,19 @@
 ---
 title: 'Multi-Cloud: How to manage Complexity and Opportunity on day-1'
-tags: "multi-cloud, platform engineering"
+tags: 'multi-cloud, platform engineering'
 date: '2024-03-03 21:17:01'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'There are several advantage of running services across multiple clouds. Many organization don''t consider this initially due to added complexity, effort and management cost.'
+excerpt: >-
+  There are several advantage of running services across multiple clouds. Many
+  organization don't consider this initially due to added complexity, effort and
+  management cost.
 slug: multi-cloud-how-to-manage-complexity-and-opportunity-on-day-1
+readTime: 3
+coverImage: ''
+category: Industry Insights
 ---
 
 There are several advantage of running services across multiple clouds. Many organization don't consider this initially due to added complexity, effort and management cost. Is there a way to have a cake and eat it too?

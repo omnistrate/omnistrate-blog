@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+import { NextConfig } from "next";
+import redirects from "./redirect-mapping.json";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return redirects;
+  },
   output: "standalone"
 };
 

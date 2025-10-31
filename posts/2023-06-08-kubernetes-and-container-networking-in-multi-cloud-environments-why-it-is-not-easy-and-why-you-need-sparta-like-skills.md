@@ -1,13 +1,22 @@
 ---
-title: 'Kubernetes and container networking in multi-cloud environments: Why it is not easy and why you need Sparta like skills'
-tags: "aws, cloud, cloud-agnostic, cloud-native, Kubernetes" 
+title: >-
+  Kubernetes and container networking in multi-cloud environments: Why it is not
+  easy and why you need Sparta like skills
+tags: 'aws, cloud, cloud-agnostic, cloud-native, Kubernetes'
 date: '2023-06-08 04:08:39'
 author:
   name: Abhishek Gupta
   email: abhishekg@omnistrate.com
   picture: ''
-excerpt: 'As the world of technology continues to evolve, containerization has become a popular choice for deploying applications.'
-slug: kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills
+excerpt: >-
+  As the world of technology continues to evolve, containerization has become a
+  popular choice for deploying applications.
+slug: >-
+  kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills
+readTime: 13
+coverImage: >-
+  /images/posts/kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills-1.webp
+category: Engineering & Tech
 ---
 
 As the world of technology continues to evolve, containerization has become a popular choice for deploying applications. Kubernetes is an open-source container orchestration system that has gained popularity due to its ability to manage and deploy containers across multiple hosts. 
@@ -414,4 +423,4 @@ That’s it! You have now federated EKS, GKE, and AKS clusters and deployed an a
 In this example, we have shown how to deploy a sample application on Kubernetes in a multi-cloud environment using GCP, Azure, and AWS. By understanding how Kubernetes handles container networking and service discovery, users can easily deploy and manage containers in multi-cloud environments.
 
 
-  [1]: https://miro.medium.com/v2/resize:fit:640/format:webp/1*y6m_8BWwUXSW4xkuKFCIdg.png
+  [1]: /images/posts/kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills-1.webp

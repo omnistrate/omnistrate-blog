@@ -1,13 +1,18 @@
 ---
 title: 'On-Prem Software Distribution: Overcoming Licensing & Deployment Challenges'
-tags: "build vs buy, cloud, Omnistrate, platform, SaaS"
+tags: 'build vs buy, cloud, Omnistrate, platform, SaaS'
 date: '2025-02-26 04:12:28'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'In our previous post on BYOC, we discussed different approaches to SaaS distribution and specifically discussed BYOC model in detail.'
+excerpt: >-
+  In our previous post on BYOC, we discussed different approaches to SaaS
+  distribution and specifically discussed BYOC model in detail.
 slug: on-prem-software-distribution-overcoming-licensing-deployment-challenges
+readTime: 3
+coverImage: ''
+category: Industry Insights
 ---
 
 In our [previous post on BYOC][1], we discussed different approaches to SaaS distribution and specifically discussed BYOC model in detail. 

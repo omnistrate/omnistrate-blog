@@ -1,13 +1,19 @@
 ---
 title: Why we built Omnistrate?
-tags: "cloud, multi-cloud, open-source, SaaS"
+tags: 'cloud, multi-cloud, open-source, SaaS'
 date: '2024-01-28 11:53:53'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'We witness the proliferation of SaaS solutions daily — from AI applications like Private ChatGPT and infrastructure services like Snowflake, to content management systems such as WordPress, and HR...'
+excerpt: >-
+  We witness the proliferation of SaaS solutions daily — from AI applications
+  like Private ChatGPT and infrastructure services like Snowflake, to content
+  management systems such as WordPress, and HR...
 slug: why-we-built-omnistrate
+readTime: 4
+coverImage: ''
+category: Industry Insights
 ---
 
 We witness the proliferation of SaaS solutions daily — from AI applications like Private ChatGPT and infrastructure services like Snowflake, to content management systems such as WordPress, and HR management systems like Workday. The spectrum extends to customer support tools like Zendesk, customer engagement platforms like Salesforce, and collaboration solutions like Zoom, Slack, and Google Workspace. SaaS has become the prevailing distribution model in today’s software landscape and is poised to define the future of software delivery.

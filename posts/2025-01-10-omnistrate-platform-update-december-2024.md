@@ -1,16 +1,21 @@
 ---
 title: Omnistrate Platform Update (December 2024)
-tags: "cloud, platform, product-release, SaaS, update"
+tags: 'cloud, platform, product-release, SaaS, update'
 date: '2025-01-10 20:18:14'
 author:
   name: Amit Sharma
   email: amits@omnistrate.com
   picture: ''
-excerpt: We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!
+excerpt: >-
+  We’re thrilled to introduce several powerful updates that enhance the
+  Omnistrate platform!
 slug: omnistrate-platform-update-december-2024
+readTime: 5
+coverImage: /images/posts/omnistrate-platform-update-december-2024-1.png
+category: Product Updates
 ---
 
-![Omnistrate Updates](https://mcusercontent.com/08ffbac64293e1abc50999571/images/e69cda54-a65c-9baf-49a1-b1e4a87b689d.png)
+![Omnistrate Updates](/images/posts/omnistrate-platform-update-december-2024-1.png)
 
 We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!
 
@@ -87,7 +92,7 @@ We also have [amazing docs][9], a [Slack community][10], a [YouTube channel][11]
   [5]: https://www.linkedin.com/company/percona/
   [6]: https://www.linkedin.com/in/gopi-duddi/
   [7]: https://www.linkedin.com/company/couchbase/
-  [8]: https://drive.google.com/thumbnail?id=1HZcWbDYLr73xMKfbSIeaW7mszCU3tJlj&sz=w720 "AWS:reInvent"
+  [8]: /images/posts/omnistrate-platform-update-december-2024-2.png "AWS:reInvent"
   [9]: http://docs.omnistrate.com
   [10]: https://join.slack.com/t/cloudnative-u5h1399/shared_invite/zt-1qf3cgi37-lCV1vKJlrBioqGuVjKBtyw
   [11]: https://www.youtube.com/@omnistrate

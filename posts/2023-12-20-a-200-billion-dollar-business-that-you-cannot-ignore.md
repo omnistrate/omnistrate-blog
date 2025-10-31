@@ -1,13 +1,18 @@
 ---
 title: A 200 billion dollar business that you cannot ignore
-tags: "SaaS, startup"
+tags: 'SaaS, startup'
 date: '2023-12-20 22:16:21'
 author:
   name: Matteo Bianchi
   email: matteob@omnistrate.com
   picture: ''
-excerpt: 'A business generating 200 billion dollars per year, cannot be ignored. What kind of business are we talking about? SaaS.'
+excerpt: >-
+  A business generating 200 billion dollars per year, cannot be ignored. What
+  kind of business are we talking about? SaaS.
 slug: a-200-billion-dollar-business-that-you-cannot-ignore
+readTime: 4
+coverImage: ''
+category: Industry Insights
 ---
 
 A business generating 200 billion dollars per year, cannot be ignored.

@@ -1,13 +1,23 @@
 ---
-title: 'Enter Omnistrate: Developer platform to build your Software Distribution (Part 3 of 3)'
-tags: "BYOC, CloudNative, ControlPlane, DevOps, MultiCloud, PlatformEngineering, SaaS"
+title: >-
+  Enter Omnistrate: Developer platform to build your Software Distribution (Part
+  3 of 3)
+tags: 'BYOC, CloudNative, ControlPlane, DevOps, MultiCloud, PlatformEngineering, SaaS'
 date: '2025-06-12 14:27:03'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Now in Part 3, we turn to the solution: What if you didn’t have to abandon your existing stack, but could augment it with a purpose-built control plane, one that handled tenant lifecycle, deployment..'
-slug: enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3
+excerpt: >-
+  Now in Part 3, we turn to the solution: What if you didn’t have to abandon
+  your existing stack, but could augment it with a purpose-built control plane,
+  one that handled tenant lifecycle, deployment..
+slug: >-
+  enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3
+readTime: 15
+coverImage: >-
+  /images/posts/enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3-1.png
+category: Engineering & Tech
 ---
 
 Now in Part 3, we turn to the solution: What if you didn’t have to abandon your existing stack, but could augment it with a purpose-built control plane, one that handled tenant lifecycle, deployment orchestration, and multi-cloud complexity out of the box?
@@ -380,6 +390,6 @@ In the end, building a SaaS is about delivering value to customers, not building
 
   [1]: https://blog.omnistrate.com/posts/149
   [2]: https://blog.omnistrate.com/posts/150
-  [3]: https://drive.google.com/thumbnail?id=1yYM3Y41N1SVwi5Eiz9rU4Dlp58V3a2yI&sz=w720
+  [3]: /images/posts/enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3-1.png
   [4]: https://docs.omnistrate.com/getting-started/compose/compose-spec/
   [5]: https://youtu.be/hyXc93DDGic

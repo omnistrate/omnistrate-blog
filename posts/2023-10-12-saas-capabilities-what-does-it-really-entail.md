@@ -1,6 +1,6 @@
 ---
 title: SaaS Capabilities - What Does it Really Entail?
-tags: "cloud, platform engineering, SaaS"
+tags: 'cloud, platform engineering, SaaS'
 date: '2023-10-12 19:03:20'
 author:
   name: Joshua Buss
@@ -8,6 +8,9 @@ author:
   picture: ''
 excerpt: What does it really mean for software to be available as a service?
 slug: saas-capabilities-what-does-it-really-entail
+readTime: 7
+coverImage: ''
+category: Industry Insights
 ---
 
 What does it really mean for software to be available as a service?  Sure, there are plenty of dry definitions out there, but I think a lot of us like to adhere to the ideology of “I know it when I see it” even if we wouldn’t readily admit it.

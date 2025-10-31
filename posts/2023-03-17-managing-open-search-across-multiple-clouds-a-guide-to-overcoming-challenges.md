@@ -1,13 +1,19 @@
 ---
 title: "Managing Open Search  \U0001F50D  Across Multiple Clouds: A Guide to Overcoming Challenges"
-tags: "cloud, cloud-native, elastic, multi-cloud, open-search"
+tags: 'cloud, cloud-native, elastic, multi-cloud, open-search'
 date: '2023-03-17 15:37:23'
 author:
   name: Abhishek Gupta
   email: abhishekg@omnistrate.com
   picture: ''
-excerpt: Are you tired of juggling multiple cloud providers for your Open Search needs? this guide will help you navigate the stormy waters of managing Open Search across multiple clouds.
+excerpt: >-
+  Are you tired of juggling multiple cloud providers for your Open Search needs?
+  this guide will help you navigate the stormy waters of managing Open Search
+  across multiple clouds.
 slug: managing-open-search-across-multiple-clouds-a-guide-to-overcoming-challenges
+readTime: 4
+coverImage: ''
+category: Engineering & Tech
 ---
 
 Are you tired of juggling multiple cloud providers for your Open Search needs? Do you feel like you're drowning in a sea of APIs and configurations? -- this guide will help you navigate the stormy waters of managing Open Search across multiple clouds.

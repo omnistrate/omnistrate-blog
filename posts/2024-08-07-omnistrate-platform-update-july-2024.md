@@ -1,13 +1,18 @@
 ---
 title: Omnistrate Platform Update (July 2024)
-tags: "Omnistrate, platform, product-release, SaaS, update"
+tags: 'Omnistrate, platform, product-release, SaaS, update'
 date: '2024-08-07 23:58:55'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Product updates We are excited to announce several new features and improvements to the Omnistrate platform!'
+excerpt: >-
+  Product updates We are excited to announce several new features and
+  improvements to the Omnistrate platform!
 slug: omnistrate-platform-update-july-2024
+readTime: 4
+coverImage: /images/posts/omnistrate-platform-update-july-2024-1.jpg
+category: Product Updates
 ---
 
 Omnistrate, if you don’t know it already, is your SaaS Co-Pilot to build and operate a SaaS Control Plane in days!
@@ -83,9 +88,9 @@ We are the operating system of your SaaS, offering enterprise-grade capabilities
 
 We also have [amazing docs][16], a [Slack community][20], a [YouTube channel][17], Twitter (whoops, [X][18]) and of course a [LinkedIn page][19] where you can follow us to stay updated with our latest news 🟩
 
-  [1]: https://drive.google.com/thumbnail?id=1aeeAyNRaWTlwiicsXCErPTLJzbQx-fV1&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1GSa9eEKZewig2oawzWSd7Eje8rgAoQsL&sz=w720
-  [3]: https://drive.google.com/thumbnail?id=1tk-aSvNSi4ZFQJahEudyNI-gKgG1M_GE&sz=w720
+  [1]: /images/posts/omnistrate-platform-update-july-2024-1.jpg
+  [2]: /images/posts/omnistrate-platform-update-july-2024-2.png
+  [3]: /images/posts/omnistrate-platform-update-july-2024-3.png
   [4]: https://www.linkedin.com/in/bill-tarr-san-diego
   [5]: https://www.linkedin.com/in/kkgupta2
   [6]: https://www.linkedin.com/in/trunal

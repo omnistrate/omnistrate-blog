@@ -1,13 +1,19 @@
 ---
 title: 'Convoy Case Study: From Two Years to Two Weeks'
-tags: "case-study, Convoy, Omnistrate, SaaS"
+tags: 'case-study, Convoy, Omnistrate, SaaS'
 date: '2024-07-21 02:16:19'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Convoy partnered with Omnistrate to turn their Open Core Webhook gateway into a feature complete multi-cloud SaaS solution in weeks “Our friends at another company told..'
+excerpt: >-
+  Convoy partnered with Omnistrate to turn their Open Core Webhook gateway into
+  a feature complete multi-cloud SaaS solution in weeks “Our friends at another
+  company told..
 slug: convoy-case-study-from-two-years-to-two-weeks
+readTime: 6
+coverImage: /images/posts/convoy-case-study-from-two-years-to-two-weeks-1.png
+category: Customer Stories
 ---
 
 ![Omnistrate Convoy Logos][1]
@@ -92,7 +98,7 @@ For more information about Omnistrate, visit [Omnistrate's Website][4]
 
 Omnistrate empowers Independent Software Vendors (ISVs) to build and manage their SaaS offerings in minutes instead of years. Our platform automates the entire SaaSification process, from supporting deployments to operating enterprise-grade SaaS solutions at scale. With Omnistrate, ISVs can accelerate their time-to-market and focus on innovation while we handle the complexities of SaaS management.
 
-  [1]: https://drive.google.com/thumbnail?id=1LIbjI43oQRAZCk9iK1N6sl3I08P7CCi5&sz=w720
+  [1]: /images/posts/convoy-case-study-from-two-years-to-two-weeks-1.png
   [2]: https://www.linkedin.com/in/subomi-oluwalana-one/
   [3]: https://cloud.getconvoy.io/signup
   [4]: https://omnistrate.com

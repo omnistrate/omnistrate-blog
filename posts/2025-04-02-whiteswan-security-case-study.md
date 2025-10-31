@@ -1,13 +1,18 @@
 ---
 title: Whiteswan Security Case Study
-tags: "BYOA, BYOC, case-study, Omnistrate, onprem-copilot, whiteswan-security"
+tags: 'BYOA, BYOC, case-study, Omnistrate, onprem-copilot, whiteswan-security'
 date: '2025-04-02 07:04:38'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: Security startups don’t have time or resources to reinvent cloud infrastructure.
+excerpt: >-
+  Security startups don’t have time or resources to reinvent cloud
+  infrastructure.
 slug: whiteswan-security-case-study
+readTime: 4
+coverImage: /images/posts/whiteswan-security-case-study-1.jpg
+category: Customer Stories
 ---
 
 > “Security startups don’t have time or resources to reinvent cloud infrastructure.
@@ -99,4 +104,4 @@ So if you're building the next great security platform, don't go it alone. Lever
 
 
   [1]: https://www.linkedin.com/in/vinaymamidi/
-  [2]: https://drive.google.com/thumbnail?id=1CP_JOBY8XLpEvGSWF2C7y0MeuLW4-WKc&sz=w720
+  [2]: /images/posts/whiteswan-security-case-study-1.jpg

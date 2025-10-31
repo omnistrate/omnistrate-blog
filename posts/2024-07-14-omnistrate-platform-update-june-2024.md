@@ -1,13 +1,19 @@
 ---
 title: Omnistrate Platform Update (June 2024)
-tags: "Omnistrate, platform, release-notes, SaaS, startup, update"
+tags: 'Omnistrate, platform, release-notes, SaaS, startup, update'
 date: '2024-07-14 21:29:37'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: "Hello from Omnistrate. This is our platform update for June 2024! ###Announcement:Spend an afternoon on July 26th 2024 with Omnistrate, AWS SaaS Factory and a group of select partners to learn how.."
+excerpt: >-
+  Hello from Omnistrate. This is our platform update for June 2024!
+  ###Announcement:Spend an afternoon on July 26th 2024 with Omnistrate, AWS SaaS
+  Factory and a group of select partners to learn how..
 slug: omnistrate-platform-update-june-2024
+readTime: 3
+coverImage: ''
+category: Product Updates
 ---
 
 Hello from Omnistrate 👋

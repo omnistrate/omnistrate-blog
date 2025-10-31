@@ -1,13 +1,18 @@
 ---
 title: 'AI for B2B: From Training to Tenant Management and Day-2 Ops'
-tags: "AI, b2b, cloud, SaaS"
+tags: 'AI, b2b, cloud, SaaS'
 date: '2024-10-15 02:15:19'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'Building a B2B AI application involves several critical steps, from data collection to deployment and operations management.'
+excerpt: >-
+  Building a B2B AI application involves several critical steps, from data
+  collection to deployment and operations management.
 slug: ai-for-b2b-from-training-to-tenant-management-and-day-2-ops
+readTime: 3
+coverImage: ''
+category: Engineering & Tech
 ---
 
 Building a B2B AI application involves several critical steps, from data collection to deployment and operations management. 

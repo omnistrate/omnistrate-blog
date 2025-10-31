@@ -1,20 +1,26 @@
 ---
 title: Omnistrate Platform Update - August 2025 edition
-tags: "Platform Updates, Features, MCP, AI"
+tags: 'Platform Updates, Features, MCP, AI'
 date: '2025-09-19 22:01:13'
 author:
   name: Pablo Berton
   email: pberton@omnistrate.com
   picture: ''
-excerpt: "Exciting New Features in Omnistrate Omnistrate MCP tool We're excited to introduce the Omnistrate MCP tool, designed to seamlessly connect your favorite AI agents with Omnistrate."
+excerpt: >-
+  Exciting New Features in Omnistrate Omnistrate MCP tool We're excited to
+  introduce the Omnistrate MCP tool, designed to seamlessly connect your
+  favorite AI agents with Omnistrate.
 slug: omnistrate-platform-update-august-2025-edition
+readTime: 7
+coverImage: /images/posts/omnistrate-platform-update-august-2025-edition-1.png
+category: Product Updates
 ---
 
 
 ## 🚀 Exciting New Features in Omnistrate
 
 
-![Omnistrate Updates](https://mcusercontent.com/08ffbac64293e1abc50999571/images/e3265e54-c7c4-75a6-3b3b-6cd7c05a2ad6.png)
+![Omnistrate Updates](/images/posts/omnistrate-platform-update-august-2025-edition-1.png)
 
 
 ### Omnistrate MCP tool
@@ -67,7 +73,7 @@ Explore these new features today and elevate your SaaS product with Omnistrate!
 
 <br/>
 
-![Section Image](https://mcusercontent.com/08ffbac64293e1abc50999571/images/2734e044-d524-edab-762a-822365d105be.jpeg)
+![Section Image](/images/posts/omnistrate-platform-update-august-2025-edition-2.jpg)
 
 Managing modern infrastructure is harder than ever. Teams must balance speed, reliability, and cost efficiency while dealing with complex APIs, configuration drift, and operational incidents. Traditional approaches leave engineers buried in manual tasks and reactive firefighting instead of driving innovation.
 
@@ -96,7 +102,7 @@ By combining governance, automation, and AI-driven workflows, the Omnistrate MCP
 
 [👉 Learn how to revolutionize Your DevOps and SRE](https://blog.omnistrate.com/posts/159)
 
-![Section Image](https://mcusercontent.com/08ffbac64293e1abc50999571/images/1d6df71d-25ca-1713-e01a-c8dd3fc03771.png)
+![Section Image](/images/posts/omnistrate-platform-update-august-2025-edition-3.png)
 
 The **Omnistrate MCP tool (stdio) is fully open source**, enabling you to explore, extend, and integrate it into your own workflows. This transparency ensures that teams can trust, contribute to, and customize their AI-driven operations.
 
@@ -104,7 +110,7 @@ Learn how to configure the MCP server on your favorite tools following the instr
 
 [👉 Check the open source project](https://github.com/omnistrate-oss/omnistrate-ctl?tab=readme-ov-file#configuring-the-omnistrate-mcp-server)
 
-![Section Image](https://mcusercontent.com/08ffbac64293e1abc50999571/images/9f4b94bb-c6a9-4198-2e21-c103b39d8b33.png)
+![Section Image](/images/posts/omnistrate-platform-update-august-2025-edition-4.png)
 
 We renamed our "SaaS Mondays, Live on Fridays" series to "Practical Aspects of Agentic SaaS" to better align with our community aimed for SaaS builders, operators, and leaders who are shaping the future of software and agent delivery.
 

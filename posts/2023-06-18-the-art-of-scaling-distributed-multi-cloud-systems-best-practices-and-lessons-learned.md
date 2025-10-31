@@ -1,13 +1,22 @@
 ---
-title: 'The Art of Scaling Distributed Multi Cloud Systems: Best Practices and Lessons Learned'
-tags: "cloud, cloud-native, distributed, multi-cloud, security"
+title: >-
+  The Art of Scaling Distributed Multi Cloud Systems: Best Practices and Lessons
+  Learned
+tags: 'cloud, cloud-native, distributed, multi-cloud, security'
 date: '2023-06-18 07:09:02'
 author:
   name: Abhishek Gupta
   email: abhishekg@omnistrate.com
   picture: ''
-excerpt: 'Hello, fellow developers! In this blog post, I want to share with you some of the best practices and lessons learned from scaling distributed systems.'
-slug: the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned
+excerpt: >-
+  Hello, fellow developers! In this blog post, I want to share with you some of
+  the best practices and lessons learned from scaling distributed systems.
+slug: >-
+  the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned
+readTime: 6
+coverImage: >-
+  /images/posts/the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned-1.webp
+category: Engineering & Tech
 ---
 
 Hello, fellow developers! In this blog post, I want to share with you some of the best practices and lessons learned from scaling distributed systems. Distributed systems are systems that consist of multiple independent components that communicate and coordinate with each other over a network. 
@@ -108,4 +117,4 @@ I hope this blog post has given you some useful insights and inspiration for you
 
 **Happy Architecting!**
 
-  [1]: https://miro.medium.com/v2/resize:fit:720/format:webp/1*tL0Htsxf8i4D6U3H5kLMRw.jpeg
+  [1]: /images/posts/the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned-1.webp

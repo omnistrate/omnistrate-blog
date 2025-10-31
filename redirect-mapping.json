@@ -1,0 +1,617 @@
+[
+  {
+    "source": "/posts/160",
+    "destination": "/posts/omnistrate-platform-update-august-2025-edition",
+    "permanent": true
+  },
+  {
+    "source": "/posts/159",
+    "destination": "/posts/revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server",
+    "permanent": true
+  },
+  {
+    "source": "/posts/158",
+    "destination": "/posts/case-study-how-ferretdb-went-from-opensource-project-to-commercial-dbaas-success-in-weeks-not-years",
+    "permanent": true
+  },
+  {
+    "source": "/posts/157",
+    "destination": "/posts/omnistrate-platform-update-july-2025-edition",
+    "permanent": true
+  },
+  {
+    "source": "/posts/156",
+    "destination": "/posts/omnistrate-brownstone-modernize-your-software-offering-with-built-in-compliance-and-cloud-automation",
+    "permanent": true
+  },
+  {
+    "source": "/posts/155",
+    "destination": "/posts/maximizing-ai-infrastructure-value-through-smart-resource-sharing",
+    "permanent": true
+  },
+  {
+    "source": "/posts/154",
+    "destination": "/posts/moving-to-cell-based-architecture-lessons-from-neon",
+    "permanent": true
+  },
+  {
+    "source": "/posts/153",
+    "destination": "/posts/omnistrate-platform-update-jun-2025",
+    "permanent": true
+  },
+  {
+    "source": "/posts/152",
+    "destination": "/posts/build-your-own-software-platform-in-days",
+    "permanent": true
+  },
+  {
+    "source": "/posts/151",
+    "destination": "/posts/enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3",
+    "permanent": true
+  },
+  {
+    "source": "/posts/150",
+    "destination": "/posts/real-world-example-the-lifecycle-headache-part-2-of-3",
+    "permanent": true
+  },
+  {
+    "source": "/posts/149",
+    "destination": "/posts/building-diy-control-planes-with-kubernetes-argocd-terraform-part-1-of-3",
+    "permanent": true
+  },
+  {
+    "source": "/posts/147",
+    "destination": "/posts/omnistrate-platform-update-may-2025",
+    "permanent": true
+  },
+  {
+    "source": "/posts/146",
+    "destination": "/posts/omnistrate-platform-update-april-2025",
+    "permanent": true
+  },
+  {
+    "source": "/posts/145",
+    "destination": "/posts/integrating-serverless-framework-with-omnistrate-a-developer-s-journey",
+    "permanent": true
+  },
+  {
+    "source": "/posts/144",
+    "destination": "/posts/beyond-ecs-or-cloud-run-terraform-building-scalable-saas-infrastructure",
+    "permanent": true
+  },
+  {
+    "source": "/posts/143",
+    "destination": "/posts/omnistrate-platform-update-march-2025",
+    "permanent": true
+  },
+  {
+    "source": "/posts/142",
+    "destination": "/posts/ai-series-powering-high-performance-ai-workloads-gpu-soci-mig-and-keda",
+    "permanent": true
+  },
+  {
+    "source": "/posts/141",
+    "destination": "/posts/ai-series-cost-controls-insights",
+    "permanent": true
+  },
+  {
+    "source": "/posts/140",
+    "destination": "/posts/ai-series-introducing-omnistrate-s-new-job-controller-paradigm",
+    "permanent": true
+  },
+  {
+    "source": "/posts/138",
+    "destination": "/posts/whiteswan-security-case-study",
+    "permanent": true
+  },
+  {
+    "source": "/posts/137",
+    "destination": "/posts/why-cloud-marketplaces-are-the-new-launchpad-for-saas-startups",
+    "permanent": true
+  },
+  {
+    "source": "/posts/136",
+    "destination": "/posts/omnistrate-platform-update-february-2025",
+    "permanent": true
+  },
+  {
+    "source": "/posts/135",
+    "destination": "/posts/saas-mondays-live-on-fridays-how-ai-is-impacting-saas-builders-a-recap",
+    "permanent": true
+  },
+  {
+    "source": "/posts/134",
+    "destination": "/posts/build-vs-buy-why-platform-teams-choose-omnistrate-for-their-control-plane",
+    "permanent": true
+  },
+  {
+    "source": "/posts/133",
+    "destination": "/posts/navigating-aws-s-expanded-saas-co-sell-program-opportunities-and-challenges-for-isvs",
+    "permanent": true
+  },
+  {
+    "source": "/posts/132",
+    "destination": "/posts/beyond-helm-building-scalable-saas-infrastructure",
+    "permanent": true
+  },
+  {
+    "source": "/posts/131",
+    "destination": "/posts/on-prem-software-distribution-overcoming-licensing-deployment-challenges",
+    "permanent": true
+  },
+  {
+    "source": "/posts/130",
+    "destination": "/posts/custom-sidecars-support-for-omnistrate-resources",
+    "permanent": true
+  },
+  {
+    "source": "/posts/129",
+    "destination": "/posts/omnistrate-platform-update-january-2025",
+    "permanent": true
+  },
+  {
+    "source": "/posts/128",
+    "destination": "/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience",
+    "permanent": true
+  },
+  {
+    "source": "/posts/126",
+    "destination": "/posts/omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service",
+    "permanent": true
+  },
+  {
+    "source": "/posts/125",
+    "destination": "/posts/ai-series-what-is-byoc-and-why-does-it-matter-apps-must-go-to-the-data-in-2025",
+    "permanent": true
+  },
+  {
+    "source": "/posts/124",
+    "destination": "/posts/why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal",
+    "permanent": true
+  },
+  {
+    "source": "/posts/117",
+    "destination": "/posts/omnistrate-platform-update-december-2024",
+    "permanent": true
+  },
+  {
+    "source": "/posts/116",
+    "destination": "/posts/omnistrate-platform-update-november-2024",
+    "permanent": true
+  },
+  {
+    "source": "/posts/115",
+    "destination": "/posts/building-private-service-on-the-cloud",
+    "permanent": true
+  },
+  {
+    "source": "/posts/114",
+    "destination": "/posts/ai-series-omnistrate-launches-developer-platform-to-build-b2b-ai-apps",
+    "permanent": true
+  },
+  {
+    "source": "/posts/113",
+    "destination": "/posts/omnistrate-just-made-building-b2b-saas-easier-than-ever",
+    "permanent": true
+  },
+  {
+    "source": "/posts/112",
+    "destination": "/posts/omnistrate-open-source-building-together",
+    "permanent": true
+  },
+  {
+    "source": "/posts/110",
+    "destination": "/posts/omnistrate-platform-update-october-2024",
+    "permanent": true
+  },
+  {
+    "source": "/posts/109",
+    "destination": "/posts/omnistrate-developer-platform-to-build-b2b-saas",
+    "permanent": true
+  },
+  {
+    "source": "/posts/107",
+    "destination": "/posts/kubernetes-at-the-edge-revolutionizing-computing-and-resource-management",
+    "permanent": true
+  },
+  {
+    "source": "/posts/103",
+    "destination": "/posts/why-kubernetes-is-the-foundation-of-modern-cloud-infrastructure",
+    "permanent": true
+  },
+  {
+    "source": "/posts/102",
+    "destination": "/posts/aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud",
+    "permanent": true
+  },
+  {
+    "source": "/posts/101",
+    "destination": "/posts/ai-for-b2b-from-training-to-tenant-management-and-day-2-ops",
+    "permanent": true
+  },
+  {
+    "source": "/posts/100",
+    "destination": "/posts/omnistrate-platform-update-september-2024",
+    "permanent": true
+  },
+  {
+    "source": "/posts/99",
+    "destination": "/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service",
+    "permanent": true
+  },
+  {
+    "source": "/posts/98",
+    "destination": "/posts/omnistrate-platform-update-august-2024",
+    "permanent": true
+  },
+  {
+    "source": "/posts/97",
+    "destination": "/posts/omnistrate-successfully-completes-annual-soc-2-type-ii-attestation",
+    "permanent": true
+  },
+  {
+    "source": "/posts/96",
+    "destination": "/posts/omnistrate-platform-update-july-2024",
+    "permanent": true
+  },
+  {
+    "source": "/posts/95",
+    "destination": "/posts/omnistrate-strengthens-aws-partnership-with-key-milestones",
+    "permanent": true
+  },
+  {
+    "source": "/posts/94",
+    "destination": "/posts/convoy-case-study-from-two-years-to-two-weeks",
+    "permanent": true
+  },
+  {
+    "source": "/posts/93",
+    "destination": "/posts/omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india",
+    "permanent": true
+  },
+  {
+    "source": "/posts/92",
+    "destination": "/posts/omnistrate-successfully-achieves-soc-2-type-ii-compliance-and-completes-external-penetration-testing",
+    "permanent": true
+  },
+  {
+    "source": "/posts/91",
+    "destination": "/posts/omnistrate-joins-cncf-family-sponsors-cncf-and-open-sources-saasbuilder",
+    "permanent": true
+  },
+  {
+    "source": "/posts/90",
+    "destination": "/posts/omnistrate-welcomes-michael-cooper-as-new-gtm-executive-leader",
+    "permanent": true
+  },
+  {
+    "source": "/posts/89",
+    "destination": "/posts/omnistrate-platform-update-june-2024",
+    "permanent": true
+  },
+  {
+    "source": "/posts/88",
+    "destination": "/posts/rethinking-open-source-licenses-empowering-startups-with-omnistrate",
+    "permanent": true
+  },
+  {
+    "source": "/posts/86",
+    "destination": "/posts/why-oss-creators-need-to-start-with-saas",
+    "permanent": true
+  },
+  {
+    "source": "/posts/85",
+    "destination": "/posts/omnistrate-platform-update-may-2024",
+    "permanent": true
+  },
+  {
+    "source": "/posts/84",
+    "destination": "/posts/should-your-startup-start-with-saas",
+    "permanent": true
+  },
+  {
+    "source": "/posts/83",
+    "destination": "/posts/omnistrate-platform-update-april-2024",
+    "permanent": true
+  },
+  {
+    "source": "/posts/82",
+    "destination": "/posts/restoring-the-promise-of-open-source-with-omnistrate",
+    "permanent": true
+  },
+  {
+    "source": "/posts/81",
+    "destination": "/posts/omnistrate-platform-update-march-2024",
+    "permanent": true
+  },
+  {
+    "source": "/posts/80",
+    "destination": "/posts/the-three-key-components-of-building-a-billing-system",
+    "permanent": true
+  },
+  {
+    "source": "/posts/79",
+    "destination": "/posts/understanding-saas-billing-models",
+    "permanent": true
+  },
+  {
+    "source": "/posts/78",
+    "destination": "/posts/omnistrate-platform-update-february-2024",
+    "permanent": true
+  },
+  {
+    "source": "/posts/77",
+    "destination": "/posts/abcs-of-control-plane",
+    "permanent": true
+  },
+  {
+    "source": "/posts/76",
+    "destination": "/posts/multi-cloud-how-to-manage-complexity-and-opportunity-on-day-1",
+    "permanent": true
+  },
+  {
+    "source": "/posts/75",
+    "destination": "/posts/helping-entrepreneurs-to-improve-their-startup-success-odds-by-10x",
+    "permanent": true
+  },
+  {
+    "source": "/posts/71",
+    "destination": "/posts/engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-saas",
+    "permanent": true
+  },
+  {
+    "source": "/posts/70",
+    "destination": "/posts/startup-challenges-and-how-to-improve-your-odds-by-10x",
+    "permanent": true
+  },
+  {
+    "source": "/posts/68",
+    "destination": "/posts/accelerating-saas-innovation-omnistrate-s-latest-platform-release",
+    "permanent": true
+  },
+  {
+    "source": "/posts/67",
+    "destination": "/posts/navigating-the-operational-puzzle-of-saas",
+    "permanent": true
+  },
+  {
+    "source": "/posts/66",
+    "destination": "/posts/unlocking-the-complexity-of-billing-in-saas",
+    "permanent": true
+  },
+  {
+    "source": "/posts/65",
+    "destination": "/posts/fortifying-saas-safeguarding-data-and-compliance-across-layers",
+    "permanent": true
+  },
+  {
+    "source": "/posts/64",
+    "destination": "/posts/challenges-in-streamlining-saas-user-experiences",
+    "permanent": true
+  },
+  {
+    "source": "/posts/63",
+    "destination": "/posts/saas-reliability-achieving-high-availability",
+    "permanent": true
+  },
+  {
+    "source": "/posts/62",
+    "destination": "/posts/strategies-for-seamless-saas-deployment",
+    "permanent": true
+  },
+  {
+    "source": "/posts/61",
+    "destination": "/posts/tenant-isolation-strategy-for-your-saas-application",
+    "permanent": true
+  },
+  {
+    "source": "/posts/60",
+    "destination": "/posts/control-plane-unpacking-the-build-vs-buy-dilemma",
+    "permanent": true
+  },
+  {
+    "source": "/posts/59",
+    "destination": "/posts/role-of-kubernetes-operators-in-saas-development",
+    "permanent": true
+  },
+  {
+    "source": "/posts/58",
+    "destination": "/posts/beyond-terraform-building-scalable-saas-infrastructure",
+    "permanent": true
+  },
+  {
+    "source": "/posts/57",
+    "destination": "/posts/hello-world-saas-design-and-its-challenges",
+    "permanent": true
+  },
+  {
+    "source": "/posts/56",
+    "destination": "/posts/top-5-saas-mistakes-to-avoid",
+    "permanent": true
+  },
+  {
+    "source": "/posts/55",
+    "destination": "/posts/need-for-saas-abstractions",
+    "permanent": true
+  },
+  {
+    "source": "/posts/54",
+    "destination": "/posts/the-saas-revolution-transforming-software-delivery-forever",
+    "permanent": true
+  },
+  {
+    "source": "/posts/53",
+    "destination": "/posts/introducing-omnistrate-platform",
+    "permanent": true
+  },
+  {
+    "source": "/posts/52",
+    "destination": "/posts/what-is-a-saas-control-plane",
+    "permanent": true
+  },
+  {
+    "source": "/posts/51",
+    "destination": "/posts/why-we-built-omnistrate",
+    "permanent": true
+  },
+  {
+    "source": "/posts/50",
+    "destination": "/posts/a-200-billion-dollar-business-that-you-cannot-ignore",
+    "permanent": true
+  },
+  {
+    "source": "/posts/49",
+    "destination": "/posts/lifecycle-management-and-infrastructure-cleanup-the-overlooked-challenge-of-efficiently-decommissioning-resources",
+    "permanent": true
+  },
+  {
+    "source": "/posts/48",
+    "destination": "/posts/simplifying-multi-cloud-multi-tenant-saas-deployments-with-infrastructure-as-code-iac",
+    "permanent": true
+  },
+  {
+    "source": "/posts/46",
+    "destination": "/posts/day-2-operations-saas-maintenance",
+    "permanent": true
+  },
+  {
+    "source": "/posts/45",
+    "destination": "/posts/saas-capabilities-what-does-it-really-entail",
+    "permanent": true
+  },
+  {
+    "source": "/posts/44",
+    "destination": "/posts/challenges-in-building-saas-billing",
+    "permanent": true
+  },
+  {
+    "source": "/posts/43",
+    "destination": "/posts/provisioning-and-deployments-your-saas-foundation",
+    "permanent": true
+  },
+  {
+    "source": "/posts/42",
+    "destination": "/posts/why-enterprises-are-shifting-to-saas",
+    "permanent": true
+  },
+  {
+    "source": "/posts/41",
+    "destination": "/posts/diving-deep-into-control-and-data-plane-responsibilities",
+    "permanent": true
+  },
+  {
+    "source": "/posts/40",
+    "destination": "/posts/everything-about-scaling",
+    "permanent": true
+  },
+  {
+    "source": "/posts/39",
+    "destination": "/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-2",
+    "permanent": true
+  },
+  {
+    "source": "/posts/38",
+    "destination": "/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-1",
+    "permanent": true
+  },
+  {
+    "source": "/posts/35",
+    "destination": "/posts/why-is-the-saas-paradigm-so-powerful",
+    "permanent": true
+  },
+  {
+    "source": "/posts/34",
+    "destination": "/posts/introduction-to-control-plane-and-data-plane",
+    "permanent": true
+  },
+  {
+    "source": "/posts/33",
+    "destination": "/posts/omnistrate-s-journey-of-trust-continues-from-soc-2-type-i-to-type-ii",
+    "permanent": true
+  },
+  {
+    "source": "/posts/32",
+    "destination": "/posts/the-future-of-saas-and-kubernetes-trends-and-predictions",
+    "permanent": true
+  },
+  {
+    "source": "/posts/31",
+    "destination": "/posts/inside-the-cloud-understanding-iaas-paas-and-saas",
+    "permanent": true
+  },
+  {
+    "source": "/posts/30",
+    "destination": "/posts/distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users",
+    "permanent": true
+  },
+  {
+    "source": "/posts/29",
+    "destination": "/posts/the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned",
+    "permanent": true
+  },
+  {
+    "source": "/posts/28",
+    "destination": "/posts/kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills",
+    "permanent": true
+  },
+  {
+    "source": "/posts/27",
+    "destination": "/posts/a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres",
+    "permanent": true
+  },
+  {
+    "source": "/posts/26",
+    "destination": "/posts/omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust",
+    "permanent": true
+  },
+  {
+    "source": "/posts/25",
+    "destination": "/posts/managing-open-search-across-multiple-clouds-a-guide-to-overcoming-challenges",
+    "permanent": true
+  },
+  {
+    "source": "/posts/24",
+    "destination": "/posts/unlocking-the-full-potential-of-kubernetes-with-amazon-linux-2023",
+    "permanent": true
+  },
+  {
+    "source": "/posts/23",
+    "destination": "/posts/aks-edge-essentials-on-premises-kubernetes-implementation-of-azure-kubernetes-service",
+    "permanent": true
+  },
+  {
+    "source": "/posts/22",
+    "destination": "/posts/an-introduction-to-kubernetes-based-event-driven-autoscaling",
+    "permanent": true
+  },
+  {
+    "source": "/posts/21",
+    "destination": "/posts/how-to-achieve-autoscaling-in-multi-cloud-kubernetes-deployments",
+    "permanent": true
+  },
+  {
+    "source": "/posts/7",
+    "destination": "/posts/where-did-the-cloud-model-go-wrong",
+    "permanent": true
+  },
+  {
+    "source": "/posts/20",
+    "destination": "/posts/cloud-native-vs-cloud-agnostic-weighing-the-trade-offs",
+    "permanent": true
+  },
+  {
+    "source": "/posts/6",
+    "destination": "/posts/emergence-future-of-open-source-and-cloud",
+    "permanent": true
+  },
+  {
+    "source": "/posts/19",
+    "destination": "/posts/maximizing-cloud-native-success-with-the-twelve-factor-app-methodology",
+    "permanent": true
+  },
+  {
+    "source": "/posts/3",
+    "destination": "/posts/what-is-a-cloud",
+    "permanent": true
+  }
+]

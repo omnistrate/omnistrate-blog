@@ -1,13 +1,18 @@
 ---
 title: Unlocking the Complexity of Billing in SaaS
-tags: "billing, cloud, marketplace, metering, SaaS"
+tags: 'billing, cloud, marketplace, metering, SaaS'
 date: '2024-02-01 21:13:02'
 author:
   name: Kamal Gupta
   email: kamal@omnistrate.com
   picture: ''
-excerpt: 'One of the core tenets of SaaS is to be able to meter tenant usage and then bill your customers. However, there are a lot of challenges in handling that.'
+excerpt: >-
+  One of the core tenets of SaaS is to be able to meter tenant usage and then
+  bill your customers. However, there are a lot of challenges in handling that.
 slug: unlocking-the-complexity-of-billing-in-saas
+readTime: 2
+coverImage: ''
+category: Industry Insights
 ---
 
 One of the core tenets of SaaS is to be able to meter tenant usage and then bill your customers. However, there are a lot of challenges in handling that.

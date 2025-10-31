@@ -1,13 +1,18 @@
 ---
 title: Custom Sidecars support for Omnistrate resources
-tags: "cloud, k8s, OTEL, sidecars"
+tags: 'cloud, k8s, OTEL, sidecars'
 date: '2025-02-20 21:46:09'
 author:
   name: Tomislav Simeunovic
   email: tomislavs@omnistrate.com
   picture: ''
-excerpt: 'We’re excited to announce support for custom sidecars, enabling greater flexibility and extensibility in your deployments.'
+excerpt: >-
+  We’re excited to announce support for custom sidecars, enabling greater
+  flexibility and extensibility in your deployments.
 slug: custom-sidecars-support-for-omnistrate-resources
+readTime: 2
+coverImage: ''
+category: Product Updates
 ---
 
 We’re excited to announce support for custom sidecars, enabling greater flexibility and extensibility in your deployments. Whether you need to enhance observability, security, or networking within your application, sidecars provide a powerful way to extend functionality without modifying your main application code.

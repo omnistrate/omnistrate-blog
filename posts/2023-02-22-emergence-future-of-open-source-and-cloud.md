@@ -1,13 +1,19 @@
 ---
 title: Emergence/Future of Open-source and Cloud
-tags: "cloud, open-source"
+tags: 'cloud, open-source'
 date: '2023-02-22 23:34:55'
 author:
   name: Team Omnistrate
   email: team@omnistrate.com
   picture: ''
-excerpt: 'Before 2005, most of the technology was open source and enterprises were consuming open source to accomplish their business goals and the trend seems to continue to grow.'
+excerpt: >-
+  Before 2005, most of the technology was open source and enterprises were
+  consuming open source to accomplish their business goals and the trend seems
+  to continue to grow.
 slug: emergence-future-of-open-source-and-cloud
+readTime: 4
+coverImage: /images/posts/emergence-future-of-open-source-and-cloud-1.jpg
+category: Industry Insights
 ---
 
 Before 2005, most of the technology was open source and enterprises were consuming open source to accomplish their business goals and the trend seems to continue to grow. Take the operating system as an example. The use and popularity of Linux have been growing day by day. Another good example is the database industry where MySQL and Postgres are rapidly growing over time as opposed to Oracle or Microsoft’s SQL Server. 
@@ -35,6 +41,6 @@ All these innovations led to a shift from enterprises buying packaged software t
 What other shifts did you notice? - leave a comment
 
   [1]: https://omnistrate.com/posts/3
-  [2]: https://i.imgur.com/ZPhXCtMl.png
+  [2]: /images/posts/emergence-future-of-open-source-and-cloud-1.jpg
   [3]: https://coss.media/rise-of-the-open-source-ipo/
   [4]: http://coss.media

@@ -1,20 +1,25 @@
 ---
 title: Omnistrate Platform Update (February 2025)
-tags: "cloud, platform, product-release, SaaS, update"
+tags: 'cloud, platform, product-release, SaaS, update'
 date: '2025-03-14 20:38:11'
 author:
   name: Pablo Berton
   email: pberton@omnistrate.com
   picture: ''
-excerpt: "Exciting New Features in Omnistrate We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!"
+excerpt: >-
+  Exciting New Features in Omnistrate We’re thrilled to introduce several
+  powerful updates that enhance the Omnistrate platform!
 slug: omnistrate-platform-update-february-2025
+readTime: 5
+coverImage: /images/posts/omnistrate-platform-update-february-2025-1.png
+category: Product Updates
 ---
 
 
 ## 🚀 Exciting New Features in Omnistrate
 
 
-![Omnistrate Updates](https://mcusercontent.com/08ffbac64293e1abc50999571/images/7de911d9-0281-faf9-9023-c27ff9e01d1f.png)
+![Omnistrate Updates](/images/posts/omnistrate-platform-update-february-2025-1.png)
 
 We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!
 
@@ -76,7 +81,7 @@ Let us know what you think! 🚀
 ### Building Open-Core SaaS
 
 
-[![Omnistrate Open Source](https://mcusercontent.com/08ffbac64293e1abc50999571/images/1d6df71d-25ca-1713-e01a-c8dd3fc03771.png)](https://github.com/omnistrate-oss/)
+[![Omnistrate Open Source](/images/posts/omnistrate-platform-update-february-2025-2.png)](https://github.com/omnistrate-oss/)
 
 At Omnistrate, we are committed to empowering developers, and our latest updates on our Open Source projects reflect our continued investment in simplifying building SaaS.  
 
@@ -113,7 +118,7 @@ We just wrapped up our first-ever **SaaS Mondays livestream**, diving deep into 
 🔹 Multi-cloud AI deployments are becoming essential for scalability and compliance.  
 🔹 AI-powered control planes will revolutionize how SaaS builders automate and operate at scale.  
 
-[![SaaSMondaySession](https://mcusercontent.com/08ffbac64293e1abc50999571/images/76112632-40a7-2b7f-6dc1-dbe33f988731.jpg)](https://www.linkedin.com/events/saasmondaylivestream7298108656586305537/)
+[![SaaSMondaySession](/images/posts/omnistrate-platform-update-february-2025-3.jpg)](https://www.linkedin.com/events/saasmondaylivestream7298108656586305537/)
 
 If you missed it, don’t worry—you can read the **transcript here**, or **watch the full session recording**:  
 
