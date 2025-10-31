@@ -1,5 +1,13 @@
 import { Author } from "./author";
 
+export type BlogCategory =
+  | "Product Updates"
+  | "Industry Insights"
+  | "Customer Stories"
+  | "Engineering & Tech"
+  | "Partners & Ecosystem"
+  | "Miscellaneous";
+
 export type Post = {
   slug: string;
   title: string;
@@ -9,6 +17,7 @@ export type Post = {
   excerpt: string;
   tags?: string[];
   readTime?: number;
+  category?: BlogCategory;
   ogImage: {
     url: string;
   };
@@ -25,4 +34,5 @@ export type PostMetadata = {
   coverImage?: string;
   tags?: string[];
   readTime?: number;
+  category?: BlogCategory;
 };

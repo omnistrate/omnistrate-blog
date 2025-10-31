@@ -10,6 +10,7 @@ excerpt: 'SaaS applications need to be highly available, with several 9’s of S
 slug: saas-reliability-achieving-high-availability
 readTime: 2
 coverImage: ''
+category: Engineering & Tech
 ---
 
 SaaS applications need to be highly available, with several 9’s of SLA. We have to deal with all sorts of failures, ranging from hardware failures, software failures, hung processes, data center power outages, networking switch failures, degraded storage, to correlated failures, and so on. You will have to keep track of per-tenant SLAs not only to monitor their health and take proactive actions before their availability falls below their SLA, but also to take necessary actions to remediate common issues.

@@ -11,6 +11,7 @@ slug: why-cloud-marketplaces-are-the-new-launchpad-for-saas-startups
 readTime: 5
 coverImage: >-
   /images/posts/why-cloud-marketplaces-are-the-new-launchpad-for-saas-startups-1.jpg
+category: Industry Insights
 ---
 
 We hosted our second [SaaS Mondays](1) , Live on Fridays on Friday.

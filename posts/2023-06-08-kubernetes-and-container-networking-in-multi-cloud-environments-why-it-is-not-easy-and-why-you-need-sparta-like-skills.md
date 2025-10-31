@@ -16,6 +16,7 @@ slug: >-
 readTime: 13
 coverImage: >-
   /images/posts/kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills-1.webp
+category: Engineering & Tech
 ---
 
 As the world of technology continues to evolve, containerization has become a popular choice for deploying applications. Kubernetes is an open-source container orchestration system that has gained popularity due to its ability to manage and deploy containers across multiple hosts. 

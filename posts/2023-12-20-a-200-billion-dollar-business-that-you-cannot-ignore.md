@@ -12,6 +12,7 @@ excerpt: >-
 slug: a-200-billion-dollar-business-that-you-cannot-ignore
 readTime: 4
 coverImage: ''
+category: Industry Insights
 ---
 
 A business generating 200 billion dollars per year, cannot be ignored.

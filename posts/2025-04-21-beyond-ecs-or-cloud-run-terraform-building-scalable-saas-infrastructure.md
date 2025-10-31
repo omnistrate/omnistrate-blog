@@ -13,6 +13,7 @@ excerpt: >-
 slug: beyond-ecs-or-cloud-run-terraform-building-scalable-saas-infrastructure
 readTime: 2
 coverImage: ''
+category: Engineering & Tech
 ---
 
 Many B2B startups start their cloud journey with AWS ECS or GCP Cloud Run. It's understandable—they're familiar, quick to set up, and tightly integrated with the hyperscalers' ecosystems. Throw in some Terraform, and you have a hello-world deployment workflow that seems "good enough" to get your SaaS up and running.

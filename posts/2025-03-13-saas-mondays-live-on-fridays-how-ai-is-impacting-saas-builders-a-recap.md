@@ -14,6 +14,7 @@ slug: saas-mondays-live-on-fridays-how-ai-is-impacting-saas-builders-a-recap
 readTime: 4
 coverImage: >-
   /images/posts/saas-mondays-live-on-fridays-how-ai-is-impacting-saas-builders-a-recap-1.jpg
+category: Industry Insights
 ---
 
 On March 7th, 2025, we kicked off the inaugural session of **[SaaS Mondays][1], Live on Fridays**, a new biweekly LinkedIn Live series dedicated to fostering discussions among SaaS builders, founders, and industry leaders. Hosted by [Michael Cooper][2] (GTM Lead, Omnistrate), the session featured insights from:

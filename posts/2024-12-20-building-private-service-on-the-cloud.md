@@ -13,6 +13,7 @@ excerpt: >-
 slug: building-private-service-on-the-cloud
 readTime: 4
 coverImage: /images/posts/building-private-service-on-the-cloud-1.png
+category: Engineering & Tech
 ---
 
 Building private services on the cloud enables businesses to leverage the benefits of cloud technology, such as flexibility and scalability, while maintaining strict control over their data. This is particularly important for organizations handling sensitive information, as a private cloud environment enhances security and ensures compliance with specific regulatory requirements.

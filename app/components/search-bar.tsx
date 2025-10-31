@@ -5,14 +5,12 @@ interface SearchBarProps {
   value?: string;
   onChange: (value: string) => void;
   disabled?: boolean;
-  currentPage?: number;
-  totalPages?: number;
 }
 
 export const SearchBar = forwardRef<HTMLDivElement, SearchBarProps>(
-  ({ value = "", onChange, disabled = false, currentPage, totalPages }, ref) => {
+  ({ value = "", onChange, disabled = false }, ref) => {
     return (
-      <div ref={ref} className="flex flex-col items-center mb-12 mt-8 lg:mt-12">
+      <div ref={ref} className="sticky top-[92px] lg:top-[100px] z-[1200] flex justify-center mb-12 mt-8 lg:mt-12">
         <div className="relative w-full" style={{ maxWidth: "566px" }}>
           <input
             type="text"
@@ -24,11 +22,6 @@ export const SearchBar = forwardRef<HTMLDivElement, SearchBarProps>(
             disabled={disabled}
           />
         </div>
-        {currentPage && totalPages && (
-          <TextMD className="mt-4 font-medium">
-            Page {currentPage} of {totalPages}
-          </TextMD>
-        )}
       </div>
     );
   }

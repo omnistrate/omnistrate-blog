@@ -12,6 +12,7 @@ excerpt: >-
 slug: what-is-a-cloud
 readTime: 6
 coverImage: /images/posts/what-is-a-cloud-1.jpg
+category: Industry Insights
 ---
 
 The term Cloud isn’t a physical entity but is meant to represent the infrastructure of the internet. It’s called Cloud to signify that the users of the Cloud don’t have to worry about the underlying complexities of the infrastructure but can use it as building blocks for their application. Behind the scenes, the cloud is a vast network of physical machines across the globe connected together and abstracted for its end users for dedicated tasks from running applications to storing data to managed applications.

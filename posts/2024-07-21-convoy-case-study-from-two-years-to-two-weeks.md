@@ -13,6 +13,7 @@ excerpt: >-
 slug: convoy-case-study-from-two-years-to-two-weeks
 readTime: 6
 coverImage: /images/posts/convoy-case-study-from-two-years-to-two-weeks-1.png
+category: Customer Stories
 ---
 
 ![Omnistrate Convoy Logos][1]

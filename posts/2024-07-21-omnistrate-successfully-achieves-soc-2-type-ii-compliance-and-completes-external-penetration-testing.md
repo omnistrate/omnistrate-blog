@@ -16,6 +16,7 @@ slug: >-
   omnistrate-successfully-achieves-soc-2-type-ii-compliance-and-completes-external-penetration-testing
 readTime: 3
 coverImage: ''
+category: Product Updates
 ---
 
 **Redwood City, California – July 17, 2024** – We are thrilled to announce that Omnistrate, the industry’s leading SaaS Control Plane service provider, has successfully completed an external penetration testing assessment conducted by a reputable third-party firm. This milestone, combined with our achievement of SOC 2 Type II compliance earlier this year, underscores our unwavering commitment to security, transparency, and excellence.

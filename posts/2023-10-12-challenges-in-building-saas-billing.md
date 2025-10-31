@@ -12,6 +12,7 @@ excerpt: >-
 slug: challenges-in-building-saas-billing
 readTime: 11
 coverImage: /images/posts/challenges-in-building-saas-billing-1.jpg
+category: Engineering & Tech
 ---
 
 By far the most consistent area of focus I’ve had in my career is monitoring and observability.  Way back in 2005 while at Orbitz, I had the opportunity to learn from and work alongside Chris Davis, the original author of Graphite.  It was an enormous success both at Orbitz and within the industry as a whole, and it’s been an honor and privilege to essentially ride that initial wave of monitoring innovation my whole career.

@@ -16,6 +16,7 @@ slug: >-
 readTime: 5
 coverImage: >-
   /images/posts/distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users-1.webp
+category: Engineering & Tech
 ---
 
 One of the most challenging aspects of building a distributed system is scaling it to handle different levels of user traffic. In this blog post, I will discuss some of the common techniques and trade-offs involved in scaling a distributed system from 1 to 1 billion users. 

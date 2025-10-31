@@ -13,6 +13,7 @@ excerpt: >-
 slug: multi-cloud-how-to-manage-complexity-and-opportunity-on-day-1
 readTime: 3
 coverImage: ''
+category: Industry Insights
 ---
 
 There are several advantage of running services across multiple clouds. Many organization don't consider this initially due to added complexity, effort and management cost. Is there a way to have a cake and eat it too?

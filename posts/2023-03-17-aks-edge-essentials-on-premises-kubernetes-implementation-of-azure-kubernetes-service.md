@@ -16,6 +16,7 @@ slug: >-
   aks-edge-essentials-on-premises-kubernetes-implementation-of-azure-kubernetes-service
 readTime: 2
 coverImage: ''
+category: Engineering & Tech
 ---
 
 AKS Edge Essentials, an on-premises Kubernetes implementation of Azure Kubernetes Service that automates running containerized applications at scale on PC-class or “light” edge hardware. It highlights the features, benefits and use cases of AKS Edge Essentials, such as:

@@ -14,6 +14,7 @@ slug: helping-entrepreneurs-to-improve-their-startup-success-odds-by-10x
 readTime: 3
 coverImage: >-
   /images/posts/helping-entrepreneurs-to-improve-their-startup-success-odds-by-10x-1.jpg
+category: Industry Insights
 ---
 
 As entrepreneurs, we know that time and money are our most valuable assets. Imagine if we have a mechanism to test our ideas and validate them in no time without spending a fortune. Huh? -- that's interesting!

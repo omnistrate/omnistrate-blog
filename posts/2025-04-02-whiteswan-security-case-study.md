@@ -12,6 +12,7 @@ excerpt: >-
 slug: whiteswan-security-case-study
 readTime: 4
 coverImage: /images/posts/whiteswan-security-case-study-1.jpg
+category: Customer Stories
 ---
 
 > “Security startups don’t have time or resources to reinvent cloud infrastructure.

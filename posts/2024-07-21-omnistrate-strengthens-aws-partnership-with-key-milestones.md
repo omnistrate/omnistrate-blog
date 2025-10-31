@@ -13,6 +13,7 @@ excerpt: >-
 slug: omnistrate-strengthens-aws-partnership-with-key-milestones
 readTime: 3
 coverImage: /images/posts/omnistrate-strengthens-aws-partnership-with-key-milestones-1.jpg
+category: Partners & Ecosystem
 ---
 
 **Omnistrate Deepens its AWS Partnership, joining AWS Marketplace and AWS ISV Accelerate Program, and will be Highlighted at AWS Event on Building Great SaaS**

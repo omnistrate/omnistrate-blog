@@ -12,6 +12,7 @@ excerpt: >-
 slug: omnistrate-platform-update-september-2024
 readTime: 3
 coverImage: /images/posts/omnistrate-platform-update-september-2024-1.png
+category: Product Updates
 ---
 
 Omnistrate, if you don’t know it already, is your developer platform to build your B2B SaaS!

@@ -12,6 +12,7 @@ excerpt: >-
 slug: omnistrate-platform-update-august-2024
 readTime: 3
 coverImage: /images/posts/omnistrate-platform-update-august-2024-1.png
+category: Product Updates
 ---
 
 Omnistrate, if you don’t know it already, is your SaaS Co-Pilot to build and operate a SaaS Control Plane in days!

@@ -15,6 +15,7 @@ excerpt: >-
 slug: ai-series-what-is-byoc-and-why-does-it-matter-apps-must-go-to-the-data-in-2025
 readTime: 6
 coverImage: ''
+category: Industry Insights
 ---
 
 Applications are only as good as the data that powers them, and companies are putting more and more restrictions on where their proprietary data is accessible from.  In 2025 we see these issues accelerating even faster, as companies will find even more reasons to not allow their proprietary data outside of their realm of control.  

@@ -13,6 +13,7 @@ excerpt: >-
 slug: restoring-the-promise-of-open-source-with-omnistrate
 readTime: 2
 coverImage: ''
+category: Industry Insights
 ---
 
 In the early days, open source software (OSS) thrived on principles of freedom, collaboration, and innovation. However, as the cloud era dawned, the landscape shifted. Some of the cloud providers began to monetize OSS without necessarily contributing back to its creators. This raised concerns among open source inventors who felt their work was being exploited for profit.

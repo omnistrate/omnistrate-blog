@@ -13,6 +13,7 @@ slug: why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-port
 readTime: 4
 coverImage: >-
   /images/posts/why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal-1.png
+category: Customer Stories
 ---
 
 > "We chose Omnistrate because it empowered us to deliver on our promise

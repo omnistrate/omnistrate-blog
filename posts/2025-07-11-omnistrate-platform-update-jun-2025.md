@@ -13,6 +13,7 @@ excerpt: >-
 slug: omnistrate-platform-update-jun-2025
 readTime: 7
 coverImage: /images/posts/omnistrate-platform-update-jun-2025-1.png
+category: Product Updates
 ---
 
 

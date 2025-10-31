@@ -15,6 +15,7 @@ slug: reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experie
 readTime: 6
 coverImage: >-
   /images/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience-1.png
+category: Product Updates
 ---
 
 

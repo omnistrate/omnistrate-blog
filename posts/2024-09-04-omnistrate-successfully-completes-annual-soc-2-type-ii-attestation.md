@@ -13,6 +13,7 @@ excerpt: >-
 slug: omnistrate-successfully-completes-annual-soc-2-type-ii-attestation
 readTime: 2
 coverImage: ''
+category: Product Updates
 ---
 
 We are delighted to announce that Omnistrate has successfully completed its annual SOC 2 Type II attestation, a significant milestone in our ongoing commitment to safeguarding our customers' data. This achievement demonstrates our commitment to maintaining the highest standards of security, accessibility, and confidentiality.

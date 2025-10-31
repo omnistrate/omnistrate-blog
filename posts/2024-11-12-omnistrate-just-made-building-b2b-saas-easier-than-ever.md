@@ -12,6 +12,7 @@ excerpt: >-
 slug: omnistrate-just-made-building-b2b-saas-easier-than-ever
 readTime: 2
 coverImage: 'http://i3.ytimg.com/vi/VQjpG-x8S4w/hqdefault.jpg'
+category: Product Updates
 ---
 
 At Omnistrate, we’ve been hard at work expanding our platform to make B2B SaaS development as seamless as possible. Over the past few months, we’ve added support for Helm, Operator, Terraform, and Kustomize. These tools have empowered our advanced users to quickly bring their artifacts and launch their B2B SaaS platforms with ease and efficiency.

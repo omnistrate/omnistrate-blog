@@ -27,9 +27,7 @@ export const PostBody: React.FC<PostBodyProps> = ({ content }) => {
                 {children}
               </a>
             ),
-            h1: ({ children, ...props }) => <h2 {...props}>{children}</h2>,
-            h2: ({ children, ...props }) => <h3 {...props}>{children}</h3>,
-            h3: ({ children, ...props }) => <h4 {...props}>{children}</h4>
+            h1: ({ children, ...props }) => <h2 {...props}>{children}</h2>
           }}
           options={{
             mdxOptions: {

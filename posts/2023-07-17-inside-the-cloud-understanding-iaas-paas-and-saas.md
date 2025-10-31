@@ -13,6 +13,7 @@ excerpt: >-
 slug: inside-the-cloud-understanding-iaas-paas-and-saas
 readTime: 10
 coverImage: /images/posts/inside-the-cloud-understanding-iaas-paas-and-saas-1.jpg
+category: Industry Insights
 ---
 
 The proliferation of various cloud computing services has resulted in the widespread adoption of several new concepts and vocabularies in the world of IT infrastructure. IaaS, PaaS, and SaaS are frequently given examples of these cloud services. Yet, there isn't always enough information on hand to make the distinctions among these categories of cloud deployment models very clear. This article aims to clarify these concepts, go deeper into their background, present examples, explain use cases, and emphasize their main differences.

@@ -10,6 +10,7 @@ excerpt: "Hello from Omnistrate \U0001F44B This is our platform update for May 2
 slug: omnistrate-platform-update-may-2024
 readTime: 3
 coverImage: /images/posts/omnistrate-platform-update-may-2024-1.png
+category: Product Updates
 ---
 
 Hello from Omnistrate 👋

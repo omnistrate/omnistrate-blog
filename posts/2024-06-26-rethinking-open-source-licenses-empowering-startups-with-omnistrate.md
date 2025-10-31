@@ -12,6 +12,7 @@ excerpt: >-
 slug: rethinking-open-source-licenses-empowering-startups-with-omnistrate
 readTime: 3
 coverImage: ''
+category: Industry Insights
 ---
 
 The open-source community has long been driven by principles of collaboration and innovation. However, the evolution of cloud computing and the rise of SaaS have introduced new complexities in licensing and monetization. In the popular article on [Fermyon's blog][1], the importance of rethinking open-source licenses to align with modern distribution models is highlighted. This is where Omnistrate steps in, transforming the way startups can leverage open-source software.

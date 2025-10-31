@@ -12,6 +12,7 @@ excerpt: >-
 slug: maximizing-cloud-native-success-with-the-twelve-factor-app-methodology
 readTime: 6
 coverImage: ''
+category: Engineering & Tech
 ---
 
 > Twelve Factor App Methodology

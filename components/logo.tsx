@@ -7,7 +7,7 @@ type LogoProps = {
 };
 
 export const Logo: React.FC<LogoProps> = (props) => {
-  const { href = "/" } = props;
+  const { href = WEBSITE_URL } = props;
 
   return (
     <Link href={href}>

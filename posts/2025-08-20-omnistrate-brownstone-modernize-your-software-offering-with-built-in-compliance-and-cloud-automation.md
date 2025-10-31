@@ -16,6 +16,7 @@ slug: >-
   omnistrate-brownstone-modernize-your-software-offering-with-built-in-compliance-and-cloud-automation
 readTime: 4
 coverImage: ''
+category: Partners & Ecosystem
 ---
 
 Bringing software to the cloud is only half the challenge—proving it’s secure, compliant, and enterprise-ready is what unlocks adoption in regulated industries and large-scale procurement pipelines. That’s why we’re excited to announce our partnership with Brownstone Consulting, combining Omnistrate’s modern cloud automation platform with Brownstone’s compliance and security expertise.

@@ -16,6 +16,7 @@ slug: engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-sa
 readTime: 4
 coverImage: >-
   /images/posts/engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-saas-1.png
+category: Engineering & Tech
 ---
 
 How Omnistrate can unburden you by managing a smart scaling system that works multi-cloud out of the box

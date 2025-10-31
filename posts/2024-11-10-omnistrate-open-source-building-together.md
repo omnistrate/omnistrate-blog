@@ -12,6 +12,7 @@ excerpt: >-
 slug: omnistrate-open-source-building-together
 readTime: 2
 coverImage: /images/posts/omnistrate-open-source-building-together-1.png
+category: Engineering & Tech
 ---
 
 We’re also expanding our Open Source contributions, fostering community collaboration with new GitHub organizations, and bringing tools and SDKs for a better developer experience.

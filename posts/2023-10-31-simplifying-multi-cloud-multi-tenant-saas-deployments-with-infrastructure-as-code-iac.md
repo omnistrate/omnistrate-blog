@@ -16,6 +16,7 @@ slug: >-
 readTime: 7
 coverImage: >-
   /images/posts/simplifying-multi-cloud-multi-tenant-saas-deployments-with-infrastructure-as-code-iac-1.jpg
+category: Engineering & Tech
 ---
 
 The cloud landscape has evolved significantly in recent years, moving businesses beyond the confines of single cloud providers. Enterprises are increasingly embracing multi-cloud strategies to leverage the strengths of various cloud platforms. As they journey into this multi-cloud world, the intricacies of managing their infrastructure through Infrastructure as Code (IaC) become apparent, especially in the context of Software as a Service (SaaS) platforms operating in multi-tenant environments. In this blog post, we will explore the rise of multi-cloud deployments, the role of IaC as the glue that holds it together, the unique challenges posed by SaaS in a multi-cloud world, and best practices and solutions to navigate these complex scenarios.

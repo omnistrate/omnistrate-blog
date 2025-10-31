@@ -1,0 +1,37 @@
+app = "omnistrate-blog-dev"
+kill_signal = "SIGINT"
+kill_timeout = 5
+
+[build.args]
+
+[deploy]
+  strategy = 'rolling'
+
+[[services]]
+  internal_port = 3000
+  protocol = "tcp"
+  auto_stop_machines = "off"
+
+  [services.concurrency]
+    hard_limit = 30
+    soft_limit = 20
+    type = "requests"
+
+  [[services.ports]]
+    force_https = true
+    handlers = ["http"]
+    port = 80
+
+  [[services.ports]]
+    handlers = ["tls", "http"]
+    port = 443
+
+  [[services.tcp_checks]]
+    grace_period = "2s"
+    interval = "15s"
+    timeout = "2s"
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1

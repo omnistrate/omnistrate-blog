@@ -10,6 +10,7 @@ excerpt: "\U0001F680 Exciting New Features in Omnistrate We’re thrilled to int
 slug: omnistrate-platform-update-january-2025
 readTime: 4
 coverImage: /images/posts/omnistrate-platform-update-january-2025-1.png
+category: Product Updates
 ---
 
 

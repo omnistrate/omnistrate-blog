@@ -12,6 +12,7 @@ excerpt: >-
 slug: the-three-key-components-of-building-a-billing-system
 readTime: 6
 coverImage: ''
+category: Engineering & Tech
 ---
 
 When building a billing system there are 3 main components to consider:

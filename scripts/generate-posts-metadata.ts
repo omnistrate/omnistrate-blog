@@ -51,7 +51,8 @@ const generateMetadata = async () => {
       excerpt: data.excerpt,
       coverImage: data.coverImage,
       tags: parseTags(data.tags),
-      readTime: data.readTime
+      readTime: data.readTime,
+      category: data.category
     });
   }
 

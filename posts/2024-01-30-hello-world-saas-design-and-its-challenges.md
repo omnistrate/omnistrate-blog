@@ -12,6 +12,7 @@ excerpt: >-
 slug: hello-world-saas-design-and-its-challenges
 readTime: 2
 coverImage: ''
+category: Engineering & Tech
 ---
 
 Time and time again, we observe organizations grappling with the right design, consequently entangled in perpetual operations. Initially, with 5 or 10 customers, everything seems promising, but as you scale, the cracks start to appear from every direction.

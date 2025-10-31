@@ -12,6 +12,7 @@ excerpt: >-
 slug: startup-challenges-and-how-to-improve-your-odds-by-10x
 readTime: 4
 coverImage: /images/posts/startup-challenges-and-how-to-improve-your-odds-by-10x-1.png
+category: Industry Insights
 ---
 
 Starting a business is tough, and it's no secret that many startups don't make it. Every founder faces big challenges like finding customers who love their product, making enough money to keep going, and convincing investors to believe in their vision.

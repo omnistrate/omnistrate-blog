@@ -12,6 +12,7 @@ excerpt: >-
 slug: omnistrate-platform-update-october-2024
 readTime: 4
 coverImage: /images/posts/omnistrate-platform-update-october-2024-1.png
+category: Product Updates
 ---
 
 ![Omnistrate features][2]

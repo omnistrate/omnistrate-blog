@@ -12,6 +12,7 @@ excerpt: >-
 slug: omnistrate-developer-platform-to-build-b2b-saas
 readTime: 2
 coverImage: ''
+category: Product Updates
 ---
 
 Omnistrate offers the world’s first developer platform that simplifies and speeds up the development of B2B SaaS. It streamlines tenant and infrastructure management, including application deployment, empowering developers, product owners, and DevOps and MLOps teams to work more efficiently.

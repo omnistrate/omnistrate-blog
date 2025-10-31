@@ -12,6 +12,7 @@ excerpt: >-
 slug: build-your-own-software-platform-in-days
 readTime: 7
 coverImage: /images/posts/build-your-own-software-platform-in-days-1.png
+category: Engineering & Tech
 ---
 
 In the software industry, entrepreneurs have to go through 4 phases of innovation to build a product:

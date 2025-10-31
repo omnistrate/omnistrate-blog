@@ -12,6 +12,7 @@ excerpt: >-
 slug: why-kubernetes-is-the-foundation-of-modern-cloud-infrastructure
 readTime: 7
 coverImage: ''
+category: Engineering & Tech
 ---
 
 > "In a cloud-native world, Kubernetes is the foundation that lets you

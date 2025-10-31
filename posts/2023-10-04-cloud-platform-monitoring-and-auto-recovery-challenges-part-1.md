@@ -14,6 +14,7 @@ slug: cloud-platform-monitoring-and-auto-recovery-challenges-part-1
 readTime: 10
 coverImage: >-
   /images/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-1-1.jpg
+category: Engineering & Tech
 ---
 
 <h2>Introduction to Cloud Monitoring</h2>

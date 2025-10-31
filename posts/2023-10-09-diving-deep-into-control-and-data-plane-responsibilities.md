@@ -12,6 +12,7 @@ excerpt: >-
 slug: diving-deep-into-control-and-data-plane-responsibilities
 readTime: 10
 coverImage: /images/posts/diving-deep-into-control-and-data-plane-responsibilities-1.jpg
+category: Engineering & Tech
 ---
 
 Building upon our initial [introduction][1] of the control and data planes, this post delves deep into the interplay between these two planes. Shedding light on their individual roles and their combined impact on the overall SaaS experience. As we navigate through this post, we'll uncover the magic behind how these components work in tandem to ensure seamless operations, swift data transfers, and a scalable environment.

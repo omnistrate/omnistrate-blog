@@ -13,6 +13,7 @@ excerpt: >-
 slug: abcs-of-control-plane
 readTime: 4
 coverImage: ''
+category: Engineering & Tech
 ---
 
 Hello, and welcome to this blog of Control Plane! 

@@ -10,6 +10,7 @@ excerpt: 'Scaling - it’s the reason we’re all using this cloud thing anyway,
 slug: everything-about-scaling
 readTime: 16
 coverImage: /images/posts/everything-about-scaling-1.png
+category: Engineering & Tech
 ---
 
 Scaling - it’s the reason we’re all using this cloud thing anyway, right?  Surely all of your applications have been tested to effortlessly scale from 0 to 1,000 in milliseconds, and your databases can rebalance after scaling within minutes with zero impact to anything important, correct?

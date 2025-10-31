@@ -13,6 +13,7 @@ excerpt: >-
 slug: provisioning-and-deployments-your-saas-foundation
 readTime: 12
 coverImage: ''
+category: Engineering & Tech
 ---
 
 Before the cloud, getting fresh hardware and deploying your new software was always done in big budget events involving procurement, finance, several IT teams and the whole process included no small amount of arguing most of the time.

@@ -13,6 +13,7 @@ excerpt: >-
 slug: what-is-a-saas-control-plane
 readTime: 14
 coverImage: /images/posts/what-is-a-saas-control-plane-1.png
+category: Engineering & Tech
 ---
 
 I was among the authors at AWS who pioneered the first SaaS control plane back in 2009, laying the groundwork for many SaaS offerings both within and beyond AWS. Crafting the SaaS control plane, we delved deep into fundamental questions:

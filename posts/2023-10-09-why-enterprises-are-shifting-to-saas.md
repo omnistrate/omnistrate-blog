@@ -12,6 +12,7 @@ excerpt: >-
 slug: why-enterprises-are-shifting-to-saas
 readTime: 12
 coverImage: /images/posts/why-enterprises-are-shifting-to-saas-1.jpg
+category: Industry Insights
 ---
 
 In today's fast-paced digital landscape, the way enterprises consume and leverage software is undergoing a profound transformation. No longer confined to the traditional bounds of on-premises solutions and cumbersome software updates, businesses worldwide are pivoting towards Software as a Service (SaaS) platforms. 

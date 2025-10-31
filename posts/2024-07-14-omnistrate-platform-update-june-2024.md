@@ -13,6 +13,7 @@ excerpt: >-
 slug: omnistrate-platform-update-june-2024
 readTime: 3
 coverImage: ''
+category: Product Updates
 ---
 
 Hello from Omnistrate 👋

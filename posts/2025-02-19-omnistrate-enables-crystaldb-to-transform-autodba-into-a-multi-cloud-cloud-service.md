@@ -14,6 +14,7 @@ slug: >-
 readTime: 3
 coverImage: >-
   /images/posts/omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service-1.png
+category: Customer Stories
 ---
 
 > "Omnistrate made it easy for us to launch AutoDBA as a SaaS product.

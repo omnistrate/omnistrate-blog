@@ -13,6 +13,7 @@ excerpt: >-
 slug: emergence-future-of-open-source-and-cloud
 readTime: 4
 coverImage: /images/posts/emergence-future-of-open-source-and-cloud-1.jpg
+category: Industry Insights
 ---
 
 Before 2005, most of the technology was open source and enterprises were consuming open source to accomplish their business goals and the trend seems to continue to grow. Take the operating system as an example. The use and popularity of Linux have been growing day by day. Another good example is the database industry where MySQL and Postgres are rapidly growing over time as opposed to Oracle or Microsoft’s SQL Server. 
