@@ -1,35 +1,46 @@
-app = "omnistrate-blog-dev"
-kill_signal = "SIGINT"
-kill_timeout = 5
+# fly.toml app configuration file generated for omnistrate-blog-dev on 2025-10-31T18:04:44+05:30
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
 
-[build.args]
+app = 'omnistrate-blog-dev'
+primary_region = 'bom'
+kill_signal = 'SIGINT'
+kill_timeout = '5s'
+
+[build]
 
 [deploy]
   strategy = 'rolling'
 
-[[services]]
+[http_service]
   internal_port = 3000
-  protocol = "tcp"
-  auto_stop_machines = "off"
+  force_https = true
+  auto_stop_machines = 'off'
+
+[[services]]
+  protocol = 'tcp'
+  internal_port = 3000
+  auto_stop_machines = 'off'
+
+  [[services.ports]]
+    port = 80
+    handlers = ['http']
+    force_https = true
+
+  [[services.ports]]
+    port = 443
+    handlers = ['tls', 'http']
 
   [services.concurrency]
+    type = 'requests'
     hard_limit = 30
     soft_limit = 20
-    type = "requests"
-
-  [[services.ports]]
-    force_https = true
-    handlers = ["http"]
-    port = 80
-
-  [[services.ports]]
-    handlers = ["tls", "http"]
-    port = 443
 
   [[services.tcp_checks]]
-    grace_period = "2s"
-    interval = "15s"
-    timeout = "2s"
+    interval = '15s'
+    timeout = '2s'
+    grace_period = '2s'
 
 [[vm]]
   memory = '1gb'
