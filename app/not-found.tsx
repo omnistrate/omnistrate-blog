@@ -8,7 +8,6 @@ import fourZeroFourImg from "@/public/not-found/404.png";
 import { Button } from "@/components/ui/button";
 import { SectionHeading } from "@/components/SectionComponents";
 import { Container } from "./components/container";
-import { WEBSITE_URL } from "@/constants/site";
 
 const Description = styled("p")(() => ({
   color: "#475467",
@@ -53,7 +52,7 @@ const NotFoundPage = () => {
           Please visit our homepage to get where you need to go. <br />
         </Description>
 
-        <Link href={WEBSITE_URL}>
+        <Link href="/">
           <Button style={{ marginTop: "40px" }} variant="omni-default" size="omni-default">
             Take me there
           </Button>

@@ -9,17 +9,21 @@ export const TextSM = (props: React.ComponentProps<"p">) => {
 };
 
 export const TextMD = (props: React.ComponentProps<"p">) => {
-  return <p {...props} className={cn("text-md font-semibold text-[#202939]", props.className)} />;
+  return <p {...props} className={cn("text-sm md:text-md font-semibold text-[#202939]", props.className)} />;
 };
 
 export const TextXL = (props: React.ComponentProps<"p">) => {
-  return <p {...props} className={cn("text-xl font-semibold text-[#181D27]", props.className)} />;
+  return <p {...props} className={cn("text-lg md:text-xl font-semibold text-[#181D27]", props.className)} />;
 };
 
 export const DisplayLG = (props: React.ComponentProps<"h1">) => {
-  return <h1 {...props} className={cn("text-4xl md:text-5xl font-semibold text-[#181D27]", props.className)} />;
+  return (
+    <h1 {...props} className={cn("text-3xl sm:text-4xl md:text-5xl font-semibold text-[#181D27]", props.className)} />
+  );
 };
 
 export const DisplayMD = (props: React.ComponentProps<"h2">) => {
-  return <h1 {...props} className={cn("text-3xl md:text-4xl font-semibold text-[#181D27]", props.className)} />;
+  return (
+    <h1 {...props} className={cn("text-2xl sm:text-3xl md:text-4xl font-semibold text-[#181D27]", props.className)} />
+  );
 };

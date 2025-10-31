@@ -13,9 +13,18 @@ export const PostCard: React.FC<PostCardProps> = ({ post }) => {
     <div className="flex flex-col">
       <Link
         href={`/posts/${encodeURIComponent(post.slug)}`}
-        className="h-60 border border-[#EDEDED] rounded-2xl flex items-center justify-center mb-4"
+        className="relative h-60 border border-[#EDEDED] rounded-2xl flex items-center justify-center mb-4 overflow-hidden"
       >
-        Image
+        {post.coverImage ? (
+          <img
+            src={post.coverImage}
+            alt={post.title}
+            className="object-contain"
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          />
+        ) : (
+          <span className="text-gray-400">No image</span>
+        )}
       </Link>
       <div className="flex-1 flex flex-col">
         <PostChip category="Product Experience" readTime={`${post.readTime} min read`} />

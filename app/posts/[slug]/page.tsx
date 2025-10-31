@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/actions/post";
 
 import { Container } from "@/app/components/container";
-import { markdownToHtml } from "@/lib/markdownToHtml";
 import { PostHeader } from "./components/post-header";
 import { PostBody } from "./components/post-body";
 
@@ -40,13 +39,11 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     return notFound();
   }
 
-  const content = await markdownToHtml(post.content || "");
-
   return (
     <Container>
       <article className="mb-16 md:mb-24 mt-6 md:mt-8">
         <PostHeader title={post.title} excerpt={post.excerpt} readTime={`${post.readTime} min read`} />
-        <PostBody content={content} />
+        <PostBody content={post.content || ""} />
       </article>
     </Container>
   );

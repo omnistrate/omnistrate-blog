@@ -28,21 +28,63 @@ const calculateReadTime = (content: string): number => {
   return readTime;
 };
 
+const extractFirstImage = (content: string): string => {
+  // First, try to match inline image syntax: ![alt](url)
+  const inlineImageRegex = /!\[.*?\]\((.*?)\)/;
+  const inlineMatch = content.match(inlineImageRegex);
+
+  if (inlineMatch) {
+    return inlineMatch[1];
+  }
+
+  // If no inline image, try reference-style: ![alt][ref] with [ref]: url
+  const referenceImageRegex = /!\[.*?\]\[(\d+)\]/;
+  const referenceMatch = content.match(referenceImageRegex);
+
+  if (referenceMatch) {
+    const refNumber = referenceMatch[1];
+    // Find the reference definition: [1]: url
+    const urlRegex = new RegExp(`\\[${refNumber}\\]:\\s*(.+?)(?:\\n|$)`, 'm');
+    const urlMatch = content.match(urlRegex);
+
+    if (urlMatch) {
+      return urlMatch[1].trim();
+    }
+  }
+
+  return "";
+};
+
 const addReadTimeToPost = (filePath: string): void => {
   const fileContents = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(fileContents);
 
-  // Skip if readTime already exists
-  if (data.readTime) {
-    console.log(`⊘ Skipped ${filePath} (readTime already exists)`);
+  // Check if both readTime and coverImage already exist (and coverImage is not empty)
+  if (data.readTime && data.coverImage !== undefined && data.coverImage !== "") {
+    console.log(`⊘ Skipped ${filePath} (readTime and coverImage already exist)`);
     return;
   }
 
-  // Calculate read time
-  const readTime = calculateReadTime(content);
+  let updated = false;
 
-  // Add readTime to front matter
-  data.readTime = readTime;
+  // Calculate and add read time if it doesn't exist
+  if (!data.readTime) {
+    const readTime = calculateReadTime(content);
+    data.readTime = readTime;
+    updated = true;
+  }
+
+  // Extract and add cover image if it doesn't exist or is empty
+  if (data.coverImage === undefined || data.coverImage === "") {
+    const coverImage = extractFirstImage(content);
+    data.coverImage = coverImage;
+    updated = true;
+  }
+
+  if (!updated) {
+    console.log(`⊘ Skipped ${filePath} (no updates needed)`);
+    return;
+  }
 
   // Reconstruct the file with updated front matter
   const updatedContent = matter.stringify(content, data);
@@ -50,7 +92,7 @@ const addReadTimeToPost = (filePath: string): void => {
   // Write back to file
   fs.writeFileSync(filePath, updatedContent, "utf8");
 
-  console.log(`✓ Added readTime (${readTime} min) to ${filePath}`);
+  console.log(`✓ Updated ${filePath}`);
 };
 
 const addReadTimeToAllPosts = async () => {
@@ -72,7 +114,7 @@ const addReadTimeToAllPosts = async () => {
     const fileContents = fs.readFileSync(fullPath, "utf8");
     const { data } = matter(fileContents);
 
-    if (data.readTime) {
+    if (data.readTime && data.coverImage !== undefined && data.coverImage !== "") {
       skippedCount++;
     } else {
       processedCount++;
@@ -82,7 +124,7 @@ const addReadTimeToAllPosts = async () => {
   }
 
   console.log(`\n✓ Processed ${processedCount} posts`);
-  console.log(`⊘ Skipped ${skippedCount} posts (already had readTime)`);
+  console.log(`⊘ Skipped ${skippedCount} posts`);
 };
 
 addReadTimeToAllPosts().catch((error) => {

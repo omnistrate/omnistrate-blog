@@ -5,8 +5,8 @@
   "scripts": {
     "generate:metadata": "tsx scripts/generate-posts-metadata.ts",
     "add:readtime": "tsx scripts/add-read-time.ts",
-    "dev": "pnpm run add:readtime && pnpm run generate:metadata && next dev --turbopack",
-    "build": "pnpm run add:readtime && pnpm run generate:metadata && next build --turbopack",
+    "dev": "pnpm run generate:metadata && next dev --turbopack",
+    "build": "pnpm run generate:metadata && next build --turbopack",
     "start": "next start",
     "lint": "eslint"
   },
@@ -25,14 +25,12 @@
     "js-yaml": "^4.1.0",
     "lucide-react": "^0.544.0",
     "next": "15.5.4",
+    "next-mdx-remote": "^5.0.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "rehype-highlight": "^7.0.2",
     "rehype-stringify": "^10.0.1",
-    "remark": "^15.0.1",
     "remark-gfm": "^4.0.1",
-    "remark-html": "^16.0.1",
-    "remark-rehype": "^11.1.2",
     "tailwind-merge": "^3.3.1",
     "turndown": "^7.2.2"
   },

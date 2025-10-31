@@ -153,7 +153,7 @@ function Footer() {
           <>
             {isBelowDesktop && (
               <Box mb="26px">
-                <Link href={WEBSITE_URL}>
+                <Link href="/">
                   <OmnistrateLogo />
                 </Link>
               </Box>
@@ -162,7 +162,7 @@ function Footer() {
             <Grid isBelowDesktop={isBelowDesktop}>
               {!isBelowDesktop && (
                 <Column>
-                  <Link href={WEBSITE_URL}>
+                  <Link href="/">
                     <OmnistrateLogo />
                   </Link>
                 </Column>
