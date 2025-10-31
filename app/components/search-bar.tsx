@@ -1,5 +1,4 @@
 import { forwardRef } from "react";
-import { TextMD } from "@/components/text";
 
 interface SearchBarProps {
   value?: string;
