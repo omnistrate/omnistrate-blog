@@ -1,3 +1,6 @@
+// Disable ESlint
+/* eslint-disable */
+
 // Initialize Turndown
 const turndown = new TurndownService({
   headingStyle: "atx",

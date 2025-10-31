@@ -1,3 +1,6 @@
+// Disable ESlint
+/* eslint-disable */
+
 const fs = require("fs");
 
 const posts = JSON.parse(fs.readFileSync("./migration/posts_export.json", "utf8"));

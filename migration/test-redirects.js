@@ -1,3 +1,6 @@
+// Disable ESlint
+/* eslint-disable */
+
 const redirects = require("./redirect-mapping.json");
 
 console.log(`Testing ${redirects.length} redirects...\n`);
