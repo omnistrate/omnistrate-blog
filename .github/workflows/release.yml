@@ -24,14 +24,14 @@ jobs:
     with:
       environment: prod
 
-  notification:
-    name: Notify Mattermost
-    runs-on: ubuntu-latest
-    needs: deploy-to-prod
-    steps:
-      - name: Mattermost Notification
-        uses: tferreira/matterfy@v1.9
-        with:
-          type: ${{ job.status }}
-          job_name: "*Deploy to Prod*"
-          url: ${{ secrets.MATTERMOST_DEPLOYMENT_NOTIFICATION_WEBHOOK }}
+  # notification:
+  #   name: Notify Mattermost
+  #   runs-on: ubuntu-latest
+  #   needs: deploy-to-prod
+  #   steps:
+  #     - name: Mattermost Notification
+  #       uses: tferreira/matterfy@v1.9
+  #       with:
+  #         type: ${{ job.status }}
+  #         job_name: "*Deploy to Prod*"
+  #         url: ${{ secrets.MATTERMOST_DEPLOYMENT_NOTIFICATION_WEBHOOK }}
