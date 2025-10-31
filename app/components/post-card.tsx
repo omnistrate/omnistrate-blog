@@ -44,7 +44,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post }) => {
 
         <div className="flex-1">
           <Link href={`/posts/${encodeURIComponent(post.slug)}`} className="flex gap-4 mb-2">
-            <TextXL>{post.title}</TextXL>
+            <TextXL className="line-clamp-2">{post.title}</TextXL>
           </Link>
 
           <TextSM className="mb-6 line-clamp-3">{post.excerpt}</TextSM>
