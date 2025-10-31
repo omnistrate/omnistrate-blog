@@ -11,6 +11,7 @@ excerpt: >-
   metering: Collect and aggregate usage data of the service.
 slug: the-three-key-components-of-building-a-billing-system
 readTime: 6
+coverImage: ''
 ---
 
 When building a billing system there are 3 main components to consider:

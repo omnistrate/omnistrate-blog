@@ -12,6 +12,8 @@ excerpt: >-
   reliability of IT services.
 slug: a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres
 readTime: 6
+coverImage: >-
+  /images/posts/a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres-1.webp
 ---
 
 Service Level Agreements (SLAs), Service Level Indicators (SLIs), and Service Level Objectives (SLOs) are critical metrics for measuring the performance and reliability of IT services. These metrics provide valuable insights into the quality of service provided to customers and help teams identify areas for improvement. In this blog post, we’ll provide a step-by-step guide to calculating **SLAs, SLIs, and SLOs** for your IT services, using an example of a microservices-based ecommerce application.
@@ -89,4 +91,4 @@ MTTR and MTTD are important metrics for IT service management because they provi
 For example, if an IT team notices that their MTTR is consistently high, they may need to improve their incident response processes or invest in better tools for monitoring and diagnosing problems. Similarly, if an IT team notices that their MTTD is consistently high, they may need to invest in better monitoring tools or improve their incident detection processes.
 
 
-  [1]: https://miro.medium.com/v2/resize:fit:640/format:webp/1*D-oQDOYy4CL0YocbyL8hlg.png
+  [1]: /images/posts/a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres-1.webp

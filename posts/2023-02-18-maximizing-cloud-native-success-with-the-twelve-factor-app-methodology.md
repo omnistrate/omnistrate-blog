@@ -11,6 +11,7 @@ excerpt: >-
   best practices for building and deploying cloud-native applications.
 slug: maximizing-cloud-native-success-with-the-twelve-factor-app-methodology
 readTime: 6
+coverImage: ''
 ---
 
 > Twelve Factor App Methodology

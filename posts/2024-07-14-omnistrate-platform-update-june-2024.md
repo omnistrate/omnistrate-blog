@@ -12,6 +12,7 @@ excerpt: >-
   Factory and a group of select partners to learn how..
 slug: omnistrate-platform-update-june-2024
 readTime: 3
+coverImage: ''
 ---
 
 Hello from Omnistrate 👋

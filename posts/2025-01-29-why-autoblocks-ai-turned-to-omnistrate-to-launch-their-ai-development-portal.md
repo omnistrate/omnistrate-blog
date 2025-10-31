@@ -11,6 +11,8 @@ excerpt: >-
   create a safety-first approach to building & managing AI Applications.
 slug: why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal
 readTime: 4
+coverImage: >-
+  /images/posts/why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal-1.png
 ---
 
 > "We chose Omnistrate because it empowered us to deliver on our promise
@@ -106,7 +108,7 @@ If you're building a SaaS offering and facing challenges like multi-cloud suppor
 *For more information about Autoblocks, please visit their [website][3]*
 
 
-  [1]: https://drive.google.com/thumbnail?id=13Eo2NkoOgjEN_JPgHZhaSFPTgI8e9krF&sz=w720
-  [4]: https://drive.google.com/thumbnail?id=1ia8E9zW_AQnCknZhReSvdanS7ztgEeB3&sz=w720
+  [1]: /images/posts/why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal-1.png
+  [4]: /images/posts/why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal-2.png
   [2]: https://www.omnistrate.com
   [3]: http://www.Autoblocks.AI

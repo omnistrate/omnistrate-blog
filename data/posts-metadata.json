@@ -28,7 +28,7 @@
       "picture": ""
     },
     "excerpt": "Harness the power of natural language to simplify complex cloud operations. We are thrilled to announce a new way to interact with the Omnistrate platform: native Agentic AI integrations powered by our new server.",
-    "coverImage": "/images/posts/revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server-1.jpg",
+    "coverImage": "/images/posts/revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server-1.png",
     "tags": [
       "agent",
       "agentic ai",
@@ -50,7 +50,6 @@
       "picture": ""
     },
     "excerpt": "Omnistrate gave us an enterprise-grade control plane without the need to hire or build one in-house.",
-    "coverImage": "",
     "tags": [
       "case-study",
       "cloud",
@@ -92,7 +91,6 @@
       "picture": ""
     },
     "excerpt": "Bringing software to the cloud is only half the challenge—proving it’s secure, compliant, and enterprise-ready is what unlocks adoption in regulated industries and large-scale procurement pipelines.",
-    "coverImage": "",
     "tags": [
       "Brownstone consulting",
       "Omnistrate",
@@ -111,7 +109,6 @@
       "picture": ""
     },
     "excerpt": "Organizations today face mounting pressure to deliver AI capabilities while managing exploding infrastructure costs.",
-    "coverImage": "",
     "tags": [
       "AaaS",
       "AI",
@@ -132,7 +129,6 @@
       "picture": ""
     },
     "excerpt": "The recent stability issues at Neon provide a compelling case study of what happens when products grow beyond their initial architectural assumptions.",
-    "coverImage": "",
     "tags": [
       "architecture",
       "cell",
@@ -171,7 +167,7 @@
       "picture": ""
     },
     "excerpt": "In the software industry, entrepreneurs have to go through 4 phases of innovation to build a product: Idea: What change are they trying to make?",
-    "coverImage": "/images/posts/build-your-own-software-platform-in-days-1.jpg",
+    "coverImage": "/images/posts/build-your-own-software-platform-in-days-1.png",
     "tags": [
       "BYOC",
       "ControlPlane",
@@ -192,7 +188,7 @@
       "picture": ""
     },
     "excerpt": "Now in Part 3, we turn to the solution: What if you didn’t have to abandon your existing stack, but could augment it with a purpose-built control plane, one that handled tenant lifecycle, deployment..",
-    "coverImage": "/images/posts/enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3-1.jpg",
+    "coverImage": "/images/posts/enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3-1.png",
     "tags": [
       "BYOC",
       "CloudNative",
@@ -214,7 +210,6 @@
       "picture": ""
     },
     "excerpt": "Imagine a data analytics SaaS startup, “DataCo”, that wants to build Redis SaaS as an example.",
-    "coverImage": "",
     "tags": [
       "BYOC",
       "ControlPlane",
@@ -235,7 +230,7 @@
       "picture": ""
     },
     "excerpt": "Modern platform engineering teams often assemble “DIY” control planes for their Products using open-source building blocks: Kubernetes for the runtime, Terraform for infrastructure provisioning, and..",
-    "coverImage": "/images/posts/building-diy-control-planes-with-kubernetes-argocd-terraform-part-1-of-3-1.jpg",
+    "coverImage": "/images/posts/building-diy-control-planes-with-kubernetes-argocd-terraform-part-1-of-3-1.png",
     "tags": [
       "BYOC",
       "CloudNative",
@@ -297,7 +292,6 @@
       "picture": ""
     },
     "excerpt": "Over the past few weeks, I've been leading an initiative to integrate the Serverless Framework with our Omnistrate platform.",
-    "coverImage": "",
     "tags": [
       "Omnistrate",
       "SaaS",
@@ -316,7 +310,6 @@
       "picture": ""
     },
     "excerpt": "Many B2B startups start their cloud journey with AWS ECS or GCP Cloud Run. It's understandable—they're familiar, quick to set up, and tightly integrated with the hyperscalers' ecosystems.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "cloud-run",
@@ -357,7 +350,6 @@
       "picture": ""
     },
     "excerpt": "In previous posts, we explored BYOA deployments, AI job scheduling, and cost control and insights.",
-    "coverImage": "",
     "tags": [
       "AI",
       "AI features",
@@ -376,7 +368,6 @@
       "picture": ""
     },
     "excerpt": "In our previous blogs, we discussed two foundational pillars of AI infrastructure: BYOA (Bring Your Own Account) for secure, scalable deployments and Jobs Support for managing bursty and...",
-    "coverImage": "",
     "tags": [
       "AI",
       "cost",
@@ -396,7 +387,6 @@
       "picture": ""
     },
     "excerpt": "Omnistrate, the industry's first SaaS Control Plane as a Service, has launched a powerful new Jobs controller paradigm that enables businesses to efficiently manage and execute workloads across...",
-    "coverImage": "",
     "tags": [
       "AI",
       "Jobs",
@@ -437,7 +427,7 @@
       "picture": ""
     },
     "excerpt": "We hosted our second SaaS Mondays , Live on Fridays on Friday.",
-    "coverImage": "",
+    "coverImage": "/images/posts/why-cloud-marketplaces-are-the-new-launchpad-for-saas-startups-1.jpg",
     "tags": [
       "AWS Marketplace"
     ],
@@ -494,7 +484,6 @@
       "picture": ""
     },
     "excerpt": "One of the most common questions for any developer-focused product is whether to build or buy.",
-    "coverImage": "",
     "tags": [
       "build vs buy",
       "cloud",
@@ -514,7 +503,6 @@
       "picture": ""
     },
     "excerpt": "AWS has recently expanded its SaaS co-sell benefits, making them available to all ISV Accelerate partners, including startups.",
-    "coverImage": "",
     "tags": [
       "aws",
       "cloud",
@@ -535,7 +523,6 @@
       "picture": ""
     },
     "excerpt": "A while ago I wrote, why Terraform tool is not enough for SaaS [here][1].",
-    "coverImage": "",
     "tags": [
       "cloud",
       "helm",
@@ -555,7 +542,6 @@
       "picture": ""
     },
     "excerpt": "In our previous post on BYOC, we discussed different approaches to SaaS distribution and specifically discussed BYOC model in detail.",
-    "coverImage": "",
     "tags": [
       "build vs buy",
       "cloud",
@@ -575,7 +561,6 @@
       "picture": ""
     },
     "excerpt": "We’re excited to announce support for custom sidecars, enabling greater flexibility and extensibility in your deployments.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "k8s",
@@ -614,7 +599,7 @@
       "picture": ""
     },
     "excerpt": "Introduction SaaSBuilder provides a ready-to-use interface for our customers to quickly launch their SaaS offerings on Omnistrate Platform.",
-    "coverImage": "/images/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience-1.jpg",
+    "coverImage": "/images/posts/reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience-1.png",
     "tags": [
       "open-source",
       "saasbuilder"
@@ -631,7 +616,7 @@
       "picture": ""
     },
     "excerpt": "\"Omnistrate made it easy for us to launch AutoDBA as a SaaS product.",
-    "coverImage": "/images/posts/omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service-1.jpg",
+    "coverImage": "/images/posts/omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service-1.png",
     "tags": [
       "case-study",
       "cloud",
@@ -652,7 +637,6 @@
       "picture": ""
     },
     "excerpt": "Applications are only as good as the data that powers them, and companies are putting more and more restrictions on where their proprietary data is accessible from.",
-    "coverImage": "",
     "tags": [
       "AI",
       "BYOA",
@@ -672,7 +656,7 @@
       "picture": ""
     },
     "excerpt": "\"We chose Omnistrate because it empowered us to deliver on our promise to create a safety-first approach to building & managing AI Applications.",
-    "coverImage": "/images/posts/why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal-1.jpg",
+    "coverImage": "/images/posts/why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal-1.png",
     "tags": [
       "AI",
       "AI-developer",
@@ -714,7 +698,7 @@
       "picture": ""
     },
     "excerpt": "We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform! Omnistrate now supports Private Link in addition to VPC peering.",
-    "coverImage": "/images/posts/omnistrate-platform-update-november-2024-1.jpg",
+    "coverImage": "/images/posts/omnistrate-platform-update-november-2024-1.png",
     "tags": [
       "cloud",
       "platform",
@@ -734,7 +718,7 @@
       "picture": ""
     },
     "excerpt": "Building private services on the cloud enables businesses to leverage the benefits of cloud technology, such as flexibility and scalability, while maintaining strict control over their data.",
-    "coverImage": "/images/posts/building-private-service-on-the-cloud-1.jpg",
+    "coverImage": "/images/posts/building-private-service-on-the-cloud-1.png",
     "tags": [
       "cloud",
       "privacy",
@@ -753,7 +737,7 @@
       "picture": ""
     },
     "excerpt": "In the world of B2B applications, tenancy is more than just a way to onboard new customers.",
-    "coverImage": "/images/posts/ai-series-omnistrate-launches-developer-platform-to-build-b2b-ai-apps-1.jpg",
+    "coverImage": "/images/posts/ai-series-omnistrate-launches-developer-platform-to-build-b2b-ai-apps-1.png",
     "tags": [
       "AI",
       "cloud",
@@ -772,7 +756,6 @@
       "picture": ""
     },
     "excerpt": "At Omnistrate, we’ve been hard at work expanding our platform to make B2B SaaS development as seamless as possible.",
-    "coverImage": "http://i3.ytimg.com/vi/VQjpG-x8S4w/hqdefault.jpg",
     "tags": [
       "cloud",
       "platform",
@@ -792,7 +775,7 @@
       "picture": ""
     },
     "excerpt": "This space hosts a variety of projects and tools designed to help developers leverage the full potential of Omnistrate’s platform.",
-    "coverImage": "/images/posts/omnistrate-open-source-building-together-1.jpg",
+    "coverImage": "/images/posts/omnistrate-open-source-building-together-1.png",
     "tags": [
       "cloud",
       "open-source",
@@ -810,7 +793,7 @@
       "picture": ""
     },
     "excerpt": "SaaS Portal has been revamped to deliver a more comprehensive experience to your customers.",
-    "coverImage": "/images/posts/omnistrate-platform-update-october-2024-1.jpg",
+    "coverImage": "/images/posts/omnistrate-platform-update-october-2024-1.png",
     "tags": [
       "Omnistrate",
       "platform",
@@ -830,7 +813,6 @@
       "picture": ""
     },
     "excerpt": "Omnistrate offers the world’s first developer platform that simplifies and speeds up the development of B2B SaaS.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "press-release",
@@ -848,7 +830,6 @@
       "picture": ""
     },
     "excerpt": "Kubernetes (k8s) has transformed the way applications are deployed in the cloud. However, its potential goes far beyond the traditional cloud infrastructure alone.",
-    "coverImage": "",
     "tags": [
       "Kubernetes",
       "OpenSource"
@@ -865,7 +846,6 @@
       "picture": ""
     },
     "excerpt": "\" In today’s landscape of software development, cloud computing has become the standard for application deployment.",
-    "coverImage": "",
     "tags": [
       "Kubernetes",
       "Omnistrate",
@@ -884,7 +864,7 @@
       "picture": ""
     },
     "excerpt": "Percona, known for providing world-class open-source database software, has always been at the forefront of innovation.",
-    "coverImage": "/images/posts/aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud-3.jpg",
+    "coverImage": "/images/posts/aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud-1.png",
     "tags": [
       "case-study",
       "Omnistrate",
@@ -903,7 +883,6 @@
       "picture": ""
     },
     "excerpt": "Building a B2B AI application involves several critical steps, from data collection to deployment and operations management.",
-    "coverImage": "",
     "tags": [
       "AI",
       "b2b",
@@ -922,7 +901,7 @@
       "picture": ""
     },
     "excerpt": "We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!",
-    "coverImage": "/images/posts/omnistrate-platform-update-september-2024-1.jpg",
+    "coverImage": "/images/posts/omnistrate-platform-update-september-2024-1.png",
     "tags": [
       "Omnistrate",
       "platform",
@@ -942,7 +921,7 @@
       "picture": ""
     },
     "excerpt": "“Omnistrate dramatically accelerated our GTM, cutting launch time from months to weeks.",
-    "coverImage": "/images/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service-3.jpg",
+    "coverImage": "/images/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service-1.jpg",
     "tags": [
       "case-study",
       "falkordb",
@@ -961,7 +940,7 @@
       "picture": ""
     },
     "excerpt": "Omnistrate now supports a new tenancy model with Dedicated Networks for resource provisioning.",
-    "coverImage": "/images/posts/omnistrate-platform-update-august-2024-1.jpg",
+    "coverImage": "/images/posts/omnistrate-platform-update-august-2024-1.png",
     "tags": [
       "Omnistrate",
       "platform",
@@ -981,7 +960,6 @@
       "picture": ""
     },
     "excerpt": "We are delighted to announce that Omnistrate has successfully completed its annual SOC 2 Type II attestation, a significant milestone in our ongoing commitment to safeguarding our customers' data.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "compliance",
@@ -1040,7 +1018,7 @@
       "picture": ""
     },
     "excerpt": "Convoy partnered with Omnistrate to turn their Open Core Webhook gateway into a feature complete multi-cloud SaaS solution in weeks “Our friends at another company told..",
-    "coverImage": "/images/posts/convoy-case-study-from-two-years-to-two-weeks-1.jpg",
+    "coverImage": "/images/posts/convoy-case-study-from-two-years-to-two-weeks-1.png",
     "tags": [
       "case-study",
       "Convoy",
@@ -1079,7 +1057,6 @@
       "picture": ""
     },
     "excerpt": "We are thrilled to announce that Omnistrate, the industry’s leading SaaS Control Plane service provider, has successfully completed an external penetration..",
-    "coverImage": "",
     "tags": [
       "Omnistrate",
       "press-release",
@@ -1098,7 +1075,7 @@
       "picture": ""
     },
     "excerpt": "Omnistrate, the innovator in rapid SaaS development and management, is thrilled to announce that we are now part of the Cloud Native Computing Foundation...",
-    "coverImage": "/images/posts/omnistrate-joins-cncf-family-sponsors-cncf-and-open-sources-saasbuilder-1.jpg",
+    "coverImage": "/images/posts/omnistrate-joins-cncf-family-sponsors-cncf-and-open-sources-saasbuilder-1.png",
     "tags": [
       "cloud-native",
       "cncf",
@@ -1119,7 +1096,6 @@
       "picture": ""
     },
     "excerpt": "Omnistrate is pleased to announce the appointment of Michael Cooper as the company's new GTM Executive Leader.",
-    "coverImage": "",
     "tags": [
       "gtm",
       "leadership",
@@ -1139,7 +1115,6 @@
       "picture": ""
     },
     "excerpt": "Hello from Omnistrate. This is our platform update for June 2024! ###Announcement:Spend an afternoon on July 26th 2024 with Omnistrate, AWS SaaS Factory and a group of select partners to learn how..",
-    "coverImage": "",
     "tags": [
       "Omnistrate",
       "platform",
@@ -1160,7 +1135,6 @@
       "picture": ""
     },
     "excerpt": "The open-source community has long been driven by principles of collaboration and innovation.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "Innovation",
@@ -1180,7 +1154,6 @@
       "picture": ""
     },
     "excerpt": "Many OSS projects are supported by a crew of volunteers trying to solve a simple problem in the world around them. And most OSS projects don’t judge their true success with monetary metrics.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "Cloud Marketplace",
@@ -1199,7 +1172,7 @@
       "picture": ""
     },
     "excerpt": "Hello from Omnistrate 👋 This is our platform update for May 2024!",
-    "coverImage": "/images/posts/omnistrate-platform-update-may-2024-1.jpg",
+    "coverImage": "/images/posts/omnistrate-platform-update-may-2024-1.png",
     "tags": [
       "platform",
       "SaaS",
@@ -1218,7 +1191,6 @@
       "picture": ""
     },
     "excerpt": "Early-stage tech companies must navigate a complex landscape of challenges and risks.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "SaaS",
@@ -1236,7 +1208,6 @@
       "picture": ""
     },
     "excerpt": "Hello from Omnistrate 👋 This is our platform update for April 2024!",
-    "coverImage": "",
     "tags": [
       "platform",
       "SaaS",
@@ -1255,7 +1226,6 @@
       "picture": ""
     },
     "excerpt": "In the early days, open source software (OSS) thrived on principles of freedom, collaboration, and innovation. However, as the cloud era dawned, the landscape shifted.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "open-source",
@@ -1273,7 +1243,6 @@
       "picture": ""
     },
     "excerpt": "Hello from Omnistrate 👋 This is our platform update for March 2024! We are excited to share our progress towards building the Omnistrate Platform and the milestones we reached this month.",
-    "coverImage": "",
     "tags": [
       "platform",
       "SaaS",
@@ -1292,7 +1261,6 @@
       "picture": ""
     },
     "excerpt": "When building a billing system there are 3 main components to consider: Usage metering: Collect and aggregate usage data of the service.",
-    "coverImage": "",
     "tags": [
       "billing",
       "cloud",
@@ -1310,7 +1278,6 @@
       "picture": ""
     },
     "excerpt": "When you are offering Software as a Service there are multiple options available on how to charge customers for the usage of your service.",
-    "coverImage": "",
     "tags": [
       "billing",
       "cloud",
@@ -1329,7 +1296,6 @@
       "picture": ""
     },
     "excerpt": "Hello from Omnistrate 👋 This is our platform update for February 2024! We are excited to share our progress towards building the Omnistrate Platform.",
-    "coverImage": "",
     "tags": [
       "platform",
       "SaaS",
@@ -1348,7 +1314,6 @@
       "picture": ""
     },
     "excerpt": "Hello, and welcome to this blog of Control Plane! Today, I'm going to explain the concept of control plane for software as a service (SaaS) world, and help you understand it better.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "control plane",
@@ -1367,7 +1332,6 @@
       "picture": ""
     },
     "excerpt": "There are several advantage of running services across multiple clouds. Many organization don't consider this initially due to added complexity, effort and management cost.",
-    "coverImage": "",
     "tags": [
       "multi-cloud",
       "platform engineering"
@@ -1404,7 +1368,7 @@
       "picture": ""
     },
     "excerpt": "How Omnistrate can unburden you by managing a smart scaling system that works multi-cloud out of the box This is our first issue of a brand new Engineering series at Omnistrate.",
-    "coverImage": "/images/posts/engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-saas-1.jpg",
+    "coverImage": "/images/posts/engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-saas-1.png",
     "tags": [
       "autoscaling",
       "aws",
@@ -1429,7 +1393,7 @@
       "picture": ""
     },
     "excerpt": "Starting a business is tough, and it's no secret that many startups don't make it.",
-    "coverImage": "/images/posts/startup-challenges-and-how-to-improve-your-odds-by-10x-1.jpg",
+    "coverImage": "/images/posts/startup-challenges-and-how-to-improve-your-odds-by-10x-1.png",
     "tags": [
       "cloud",
       "customer-growth",
@@ -1452,7 +1416,7 @@
       "picture": ""
     },
     "excerpt": "Over the past year of relentless building, we’ve released a number of features in our platform that made it easy to build, access, and operate SaaS for our customers.",
-    "coverImage": "/images/posts/accelerating-saas-innovation-omnistrate-s-latest-platform-release-1.jpg",
+    "coverImage": "/images/posts/accelerating-saas-innovation-omnistrate-s-latest-platform-release-1.png",
     "tags": [
       "cloud",
       "SaaS"
@@ -1469,7 +1433,6 @@
       "picture": ""
     },
     "excerpt": "Building SaaS is just one part of the challenge. Operating a SaaS is another major challenge.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "day-2",
@@ -1488,7 +1451,6 @@
       "picture": ""
     },
     "excerpt": "One of the core tenets of SaaS is to be able to meter tenant usage and then bill your customers. However, there are a lot of challenges in handling that.",
-    "coverImage": "",
     "tags": [
       "billing",
       "cloud",
@@ -1508,7 +1470,6 @@
       "picture": ""
     },
     "excerpt": "One of the core tenets of SaaS is to be secure. Security spans across many layers from controlling access with IP whitelisting or Private Link, validating access with authentication to validate...",
-    "coverImage": "",
     "tags": [
       "cloud",
       "compliance",
@@ -1527,7 +1488,6 @@
       "picture": ""
     },
     "excerpt": "To interact with the SaaS service, we will need to build some sort of UX (API, GUI, CLI) interaction.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "SaaS",
@@ -1546,7 +1506,6 @@
       "picture": ""
     },
     "excerpt": "SaaS applications need to be highly available, with several 9’s of SLA.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "high availability",
@@ -1565,7 +1524,6 @@
       "picture": ""
     },
     "excerpt": "SaaS provisioning requires tenant account creation, user provisioning, figuring out the tenant placement, configuring the tenant, and storing all the metadata.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "SaaS",
@@ -1585,7 +1543,6 @@
       "picture": ""
     },
     "excerpt": "A SaaS application serves several tenants, and each tenant should be isolated from one another.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "SaaS",
@@ -1603,7 +1560,7 @@
       "picture": ""
     },
     "excerpt": "Building software distribution channel(s) is hard, costly and time-consuming. I have discussed the challenges in building and operating your Control Plane before.",
-    "coverImage": "/images/posts/control-plane-unpacking-the-build-vs-buy-dilemma-1.jpg",
+    "coverImage": "/images/posts/control-plane-unpacking-the-build-vs-buy-dilemma-1.png",
     "tags": [
       "build vs buy",
       "cloud",
@@ -1622,7 +1579,6 @@
       "picture": ""
     },
     "excerpt": "Kubernetes (K8s) Operators serve as effective tools for automating certain aspects of the control plane.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "k8s",
@@ -1662,7 +1618,6 @@
       "picture": ""
     },
     "excerpt": "Time and time again, we observe organizations grappling with the right design, consequently entangled in perpetual operations.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "Kubernetes",
@@ -1680,7 +1635,6 @@
       "picture": ""
     },
     "excerpt": "In the rapidly evolving landscape of Software as a Service (SaaS), navigating the path to success requires foresight, strategic planning, and an acute awareness of common pitfalls.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "SaaS"
@@ -1697,7 +1651,6 @@
       "picture": ""
     },
     "excerpt": "Developing software as a service (SaaS) in today's cloud environment can be compared to creating an application for an operating system (OS).",
-    "coverImage": "",
     "tags": [
       "abstractions",
       "cloud",
@@ -1717,7 +1670,6 @@
       "picture": ""
     },
     "excerpt": "Innovation is the heartbeat of the technology industry, a relentless pursuit to deliver greater value and meet evolving customer needs.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "SaaS",
@@ -1736,7 +1688,6 @@
       "picture": ""
     },
     "excerpt": "As we contemplated building the SaaS platform, we divided the requirements into 5 packages. If you are building a SaaS from scratch, you will likely need all the layers.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "multi-cloud",
@@ -1755,7 +1706,7 @@
       "picture": ""
     },
     "excerpt": "I was among the authors at AWS who pioneered the first SaaS control plane back in 2009, laying the groundwork for many SaaS offerings both within and beyond AWS.",
-    "coverImage": "/images/posts/what-is-a-saas-control-plane-1.jpg",
+    "coverImage": "/images/posts/what-is-a-saas-control-plane-1.png",
     "tags": [
       "cloud",
       "k8s",
@@ -1777,7 +1728,6 @@
       "picture": ""
     },
     "excerpt": "We witness the proliferation of SaaS solutions daily — from AI applications like Private ChatGPT and infrastructure services like Snowflake, to content management systems such as WordPress, and HR...",
-    "coverImage": "",
     "tags": [
       "cloud",
       "multi-cloud",
@@ -1796,7 +1746,6 @@
       "picture": ""
     },
     "excerpt": "A business generating 200 billion dollars per year, cannot be ignored. What kind of business are we talking about? SaaS.",
-    "coverImage": "",
     "tags": [
       "SaaS",
       "startup"
@@ -1851,7 +1800,6 @@
       "picture": ""
     },
     "excerpt": "In my previous posts, I have covered what it takes to build a SaaS Control Plane. In this post, we will cover some of the challenges in operating a SaaS service.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "platform engineering",
@@ -1869,7 +1817,6 @@
       "picture": ""
     },
     "excerpt": "What does it really mean for software to be available as a service?",
-    "coverImage": "",
     "tags": [
       "cloud",
       "platform engineering",
@@ -1907,7 +1854,6 @@
       "picture": ""
     },
     "excerpt": "Before the cloud, getting fresh hardware and deploying your new software was always done in big budget events involving procurement, finance, several IT teams and the whole process included no small..",
-    "coverImage": "",
     "tags": [
       "cloud",
       "platform engineering",
@@ -1963,7 +1909,7 @@
       "picture": ""
     },
     "excerpt": "Scaling - it’s the reason we’re all using this cloud thing anyway, right?",
-    "coverImage": "/images/posts/everything-about-scaling-1.jpg",
+    "coverImage": "/images/posts/everything-about-scaling-1.png",
     "tags": [
       "autoscaling",
       "cloud",
@@ -2021,7 +1967,6 @@
       "picture": ""
     },
     "excerpt": "Software as a Service, commonly known as SaaS, is more than just a tech buzzword. It has reinvented the software ecosystem and redefined the user experience.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "multi-cloud",
@@ -2039,7 +1984,6 @@
       "picture": ""
     },
     "excerpt": "In the world of computing and cloud services, the terms \"control plane\" and “data plane” are increasingly mentioned, even though these are actually older terms that originally came about in the...",
-    "coverImage": "",
     "tags": [
       "cloud",
       "control-plane",
@@ -2058,7 +2002,6 @@
       "picture": ""
     },
     "excerpt": "Certification We are back with more exciting news. After our proud announcement of achieving the SOC 2 Type I certification, we have now achieved another significant milestone by earning the SOC.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "compliance",
@@ -2077,7 +2020,6 @@
       "picture": ""
     },
     "excerpt": "Software as a Service (SaaS) is a popular and convenient way of delivering applications over the internet, without requiring users to install or maintain them on their own devices.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "Kubernetes",
@@ -2115,7 +2057,7 @@
       "picture": ""
     },
     "excerpt": "One of the most challenging aspects of building a distributed system is scaling it to handle different levels of user traffic.",
-    "coverImage": "/images/posts/distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users-1.png",
+    "coverImage": "/images/posts/distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users-1.webp",
     "tags": [
       "12-factors",
       "cloud",
@@ -2134,7 +2076,7 @@
       "picture": ""
     },
     "excerpt": "Hello, fellow developers! In this blog post, I want to share with you some of the best practices and lessons learned from scaling distributed systems.",
-    "coverImage": "/images/posts/the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned-1.jpeg",
+    "coverImage": "/images/posts/the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned-1.webp",
     "tags": [
       "cloud",
       "cloud-native",
@@ -2154,7 +2096,7 @@
       "picture": ""
     },
     "excerpt": "As the world of technology continues to evolve, containerization has become a popular choice for deploying applications.",
-    "coverImage": "/images/posts/kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills-1.png",
+    "coverImage": "/images/posts/kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills-1.webp",
     "tags": [
       "aws",
       "cloud",
@@ -2174,7 +2116,7 @@
       "picture": ""
     },
     "excerpt": "Service Level Agreements (SLAs), Service Level Indicators (SLIs), and Service Level Objectives (SLOs) are critical metrics for measuring the performance and reliability of IT services.",
-    "coverImage": "/images/posts/a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres-1.png",
+    "coverImage": "/images/posts/a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres-1.webp",
     "tags": [
       "cloud",
       "cloud-native",
@@ -2194,7 +2136,7 @@
       "picture": ""
     },
     "excerpt": "Omnistrate, Inc., a B2B SaaS company that revolutionizes the way software offerings are turned into multi-cloud SaaS services, is pleased to announce that it has successfully achieved Service...",
-    "coverImage": "/images/posts/omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust-1.jpg",
+    "coverImage": "/images/posts/omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust-1.png",
     "tags": [
       "cloud-security-standard",
       "compliance",
@@ -2213,7 +2155,6 @@
       "picture": ""
     },
     "excerpt": "Are you tired of juggling multiple cloud providers for your Open Search needs? this guide will help you navigate the stormy waters of managing Open Search across multiple clouds.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "cloud-native",
@@ -2233,7 +2174,6 @@
       "picture": ""
     },
     "excerpt": "Kubernetes has become the go-to container orchestration tool for many organizations. However, achieving the full potential of Kubernetes requires the right operating system.",
-    "coverImage": "",
     "tags": [
       "aws",
       "cloud",
@@ -2253,7 +2193,6 @@
       "picture": ""
     },
     "excerpt": "AKS Edge Essentials, an on-premises Kubernetes implementation of Azure Kubernetes Service that automates running containerized applications at scale on PC-class or “light” edge hardware.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "cloud-agnostic",
@@ -2309,7 +2248,7 @@
       "picture": ""
     },
     "excerpt": "In our last post, we talked about the emergence of the Cloud and we feel this is where the Cloud model went wrong.",
-    "coverImage": "/images/posts/where-did-the-cloud-model-go-wrong-1.png",
+    "coverImage": "/images/posts/where-did-the-cloud-model-go-wrong-1.jpg",
     "tags": [
       "cloud",
       "open-source"
@@ -2326,7 +2265,6 @@
       "picture": ""
     },
     "excerpt": "Speed ​​is an important factor for business in this era when customers are looking for instant gratification. If the fact doesn’t convince you, the statistics might.",
-    "coverImage": "",
     "tags": [
       "cloud",
       "cloud-agnostic",
@@ -2344,7 +2282,7 @@
       "picture": ""
     },
     "excerpt": "Before 2005, most of the technology was open source and enterprises were consuming open source to accomplish their business goals and the trend seems to continue to grow.",
-    "coverImage": "/images/posts/emergence-future-of-open-source-and-cloud-1.png",
+    "coverImage": "/images/posts/emergence-future-of-open-source-and-cloud-1.jpg",
     "tags": [
       "cloud",
       "open-source"
@@ -2361,7 +2299,6 @@
       "picture": ""
     },
     "excerpt": "Twelve Factor App Methodology The Twelve-Factor App methodology is a set of best practices for building and deploying cloud-native applications.",
-    "coverImage": "",
     "tags": [
       "12-factors",
       "cloud",

@@ -11,6 +11,7 @@ excerpt: >-
   innovation to build a product: Idea: What change are they trying to make?
 slug: build-your-own-software-platform-in-days
 readTime: 7
+coverImage: /images/posts/build-your-own-software-platform-in-days-1.png
 ---
 
 In the software industry, entrepreneurs have to go through 4 phases of innovation to build a product:
@@ -138,7 +139,7 @@ If you would like to stay connected, follow us here: [https://www.linkedin.com/c
 PS: Here is our **pricing chart and calculator**: [https://www.omnistrate.com/pricing][10]. We are open to working with you on the pricing terms and cater it to your needs.
 
 
-  [1]: https://drive.google.com/thumbnail?id=148RDH15K694XbKvr7M1D9kGuR2_oF-DW&sz=w720
+  [1]: /images/posts/build-your-own-software-platform-in-days-1.png
   [2]: https://blog.omnistrate.com/posts/149
   [3]: https://blog.omnistrate.com/posts/150
   [4]: https://blog.omnistrate.com/posts/151

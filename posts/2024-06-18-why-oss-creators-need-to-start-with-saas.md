@@ -12,6 +12,7 @@ excerpt: >-
   their true success with monetary metrics.
 slug: why-oss-creators-need-to-start-with-saas
 readTime: 4
+coverImage: ''
 ---
 
 Many OSS projects are supported by a crew of volunteers trying to solve a simple problem in the world around them.  And most OSS projects don’t judge their true success with monetary metrics.

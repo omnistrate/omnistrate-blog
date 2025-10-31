@@ -14,6 +14,8 @@ excerpt: >-
 slug: >-
   lifecycle-management-and-infrastructure-cleanup-the-overlooked-challenge-of-efficiently-decommissioning-resources
 readTime: 10
+coverImage: >-
+  /images/posts/lifecycle-management-and-infrastructure-cleanup-the-overlooked-challenge-of-efficiently-decommissioning-resources-1.jpg
 ---
 
 In today's fast-paced world of cloud computing, the importance of full lifecycle management in cloud infrastructure cannot be overstated. Many organizations are quick to provision resources in cloud platforms like AWS, GCP, and Azure, but all too often, the critical decommissioning phase is overlooked. This oversight carries both financial and security implications that can be detrimental to a company's bottom line and data integrity.
@@ -109,4 +111,4 @@ In conclusion, efficient decommissioning of cloud resources is a strategic pract
 By adopting best practices like scheduled audits, cost analysis, policies, automation tools, documentation, communication, testing, monitoring, and alerting, organizations can ensure that the decommissioning phase is executed effectively and contributes to overall cost savings and resource optimization.
 
 
-  [1]: https://drive.google.com/thumbnail?id=1v-bFcidX-UGOegDTWB4Bvw5sczmh4dID&sz=w720
+  [1]: /images/posts/lifecycle-management-and-infrastructure-cleanup-the-overlooked-challenge-of-efficiently-decommissioning-resources-1.jpg

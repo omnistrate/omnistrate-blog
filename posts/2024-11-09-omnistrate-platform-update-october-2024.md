@@ -11,6 +11,7 @@ excerpt: >-
   your customers.
 slug: omnistrate-platform-update-october-2024
 readTime: 4
+coverImage: /images/posts/omnistrate-platform-update-october-2024-1.png
 ---
 
 ![Omnistrate features][2]
@@ -89,7 +90,7 @@ We also have [amazing docs][18], a [Slack community][19], a [YouTube channel][20
 
 
   [1]: https://drive.google.com/thumbnail?id=1TLmi87MFqPI2Sm9JVAETnu49nCbI6A5g&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1k1UoZpoAu2sK7cs-ZBB3RY3q7rLrRaLk&sz=w720
+  [2]: /images/posts/omnistrate-platform-update-october-2024-1.png
   [3]: https://github.com/omnistrate-oss/omnistrate-sdk-go
   [4]: https://docs.omnistrate.com/api/api-resources/
   [5]: https://docs.omnistrate.com/build-guides/build-your-own-portal/
@@ -102,9 +103,9 @@ We also have [amazing docs][18], a [Slack community][19], a [YouTube channel][20
   [12]: https://github.com/omnistrate-community
   [13]: https://calendly.com/omnistrate
   [14]: email:team@omnistrate.com
-  [15]: https://drive.google.com/thumbnail?id=1shKJgqNCrw1FlbU2yOFBQDeZWQixiTXI&sz=w720
-  [16]: https://drive.google.com/thumbnail?id=1H9WRGudJlmnQcWorbgpyy4CXrnblVEB3&sz=w720
-  [17]: https://drive.google.com/thumbnail?id=11AkTWTf19JIWNUC005MR0PJ64XUl_PXQ&sz=w720
+  [15]: /images/posts/omnistrate-platform-update-october-2024-2.png
+  [16]: /images/posts/omnistrate-platform-update-october-2024-3.png
+  [17]: /images/posts/omnistrate-platform-update-october-2024-4.png
   [18]: http://docs.omnistrate.com
   [19]: https://join.slack.com/t/cloudnative-u5h1399/shared_invite/zt-1qf3cgi37-lCV1vKJlrBioqGuVjKBtyw
   [20]: https://www.youtube.com/@omnistrate

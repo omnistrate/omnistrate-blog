@@ -12,13 +12,14 @@ excerpt: >-
   across the Omnistrate platform.
 slug: omnistrate-platform-update-jun-2025
 readTime: 7
+coverImage: /images/posts/omnistrate-platform-update-jun-2025-1.png
 ---
 
 
 ## 🚀 Exciting New Features in Omnistrate
 
 
-![Omnistrate Updates](https://mcusercontent.com/08ffbac64293e1abc50999571/images/d2d31d72-b456-f7d3-115d-11d79d92b7dc.png)
+![Omnistrate Updates](/images/posts/omnistrate-platform-update-jun-2025-1.png)
 
 We're thrilled to introduce several powerful updates that enhance flexibility, security, and operational control across the Omnistrate platform.
 
@@ -72,7 +73,7 @@ We're introducing **Omnistrate Secrets Management**, a secure and centralized wa
 
 <br/>
 
-![Omnistrate loves OpenSource](https://mcusercontent.com/08ffbac64293e1abc50999571/images/1d6df71d-25ca-1713-e01a-c8dd3fc03771.png)
+![Omnistrate loves OpenSource](/images/posts/omnistrate-platform-update-jun-2025-2.png)
 
 
 ### Omnistrate CTL is now Open Source!
@@ -118,7 +119,7 @@ Catch up on recent episodes—like building vertical **SaaS** with **Checkly** a
 
 Don't miss our next episode coming up July 11th—join us as we dive into one of the most critical aspects of **SaaS** Growth: **Mastering SaaS Growth Through Subscription Excellence**. Hear from [**Prakash Kadirvelu**](https://www.linkedin.com/in/prakashkadirvelu/): Sr. Director at **CapGemini**, [**Koyel De**](https://www.linkedin.com/in/koyelde/): **SaaS** Strategist at **AWS**, [**Ermin Dzinic**](https://www.linkedin.com/in/ermindzinic/): **SaaS** specialist at **AWS**, and [**Bill Tarr**](https://www.linkedin.com/in/saastarr/): Principal at **AWS SaaS Factory** discuss growth strategies and frameworks for **SaaS**.
 
-[![Mastering Growth Through Subscription](https://mcusercontent.com/08ffbac64293e1abc50999571/images/a73c1b9a-9d33-a1ed-fe0f-b23ae7d23d17.png)](https://lu.ma/tbadof7f)
+[![Mastering Growth Through Subscription](/images/posts/omnistrate-platform-update-jun-2025-3.png)](https://lu.ma/tbadof7f)
 
 [🔗 Register here to get the live link!](https://lu.ma/tbadof7f)
 
@@ -130,7 +131,7 @@ Don't miss our next episode coming up July 11th—join us as we dive into one of
 
 We're excited to announce that **Omnistrate** will be attending [**GenAI Summit**](https://genaisummit.ai/) in **Santa Clara**, July 13–17!
 
-[![GenAI Summit](https://mcusercontent.com/08ffbac64293e1abc50999571/images/f3425805-372f-f8f3-1c6e-5959cab05fbc.png)](https://genaisummit.ai/)
+[![GenAI Summit](/images/posts/omnistrate-platform-update-jun-2025-4.png)](https://genaisummit.ai/)
 
 If you're planning to be at the **Santa Clara Convention Center**, let's connect! Our team will be on-site to discuss the latest in software distribution (**OnPrem**, **BYOC**, **PaaS**, **SaaS**, **Agentic SaaS**), and how **Omnistrate** can help distribute your App to your customers in days at 1/10th the cost.
 

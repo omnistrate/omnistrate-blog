@@ -11,6 +11,8 @@ excerpt: >-
   new customers.
 slug: ai-series-omnistrate-launches-developer-platform-to-build-b2b-ai-apps
 readTime: 3
+coverImage: >-
+  /images/posts/ai-series-omnistrate-launches-developer-platform-to-build-b2b-ai-apps-1.png
 ---
 
 In the world of B2B applications, tenancy is more than just a way to onboard new customers. It’s a critical architectural component that enables efficient resource management, customization, and security, all while scaling effectively. At Omnistrate, we understand that for a B2B AI app to be robust and truly multi-tenant, tenancy must be seamlessly integrated and managed from day one.
@@ -66,4 +68,4 @@ Ready to bring your B2B idea to life? Let Omnistrate handle tenancy, infrastruct
 
 
   [1]: https://github.com/omnistrate-community/private-ai-chatbot
-  [2]: https://drive.google.com/thumbnail?id=1eidALfYx5O23q0NSXMCKsfRqYe3lzYsz&sz=w720
+  [2]: /images/posts/ai-series-omnistrate-launches-developer-platform-to-build-b2b-ai-apps-1.png

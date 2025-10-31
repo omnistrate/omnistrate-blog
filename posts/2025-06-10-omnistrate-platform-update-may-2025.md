@@ -12,13 +12,14 @@ excerpt: >-
   your customers’ Identity Provider (IdP),...
 slug: omnistrate-platform-update-may-2025
 readTime: 6
+coverImage: /images/posts/omnistrate-platform-update-may-2025-1.png
 ---
 
 
 ## 🚀 Exciting New Features in Omnistrate
 
 
-![Omnistrate Updates](https://mcusercontent.com/08ffbac64293e1abc50999571/images/f018c676-784a-f2ee-0b93-afd832fbade5.png)
+![Omnistrate Updates](/images/posts/omnistrate-platform-update-may-2025-1.png)
 
 **End-customer SSO support in SaaSPortal** 
 
@@ -78,7 +79,7 @@ We’re introducing a new level of tenant isolation with Isolated Kubernetes (K8
 ### Omnistrate Azure Support is now Generally Available
 
 
-[![Omnistrate Azure Support is now GA](https://mcusercontent.com/08ffbac64293e1abc50999571/images/4df2ff73-9a98-7677-9044-7ac480145e33.png)](https://omnistrate.com)
+[![Omnistrate Azure Support is now GA](/images/posts/omnistrate-platform-update-may-2025-2.png)](https://omnistrate.com)
 
 We’re thrilled to announce Omnistrate’s Azure is Generally Available! Whether you’re migrating an existing service or building something new, our fully managed platform makes it effortless to run on Azure Cloud. From startups embracing Azure for the first time to enterprises expanding into multi-cloud, Omnistrate delivers a smooth, automated, and scalable experience.
 
@@ -112,7 +113,7 @@ Join us for an expert-led session featuring leaders from AWS, Omnistrate, Anysca
 
 <br/>
 
-[![Upcoming Event](https://mcusercontent.com/08ffbac64293e1abc50999571/images/52687898-e37c-6656-a3d0-592739df929a.png)](https://lu.ma/4nwzwq0i?utm_source=Newsletter)
+[![Upcoming Event](/images/posts/omnistrate-platform-update-may-2025-3.png)](https://lu.ma/4nwzwq0i?utm_source=Newsletter)
 
 
 <br/>

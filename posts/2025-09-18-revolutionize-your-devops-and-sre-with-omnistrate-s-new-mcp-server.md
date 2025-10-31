@@ -12,6 +12,8 @@ excerpt: >-
   native Agentic AI integrations powered by our new server.
 slug: revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server
 readTime: 4
+coverImage: >-
+  /images/posts/revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server-1.png
 ---
 
 **Harness the power of natural language to simplify complex cloud operations.**
@@ -98,5 +100,5 @@ At Omnistrate, our mission is to simplify the complexities of building and scali
 We invite you to try out this new feature today and experience the future of DevOps and SRE. We are excited to see what you will build
 
 
-  [1]: https://drive.google.com/thumbnail?id=1pVQZFa32VP_Ew8dHiM1vlbq3DhIJsosN&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1tmlpK6QTw3UB1-JP5IZWu_7GEBI8gm01&sz=w720
+  [1]: /images/posts/revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server-1.png
+  [2]: /images/posts/revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server-2.png

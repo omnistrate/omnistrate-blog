@@ -11,13 +11,14 @@ excerpt: >-
   powerful updates that enhance the Omnistrate platform!
 slug: omnistrate-platform-update-april-2025
 readTime: 6
+coverImage: /images/posts/omnistrate-platform-update-april-2025-1.png
 ---
 
 
 ## 🚀 Exciting New Features in Omnistrate
 
 
-![Omnistrate Updates](https://mcusercontent.com/08ffbac64293e1abc50999571/images/f3f6bfb5-6cdc-0071-da51-c7189b5b90c2.png)
+![Omnistrate Updates](/images/posts/omnistrate-platform-update-april-2025-1.png)
 
 We’re thrilled to introduce several powerful updates that enhance the Omnistrate platform!
 
@@ -83,7 +84,7 @@ Explore these new features today and elevate your SaaS experience with Omnistrat
 ### Omnistrate Community
 
 
-[![Omnistrate Community GitHub](https://mcusercontent.com/08ffbac64293e1abc50999571/images/be2f07a3-a02e-58c0-f9be-ca706a3a0958.png)](https://www.youtube.com/live/v3qEqlf64SM)
+[![Omnistrate Community GitHub](/images/posts/omnistrate-platform-update-april-2025-2.png)](https://www.youtube.com/live/v3qEqlf64SM)
 
 We're thrilled to spotlight the Omnistrate Community GitHub — your central hub for open-source examples, best practices, and hands-on guides for building and operating SaaS products with Omnistrate.
 
@@ -105,7 +106,7 @@ Whether you're just getting started or looking to push the boundaries with advan
 ### 🎥 Live from AWS: AI for Builders and Founders!
 
 
-[![AI for Builders and Founders](https://mcusercontent.com/08ffbac64293e1abc50999571/images/b16dd448-0492-0312-1bf5-3cd37a11f0a2.jpg)](https://www.youtube.com/live/v3qEqlf64SM)
+[![AI for Builders and Founders](/images/posts/omnistrate-platform-update-april-2025-3.jpg)](https://www.youtube.com/live/v3qEqlf64SM)
 
 ICYMI: AWS, Omnistrate, and other AWS partners discussed the real-world challenges of building AI applications—and what it takes to turn them into scalable, multi-tenant SaaS products.
 

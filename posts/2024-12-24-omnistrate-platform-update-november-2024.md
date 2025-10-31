@@ -12,6 +12,7 @@ excerpt: >-
   peering.
 slug: omnistrate-platform-update-november-2024
 readTime: 4
+coverImage: /images/posts/omnistrate-platform-update-november-2024-1.png
 ---
 
 ![Omnistrate features][2]
@@ -79,9 +80,9 @@ We are the Operating system of your SaaS, offering enterprise-grade capabilities
 We also have [amazing docs][11], a [Slack community][12], a [YouTube channel][13], Twitter (whoops, [X][14]) and of course a [LinkedIn page][15] where you can follow us to stay updated with our latest news 🟩
 
   [1]: https://drive.google.com/thumbnail?id=1TLmi87MFqPI2Sm9JVAETnu49nCbI6A5g&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1f7TWEA_gAI_RtOnWqXpE6CTOrwfdYtfy&sz=w720
+  [2]: /images/posts/omnistrate-platform-update-november-2024-1.png
   [3]: https://calendly.com/omnistrate
-  [4]: https://drive.google.com/thumbnail?id=1dt8HANZGUlbOWTe_f07LBAhq__IXlGc4&sz=w720
+  [4]: /images/posts/omnistrate-platform-update-november-2024-2.png
   [10]: email:team@omnistrate.com
   [11]: http://docs.omnistrate.com
   [12]: https://join.slack.com/t/cloudnative-u5h1399/shared_invite/zt-1qf3cgi37-lCV1vKJlrBioqGuVjKBtyw

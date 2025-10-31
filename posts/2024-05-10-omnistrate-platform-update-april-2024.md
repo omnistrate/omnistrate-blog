@@ -9,6 +9,7 @@ author:
 excerpt: "Hello from Omnistrate \U0001F44B This is our platform update for April 2024!"
 slug: omnistrate-platform-update-april-2024
 readTime: 2
+coverImage: ''
 ---
 
 Hello from Omnistrate 👋

@@ -14,6 +14,7 @@ excerpt: >-
 slug: >-
   case-study-how-ferretdb-went-from-opensource-project-to-commercial-dbaas-success-in-weeks-not-years
 readTime: 5
+coverImage: ''
 ---
 
 > "Omnistrate gave us an enterprise-grade control plane without the need

@@ -9,6 +9,7 @@ author:
 excerpt: "Hello from Omnistrate \U0001F44B This is our platform update for May 2024!"
 slug: omnistrate-platform-update-may-2024
 readTime: 3
+coverImage: /images/posts/omnistrate-platform-update-may-2024-1.png
 ---
 
 Hello from Omnistrate 👋
@@ -62,5 +63,5 @@ Follow us anywhere, join the SaaS revolution. 🟩
   [4]: http://docs.omnistrate.com
   [5]: https://www.youtube.com/@omnistrate
   [6]: https://www.linkedin.com/company/omnistrate/
-  [7]: https://drive.google.com/thumbnail?id=1mAmfxpTA6SmfgjvhSeNt2_z5w_JEaTCd&sz=w720 
+  [7]: /images/posts/omnistrate-platform-update-may-2024-1.png 
 

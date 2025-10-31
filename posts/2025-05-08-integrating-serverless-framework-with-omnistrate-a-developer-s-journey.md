@@ -11,6 +11,7 @@ excerpt: >-
   Serverless Framework with our Omnistrate platform.
 slug: integrating-serverless-framework-with-omnistrate-a-developer-s-journey
 readTime: 3
+coverImage: ''
 ---
 
 Over the past few weeks, I've been leading an initiative to integrate the [Serverless Framework](https://www.serverless.com/) with our Omnistrate platform. Today, I'm excited to share the technical details of this integration and how it can help developers maintain their serverless applications while gaining enterprise SaaS capabilities.

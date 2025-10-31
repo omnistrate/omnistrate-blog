@@ -11,6 +11,8 @@ excerpt: >-
   to weeks.
 slug: aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service
 readTime: 7
+coverImage: >-
+  /images/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service-1.jpg
 ---
 
 ![AWS Logo][6]
@@ -169,11 +171,11 @@ To Learn more about Omnistrate:
 [https://www.omnistrate.com/][4]
 
 
-  [1]: https://drive.google.com/thumbnail?id=1tACXbD9V0z7swb4dUZXqCjFlbTcufqXt&sz=w720
-  [7]: https://drive.google.com/thumbnail?id=19k5it4bW5muw9880zkjsJblviTLqhYqy&sz=w720
+  [1]: /images/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service-1.jpg
+  [7]: /images/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service-2.png
   [2]: https://app.falkordb.cloud/signin
   [3]: https://www.falkordb.com/
   [4]: https://www.omnistrate.com/
   [5]: https://www.linkedin.com/in/guykorland/
-  [6]: https://drive.google.com/thumbnail?id=1DjsEXcMple2PUzBqaFmMfh426timJvY7&sz=w100
+  [6]: /images/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service-3.png
 

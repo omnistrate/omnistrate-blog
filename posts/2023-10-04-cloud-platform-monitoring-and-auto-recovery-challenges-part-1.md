@@ -12,6 +12,8 @@ excerpt: >-
   applications and your underlying platform...
 slug: cloud-platform-monitoring-and-auto-recovery-challenges-part-1
 readTime: 10
+coverImage: >-
+  /images/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-1-1.jpg
 ---
 
 <h2>Introduction to Cloud Monitoring</h2>
@@ -77,5 +79,5 @@ Another area I mentioned earlier about networking issues is tricky because it on
 In our next post, we’ll cover additional complications you’ll likely see in each of these areas and some of the most common strategies for dealing with them.
 
 
-  [1]: https://drive.google.com/thumbnail?id=1E6lf8J3figKnBzGnVqX0UXTF8d2bcpc0&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1duGPMf8JXEpMrrGRjd01NHY8oNEa3YwV&sz=w720
+  [1]: /images/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-1-1.jpg
+  [2]: /images/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-1-2.jpg

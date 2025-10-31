@@ -12,6 +12,7 @@ excerpt: >-
   and Jobs Support for managing bursty and...
 slug: ai-series-cost-controls-insights
 readTime: 4
+coverImage: ''
 ---
 
 In our previous blogs, we discussed two foundational pillars of AI infrastructure: [BYOA (Bring Your Own Account)][1] for secure, scalable deployments and [Jobs Support][2] for managing bursty and scheduled workloads.

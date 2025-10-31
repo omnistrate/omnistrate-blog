@@ -12,6 +12,7 @@ excerpt: >-
   validating access with authentication to validate...
 slug: fortifying-saas-safeguarding-data-and-compliance-across-layers
 readTime: 2
+coverImage: ''
 ---
 
 One of the core tenets of SaaS is to be secure. Security spans across many layers from controlling access with IP whitelisting or Private Link, validating access with authentication to validate identity, authorization to assign permissions to users within tenant organizations, auditing to record every activity, tenant isolation to guard against malicious tenants, regulatory requirements from securing third-party services accesses to operational processes to achieve different compliance standards, and so on.

@@ -11,6 +11,7 @@ excerpt: >-
   aspects of the control plane.
 slug: role-of-kubernetes-operators-in-saas-development
 readTime: 2
+coverImage: ''
 ---
 
 Kubernetes (K8s) Operators serve as effective tools for automating certain aspects of the control plane. In fact, if you already possess an operator and are considering building your end-to-end SaaS solution, please refer to this [page][1]. 

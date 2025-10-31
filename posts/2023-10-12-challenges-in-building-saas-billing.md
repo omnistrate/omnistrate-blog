@@ -11,6 +11,7 @@ excerpt: >-
   and observability.
 slug: challenges-in-building-saas-billing
 readTime: 11
+coverImage: /images/posts/challenges-in-building-saas-billing-1.jpg
 ---
 
 By far the most consistent area of focus I’ve had in my career is monitoring and observability.  Way back in 2005 while at Orbitz, I had the opportunity to learn from and work alongside Chris Davis, the original author of Graphite.  It was an enormous success both at Orbitz and within the industry as a whole, and it’s been an honor and privilege to essentially ride that initial wave of monitoring innovation my whole career.
@@ -86,7 +87,7 @@ We have just scratched the surface, the reality is that the problem is much more
 As you might be able to tell by now, I love working on these systems.  They’re critical to make your business succeed, they need to be bulletproof, and they can end up being forced to reckon with massive scale.  As an engineer, this intersection of difficult requirements excites me and it’s been an honor to work on them multiple times now.  I hope you’ve enjoyed this brief introduction to the space and hopefully you can apply anything you’ve learned to whatever you're working on now or in the future.
 
 
-  [1]: https://drive.google.com/thumbnail?id=1LM-L9ruSjdoeoLyO2Qd6yuAnDZukylSl&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1qveSzNVwdjsz_TsX9LnxpPAsGu0r2Vaq&sz=w720
-  [3]: https://drive.google.com/thumbnail?id=13NgIozbwSe9rYPyFx-06fzLAzK7Ppra0&sz=w720
+  [1]: /images/posts/challenges-in-building-saas-billing-1.jpg
+  [2]: /images/posts/challenges-in-building-saas-billing-2.jpg
+  [3]: /images/posts/challenges-in-building-saas-billing-3.jpg
   [4]: https://www.confluent.io/blog/scaling-apache-druid-for-real-time-cloud-analytics-at-confluent/

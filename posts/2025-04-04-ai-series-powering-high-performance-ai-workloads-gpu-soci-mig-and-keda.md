@@ -11,6 +11,7 @@ excerpt: >-
   control and insights.
 slug: ai-series-powering-high-performance-ai-workloads-gpu-soci-mig-and-keda
 readTime: 4
+coverImage: ''
 ---
 
 In previous posts, we explored [BYOA][1] deployments, [AI job scheduling][2], and [cost control and insights][3]. In this blog, we focus on the performance accelerators and scalability layers Omnistrate offers out of the box—purpose-built for AI workloads that demand fast startup, efficient resource usage, and intelligent scaling.

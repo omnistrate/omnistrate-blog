@@ -11,6 +11,7 @@ excerpt: >-
   always been at the forefront of innovation.
 slug: aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud
 readTime: 2
+coverImage: /images/posts/aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud-1.png
 ---
 
 ![AWS Logo][6]
@@ -32,10 +33,10 @@ Here is the architecture:
 
 Check out the full story [here][5] where Percona introduced Ivee in Beta to chart a new story of databases UX
 
-[1]: https://drive.google.com/thumbnail?id=1Ka2eMM7KHvUubAb4iJRW62sa8F0R3YRu&sz=w100
-[2]: https://drive.google.com/thumbnail?id=1-xbCsvUfit8LkXW67pdXzST51Tvz06-q&sz=w720
-[6]: https://drive.google.com/thumbnail?id=1DjsEXcMple2PUzBqaFmMfh426timJvY7&sz=w100
-[7]: https://drive.google.com/thumbnail?id=1nF23-UF6J8Cxt-O3GhQEnlVS4wzJltCl&sz=w720
+[1]: /images/posts/aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud-1.png
+[2]: /images/posts/aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud-2.png
+[6]: /images/posts/aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud-3.png
+[7]: /images/posts/aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud-4.png
 [3]: https://percona.com/
 [4]: https://ivee.cloud/
 [5]: https://dev.to/spronin/introducing-ivee-in-beta-or-the-story-of-databases-ux-11el

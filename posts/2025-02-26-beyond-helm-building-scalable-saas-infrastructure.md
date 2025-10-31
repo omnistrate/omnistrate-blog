@@ -9,6 +9,7 @@ author:
 excerpt: 'A while ago I wrote, why Terraform tool is not enough for SaaS [here][1].'
 slug: beyond-helm-building-scalable-saas-infrastructure
 readTime: 5
+coverImage: ''
 ---
 
 A while ago I wrote, why Terraform tool is not enough for SaaS [here][1]. Today, I am extending the same series for Helm -- covering the purpose they serve and why they are NOT enough to build your cloud offering or control plane.

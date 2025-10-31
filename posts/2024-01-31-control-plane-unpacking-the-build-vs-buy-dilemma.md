@@ -12,6 +12,7 @@ excerpt: >-
   before.
 slug: control-plane-unpacking-the-build-vs-buy-dilemma
 readTime: 5
+coverImage: /images/posts/control-plane-unpacking-the-build-vs-buy-dilemma-1.png
 ---
 
 Building software distribution channel(s) is hard, costly and time-consuming. I have discussed the challenges in building and operating your Control Plane before. To learn more, please see [older version here][1] and [newer version here][2]
@@ -49,13 +50,13 @@ If you are interested in learning more about this topic or join the experts grou
 
   [1]: https://blog.omnistrate.com/posts/52
   [2]: https://blog.omnistrate.com/posts/151
-  [3]: https://drive.google.com/thumbnail?id=1q8hdpCfydbzdSeW9MnRQzKcs5oVeqPm8&sz=w720
+  [3]: /images/posts/control-plane-unpacking-the-build-vs-buy-dilemma-1.png
   [4]: http://omnistrate.ai
   [5]: https://blog.omnistrate.com/posts/151
   [6]: https://blog.omnistrate.com/posts/150
   [7]: https://blog.omnistrate.com/posts/149
   [8]: https://blog.omnistrate.com/posts/152
-  [9]: https://drive.google.com/thumbnail?id=1q8hdpCfydbzdSeW9MnRQzKcs5oVeqPm8&sz=w720
+  [9]: /images/posts/control-plane-unpacking-the-build-vs-buy-dilemma-1.png
   [10]: email:support@omnistrate.com
   [11]: https://www.linkedin.com/company/omnistrate
   [12]: https://www.linkedin.com/groups/9880017/

@@ -11,6 +11,7 @@ excerpt: >-
   standard for application deployment.
 slug: why-kubernetes-is-the-foundation-of-modern-cloud-infrastructure
 readTime: 7
+coverImage: ''
 ---
 
 > "In a cloud-native world, Kubernetes is the foundation that lets you

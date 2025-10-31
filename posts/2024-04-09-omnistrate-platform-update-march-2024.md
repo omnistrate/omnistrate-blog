@@ -9,6 +9,7 @@ author:
 excerpt: "Hello from Omnistrate \U0001F44B This is our platform update for March 2024! We are excited to share our progress towards building the Omnistrate Platform and the milestones we reached this month."
 slug: omnistrate-platform-update-march-2024
 readTime: 3
+coverImage: ''
 ---
 
 Hello from Omnistrate 👋

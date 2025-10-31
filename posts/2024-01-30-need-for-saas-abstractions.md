@@ -11,6 +11,7 @@ excerpt: >-
   compared to creating an application for an operating system (OS).
 slug: need-for-saas-abstractions
 readTime: 3
+coverImage: ''
 ---
 
 Developing software as a service (SaaS) in today's cloud environment can be compared to creating an application for an operating system (OS). Just as developers don't concern themselves with the intricacies of CPU scheduling or memory management when writing applications for Windows or Linux, similar abstractions are needed in the cloud.

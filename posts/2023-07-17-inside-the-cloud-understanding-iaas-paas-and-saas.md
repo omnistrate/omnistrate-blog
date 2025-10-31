@@ -12,6 +12,7 @@ excerpt: >-
   IT infrastructure.
 slug: inside-the-cloud-understanding-iaas-paas-and-saas
 readTime: 10
+coverImage: /images/posts/inside-the-cloud-understanding-iaas-paas-and-saas-1.jpg
 ---
 
 The proliferation of various cloud computing services has resulted in the widespread adoption of several new concepts and vocabularies in the world of IT infrastructure. IaaS, PaaS, and SaaS are frequently given examples of these cloud services. Yet, there isn't always enough information on hand to make the distinctions among these categories of cloud deployment models very clear. This article aims to clarify these concepts, go deeper into their background, present examples, explain use cases, and emphasize their main differences.
@@ -93,5 +94,5 @@ The specific needs and resources of a business will often dictate which model is
 ## Closing Thoughts
 IaaS, PaaS, and SaaS based cloud computing services, each have their own use cases. One isnt better than the others in a general sense - only better for the specific needs. Irrespective of the type of cloud computing deployment model or service chosen, it promises to bring increased efficiency and flexibility to the business. Cloud adoption is a journey and understanding these different cloud deployment models and service types helps you in making the right choice when it comes down to your business objectives and technological needs.
 
-  [1]: https://drive.google.com/thumbnail?id=1jOljnCFrVRuDhfi71MAr0WZkFQR0k2FG&sz=w720
+  [1]: /images/posts/inside-the-cloud-understanding-iaas-paas-and-saas-1.jpg
   

@@ -9,6 +9,7 @@ author:
 excerpt: 'Scaling - it’s the reason we’re all using this cloud thing anyway, right?'
 slug: everything-about-scaling
 readTime: 16
+coverImage: /images/posts/everything-about-scaling-1.png
 ---
 
 Scaling - it’s the reason we’re all using this cloud thing anyway, right?  Surely all of your applications have been tested to effortlessly scale from 0 to 1,000 in milliseconds, and your databases can rebalance after scaling within minutes with zero impact to anything important, correct?
@@ -121,5 +122,5 @@ Whether you’re trying to implement and offer your own service in a serveless f
 
 As a service provider however, it’s a great time to design and build data systems that can be offered as a serverless product.  We’ll explore how Omnistrate can help you do exactly this in a future post.
 
-  [1]: https://drive.google.com/thumbnail?id=1NvNd7BLQLtLjgKMywxzyOcFQEKxl06Rf&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1dD7l03-aDgOAEC74CnGqlxnrPFFqbjmb&sz=w720
+  [1]: /images/posts/everything-about-scaling-1.png
+  [2]: /images/posts/everything-about-scaling-2.png

@@ -12,6 +12,7 @@ excerpt: >-
   across multiple clouds.
 slug: managing-open-search-across-multiple-clouds-a-guide-to-overcoming-challenges
 readTime: 4
+coverImage: ''
 ---
 
 Are you tired of juggling multiple cloud providers for your Open Search needs? Do you feel like you're drowning in a sea of APIs and configurations? -- this guide will help you navigate the stormy waters of managing Open Search across multiple clouds.

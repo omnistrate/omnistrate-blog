@@ -12,6 +12,8 @@ excerpt: >-
   Foundation...
 slug: omnistrate-joins-cncf-family-sponsors-cncf-and-open-sources-saasbuilder
 readTime: 3
+coverImage: >-
+  /images/posts/omnistrate-joins-cncf-family-sponsors-cncf-and-open-sources-saasbuilder-1.png
 ---
 
 **Redwood City, California – 07/10/2024** – Omnistrate, the innovator in rapid SaaS development and management, is thrilled to announce that we are now part of the Cloud Native Computing Foundation (CNCF) family. This milestone marks our commitment to advancing cloud-native technologies and contributing to the global SaaS ecosystem. Additionally, we are excited to sponsor CNCF, where we look forward to engaging with thousands of SaaS enthusiasts, discussing challenges, sharing experiences, and exploring new synergies.
@@ -52,7 +54,7 @@ For more information about Omnistrate, visit [Omnistrate's Website][6].
 
 Omnistrate empowers Independent Software Vendors (ISVs) to build and manage their SaaS offerings in minutes instead of years. Our platform automates the entire SaaSification process, from supporting deployments to operating enterprise-grade SaaS solutions at scale. With Omnistrate, ISVs can accelerate their time-to-market and focus on innovation while we handle the complexities of SaaS management.
 
-  [1]: https://drive.google.com/thumbnail?id=1eggC0uh11mxLX8ETutxPimR4sRuN4Ib9&sz=w720
+  [1]: /images/posts/omnistrate-joins-cncf-family-sponsors-cncf-and-open-sources-saasbuilder-1.png
   [2]: https://landscape.cncf.io/?item=cncf-members--silver--omnistrate-member
   [3]: https://www.youtube.com/watch?v=SO2Rp1BW3nQ
   [4]: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/sponsor-list/

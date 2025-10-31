@@ -12,6 +12,7 @@ excerpt: >-
   terms that originally came about in the...
 slug: introduction-to-control-plane-and-data-plane
 readTime: 5
+coverImage: ''
 ---
 
 In the world of computing and cloud services, the terms "control plane" and “data plane” are increasingly mentioned, even though these are actually older terms that originally came about in the networking world. This blog post aims to dive into the history of these concepts, where they are used and why, and how they’ve been extended into the emerging domain of SaaS. Let's dive in.

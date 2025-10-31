@@ -11,6 +11,7 @@ excerpt: >-
   happens when products grow beyond their initial architectural assumptions.
 slug: moving-to-cell-based-architecture-lessons-from-neon
 readTime: 6
+coverImage: ''
 ---
 
 The recent [stability issues at Neon](https://neon.com/blog/an-apology-and-a-recap-on-may-june-stability) provide a compelling case study of what happens when products grow beyond their initial architectural assumptions. Neon's experience—moving from a monolithic control plane to a cell-based architecture under pressure—illustrates a critical pattern in SaaS evolution: the inevitable need for horizontal scaling through cellular architecture.

@@ -11,6 +11,7 @@ excerpt: >-
   infrastructure of the internet.
 slug: what-is-a-cloud
 readTime: 6
+coverImage: /images/posts/what-is-a-cloud-1.jpg
 ---
 
 The term Cloud isn’t a physical entity but is meant to represent the infrastructure of the internet. It’s called Cloud to signify that the users of the Cloud don’t have to worry about the underlying complexities of the infrastructure but can use it as building blocks for their application. Behind the scenes, the cloud is a vast network of physical machines across the globe connected together and abstracted for its end users for dedicated tasks from running applications to storing data to managed applications.
@@ -62,13 +63,13 @@ We covered the basics here in this blog post. In the follow up post, we will dig
   [3]: https://azure.microsoft.com/
   [4]: https://cloud.google.com/
   [5]: https://www.gartner.com/reviews/market/public-cloud-iaas
-  [6]: https://i.imgur.com/bn8psQel.jpg
-  [7]: https://i.imgur.com/eMQN9L4l.jpg?1
-  [8]: https://i.imgur.com/GbSloZkl.jpg
+  [6]: /images/posts/what-is-a-cloud-1.jpg
+  [7]: /images/posts/what-is-a-cloud-2.jpg
+  [8]: /images/posts/what-is-a-cloud-3.jpg
   [9]: https://aws.amazon.com/ec2/
   [10]: https://aws.amazon.com/rds/
   [11]: https://aws.amazon.com
-  [12]: https://i.imgur.com/5A27FM7l.png
+  [12]: /images/posts/what-is-a-cloud-4.jpg
   [13]: https://aws.amazon.com/ec2/
   [14]: https://aws.amazon.com/s3/
   [15]: https://cloud.google.com/compute

@@ -12,6 +12,7 @@ excerpt: >-
   all the layers.
 slug: introducing-omnistrate-platform
 readTime: 5
+coverImage: ''
 ---
 
 As we contemplated building the SaaS platform, we divided the [requirements][1] into 5 packages. If you are building a SaaS from scratch, you will likely need all the layers. 

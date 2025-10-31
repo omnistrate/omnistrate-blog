@@ -12,6 +12,7 @@ excerpt: >-
   service.
 slug: day-2-operations-saas-maintenance
 readTime: 9
+coverImage: ''
 ---
 
 In my previous posts, I have covered what it takes to *build* a SaaS Control Plane: [[Capabilities]][1][[Billing]][2][[Provisioning]][3][[Scaling]][4][[High Availability]][5][[Monitoring]][6]. In this post, we will cover some of the challenges in *operating* a SaaS service.

@@ -11,6 +11,7 @@ excerpt: >-
   flexibility and extensibility in your deployments.
 slug: custom-sidecars-support-for-omnistrate-resources
 readTime: 2
+coverImage: ''
 ---
 
 We’re excited to announce support for custom sidecars, enabling greater flexibility and extensibility in your deployments. Whether you need to enhance observability, security, or networking within your application, sidecars provide a powerful way to extend functionality without modifying your main application code.

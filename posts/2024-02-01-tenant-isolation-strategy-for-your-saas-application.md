@@ -11,6 +11,7 @@ excerpt: >-
   from one another.
 slug: tenant-isolation-strategy-for-your-saas-application
 readTime: 3
+coverImage: ''
 ---
 
 A SaaS application serves several tenants, and each tenant should be isolated from one another. Depending on where and how you want to deploy, you may choose one or more types of isolation for your application.

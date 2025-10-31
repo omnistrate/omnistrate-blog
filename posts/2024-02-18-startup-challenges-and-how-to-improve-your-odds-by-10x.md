@@ -11,6 +11,7 @@ excerpt: >-
   it.
 slug: startup-challenges-and-how-to-improve-your-odds-by-10x
 readTime: 4
+coverImage: /images/posts/startup-challenges-and-how-to-improve-your-odds-by-10x-1.png
 ---
 
 Starting a business is tough, and it's no secret that many startups don't make it. Every founder faces big challenges like finding customers who love their product, making enough money to keep going, and convincing investors to believe in their vision.
@@ -55,7 +56,7 @@ In conclusion, with Omnistrate as your trusted partner, you can accelerate your 
 
 [Start your SaaS journey][7] today and embark on a path to lasting success.
 
-  [1]: https://drive.google.com/thumbnail?id=1PMbpoKYIfm28LpubWyzyeA51HGmZazdK&sz=w720
+  [1]: /images/posts/startup-challenges-and-how-to-improve-your-odds-by-10x-1.png
   [2]: https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898
   [3]: https://omnistrate.com/
   [4]: https://www.omnistrate.com/pricing

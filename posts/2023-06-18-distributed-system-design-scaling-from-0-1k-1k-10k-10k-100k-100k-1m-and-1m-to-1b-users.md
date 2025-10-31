@@ -14,6 +14,8 @@ excerpt: >-
 slug: >-
   distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users
 readTime: 5
+coverImage: >-
+  /images/posts/distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users-1.webp
 ---
 
 One of the most challenging aspects of building a distributed system is scaling it to handle different levels of user traffic. In this blog post, I will discuss some of the common techniques and trade-offs involved in scaling a distributed system from 1 to 1 billion users. 
@@ -107,4 +109,4 @@ Using automation or orchestration tools to manage, deploy, and update the system
 **Conclusion:**
 In this blog post, I have discussed some of the common techniques and trade-offs involved in scaling a distributed system from 1 to 1 billion users. I have also provided some step-by-step explanations for each scale. Scaling a distributed system is not a one-size-fits-all problem, but rather a continuous process of learning, adapting, and improving. I hope this blog post has given you some useful insights and tips on how to design and scale your own distributed system.
 
-  [1]: https://miro.medium.com/v2/resize:fit:640/format:webp/1*bTwNCvLpPW-SVz1IaMFyxA.png
+  [1]: /images/posts/distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users-1.webp

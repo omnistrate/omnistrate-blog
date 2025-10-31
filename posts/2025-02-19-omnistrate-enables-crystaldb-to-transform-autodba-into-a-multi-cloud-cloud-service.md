@@ -12,6 +12,8 @@ excerpt: '"Omnistrate made it easy for us to launch AutoDBA as a SaaS product.'
 slug: >-
   omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service
 readTime: 3
+coverImage: >-
+  /images/posts/omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service-1.png
 ---
 
 > "Omnistrate made it easy for us to launch AutoDBA as a SaaS product.
@@ -79,4 +81,4 @@ Faster Time to Market: With Omnistrate managing infrastructure complexities, Cry
 
 - **Increased Market Reach**: Supporting various PostgreSQL deployments expanded AutoDBA's audience, driving user growth and increasing market share.
 
-  [1]: https://drive.google.com/thumbnail?id=1X_OVC-ELmirgG8Mquj3PGlWyGZNVX7ki&sz=w720
+  [1]: /images/posts/omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service-1.png

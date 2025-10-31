@@ -12,6 +12,7 @@ excerpt: >-
   the right operating system.
 slug: unlocking-the-full-potential-of-kubernetes-with-amazon-linux-2023
 readTime: 3
+coverImage: ''
 ---
 
 *Kubernetes* has become the go-to container orchestration tool for many organizations. However, achieving the full potential of Kubernetes requires the right operating system. 

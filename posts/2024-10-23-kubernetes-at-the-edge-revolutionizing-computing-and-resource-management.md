@@ -12,6 +12,7 @@ excerpt: >-
   infrastructure alone.
 slug: kubernetes-at-the-edge-revolutionizing-computing-and-resource-management
 readTime: 7
+coverImage: ''
 ---
 
 Kubernetes (k8s) has transformed the way applications are deployed in the cloud. However, its potential goes far beyond the traditional cloud infrastructure alone. As computing moves towards edge environments, Kubernetes is proving to be a great enabler for managing distributed applications at the edge.

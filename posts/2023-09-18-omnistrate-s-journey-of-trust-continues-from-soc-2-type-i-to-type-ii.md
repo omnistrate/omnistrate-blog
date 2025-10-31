@@ -12,6 +12,7 @@ excerpt: >-
   another significant milestone by earning the SOC.
 slug: omnistrate-s-journey-of-trust-continues-from-soc-2-type-i-to-type-ii
 readTime: 3
+coverImage: ''
 ---
 
 **Certification**

@@ -11,6 +11,7 @@ excerpt: >-
   infrastructure.
 slug: whiteswan-security-case-study
 readTime: 4
+coverImage: /images/posts/whiteswan-security-case-study-1.jpg
 ---
 
 > “Security startups don’t have time or resources to reinvent cloud infrastructure.
@@ -102,4 +103,4 @@ So if you're building the next great security platform, don't go it alone. Lever
 
 
   [1]: https://www.linkedin.com/in/vinaymamidi/
-  [2]: https://drive.google.com/thumbnail?id=1CP_JOBY8XLpEvGSWF2C7y0MeuLW4-WKc&sz=w720
+  [2]: /images/posts/whiteswan-security-case-study-1.jpg

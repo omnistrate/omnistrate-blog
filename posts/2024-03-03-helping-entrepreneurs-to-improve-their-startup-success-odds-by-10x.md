@@ -12,6 +12,8 @@ excerpt: >-
   without spending a fortune.
 slug: helping-entrepreneurs-to-improve-their-startup-success-odds-by-10x
 readTime: 3
+coverImage: >-
+  /images/posts/helping-entrepreneurs-to-improve-their-startup-success-odds-by-10x-1.jpg
 ---
 
 As entrepreneurs, we know that time and money are our most valuable assets. Imagine if we have a mechanism to test our ideas and validate them in no time without spending a fortune. Huh? -- that's interesting!
@@ -48,6 +50,6 @@ But building one is really costly and time-consuming. It used to be only the big
 
 You will be able to move faster, find PMF quicker, iterate quickly, provide a unique competitive advantage over incumbents, achieve significantly better margins, and keep your team focused on the things that differentiates your business the most.
 
- [1]: https://drive.google.com/thumbnail?id=1qD9j_8hizJ6q9hGX3FHlzcjEAi2AqJuH&sz=w720
+ [1]: /images/posts/helping-entrepreneurs-to-improve-their-startup-success-odds-by-10x-1.jpg
 
 

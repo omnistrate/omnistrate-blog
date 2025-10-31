@@ -12,6 +12,8 @@ excerpt: >-
   customers.
 slug: accelerating-saas-innovation-omnistrate-s-latest-platform-release
 readTime: 2
+coverImage: >-
+  /images/posts/accelerating-saas-innovation-omnistrate-s-latest-platform-release-1.png
 ---
 
 Over the past year of relentless building, we’ve released a number of features in our platform that made it easy to build, access, and operate SaaS for our customers. We want to share with everyone what we have achieved so far.
@@ -73,8 +75,8 @@ Now some useful links to: our amazing [docs][3], our [Slack community][4], our [
 
 Follow us anywhere, join the SaaS revolution. 🟩
 
-  [1]: https://drive.google.com/thumbnail?id=1YukYUsUU1z0uQRG_IbjyIuWHuxrwtaKV&sz=w720
-  [2]: https://drive.google.com/thumbnail?id=1-tYK2VWuAsOeWu2iCvt4hZJ6peIlrCtp&sz=w720
+  [1]: /images/posts/accelerating-saas-innovation-omnistrate-s-latest-platform-release-1.png
+  [2]: /images/posts/accelerating-saas-innovation-omnistrate-s-latest-platform-release-2.jpg
   [3]: http://docs.omnistrate.com
   [4]: https://join.slack.com/t/cloudnative-u5h1399/shared_invite/zt-1qf3cgi37-lCV1vKJlrBioqGuVjKBtyw
   [5]: https://www.youtube.com/@omnistrate-yt
