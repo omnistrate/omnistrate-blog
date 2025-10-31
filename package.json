@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "generate:metadata": "tsx scripts/generate-posts-metadata.ts",
-    "add:readtime": "tsx scripts/add-read-time.ts",
     "dev": "pnpm run generate:metadata && next dev --turbopack",
     "build": "pnpm run generate:metadata && next build --turbopack",
     "start": "next start",
