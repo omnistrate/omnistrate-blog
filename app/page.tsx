@@ -69,11 +69,10 @@ function Homepage() {
 
   return (
     <Container>
-      <TextMD className="text-center mb-3 mt-8 md:mt-12 lg:mt-16">Our blog</TextMD>
-      <DisplayLG className="text-center mb-6 tracking-tight">Insights for the Builders of Cloud Platforms</DisplayLG>
+      <TextMD className="text-center mb-3 mt-8 md:mt-12 lg:mt-16">Engineering the Modern Control Plane</TextMD>
+      <DisplayLG className="text-center mb-6 tracking-tight">What It Takes to Distribute Software at Scale</DisplayLG>
       <TextXL className="font-normal text-[#535862] text-center mx-auto max-w-4xl">
-        Stories, lessons, and product deep dives from the team behind Omnistrate — helping you launch, scale, and
-        distribute SaaS smarter.
+        From SaaS to Agent-as-a-Service, master software distribution and build the platform that runs anything, anywhere, securely for your most demanding customers.
       </TextXL>
 
       <SearchBar ref={searchBarRef} value={searchTerm} onChange={setSearchTerm} />

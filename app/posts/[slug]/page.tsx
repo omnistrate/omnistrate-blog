@@ -44,9 +44,10 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
       <article className="mb-16 md:mb-24 mt-6 md:mt-8">
         <PostHeader
           title={post.title}
-          excerpt={post.excerpt}
           readTime={`${post.readTime} min read`}
           category={post.category}
+          author={post.author?.name || "Omnistrate Team"}
+          date={post.date}
         />
         <PostBody content={post.content || ""} />
       </article>

@@ -1,5 +1,67 @@
 [
   {
+    "slug": "omnistrate-platform-update-september-2025-edition",
+    "title": "Omnistrate Platform Update - September 2025 edition",
+    "date": "2025-10-24  23:25:25",
+    "author": {
+      "name": "Pablo Berton",
+      "email": "pberton@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Omnistrate now makes it seamless to distribute and install your software in air-gapped or customer-managed environments with the new On-Prem Distribution Channel. This unifies the experience of delivering your product across cloud and on-prem setups—preserving the same automation, security, and lifecycle management everywhere.",
+    "coverImage": "/images/posts/omnistrate-platform-update-august-2025-edition-1.png",
+    "tags": [
+      "Cloud",
+      "Platform",
+      "Product-release",
+      "SaaS",
+      "Update"
+    ],
+    "readTime": 7,
+    "category": "Product Updates"
+  },
+  {
+    "slug": "deep-dive-into-the-on-prem-distribution-landscape-why-omnistrate-is-the-only-comprehensive-platform",
+    "title": "Deep Dive into the On-Prem Distribution Landscape: Why Omnistrate Is the Only Comprehensive Platform",
+    "date": "2025-10-16 02:33:50",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Delivering software into on-premises enterprise environments is a challenge many vendors are still struggling to solve. As IT leaders look for seamless distribution, effortless operations, and robust customer experiences, they quickly discover that most solutions in the market are limited to one-off packaging or manual deployment tooling.",
+    "coverImage": "",
+    "tags": [
+      "ControlPlane",
+      "Omnistrate",
+      "OnPrem",
+      "Replicated"
+    ],
+    "readTime": 4,
+    "category": "Engineering & Tech"
+  },
+  {
+    "slug": "why-customers-choose-omnistrate-a-deep-dive-into-the-byoc-landscape",
+    "title": "Why Customers Choose Omnistrate: A Deep Dive into the BYOC Landscape",
+    "date": "2025-10-16 01:45:44",
+    "author": {
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "When teams talk about Bring Your Own Cloud (BYOC) enablement, the conversation often gets conflated with tools that only address small slices of the problem. At first glance, platforms like Nuon might appear to help you “run in your customer’s environment,” but what they actually provide is far narrower. ",
+    "coverImage": "",
+    "tags": [
+      "BYOA",
+      "BYOC",
+      "ControlPlane",
+      "Nuon",
+      "Omnistrate"
+    ],
+    "readTime": 4,
+    "category": "Engineering & Tech"
+  },
+  {
     "slug": "omnistrate-platform-update-august-2025-edition",
     "title": "Omnistrate Platform Update - August 2025 edition",
     "date": "2025-09-19 22:01:13",
@@ -29,7 +91,7 @@
       "picture": ""
     },
     "excerpt": "Harness the power of natural language to simplify complex cloud operations. We are thrilled to announce a new way to interact with the Omnistrate platform: native Agentic AI integrations powered by our new server.",
-    "coverImage": "/images/posts/revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server-1.png",
+    "coverImage": "/images/posts/revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server-2.png",
     "tags": [
       "agent",
       "agentic ai",
