@@ -11,7 +11,7 @@ excerpt: >-
   development as seamless as possible.
 slug: omnistrate-just-made-building-b2b-saas-easier-than-ever
 readTime: 2
-coverImage: 'http://i3.ytimg.com/vi/VQjpG-x8S4w/hqdefault.jpg'
+coverImage: ''
 category: Product Updates
 ---
 
@@ -53,10 +53,9 @@ Omnistrate enables you to focus on your unique value proposition while we handle
 
 ![pic][1]
 
-<br/>
 Now, all you need is your B2B idea, and Omnistrate will help you bring it to life with multi-tenancy, scalable deployments, and built-in management capabilities. Start building traction without the hassle—Omnistrate has your back in every step of your B2B SaaS journey.
 
-  [1]: https://drive.google.com/thumbnail?id=1KNprWEfHCKe7TnFqhuY2phIbhxyPAaxs&sz=w720
+  [1]: /images/posts/omnistrate-just-made-building-b2b-saas-easier-than-ever-1.gif
   [2]: http://i3.ytimg.com/vi/VQjpG-x8S4w/hqdefault.jpg
   [3]: http://i3.ytimg.com/vi/OutFqjYV0xY/hqdefault.jpg
   [4]: http://i3.ytimg.com/vi/Jh63M2jDW2U/hqdefault.jpg

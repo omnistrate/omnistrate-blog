@@ -5,12 +5,28 @@ import { PostChip } from "./post-chip";
 import { PostMetadata } from "@/types/post";
 import { TextSM, TextXL } from "@/components/text";
 import { cn } from "@/lib/utils";
+import { BlogCategory } from "@/types/post";
 
 type PostCardProps = {
   post: PostMetadata;
 };
 
+const getCategoryDefaultImage = (category: BlogCategory): string => {
+  const categoryImages: Record<BlogCategory, string> = {
+    "Product Updates": "/images/posts/product-updates.svg",
+    "Engineering & Tech": "/images/posts/eng-tech.svg",
+    "Partners & Ecosystem": "/images/posts/partners.svg",
+    "Customer Stories": "/images/posts/customer-stories.svg",
+    "Industry Insights": "/images/posts/industry-insights.svg",
+    "Miscellaneous": "/images/posts/default-cover.svg"
+  };
+
+  return categoryImages[category] || categoryImages["Miscellaneous"];
+};
+
 export const PostCard: React.FC<PostCardProps> = ({ post }) => {
+  const defaultImage = getCategoryDefaultImage(post.category || "Miscellaneous");
+
   return (
     <div className="flex flex-col">
       <Link
@@ -30,7 +46,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post }) => {
           />
         ) : (
           <Image
-            src="/images/posts/default-cover.svg"
+            src={defaultImage}
             alt={post.title}
             fill
             loading="lazy"
