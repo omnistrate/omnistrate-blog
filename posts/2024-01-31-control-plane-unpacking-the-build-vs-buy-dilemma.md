@@ -13,7 +13,7 @@ excerpt: >-
 slug: control-plane-unpacking-the-build-vs-buy-dilemma
 readTime: 5
 coverImage: /images/posts/control-plane-unpacking-the-build-vs-buy-dilemma-1.png
-category: Industry Insights
+category: Engineering & Tech
 ---
 
 Building software distribution channel(s) is hard, costly and time-consuming. I have discussed the challenges in building and operating your Control Plane before. To learn more, please see [older version here][1] and [newer version here][2]

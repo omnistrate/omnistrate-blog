@@ -188,7 +188,7 @@
       "SaaS"
     ],
     "readTime": 5,
-    "category": "Industry Insights"
+    "category": "Engineering & Tech"
   },
   {
     "slug": "moving-to-cell-based-architecture-lessons-from-neon",
@@ -589,7 +589,7 @@
       "SaaS"
     ],
     "readTime": 7,
-    "category": "Industry Insights"
+    "category": "Engineering & Tech"
   },
   {
     "slug": "navigating-aws-s-expanded-saas-co-sell-program-opportunities-and-challenges-for-isvs",
@@ -653,7 +653,7 @@
       "SaaS"
     ],
     "readTime": 3,
-    "category": "Industry Insights"
+    "category": "Engineering & Tech"
   },
   {
     "slug": "custom-sidecars-support-for-omnistrate-resources",
@@ -741,8 +741,8 @@
     "title": "[AI Series] What is BYOC, and why does it matter? (Apps must “Go to the Data” in 2025)",
     "date": "2025-02-02 20:01:03",
     "author": {
-      "name": "Michael Cooper",
-      "email": "michaelc@omnistrate.com",
+      "name": "Kamal Gupta",
+      "email": "kamal@omnistrate.com",
       "picture": ""
     },
     "excerpt": "Applications are only as good as the data that powers them, and companies are putting more and more restrictions on where their proprietary data is accessible from.",
@@ -755,7 +755,7 @@
       "SaaS"
     ],
     "readTime": 6,
-    "category": "Industry Insights"
+    "category": "Engineering & Tech"
   },
   {
     "slug": "why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal",
@@ -998,7 +998,7 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Partners & Ecosystem"
+    "category": "Customer Stories"
   },
   {
     "slug": "ai-for-b2b-from-training-to-tenant-management-and-day-2-ops",
@@ -1059,7 +1059,7 @@
       "SaaS"
     ],
     "readTime": 7,
-    "category": "Partners & Ecosystem"
+    "category": "Customer Stories"
   },
   {
     "slug": "omnistrate-platform-update-august-2024",
@@ -1446,7 +1446,7 @@
       "SaaS"
     ],
     "readTime": 6,
-    "category": "Industry Insights"
+    "category": "Engineering & Tech"
   },
   {
     "slug": "omnistrate-platform-update-february-2024",
@@ -1634,7 +1634,7 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Industry Insights"
+    "category": "Engineering & Tech"
   },
   {
     "slug": "fortifying-saas-safeguarding-data-and-compliance-across-layers",
@@ -1654,7 +1654,7 @@
       "security"
     ],
     "readTime": 2,
-    "category": "Industry Insights"
+    "category": "Engineering & Tech"
   },
   {
     "slug": "challenges-in-streamlining-saas-user-experiences",
@@ -1754,7 +1754,7 @@
       "SaaS"
     ],
     "readTime": 5,
-    "category": "Industry Insights"
+    "category": "Engineering & Tech"
   },
   {
     "slug": "role-of-kubernetes-operators-in-saas-development",
@@ -1854,7 +1854,7 @@
       "SaaS"
     ],
     "readTime": 3,
-    "category": "Industry Insights"
+    "category": "Engineering & Tech"
   },
   {
     "slug": "the-saas-revolution-transforming-software-delivery-forever",
@@ -1937,7 +1937,7 @@
       "SaaS"
     ],
     "readTime": 4,
-    "category": "Industry Insights"
+    "category": "Engineering & Tech"
   },
   {
     "slug": "a-200-billion-dollar-business-that-you-cannot-ignore",
@@ -2033,7 +2033,7 @@
       "SaaS"
     ],
     "readTime": 7,
-    "category": "Industry Insights"
+    "category": "Engineering & Tech"
   },
   {
     "slug": "challenges-in-building-saas-billing",

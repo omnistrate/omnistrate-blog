@@ -13,7 +13,7 @@ slug: aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service
 readTime: 7
 coverImage: >-
   /images/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service-1.jpg
-category: Partners & Ecosystem
+category: Customer Stories
 ---
 
 ![AWS Logo][6]

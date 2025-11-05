@@ -12,7 +12,7 @@ excerpt: >-
 slug: on-prem-software-distribution-overcoming-licensing-deployment-challenges
 readTime: 3
 coverImage: ''
-category: Industry Insights
+category: Engineering & Tech
 ---
 
 In our [previous post on BYOC][1], we discussed different approaches to SaaS distribution and specifically discussed BYOC model in detail. 

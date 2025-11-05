@@ -12,7 +12,7 @@ excerpt: >-
 slug: aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud
 readTime: 2
 coverImage: /images/posts/aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud-1.png
-category: Partners & Ecosystem
+category: Customer Stories
 ---
 
 ![AWS Logo][6]

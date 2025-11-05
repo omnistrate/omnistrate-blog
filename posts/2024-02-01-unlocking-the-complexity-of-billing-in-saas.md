@@ -12,7 +12,7 @@ excerpt: >-
 slug: unlocking-the-complexity-of-billing-in-saas
 readTime: 2
 coverImage: ''
-category: Industry Insights
+category: Engineering & Tech
 ---
 
 One of the core tenets of SaaS is to be able to meter tenant usage and then bill your customers. However, there are a lot of challenges in handling that.
