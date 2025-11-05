@@ -20,10 +20,10 @@ category: Customer Stories
 
 **Convoy partnered with Omnistrate to turn their Open Core Webhook gateway into a feature complete multi-cloud SaaS solution in weeks**
 
-> “Our friends at another company told us it took them 2 years to build
+> Our friends at another company told us it took them 2 years to build
 > their control plane using Vanilla AWS APIs. Omnistrate enabled us to
 > ship our Cloud platform in only two weeks, and after Omnistrate, we
-> saw a 200% increase in active users.”
+> saw a 200% increase in active users.
 > **[Subomi Oluwalana][2]  CEO, Convoy**
 
 **Who/What is Convoy?**
@@ -57,9 +57,9 @@ For Contrast, when other major OSS projects built their cloud offerings (ex Conf
 
 However, by leveraging Omnistrate, Convoy Cloud was launched with weeks of effort (not years.)
 
-> “Our previous attempts at building a cloud platform were short-lived.
+> Our previous attempts at building a cloud platform were short-lived.
 > Indeed, our Cloud on Omnistrate has been the most consistent and
-> growing Cloud platform we’ve had.” Subomi Oluwalana  CEO, Convoy
+> growing Cloud platform we’ve had. Subomi Oluwalana  CEO, Convoy
 
 **How Omnistrate works**
 	

@@ -50,7 +50,7 @@ Explore these new features today and elevate your SaaS experience with Omnistrat
 
 
 
-## Highlights from AWS re:Invent ##
+## Highlights from AWS re:Invent 
 
 
 From hosting the SaaS Builders Meet & Greet to going live with an insightful LinkedIn Live podcast on Building AI-Native Data Applications in the Cloud, our week was packed with bold ideas, valuable conversations, and inspiring connections. Here are some of the key themes that resonated:
