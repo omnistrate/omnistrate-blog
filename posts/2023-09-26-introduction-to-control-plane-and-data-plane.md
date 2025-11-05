@@ -18,23 +18,23 @@ category: Engineering & Tech
 
 In the world of computing and cloud services, the terms "control plane" and “data plane” are increasingly mentioned, even though these are actually older terms that originally came about in the networking world. This blog post aims to dive into the history of these concepts, where they are used and why, and how they’ve been extended into the emerging domain of SaaS. Let's dive in.
 
-#Brief History
+# Brief History
 
 In cloud networking (and networking in general), the term "control plane" refers to the layer of a network that carries signaling traffic and is responsible for routing network traffic. It's a fundamental concept in understanding how data moves around a network and how the network operates. The data plane, in contrast, is the domain of operation where data is actually sent and received. For a bit more detail in this historical, networking-only context:
 
-###Control Plane:
+### Control Plane:
   - It is responsible for the management and control of network operations. This means making decisions about how data should flow, what routes it should take, and configuring and managing the actual hardware or software that will execute these decisions.
 
   - Components of the control plane often include routing protocols, management protocols, and other mechanisms that help in making decisions about the data flow.
 
-###Data Plane:
+### Data Plane:
   - This is concerned with the actual process of sending and receiving data packets. It's the mechanism by which data travels from one point to another, with no concern about how these paths are determined.
 
-#The Symphony Analogy
+# The Symphony Analogy
 
 Imagine a distributed system as a grand symphony orchestra
 
-###Control Plane - The Conductor/ Music Orchestrator:
+### Control Plane - The Conductor/ Music Orchestrator:
 
 **Role**: 
 The conductor doesn’t play any instrument but knows the entire score. They ensure all sections of the orchestra come together harmoniously, guiding tempo, dynamics, and coordinating entrances. In a distributed system, the control plane orchestrates its overall functioning without directly handling the user data.
@@ -45,7 +45,7 @@ The conductor decides when the string section begins, how loud the brass plays, 
 **Interactions**: 
 Musicians look to the conductor for guidance. Similarly, in a distributed system, various components refer to the control plane for their instructions.
 
-###Data Plane - The Musicians:
+### Data Plane - The Musicians:
 
 **Role**:
 Each musician in the orchestra plays their respective part without concerning themselves with the broader coordination. Their primary task is to produce music (data processing) according to the conductor's (control plane) instructions. In the same vein, components in the data plane process data following the control plane's instructions
@@ -56,11 +56,11 @@ A violinist focuses on their notes, a percussionist on their rhythm. Similarly, 
 **Interactions**:
 The audience hears the music directly from the musicians. Similarly, end-users interact with the data plane to get their requests processed.
 
-#In Cloud based Distributed Systems
+# In Cloud based Distributed Systems
 
 In the context of cloud-based distributed systems, the control plane and data plane often have distinct roles to ensure seamless operation, scalability, and management of the cloud resources.
 
-###Control Plane (Management Layer):
+### Control Plane (Management Layer):
 
 **Role**:
 The control plane manages and orchestrates the underlying resources in a cloud environment. It's the brain of the cloud platform, ensuring everything is configured, provisioned, and operating correctly.
@@ -83,7 +83,7 @@ The control plane manages and orchestrates the underlying resources in a cloud e
 
  - **Example:** In AWS, services like Amazon EC2 or Amazon RDS have control planes that handle requests to launch new instances or databases and manage their lifecycle.
 
-###Data Plane (Workload Layer):
+### Data Plane (Workload Layer):
 
 **Role**:
 Once resources are provisioned and configured by the control plane, the data plane is where the actual processing happens, handling user data and applications.
@@ -96,10 +96,10 @@ Data Storage & Retrieval: Actions related to writing data to databases, reading 
  - **Direct User Requests:** When a user accesses a cloud application, they are interacting with the data plane.
 Interactions: End-users typically interact with the data plane without even realizing it. For instance, when accessing a web application hosted on a cloud platform, they're interfacing with the data plane components.
 
-###Example:
+### Example:
 In AWS, when you access a web application running on an EC2 instance or retrieve data from an S3 bucket, you're interacting with the data plane.
 
-##Summary
+## Summary
 
 In cloud-based software systems, the control plane manages and orchestrates cloud resources, ensuring everything is correctly provisioned, configured, and monitored. It's the layer users interact with when setting up or managing cloud services, often through dashboards, CLI tools, or APIs. On the other hand, the data plane is where actual data processing occurs, running applications, storing and retrieving data, and directly serving user requests.
 

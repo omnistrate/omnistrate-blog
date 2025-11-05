@@ -17,7 +17,7 @@ coverImage: >-
 category: Engineering & Tech
 ---
 
-<h2>Introduction to Cloud Monitoring</h2>
+## Introduction to Cloud Monitoring
 Most people who work in platform engineering and cloud infrastructure are aware that you need to design both your applications and your underlying platform for high availability and fault tolerance, but there is a large range of resiliency from “relatively reliable” to “bulletproof”.  The common adage goes something like this; for each “additional 9” of reliability, you’ll need to spend an exponentially greater amount of effort and cost to achieve it.
 
 Why is this?  And what goes into these additional levels?
@@ -28,9 +28,9 @@ For over 5 years I designed and built custom-made servers for specific use-cases
 
 The overarching theme I’ve noticed over this time is that as we’ve progressed from managing more traditional servers in on-premise datacenters and the applications running on them to the modern public cloud ecosystem is one of ever-increasing complexity.   What used to be accomplished with a few servers and a handful of auxiliary monitoring processes now requires knowledge of potentially hundreds of moving parts, spread across several different abstraction layers, all working in concert with each other.  In this blog post I’d like to explore what we’re up against as cloud platform engineers and some of the more common techniques that are used in dealing with these reliability challenges.
 
-<h2>What kind of failures will you need to design for?</h2>
+## What kind of failures will you need to design for?
 
-<h3>Compute</h3>
+### Compute
 
 Complete failures of servers have translated into failures of cloud VMs and k8s nodes, and these concepts map pretty much identically to each other, with the exception that it’s now easy and pretty fast to just get a new working VM vs the time it used to take to rack a new server or have someone in the datacenter replace it.  I would also argue that due to the sheer scale of services now, both what you’re likely running and what the providers have to offer, failures of this type are more frequent than what we used to have to deal with on traditional hardware.
 
@@ -38,15 +38,15 @@ Thankfully since this is the most common failure scenario people prepare for, we
 
 You can think of this entire class of failures as “single instance unavailability” – and under this umbrella we’d include not just when the VM or server dies, it’s also when an application crashes hard due to something like running out of memory.
 
-<h3>Process</h3>
+### Process
 
 Things get more difficult when trying to ascertain if a process is truly doing its job well enough to be considered healthy, especially if the reason a process can’t do meaningful work is due to an underlying resource being slower than usual.  Another example of how process monitoring can be complicated is when any amount of work your process does requires a relatively long amount of time, such as longer than 10 minutes.  This is relatively uncommon but not unheard of, especially in the realm of applications meant to work large queues of messages in batches. Finally, for data systems, there can be deadlatches causing the process to get stuck.
 
-<h3>Larger-Scale Outages</h3>
+### Larger-Scale Outages
 
 Dealing with larger groups of servers failing simultaneously is even more difficult and generally increases the cost of solutions significantly.  Often these time-correlated issues are related due to a common cause, such as a whole rack of a datacenter losing power or a common dependency going down, but this isn’t always the case; sometimes multiple issues really are just coincidences.  I’ll go into more examples of these and strategies for dealing with them later.
 
-<h3>Storage</h3>
+### Storage
 
 One of the largest classes of failure concerns are related to disks; and now those can manifest a few different ways thanks to cloud offerings and advanced datacenter storage solutions.  First of all, it’s important to look at the important differences between the common storage solutions offered in the public cloud, because properly handling failures for each one tends to be significantly different.
 
@@ -60,7 +60,7 @@ Even with all these options available to you, all the failure modes you’re goi
 
 For durability, you’ll need to come up with your own solutions while using instance storage and EBS, and the specifics of your designs will need to be tailored to each of your applications’ needs.  An additional complication some companies opt for is striping and/or mirroring local disks or EBS volumes to increase performance or redundancy with RAID or other volume management software, but that doesn’t mean you can ignore the other safety mechanisms discussed already.  Object storage services on the other hand tend to offer excellent durability guarantees, but as always, with your most critical data, you’ll still want to ensure appropriate precautions have been taken.
 
-<h3>Networking</h3>
+### Networking
 Networking issues unfortunately are among the most common and hardest to deal with issues in the datacenter and cloud.  From what I’ve experienced, while we’ve certainly come a long way from the days when critical networking equipment would simply start failing and causing mass outages, now it’s more critical than ever to pay close attention to application architecture, and health-check rules, as well as your policy design, api-rate limits & management of both.
 
 At the intersection of the critical requirements of security, cost-efficiency, and performance lies the design of your network.  As an example, let’s consider a simple service behind a load balancer hosted in a few availability zones for redundancy.  There is also a distributed database which each instance of the application needs to be able to access, and to save money, the service has been designed to keep both the traffic between the load balancer and the application servers, and the app servers and the DB within the same zone.
@@ -75,7 +75,7 @@ However, this only works if the healthchecks and total system state allow for it
 
 Another area I mentioned earlier about networking issues is tricky because it only manifests as a networking problem after the root cause has already begun, sometimes significantly earlier, and that’s the problem of VPC and DNS API rate limits.  When you’re fully in control of your own networking hardware, generally speaking this isn’t as much of a problem, but in the public cloud, some of the most critical networking services you’ll be working with enforce strict global rate limits to not just changes but also in some cases lookups.
 
-<h2>See you next time...</h2>
+## See you next time...
 
 In our next post, we’ll cover additional complications you’ll likely see in each of these areas and some of the most common strategies for dealing with them.
 

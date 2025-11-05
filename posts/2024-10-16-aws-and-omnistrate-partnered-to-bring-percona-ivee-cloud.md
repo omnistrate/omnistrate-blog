@@ -19,7 +19,7 @@ category: Customer Stories
 ![Omnistrate Percona Logos][2]
 ![Omnistrate Percona Logos][1]
 
-<br/>
+
 
 [Percona][3], known for providing world-class open-source database software, has always been at the forefront of innovation. When they needed a fully-managed user experience for databases, they trusted Omnistrate to bring their vision to life with [Ivee][4], in record time.
 

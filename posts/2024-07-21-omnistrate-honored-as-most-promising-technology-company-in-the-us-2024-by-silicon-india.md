@@ -26,13 +26,13 @@ Redwood City, California – 07/15/2024 – Omnistrate, a leading innovator in a
 
 This esteemed recognition highlights Omnistrate's commitment to driving technological innovation and delivering exceptional SaaS solutions that empower businesses to achieve their goals efficiently. The award underscores the company's excellence in product development, customer service, and its significant impact on the technology landscape in the United States.
 
-> "We are incredibly honored to receive this award from Silicon India,"
+> We are incredibly honored to receive this award from Silicon India,
 > said [Kamal Gupta][3] and [Alok Nikhil][4], Founders of Omnistrate.
-> "This recognition is a testament to the hard work and dedication of
+> This recognition is a testament to the hard work and dedication of
 > our entire team, who strive every day to push the boundaries of what's
 > possible in SaaS development. We are committed to continuing our
 > journey of innovation and excellence, helping businesses around the
-> world thrive in the digital age."
+> world thrive in the digital age.
 
 Omnistrate's platform simplifies and accelerates the development of SaaS applications, offering comprehensive solutions that address the unique needs of businesses. With a focus on seamless integration, robust security, and exceptional performance, Omnistrate has become a trusted partner for companies looking to enhance their digital capabilities.
 
@@ -42,7 +42,7 @@ For more information about Omnistrate, visit [Omnistrate's Website][6]
  
 
   --------------------------------------------------------------------------------------------------------------------
-<br>
+
 
 
 **About Omnistrate**

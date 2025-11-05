@@ -17,11 +17,11 @@ coverImage: >-
 category: Engineering & Tech
 ---
 
-<h2>The Complications and Strategies</h2>
+## The Complications and Strategies
 
 In the first post of this two-part series, we introduced primary topics under the umbrella of cloud platform monitoring and went into a bit of detail for how they present specific challenges.  In this follow-up post we’ll explore some of the state-of-the-art strategies for dealing with these issues and the additional complications that will arise when utilizing these techniques.
 
-<h3>Compute</h3>
+### Compute
 
 For instance failures, we need to consider the scope of the issues.  Is it just one process, the whole VM, a rack, a whole data center, or even a region?  Thankfully the cloud providers have given us some tools for thinking about these scopes.  Servers map to VMs, racks roughly map to concepts used in placement groups, data centers map to availability zones, and regions to groups of data centers located geographically close to one another.
 
@@ -35,7 +35,7 @@ Other challenges include failover promotion and the rebalancing that might need 
 
 We’ll also take a look at strategies for dealing with larger scopes of hardware failures below.
 
-<h3>Storage</h3>
+### Storage
 
 Then there’s the storage to consider.  Was the database using a local disk?  If so, then that data is likely gone for good if the cloud instance unexpectedly dies, so you need to rely on restoring from a backup or switching to a replica.  Backups have the annoying property of only being as up-to-date as the time of the last backup, so they’re typically only kept these days for catastrophic failures or data corruption where you actually desire taking your data back to a state from an earlier point in time.
 
@@ -49,13 +49,13 @@ At Confluent we had to balance these tradeoffs carefully for each application, w
 
 And just because you might be relying on S3 doesn’t necessarily mean your data will always be available; be sure to know the details of how S3’s availability SLAs work and be comfortable with them.  For instance, just getting some credits back if your data is unavailable for a few hours might not be sufficient for your business’ needs.  If this is the case, consider replicating the same data between regions for a greater measure of redundancy, or between cloud providers for even more.  To assist with this you can leverage cross-region bucket replication, Google’s storage transfer service, or other similar tools.
 
-<h3>Process</h3>
+### Process
 
 Early in my career, I was shown how to use daemons to specifically monitor other applications, and in fact this is common all over the *nix ecosystem; you’re probably already somewhat familiar with concepts from ubiquitous system process managers such as systemd or upstart.  More purpose-built tools for monitoring the health of your main application include tools such as monit, but as we’ve moved into the era of containers, it’s more common to treat the lifetime of your process the same as the lifetime of the container where your application resides.  To that end, we have robust container management platforms now, but that also means you have to bring the mechanics of the process health monitoring out of the container’s context and up into the orchestration layer, or ensure the container actually exists under absolutely every critical failure scenario.
 
 Kubernetes and other similar platforms offer a lot of tools to assist with this but there are so many options here that getting the right mix of checks in place without going overboard requires exhaustive testing.  For example, you really need to not only have a solid grasp of the difference between liveness probes, readiness probes, and startup probes, you also need to know when and how to implement each one.  A well-designed system will carefully marry these platform-level capabilities to the specifics of your application architecture.
 
-<h3>Network</h3>
+### Network
 
 Taking these examples further, how do you keep a cluster of services all in good working order with each other?  What’s it mean for one instance of the app to be unable to reach the others if the others can all reach it just fine still?
 
@@ -63,7 +63,7 @@ It’s standard practice to have a health check endpoint / port if your service 
 
 The problem I’ve seen is that organizationally, this extra step is often never prioritized since as soon as an application is up and working there are more features to build.  
 
-<h3>Large-Scale Outages and Correlated Failures</h3>
+### Large-Scale Outages and Correlated Failures
 
 If you’ve gotten this far and tested that everything works (and fails!) as expected, even when there are network partitions, I congratulate you!  This is already a huge accomplishment.  However, when the larger classes of failures start happening, enterprises and any other large deployment of services should still be designed to handle the outages as gracefully as possible.  For instance, leveraging a cloud providers’ availability zones correctly can make the difference between an AZ outage causing a 33% reduction in capacity for 5 minutes vs. your entire site going offline until the outage is resolved the next day.
 
@@ -80,7 +80,7 @@ This sort of a configuration has the added benefit of surviving single broker ou
 
 Like almost every other solution mentioned so far however, these techniques do come at the expense of hundreds of engineering hours of deep design and implementation work, as well as an often equal amount of testing and verification.  The hosting costs of running each additional layer of redundancy also grows significantly; sometimes literally doubling if active-active replication is needed.  Before embarking on achieving any specific resiliency goals, make sure you spend a decent amount of effort on the cost estimates!
 
-<h3>Summary</h3>
+### Summary
 
 Hopefully these two articles have given you a deeper insight into both how to go about getting your cloud platform to that next level of high-availability and how difficult it can be.  In our next post in this series we’ll explore how the need for monitoring extends beyond simply handling failures - you also need to know when to scale up your infrastructure, and the various ways that can be done.  Let us know in the comments if you have more ideas!
 

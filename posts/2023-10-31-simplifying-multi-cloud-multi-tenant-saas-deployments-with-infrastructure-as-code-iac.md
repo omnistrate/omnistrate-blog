@@ -31,7 +31,7 @@ Software as a Service (SaaS) platforms are increasingly adopting multi-cloud str
 
 Multi-tenancy is a hallmark of SaaS platforms. It involves serving multiple customers (tenants) from a single instance of the software. In a multi-cloud, SaaS, multi-tenant environment, each tenant may have specific infrastructure requirements. For example, Tenant A might require data storage in AWS, while Tenant B prefers Azure. Managing these diverse needs while ensuring data isolation and performance can be daunting.
 
-<br/>
+
 **IaC Challenges in a Multi-cloud, SaaS, Multi-tenant Scenario:**
 
 Infrastructure as Code (IaC) plays a pivotal role in the successful management of multi-cloud deployments. IaC allows organizations to define and manage their infrastructure using code, which can be version-controlled, automated, and applied consistently across different cloud platforms. It becomes the linchpin that holds a multi-cloud environment together, enabling organizations to provision and manage resources seamlessly, regardless of the cloud provider.
@@ -44,7 +44,7 @@ The challenges of IaC in a multi-cloud, SaaS, multi-tenant scenario are multifac
 
 - Configuration Variability: Handling varying configurations for each cloud provider and tenant can result in IaC templates that become increasingly intricate and challenging to maintain.
 
-<br/>
+
 **Best Practices and Solutions:**
 
 Navigating the complexities of Infrastructure as Code (IaC) in a multi-cloud, SaaS, multi-tenant environment requires a thoughtful approach. Here are some best practices and solutions to effectively address these challenges:

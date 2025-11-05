@@ -25,25 +25,25 @@ In the same way, Cloud is a set of managed services and the true value of it to 
 
 [AWS][2] (Amazon Web Services) is the pioneer of cloud computing and many others have followed them in offering similar services from [Microsoft Azure][3] to [GCP][4] (Google Cloud Platform). The full list of them can be found here: [https://www.gartner.com/reviews/market/public-cloud-iaas][5] 
 
-<h3> Cloud Hosting Strategies </h3>
+### Cloud Hosting Strategies 
 
 The Cloud can be characterized and consumed in different ways. In the case of rental car service analogy, the rental service could be offered by an external entity as a shared service to multiple enterprises or it could be just a division within the bigger enterprise offering rental car service to the rest of the divisions or organizations in the same enterprise. The former is referred to as a public cloud strategy while the latter as a private cloud strategy. The public cloud shares resources and offers services to the public over the Internet, a private cloud on the other hand isn’t shared and offers services over a private internal network typically hosted on-premises.
 
 ![Private vs Public Cloud][6]
 
-<br/>
+
 In addition to private and public clouds, there are more complex ways where cloud is set up and deployed by enterprises namely hybrid cloud and multi-cloud. Hybrid cloud combines private and public cloud where an enterprise may use a private cloud for some of their sensitive services and use public cloud for relatively less sensitive services. Another use case is enterprises using public cloud to back up their private cloud or extend their private cloud to handle a sudden surge in demand for additional computing.
 
 
 ![Hybrid Cloud][7]
 
-<br/>
+
 Finally, a multi-cloud combines multiple public clouds to avoid lock-ins, for a better Disaster Recovery story, compliance, get the best pricing across different services at the cost of managing their infrastructure across multiple providers. Having said that, there are several multi-cloud providers today that abstracts several cloud providers for enterprises underneath the scene like Aiven or Databricks, or Snowflake.
 
 
 ![Multicloud][8]
 
-<br/><h3>Cloud Service Models</h3>
+### Cloud Service Models
 
 Going back to our analogy, rental car service can offer a basic service to get an individual car leaving it to end customers to manage the fleet and/or premium service to rent a fleet making it even easier to manage for the end customers. In the same way, Cloud services have different degrees of models from basic infrastructure including compute/storage/networking known as Iaas (Infrastructure as a service), to more advanced model to include software components including operating systems or database systems known as Paas (Platform as a service), to end-to-end model with fully hosted applications known as Saas (Software as a service). At each level, customers get more value from the underlying cloud offering usually at some premium ex - you can self host a MySQL database in [EC2][9] and use the cloud as Iaas or, you can use [RDS][10] (relational database service) from [AWS][11] to manage your databases as Paas. You get more value and allow you to focus on your core business but you have to typically spend extra dollars for that extra value. There are other reasons like vendor lock-in or feature gap why you mayn’t choose to buy the premium offering.  
 

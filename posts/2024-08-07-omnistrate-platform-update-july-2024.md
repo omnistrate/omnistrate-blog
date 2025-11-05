@@ -75,10 +75,10 @@ For those who would like, we have made the decks available for download. You can
 
 Convoy partnered with Omnistrate to turn their Open Core Webhook gateway into a feature complete multi-cloud SaaS solution in weeks.  We published a joint case study that you can read here:  [Convoy Case Study][14]
 
-> “It took our  friends at another company 2 years to build their
+> It took our  friends at another company 2 years to build their
 > control plane using Vanilla AWS APIs. Omnistrate enabled us to ship
 > our Cloud platform in only two weeks, and after Omnistrate, we saw a
-> 200% increase in active users.” [Subomi Oluwalana][15] CEO, Convoy
+> 200% increase in active users. [Subomi Oluwalana][15] CEO, Convoy
 
 You should also take the time to learn a little bit more about Convoy, and their highly scalable multi-tenant webhooks gateway, which is able to support multiple backend services, and comes with key features like retries, rate limiting, circuit breaking, and dashboards.
 

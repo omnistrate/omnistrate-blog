@@ -24,7 +24,7 @@ Developer productivity is another challenge with application, devops, support te
 Finally, there are additional internal requirements from a compliance perspective, security perspective, scaling the SaaS components themselves, securing the SaaS metadata, adding controls to limit the blast radius for regulatory and BCP requirements. Building and maintaining them takes time and energy.
 
 To learn more about all the core capabilities that we need to deliver a SaaS offering, see [here][1]
-<br>
+
 To learn more about how users can leverage a SaaS platform like Omnistrate to address many of these challenges, please see [here][2].
 
 

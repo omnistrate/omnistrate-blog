@@ -33,9 +33,9 @@ This entire onboarding and provisioning process often spans several hours or eve
 Building and operating SaaS is not rocket science, but it demands significant investment and the right experience. We believe it should be more accessible, and thus, we offer a SaaS platform for everyone to build and operate so that you don't have to reinvent the wheel.
 
 To learn more about SaaS Control Plane and the challenges involved, please see [here][1]
-<br>
+
 To learn more about Omnistrate Platform, please see [here][2]
-<br>
+
 To get started with Omnistrate, see [here][3]
 
   [1]: https://blog.omnistrate.com/posts/52

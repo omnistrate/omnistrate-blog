@@ -104,7 +104,7 @@ We help you:
 
 👉 [Contact us today](https://www.omnistrate.com/contact) to accelerate your journey to compliant, secure cloud delivery.  
 
-<br/>
+
 
 
 ## Proven Leadership in Cloud and Cybersecurity

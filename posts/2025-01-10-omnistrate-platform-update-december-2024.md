@@ -55,7 +55,7 @@ Based on customer feedback, we've enhanced **Admin Role permissions**. Admins ca
 Explore these new features today and elevate your SaaS experience with Omnistrate!
 
 ----------
-<br/>
+
 
 ### Recent and upcoming Livestreams
 
@@ -66,7 +66,7 @@ Whether you're an open-source developer, a cloud enthusiast, or a SaaS entrepren
 Also… here is a recording of our Live Stream from AWS Re:Invent: [Future of Open Source, DBaaS & AI in the Cloud][3], featuring:  [Peter Zaitsev][4], Founder and ex-CEO of [Percona][5] & [Gopi Duddi][6], SVP of Engineering at [Couchbase][7]
 
 ----------
-<br/>
+
 
 ### Thank you for an Amazing Year
 

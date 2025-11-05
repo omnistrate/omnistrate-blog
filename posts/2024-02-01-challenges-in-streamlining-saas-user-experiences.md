@@ -22,7 +22,7 @@ These UX across core application and management operations may be blended togeth
 Now, you will likely have to evolve your experience quickly, version it to protect against bad rollouts, and keep different interface mechanisms (API, CLI, GUI) in sync with no additional overhead. Each one of them takes time and energy.
 
 To learn more about all the core capabilities that we need to deliver a SaaS offering, see [here][1]
-<br>
+
 To learn more about how users can leverage a SaaS platform like Omnistrate to address many of these challenges, please see [here][2].
 
 

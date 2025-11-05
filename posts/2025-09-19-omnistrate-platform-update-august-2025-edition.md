@@ -71,7 +71,7 @@ Omnistrate now makes **Terraform** integration seamless by allowing you to reuse
 
 Explore these new features today and elevate your SaaS product with Omnistrate!
 
-<br/>
+
 
 ![Section Image](/images/posts/omnistrate-platform-update-august-2025-edition-2.jpg)
 

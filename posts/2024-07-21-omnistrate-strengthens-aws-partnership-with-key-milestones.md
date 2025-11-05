@@ -20,10 +20,10 @@ category: Partners & Ecosystem
 
 **Redwood City, California – 07/19/2024** – Omnistrate, a leading provider of innovative SaaS solutions, is thrilled to announce three significant milestones in our journey. Our Industry leading SaaS control plane is now available for purchase from the AWS Marketplace.  Additionally, Omnistrate is honored to be accepted into the AWS ISV Accelerate Program, and to be highlighted at an upcoming AWS event focused on building great SaaS solutions.
 
-<br>
+
 ![pic][1]
 
-<br>
+
 
 **Omnistrate Now Available on AWS Marketplace**
 
@@ -50,7 +50,7 @@ The AWS SaaS Factory team is organizing an invite only event titled "Building Gr
 For more information about Omnistrate, visit [Omnistrate's Website][3]
  
   --------------------------------------------------------------------------------------------------------------------
-<br>
+
 
 **About Omnistrate**
 

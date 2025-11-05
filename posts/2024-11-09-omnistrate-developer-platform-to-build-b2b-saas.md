@@ -32,16 +32,16 @@ Omnistrate offers the world’s first developer platform that simplifies and spe
 
 **Quotes**:
 
-> “Omnistrate dramatically accelerated our GTM, cutting launch time from
+> Omnistrate dramatically accelerated our GTM, cutting launch time from
 > months to weeks. Their secure platform and exceptional support enabled
-> us to deploy features rapidly and efficiently.” – Guy Korland, CEO of
+> us to deploy features rapidly and efficiently. – Guy Korland, CEO of
 > FalkorDB, ex-SVP of Redis
 
-> “Omnistrate makes it easy and inexpensive to stand up a managed
+> Omnistrate makes it easy and inexpensive to stand up a managed
 > service on any cloud.” – Anurag Gupta, ex-VP of Database and Analytic
 > Services, AWS
 
-> “Omnistrate's approach to efficiently and affordably converting
-> software into a multi-cloud SaaS offering is a breakthrough.” –
+> Omnistrate's approach to efficiently and affordably converting
+> software into a multi-cloud SaaS offering is a breakthrough. –
 > Michael Cooper, ex-Global GTM Lead, Microsoft Azure
 

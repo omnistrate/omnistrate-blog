@@ -72,7 +72,7 @@ We're introducing **Omnistrate Secrets Management**, a secure and centralized wa
   - **Custom Metrics** charts support negative values for more flexible analysis.
   - **K8s** dashboard access is improved with one-click token copy and launch.
 
-<br/>
+
 
 ![Omnistrate loves OpenSource](/images/posts/omnistrate-platform-update-jun-2025-2.png)
 
@@ -96,7 +96,7 @@ We are now releasing an open-source guided example on how to onboard a new servi
 
 [👉 Check out the open source step-by-step guide](https://github.com/omnistrate-community/datalab)
 
-<br/>
+
 
 
 ### New Omnistrate Plans: Better Pricing
@@ -106,7 +106,7 @@ At **Omnistrate**, customer feedback is at the heart of our product evolution. W
 
 [👉 Explore our new pricing plans here](https://omnistrate.com/pricing)
 
-<br/>
+
 
 
 ### 📣 Introducing our video series: SaaS Mondays, Live on Fridays!
@@ -124,7 +124,7 @@ Don't miss our next episode coming up July 11th—join us as we dive into one of
 
 [🔗 Register here to get the live link!](https://lu.ma/tbadof7f)
 
-<br/>
+
 
 
 ### 🚀 Meet with us at GenAI Summit!
@@ -138,7 +138,7 @@ If you're planning to be at the **Santa Clara Convention Center**, let's connect
 
 [👉 Book a time with us](https://calendly.com/omnistrate)
 
-<br/>
+
 
 
 ### About Omnistrate

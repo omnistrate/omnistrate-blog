@@ -38,7 +38,7 @@ Given these tradeoffs, some SaaS providers offer multiple isolation levels for t
 It's not sufficient to just achieve tenant isolation but also to implement all the features at the tenant level from billing, scaling, backups, monitoring, patching, audit logs, metrics, service logs, etc. Depending on the isolation levels discussed above, every feature has to be designed properly for that isolation level. If your business requires multiple isolation levels, you may end up implementing these features again for different isolation levels.
 
 To learn more about all the core capabilities that we need to deliver a SaaS offering, see [here][1]
-<br>
+
 To learn more about how users can leverage a SaaS platform like Omnistrate to address many of these challenges, please see [here][2].
 
 

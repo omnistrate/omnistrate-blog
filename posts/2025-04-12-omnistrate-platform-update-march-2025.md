@@ -59,7 +59,7 @@ Omnistrate’s **On-prem Copilot** is built to empower support and implementatio
 
   Explore these new features today and elevate your SaaS experience with Omnistrate!
 
-<br/>
+
 
 
 ### Join Azure Private Beta
@@ -73,7 +73,7 @@ We’re excited to open up our Azure private beta! Seamlessly port your existing
 
 Be among the first to build on Azure with Omnistrate.
 
-<br/>
+
 
 
 ### 🚀 You are Invited!
@@ -94,7 +94,7 @@ AI is reshaping how software gets built, but the smartest AI builders are levera
 
 [👉 Register Here](https://omnistrate.com/events)
 
-<br/>
+
 
 
 ### Omnistrate joins NVIDIA Inception
@@ -106,7 +106,7 @@ We are pleased to announce that Omnistrate has joined NVIDIA Inception, a progra
 
 Omnistrate helps NVIDIA partners get to market faster, scale smarter, and serve enterprise customers with confidence — across all clouds, geographies, and GPU infrastructures.
 
-<br/>
+
 
 
 ### About Omnistrate

@@ -32,7 +32,7 @@ We had a shaky start to this at Confluent as well, but by the time I left there 
 
 This post will explain why you’ll likely need such systems in your own SaaS as it scales beyond just a handful of clusters, and how they’re arguably the most difficult aspect of building a low-toil platform.
 
-<h2>What’s in an Upgrade, Anyway?</h2>
+## What’s in an Upgrade, Anyway?
 
 We’ve all been there.  You’re just trying to write some code, but your teammate installed a new dependency package over the weekend because she’s got that weekend warrior fire.  You try to install the same package yourself so you can compile the app, only to find out it depends on a newer version of another package unrelated to your project.
 
@@ -42,7 +42,7 @@ Docker has certainly helped us avoid some of these problems, but the underlying 
 
 Upgrading or patching a fleet of applications across the full span of your environments just means taking all of these gotchas and dealing with them over and over and over again.  If you don’t maintain consistency across your fleet, between the OS images, the base packages, and your software, then you tempt disaster as you find a new unique combination of these versions that maybe hasn’t been tested yet and maybe doesn’t even work.
 
-<h2>Fleet Management</h2>
+## Fleet Management
 
 Fleet Management refers to the automation of this rigor - you have to move beyond the kind of one-engineer-managing-an-upgrade style of work I did myself to that Cassandra cluster in 2013 to a software system designed to define and enforce rules such as “you can’t put 1.3 on clusters running host version 3.4 or lower because it won’t work”.  Only then can you start to confidently manage massively parallel upgrades with the kind of confidence your customers are paying you for.
 There are quite a few qualities you’re going to want from your fleet management system.  In addition to defining and enforcing rules about what can run where, you’ll also want it to be able to:
@@ -53,7 +53,7 @@ There are quite a few qualities you’re going to want from your fleet managemen
  - Define upgrade ‘shapes’ - a linear upgrade wave just does one cluster, then the next, then the next.  Or maybe it just does 2 at a time, then another 2, then another 2.  But an S-curved upgrade wave starts with 1, then maybe waits a bit, then does another one and waits a little less, than does 2 at once, then does 3, then 5, then 8, then 5, then 3, then 2, then the last 1 with the really big important customer on it.  This is a battle-tested strategy balancing safety and speed.
  - Target specific clusters for either not being eligible for maintenance work or for being expedited for newer versions
 
-<h3>Following the Rules</h3>
+## Following the Rules
 
 Some of these might seem a bit like overkill, but we found ourselves needing exceptionally complicated capabilities from our fleet management system far more often than any of us expected at Confluent.
 
@@ -63,14 +63,14 @@ This kind of slicing-and-dicing of your infrastructure goes from being a rare ev
 
 When you need to fine-tune the sets of deployments which you want to perform certain operations on, it’s critical to have all of your clusters and their properties in the kind of database or analytical store where you can query it quickly.  I led the development of devops tooling and ETL systems that let us do exactly this both at Signal and Confluent, and it’s a trend that’s gaining traction in the industry at large as well.  You can get started with something as simple as CloudQuery and using an existing postgres or bigquery database to hold these infrastructure details.
 
-<h3>Rollout Dragons</h3>
+## Rollout Dragons
 
 Even with everything else in place however, upgrades can just be dastardly difficult. You’ll want to go into every operation knowing that some sort of catastrophic failure is a possibility, and counter that with persistent upgrade and soak testing.   I strongly believe one of the main reasons Kafka is as popular as it is today is because of its insanely extensive testing; not only by Confluent and other purveyors of the service but also all the end-users who run it at scale in production, providing data back into the project about when and how it fails. In simpler terms, nothing will provide the sort of reliability you want for your operational tasks as extensive and comprehensive testing.  Try to make sure you test not only happy path upgrades but also disrupted upgrades, incorporating styles of fault injection from chaos testing suites and your own real-world observations.  Do all of this before you even consider this next version stable.
 
 Then when you’re ready to promote your new software to a pre-production or staging environment, make sure you emulate the same conditions in which the production upgrade will occur.  For instance, don’t take staging from version 2.3.4 to 2.3.5 if production is still on 2.3.3 - otherwise the test of that upgrade process won’t be representative of the prod rollout.
 At massive scales, it’s unlikely you’ll be able to emulate all combinations of variables that exist in production unless you’ve been effective at keeping the total number of these combinations to a minimum - a practice I highly recommend to everyone.  If you can’t afford the emulation of all these combinations before going into production, then strive to test the most critical and common, and shape your rollout curve to minimize impact and use the success of previous rollouts to inform whether the rest should be carried out or not.
 
-<h2>Wrap-Up</h2>
+## Wrap-Up
 
 Patching and upgrades will basically always be at the top of the list of most challenging tasks any large-scale SaaS provider has to undertake.  With the considerations discussed here taken into account, hopefully you can still tackle even these difficult chores with aplomb.
 
