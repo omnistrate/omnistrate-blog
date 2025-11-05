@@ -18,7 +18,7 @@ category: Engineering & Tech
 
 Building private services on the cloud enables businesses to leverage the benefits of cloud technology, such as flexibility and scalability, while maintaining strict control over their data. This is particularly important for organizations handling sensitive information, as a private cloud environment enhances security and ensures compliance with specific regulatory requirements.
 
-###Challenges About Building Private Service On Cloud ?
+### Challenges About Building Private Service On Cloud ?
 
 However, setting up a private cloud service comes with challenges. Ensuring robust data security is a key concern, necessitating strong measures like firewalls and encryption, along with adherence to various regulations. Integrating these services with existing IT infrastructure can be complex, often requiring significant adjustments and rigorous testing to ensure seamless functionality.
 
@@ -26,7 +26,7 @@ Managing a private cloud environment also demands specialized expertise. Unlike 
 
 The Omnistrate platform can play a critical role in overcoming these challenges and speeding up the process of building a private service on the cloud. By providing tools and support for seamless integration and management, Omnistrate helps streamline deployment and scaling. It offers robust security frameworks and compliance features, reducing the complexity of adhering to regulations. 
 
-###Example Of Private Postgres Service On The Cloud
+### Example Of Private Postgres Service On The Cloud
 
 In this blog, we will take a private PostgreSQL service built on Omnistrate with a private link as an example. 
 
@@ -37,29 +37,29 @@ Initially, customers will authenticate through a user portal and initiate a depl
 
 ![pic][1]
 
-<br/>
+
 In addition to above, customers can also access additional information about the PostgreSQL deployment in the Resource Instance Details tab. The SaaS offering template provides the capability to define essential information about the private PostgreSQL deployment that customers need to be aware of, and this information is displayed in the UI portal as shown below.
 
 ![pic][2]
 
-<br/>
+
 Next, for customers to connect their applications with the provisioned resources, they can go to the target connect account and create a VPC Endpoint (VPCE) using the VPCE service name obtained earlier. To find the  VPCE service name, see the connectivity tab:
 
 ![pic][3]
 
-<br/>
+
 For detailed instructions, refer to the AWS Documentation on [Connecting to an Endpoint Service][4].
 
 ![pic][5]
 
-<br/>
+
 After completing these steps, customers will be able to connect to the private PostgreSQL instance from within the target account VPC. Below is an example of how to establish a connection from an EC2 client.
 ![pic][6]
 
-<br/>
+
 **Note**: In the example above, the provisioned VPCE service connectivity is restricted to the target connect account through customization of the deployment templates. In this instance, the restriction is applied at the account level. However, Omnistrate offers extended customization options for more granular control. We will explore these underlying details in the next section.
 
-###How to Build The Private Service with Omnistrate
+### How to Build The Private Service with Omnistrate
 
 Here is an Example [Repository][7] on GitHub
 

@@ -17,11 +17,11 @@ coverImage: >-
 category: Customer Stories
 ---
 
-> "Omnistrate made it easy for us to launch AutoDBA as a SaaS product.
+> Omnistrate made it easy for us to launch AutoDBA as a SaaS product.
 > Their platform took care of the complexities of scaling and managing
 > different environments, so we could focus on building features our
 > users love. With Omnistrate, we’ve been able to deliver a consistent,
-> high-quality experience across all PostgreSQL setups." — Neil Thombre,
+> high-quality experience across all PostgreSQL setups. — Neil Thombre,
 > VP of Engineering
 
 ![Pic1][1]

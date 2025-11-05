@@ -64,11 +64,11 @@ We've made it incredibly simple to start leveraging the power of Agentic AI with
 
 1.  **Login to your Omnistrate account:**
 
-    `omctl login`
+            omctl login
 
 2.  **Enable the MCP server for VSCode:**
 
-    `omctl mcp vscode enable`
+            omctl mcp vscode enable
 
 3.  **Follow the instructions** on the [official VSCode documentation](https://code.visualstudio.com/docs/copilot/customization/mcp-servers#_manage-mcp-servers) to start using the Omnistrate MCP server.
 
@@ -76,11 +76,11 @@ We've made it incredibly simple to start leveraging the power of Agentic AI with
 
 1.  **Login to your Omnistrate account:**
 
-    `omctl login`
+            omctl login
 
 2.  **Enable the MCP server for Claude Desktop:**
 
-    `omctl mcp claude enable`
+            omctl mcp claude enable
 
 ---
 

@@ -20,7 +20,7 @@ In our previous blogs, we discussed two foundational pillars of AI infrastructur
 
 Now, in Part 3, we’re diving into something that’s just as critical for AI workloads: cost controls and infrastructure insights. Because while scaling AI is powerful, scaling it without cost awareness is risky.
 
-###💡 Smarter Cost Controls for AI Infrastructure
+### 💡 Smarter Cost Controls for AI Infrastructure
 
 One of the biggest drivers of unnecessary cloud spend—especially for growing AI teams—is over-provisioned infrastructure. Teams spin up oversized clusters, leave GPUs running idle, or bake in costly configurations just to “keep things moving.”
 
