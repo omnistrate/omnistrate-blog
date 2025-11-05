@@ -60,7 +60,7 @@ BYOC (Bring Your Own Cloud Account) presents a compelling alternative by enablin
 
 Ultimately, businesses benefit from a hybrid approach—leveraging manual licensing for high-value, compliance-driven deals while embracing BYOC and automated provisioning for scalable, repeatable deployments in broader markets. Supporting multiple deployment models allows companies to seamlessly serve different market segments, reduce customer friction, and scale efficiently. A key measure of SaaS business efficiency is the [customer-to-employee ratio][1], where top-performing companies aim for >1000:1.
 
-Not only does this approach benefit customers, but it also enhances a company's valuation. Investors pay a [2.0x - 3.5x premium][2] for businesses with a SaaS model because they recognize the power of reducing friction and streamlining operations to accelerate scalable growth.
+Not only does this approach benefit customers, but it also enhances a company's valuation. Investors pay a [2.0x - 3.5x premium](https://www.firepowercapital.com/news/valuation-of-saas-vs-on-premise-license-software#:~:text=Rather%2C%20it's%20high%20revenue%20growth,0%25%20TTM%20revenue%20growth) for businesses with a SaaS model because they recognize the power of reducing friction and streamlining operations to accelerate scalable growth.
 
 **Why is building your own BYOC based SaaS offer hard?**
 --------------------------------------------------------
@@ -85,7 +85,7 @@ Every customer has unique infrastructure requirements, and SaaS providers must o
 
  - **Fully hosted SaaS**:  you own customers' data and run app in your account in a fully managed way
  - **BYOC or BYO-VPC deployments SaaS**: your customers' own their data and you run your app in their account in a fully managed way
- - **OnPrem distribution**: your customers' own their data and have full control on their account. To learn more, please see this link: [https://blog.omnistrate.com/posts/131][3]
+ - **OnPrem distribution**: your customers' own their data and have full control on their account. To learn more, please see this link: https://blog.omnistrate.com/posts/131
 
 Omnistrate simplifies and streamlines all of these deployment models, eliminating the engineering complexity that typically comes with multi-cloud environments. Rather than forcing companies to choose between security, scalability, and flexibility, Omnistrate enables businesses to serve every market segment, from startups to global enterprises.
 
@@ -93,5 +93,4 @@ Omnistrate simplifies and streamlines all of these deployment models, eliminatin
 
 
   [1]: https://www.usenix.org/legacy/event/lisa07/tech/full_papers/hamilton/hamilton_html/index.html
-  [2]: https://www.firepowercapital.com/news/valuation-of-saas-vs-on-premise-license-software#:~:text=Rather%2C%20it's%20high%20revenue%20growth,0%25%20TTM%20revenue%20growth).
-  [3]: https://blog.omnistrate.com/posts/131
+ 

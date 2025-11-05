@@ -14,7 +14,7 @@ coverImage: >-
 category: Industry Insights
 ---
 
-We hosted our second [SaaS Mondays](1) , Live on Fridays on Friday.
+We hosted our second [SaaS Mondays](https://www.linkedin.com/groups/9880017/) , Live on Fridays on Friday.
 Topic: **The Importance of Cloud Marketplaces in Bringing New SaaS Offerings to Market**
 Host: Michael Cooper, GTM Lead at Omnistrate
 
@@ -44,8 +44,8 @@ Here are a few eye-opening stats that highlight just how far AWS Marketplace has
 
 A rising number of large enterprise customers now require Marketplace purchases to count against committed AWS spend (EDP/PPA).
 
-> “If you’re building B2B SaaS and you’re not planning around
-> Marketplace — you’re already behind,” said Michael Cooper, GTM Lead at
+> If you’re building B2B SaaS and you’re not planning around
+> Marketplace — you’re already behind, said Michael Cooper, GTM Lead at
 > Omnistrate.
 
 **Why Startups Must Integrate with AWS Marketplace Early**
@@ -96,8 +96,8 @@ That includes:
 
 Once you’re live, Labra helps you evolve beyond tactical listings to treat Marketplace as a scalable GTM channel — supporting free trials, renewals, expansions, and partner-led deals.
 
-> “We don’t just help startups get listed — we help them build
-> repeatable revenue through Marketplace,” said Sridhar Adusumilli, CEO
+> We don’t just help startups get listed — we help them build
+> repeatable revenue through Marketplace, said Sridhar Adusumilli, CEO
 > of Labra.io.
 
 
@@ -111,9 +111,9 @@ Once you’re live, Labra helps you evolve beyond tactical listings to treat Mar
  - **Multi-party selling with CPPO**
  - **Global reach with built-in tax compliance** and billing support
 
-> Bill Tarr from AWS SaaS Factory emphasized this shift: “We’ve gone
+> Bill Tarr from AWS SaaS Factory emphasized this shift: We’ve gone
 > from ‘Marketplace is nice’ to ‘Marketplace is critical.’ Especially
-> for startups targeting enterprise, this isn’t optional anymore.”
+> for startups targeting enterprise, this isn’t optional anymore.
 
 
 **Final Thoughts: SaaS Startups Can’t Afford to Wait**
@@ -143,7 +143,7 @@ Talk to the experts:
 
 And don’t forget to follow us for the next SaaS Mondays, Live on Fridays session!
 
-  [1]: http://saasmondays.com/
+
   [2]: https://www.linkedin.com/in/michaeldc/
   [3]: https://www.linkedin.com/in/ermindzinic/
   [4]: https://www.linkedin.com/in/saastarr/

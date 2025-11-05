@@ -35,7 +35,7 @@ But it's not just about having GPUs—it's about making them programmable, and t
 
 Omnistrate automatically provisions and manages GPU-backed infrastructure with CUDA pre-installed and validated—so your models can hit the ground running without manual configuration.
 
-###⚡ Turbocharged Model Startup with SOCI
+### ⚡ Turbocharged Model Startup with SOCI
 Model startup time can be a major bottleneck—especially when using large container images. Waiting for full image downloads before container launch slows productivity and consumes unnecessary bandwidth.
 
 > SOCI (Seekable OCI) is an open-source technology (developed by AWS)

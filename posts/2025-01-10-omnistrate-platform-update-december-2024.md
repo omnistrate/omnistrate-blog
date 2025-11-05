@@ -57,7 +57,7 @@ Explore these new features today and elevate your SaaS experience with Omnistrat
 ----------
 <br/>
 
-###Recent and upcoming Livestreams###
+### Recent and upcoming Livestreams
 
 We’re excited to invite you to a special webinar featuring experts from AWS, The Linux Foundation, and Omnistrate on Jan 14, 9:00 – 10:00 AM (PST) as we explore how to build Open Core-based SaaS Cloud Services in 2025.
 
@@ -68,7 +68,7 @@ Also… here is a recording of our Live Stream from AWS Re:Invent: [Future of Op
 ----------
 <br/>
 
-###Thank you for an Amazing Year###
+### Thank you for an Amazing Year
 
 As we close a remarkable year for our company, we want to take a moment to express our heartfelt gratitude to you—our valued customers and partners.Your support, collaboration, and trust have been instrumental in making 2024 a year to remember. From powering innovation together to building meaningful connections, your contributions have been at the heart of our success.
 

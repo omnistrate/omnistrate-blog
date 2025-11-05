@@ -21,17 +21,18 @@ The following table breaks down Omnistrate and Replicated head-to-head across th
 
 | Category | Replicated | Omnistrate |
 |----------|------------|-------------|
-| **Core Purpose** | Wraps existing Helm/K8s manifests with licensing, configuration, and delivery metadata so enterprises can install/update manually. | Full **distribution platform** for packaging, deployments, infra, billing, operations, multi-tenancy, and integrations. |
-| **Deployment Model** | Only **On-Prem (offline)**; no BYOC. Customer must **manually pull image updates**. | Unified **OnPrem, BYOC, Hosted** deployments with **tenant-aware** infra and app deployments. |
-| **Deployment Templates** | Static parameters (CPU, ports, image tags) customers manually input. | **Dynamic deployment templates** defining infra, app config, and lifecycle — reusable across tenants. |
-| **Architecture Requirements** | Vendors must **adapt architecture** to Replicated’s required model (separate app vs cluster upgrades). | Full control with **BYOC** over K8s control plane versions; consistent unified app + cluster versioning. |
-| **Licensing System** | Static license files/keys; **no auto-rotation**, renewal, or revocation. | **Dynamic licensing & entitlements** with auto-rotation, expiration, usage enforcement, AWS Marketplace support. |
-| **Upgrade Management** | Customer-driven **pull** model only. | Automated **tenant-aware CD** with health checks, phased rollouts, rollbacks, BYOC-aware delivery. |
-| **Entitlements (Feature & Usage Control)** | Basic seat-based limits; often requires custom logic. | Built-in **entitlement engine** for features, limits, plans, and pricing — integrated with AWS Marketplace. |
-| **Billing & Metering** | No native metering or billing. | **Integrated billing + metering** with marketplace chargeback and revenue reporting. |
-| **Observability & Health Monitoring** | None; vendors rely on customer infra. | **Full observability stack** for BYOC: logs, metrics, alerts, K8s events, E2E telemetry. |
-| **Day-2 Operations** | Limited to publishing version updates; no lifecycle management. | **Full Day-2 automation** — upgrades, backup/restore, scaling, cost controls, drift detection. |
-| **Security Model** | Requires opening firewall for live deployments. | **Zero-trust agent model**: encrypted outbound-only channel, isolation, policy-driven access. |
-| **MCP Server** | None | Day-1 and Day-2 managed via **MCP tools** with Claude/GitHub Copilot. |
-| **Scaling** | None | **Auto-scaling with auto-stop** for BYOC. |
-| **Bare Metal Support** | Can bundle Helm chart with embedded K8s cluster but requires strict vendor architecture patterns. | Fully managed K8s cluster for BYOC/PaaS with custom K8s features; customer-managed K8s for air-gapped. |
+| **Core Purpose** | Replicated wraps your existing Helm or Kubernetes manifests with licensing, configuration, and delivery metadata so enterprises can install and update your app manually in their own environments | Full **distribution platform** from packaging, deployments, infrastructure, billing, operations, multi-tenancy, third-party integrations. |
+| **Deployment Model** | Only OnPrem (offline) model support. No BYOC support — customer can **manually pull new image updates** | Unified seamless customer experience for OnPrem (offline), BYOC and Hosted deployments with **tenant-aware deployments** across clouds, accounts, regions and environments. |
+| **Deployment templates** | Static Parameters (in KOTS) where vendors can expose parameters (like CPU limits, image tags, ports) so that your customers can manually fill out before deploying. | **Dynamic deployment templates** that define infra, app config, and lifecycle — reusable across tenants. |
+| **Architecture Requirements** | Vendors must **adapt architecture** to Replicated’s model (e.g., separate app vs. cluster upgrades). | With **BYOC**, you have full control over the K8s control plane versions allowing you to unify app and cluster version management with consistent, reproducible environments across your customers. |
+| **Licensing System** | Static license files/keys; **no rotation**, renewal, or revocation automation. | Dynamic **license and entitlement system** with **auto-rotation**, expiration, and usage enforcement with BYOC |
+| **Upgrade Management** | Customer-driven “pull” model only. | In addition to the customer-driven model, it also supports automated **tenant-aware continuous delivery (CD)** with health checks, phased rollouts, and rollback with BYOC |
+| **Entitlements (Feature & Usage Control)** | Basic seat-based limits; vendors often build custom logic. | Built-in **entitlement engine** that defines features, limits, and pricing per plan — integrated with **AWS Marketplace**. |
+| **Billing & Metering** | No native metering or billing integrations. | **Integrated billing, metering, and Marketplace** transactions (chargeback and revenue reporting) for non-AirGapped distribution channels |
+| **Observability & Health Monitoring** | None. Vendors rely on customers' own infra to debug issues. | Full **observability stack for BYOC deployments**: logs, metrics, alerts, K8s events, E2E health monitoring, and app telemetry — from one control plane |
+| **Day-2 Operations** | Limited to publishing version updates. No lifecycle management after install. | Full **Day-2 automation for BYOC**: upgrades, backups, restores, scaling, cost controls and drift detection. |
+| **Security Model** | Requires opening firewall for live deployments | **Zero-trust agent model**, encrypted outbound-ONLY communication, access isolation, and policy-driven control. |
+| **MCP Server** | None | Day-1 and Day-2 can be managed through MCP tools with Claude / Github CoPilot |
+| **Scaling** | None | Auto-scaling with auto-stop with BYOC |
+| **Bare metal support** | Replicated can bundle your helm chart that you can run on bare metal using an Embedded k8s cluster but requires you to adhere to their architecture pattern limiting flexibility. | Fully managed k8s cluster for BYOC / PaaS deployments with [custom K8s amenities](https://docs.omnistrate.com/operate-guides/deployment-cell-amenities/?h=amen#custom-amenity-configuration-properties). Requires customer-managed K8s cluster for Air-gapped deployments. |
+

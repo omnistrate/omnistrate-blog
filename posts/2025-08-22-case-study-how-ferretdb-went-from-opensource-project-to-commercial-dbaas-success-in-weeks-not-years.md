@@ -18,11 +18,11 @@ coverImage: ''
 category: Customer Stories
 ---
 
-> "Omnistrate gave us an enterprise-grade control plane without the need
+> Omnistrate gave us an enterprise-grade control plane without the need
 > to hire or build one in-house. With their decade of expertise baked
 > in, we launched faster, cut costs, and focused on growing our business
 > from day one. Highly recommended for any team building a managed
-> SaaS." - Peter Farkas - Co-Founder & CEO Ferret DB
+> SaaS. - Peter Farkas - Co-Founder & CEO Ferret DB
 
 
 ## Overview

@@ -15,10 +15,10 @@ coverImage: /images/posts/whiteswan-security-case-study-1.jpg
 category: Customer Stories
 ---
 
-> “Security startups don’t have time or resources to reinvent cloud infrastructure.
+> Security startups don’t have time or resources to reinvent cloud infrastructure.
 > Omnistrate allowed us to run a scalable SaaS in weeks—not
-> years—without experienced DevOps personnel on staff, so we could focus on what matters: securing our customers.” —
-> [Vinay Mamidi][1], CEO and Founder at Whiteswan Security"
+> years—without experienced DevOps personnel on staff, so we could focus on what matters: securing our customers. —
+> [Vinay Mamidi][1], CEO and Founder at Whiteswan Security
 
 ![Pic][2]
 

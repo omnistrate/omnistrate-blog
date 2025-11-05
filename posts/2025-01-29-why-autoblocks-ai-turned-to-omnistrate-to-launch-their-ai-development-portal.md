@@ -16,27 +16,27 @@ coverImage: >-
 category: Customer Stories
 ---
 
-> "We chose Omnistrate because it empowered us to deliver on our promise
+> We chose Omnistrate because it empowered us to deliver on our promise
 > to create a safety-first approach to building & managing AI
 > Applications. The Omnistrate Control Plane as a Service streamlined
 > our deployment process, eliminated infrastructure complexity, and
 > allowed us to focus on innovation and customer experience. With
 > Omnistrate’s robust capabilities, we launched ahead of schedule, under
 > budget and our customers are able to securely deploy our solution
-> anywhere they need it."
+> anywhere they need it.
 > Haroon Choudery, CEO Autoblocks AI
 
 ![Pic1][1]
 
 **Case Study: How Autoblocks.ai Leveraged Omnistrate to Enable Simple Application Deployments into Their Customer’s Cloud Accounts**
 
-##Company Overview##
+## Company Overview
 
 Autoblocks is a leading platform for AI application development, offering a robust framework for building, managing, and deploying AI models. Their core mission is to enable developers to seamlessly integrate AI capabilities into their applications while ensuring flexibility in deployment options.
 
 To support enterprise customers looking to deploy AI applications within their own cloud environments, Autoblocks needed to create a scalable, easy-to-use Deployment Portal. Instead of building everything from scratch, they partnered with "Omnistrate" to accelerate their cloud development.
 
-##Challenges##
+## Challenges
 
 - **BYOA/BYOC & On-Prem Flexibility**
 Enterprise customers demanded full control of their data and infrastructure, requiring Autoblocks to support customer-deployed (BYOA/BYOC) and on-prem environments without increasing operational burden.
@@ -53,7 +53,7 @@ With GPU costs and AI workloads varying by tenant, Autoblocks needed granular co
 - **Billing & Marketplace Readiness**
 Scaling monetization required support for usage-based billing, SaaS metering, and integration with cloud marketplaces (like AWS) to drive co-sell and reduce friction in enterprise sales.
 
-##The Omnistrate Solution##
+## The Omnistrate Solution
 
 Autoblocks partnered with Omnistrate to power a production-grade control plane and operational foundation that delivered:
 
@@ -72,7 +72,7 @@ With built-in cost tracking, Autoblocks gained per-tenant infrastructure visibil
 - **Integrated Billing & Marketplace Support**
 The generated Autoblocks control plane allows them to meter usage, automate invoicing, and list in cloud marketplaces with minimal effort—helping unlock new revenue channels and enterprise distribution.
 
-##Business Impact: Faster Time-to-Market & Cost Savings##
+## Business Impact: Faster Time-to-Market & Cost Savings
 
 By leveraging Omnistrate, Autoblocks:
 
@@ -90,7 +90,7 @@ Autoblocks focused on core AI innovation, not infrastructure—gaining a strong 
 
 ![Arch][4]
 
-##Conclusion: Why Autoblocks Chose Omnistrate##
+## Conclusion: Why Autoblocks Chose Omnistrate##
 
 Autoblocks partnered with Omnistrate to accelerate its growth with a modern, scalable control plane built for AI-native platforms. Key reasons included:
 
@@ -100,7 +100,7 @@ Autoblocks partnered with Omnistrate to accelerate its growth with a modern, sca
 
 By using a pre-built SaaS orchestration platform, Autoblocks launched faster, reduced complexity, and delivered a better customer experience.
 
-##Ready to Simplify Your Cloud Platform Deployment?##
+## Ready to Simplify Your Cloud Platform Deployment?
 
 If you're building a SaaS offering and facing challenges like multi-cloud support, infrastructure management, or compliance, "Omnistrate" can help you launch faster.
 

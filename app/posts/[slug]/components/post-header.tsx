@@ -22,7 +22,7 @@ export const PostHeader: React.FC<PostHeaderProps> = ({
   date 
 }) => {
   return (
-    <div className="max-w-3xl">
+    <div className="max-w-full">
       <Link href="/" className="rounded-full w-fit flex items-center border border-[#E3E8EF] py-0.5 px-2 mb-4">
         <Home className="w-3 h-3 mr-0.5" />
         <TextXS className="font-medium text-[#364152]">Blog</TextXS>
@@ -33,9 +33,9 @@ export const PostHeader: React.FC<PostHeaderProps> = ({
       
 
       <div className="mb-8">
-        <span  className="text-sm font-normal text-gray-500">by</span> <span className="text-base font-semibold text-gray-700 mb-1"> {author}</span>
+        <span  className="text-sm font-normal text-gray-500">by</span> <span className="text-sm font-semibold text-gray-700"> {author}</span>
           
-        <span> |</span>
+        <span className="text-sm font-normal text-gray-500"> |</span>
         <time dateTime={date} className="text-sm font-normal text-gray-500"> {formatDate(date)}</time>
           
         
