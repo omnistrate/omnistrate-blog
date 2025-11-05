@@ -30,7 +30,7 @@ Please join us in congratulating Michael in his new role [here][1]
 For more information about Omnistrate, visit [Omnistrate's Website][2]
 
    --------------------------------------------------------------------------------------------------------------------
-<br>
+
 
 
 **About Omnistrate**

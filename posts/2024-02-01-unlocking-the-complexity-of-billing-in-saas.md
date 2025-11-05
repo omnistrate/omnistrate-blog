@@ -26,9 +26,9 @@ If that was not enough, you have to worry about SOX compliance, auditing the bil
 Then there are different billing channels from direct payment to marketplace, and you don’t have much choice but to meet your tenants based on their preferred channel of payment. All of these channels bring their own additional operational challenge.
 
 To read more, see [this link][1]
-<br>
+
 To learn more about all the core capabilities that we need to deliver a SaaS offering, see [here][2]
-<br>
+
 To learn more about how users can leverage a SaaS platform like Omnistrate to address many of these challenges, please see [here][3].
 
 

@@ -31,7 +31,7 @@ But hang on, what happens after the spike? Do you want to continue to charge you
 Finally, you have to worry about tenant data after de-provisioning or off-boarding, considering experience, regulatory and privacy requirements, and cost perspective. For example, how would you handle accidental deletes by your tenants and yet address all the above requirements?
 
 To learn more about all the core capabilities that we need to deliver a SaaS offering, see [here][1]
-<br>
+
 To learn more about how users can leverage a SaaS platform like Omnistrate to address many of these challenges, please see [here][2].
 
 

@@ -19,7 +19,7 @@ Building upon our initial [introduction][1] of the control and data planes, this
 
 ![image][2]
 
-<br/>
+
 SaaS Control Planes:
 --------------------
 
@@ -87,7 +87,7 @@ Main Responsibilities :
 - Payment Reminders: Send out reminders for upcoming or overdue payments.
 - Invoice Delivery: Ensure invoices are delivered to customers through their preferred method (email, portal access, etc.).
 
-<br/>
+
 SaaS Data Planes:
 -----------------
 
@@ -116,7 +116,7 @@ Main responsibilities:
  - Move data between the service and the user or between different parts of the service.
  - Ensure data is transferred securely and efficiently.
 
-<br/>
+
 Conclusion
 ------------
 

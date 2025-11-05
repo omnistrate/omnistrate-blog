@@ -19,10 +19,10 @@ category: Industry Insights
 
 As entrepreneurs, we know that time and money are our most valuable assets. Imagine if we have a mechanism to test our ideas and validate them in no time without spending a fortune. Huh? -- that's interesting!
 
-<br>
+
 ![pic][1]
-<br>
-<br>
+
+
 
 ### Time
 

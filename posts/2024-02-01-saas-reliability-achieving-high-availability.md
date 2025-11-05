@@ -22,7 +22,7 @@ Handling reliability from common managed and unmanaged failures is one thing; pr
 Building a service to handle everything from scaling seamlessly, protection against noisy tenants, detecting different failures quickly, performing L1 recovery and logging the event, alerting the operator to loop in support, upgrading with zero downtime, and having per-tenant control on when/how to upgrade, along with fleet-wide visibility, is NOT trivial.
 
 To learn more about all the core capabilities that we need to deliver a SaaS offering, see [here][1]
-<br>
+
 To learn more about how users can leverage a SaaS platform like Omnistrate to address many of these challenges, please see [here][2].
 
 

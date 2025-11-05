@@ -63,7 +63,7 @@ We’ve taken your feedback to heart and introduced the **Interactive Debug Tool
 
 Explore these new features today and elevate your SaaS product with Omnistrate!
 
-<br/>
+
 
 ![Section Image](/images/posts/omnistrate-platform-update-july-2025-edition-2.jpg)
 
@@ -99,7 +99,7 @@ Modern AI infrastructure can significantly reduce costs and improve GPU resource
 
 Implementing such strategies manually involves considerable complexity, but platforms like Omnistrate streamline deployment, orchestration, and ongoing management. Learn how to configure your service to leverage these technologies in our [technical documentation](https://docs.omnistrate.com/infra-guides/gpu-slicing/).
 
-<br/>
+
 
 ![Section Image](/images/posts/omnistrate-platform-update-july-2025-edition-3.png)
 
@@ -111,7 +111,7 @@ These resources are open-source and serve as practical guides for developers imp
 
 [👉 Check the example in action on the following video](https://www.youtube.com/watch?v=Y4nk05R3_1k)
 
-<br/>
+
 
 ![Section Image](/images/posts/omnistrate-platform-update-july-2025-edition-4.jpg)
 
@@ -129,7 +129,7 @@ For more details, check our recent [announcement](https://blog.omnistrate.com/po
 
 By integrating with Interlynk, Omnistrate enhances application security through supply chain integrity checks. Interlynk helps safeguard against vulnerabilities and unauthorized changes, ensuring that every component of your deployment is continuously verified and secure from code to runtime.
 
-<br/>
+
 
 ![Section Image](/images/posts/omnistrate-platform-update-july-2025-edition-5.jpg)
 
@@ -149,7 +149,7 @@ Don’t miss our next episode!
 
 [👉 Save your spot for our upcoming live session](https://lu.ma/calendar/cal-1IRddx9ZHlBzLO2)
 
-<br/>
+
 
 
 ### About Omnistrate

@@ -48,7 +48,7 @@ We have some big news coming later this year and are excited about the upcoming 
 For more information about Omnistrate, visit [Omnistrate's Website][6].
 
    --------------------------------------------------------------------------------------------------------------------
-<br>
+
 
 
 **About Omnistrate**

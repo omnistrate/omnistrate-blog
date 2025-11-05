@@ -15,8 +15,8 @@ coverImage: ''
 category: Engineering & Tech
 ---
 
-> "In a cloud-native world, Kubernetes is the foundation that lets you
-> move fast—without breaking things."
+> In a cloud-native world, Kubernetes is the foundation that lets you
+> move fast—without breaking things.
 
 In today’s landscape of software development, cloud computing has become the standard for application deployment. And when it comes to cloud infrastructure, Kubernetes has emerged over the past decade as the de facto standard for orchestrating and managing containerized applications.
 

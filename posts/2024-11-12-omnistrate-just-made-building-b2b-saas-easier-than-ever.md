@@ -26,30 +26,30 @@ Today, we’re taking simplicity to the next level.
 
 
 We’re excited to announce support for “Bring Your Own Repo”—making SaaS development as easy as running a single command. With Omnistrate, all you need to do is bring your code repository and run omnistrate-ctl to build a default SaaS configuration for you. It’s fast, intuitive, and sets you up with a base SaaS structure that you can further customize and extend as you grow. Building SaaS has never been easier than with a single command against your repo.
-<br/>
-<br/>
+
+
 
     This is how easy is it to build:
 [![video1][2]][5]
-<br/>
-<br/>
+
+
 
     Your customer portal for 1-click provisioning, subscription, billing, observability, auditing, access control and much-much more: 
 [![video2][3]][6]
-<br/>
-<br/>
+
+
 
     Your admin portal to manage your customers:
 [![video3][4]][7]
-<br/>
-<br/>
+
+
 
 
 ### Let Omnistrate streamline your B2B SaaS journey
 
 
 Omnistrate enables you to focus on your unique value proposition while we handle the undifferentiated heavy lifting. From tenant management, infrastructure, app deployments, to backend operations, we’ve got it covered. 
-<br/>
+
 
 ![pic][1]
 

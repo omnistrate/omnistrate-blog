@@ -21,9 +21,9 @@ category: Customer Stories
 
 **Feed your new AI Application the data it needs with FalkorDB’s new Multi-Cloud SaaS offer, powered by Omnistrate.**
 
-> “Omnistrate dramatically accelerated our GTM, cutting launch time
+> Omnistrate dramatically accelerated our GTM, cutting launch time
 > from months to weeks. Their secure platform and exceptional support
-> enabled us to deploy features rapidly and efficiently."
+> enabled us to deploy features rapidly and efficiently.
 > **[Guy Korland][5]  CEO, FalkorDB**
 
 FalkorDB offers blazing fast graph databases optimized for low latency and high throughput scenarios.  With the explosion of new data hungry LLM powered GenAI Applications coming to market, FalkorDB sought to meet that demand by bringing its ultra-low latency Graph Database to market as a fully managed Multi-Cloud SaaS offer.

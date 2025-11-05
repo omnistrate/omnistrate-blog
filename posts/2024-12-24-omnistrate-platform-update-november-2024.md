@@ -47,7 +47,7 @@ Explore these new features today and elevate your SaaS experience with Omnistrat
 
 
 ----------
-<br/>
+
 
 
 ## Highlights from AWS re:Invent ##
@@ -55,13 +55,13 @@ Explore these new features today and elevate your SaaS experience with Omnistrat
 
 From hosting the SaaS Builders Meet & Greet to going live with an insightful LinkedIn Live podcast on Building AI-Native Data Applications in the Cloud, our week was packed with bold ideas, valuable conversations, and inspiring connections. Here are some of the key themes that resonated:
 
-**💡 Simplifying Cloud Deployments**<br/>
+**💡 Simplifying Cloud Deployments**
 Building in the cloud shouldn’t be complex—streamlined deployments empower teams to innovate faster and scale smarter.
 
-**⚙️ Automating SaaS Operations** <br/>
+**⚙️ Automating SaaS Operations** 
 Automated environment management and scaling processes reduce operational overhead, enabling teams to focus on what matters: product development.
 
-**🔒 Building with Security at the Core**<br/>
+**🔒 Building with Security at the Core**
 Trust comes from ensuring data protection and system reliability, fostering confident and secure deployments in a cloud-native world.
 
 We are especially grateful to **Peter Zaitsev** (Founder & ex-CEO of Percona) and **Gopi Duddi** (SVP of Engineering at Couchbase) for sharing their invaluable insights during our LinkedIn Live session.

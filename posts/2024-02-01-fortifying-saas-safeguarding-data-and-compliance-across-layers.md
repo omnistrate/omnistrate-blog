@@ -23,7 +23,7 @@ In addition, one of the key security risks is to protect tenant data. Now, we mi
 Each one of them takes time and resources to build and maintain. As an example for authentication, you may start with plain SASL, but you are expected to add SSO, OAuth mechanisms for other systems to securely interact with your service.
 
 To learn more about all the core capabilities that we need to deliver a SaaS offering, see [here][1]
-<br>
+
 To learn more about how users can leverage a SaaS platform like Omnistrate to address many of these challenges, please see [here][2].
 
 

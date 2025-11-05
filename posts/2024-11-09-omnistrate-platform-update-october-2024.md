@@ -42,7 +42,7 @@ Explore these new features today and elevate your SaaS experience with Omnistrat
 
 
 ----------
-<br/>
+
 
 
 ## Open Source updates ##
@@ -58,7 +58,7 @@ Continuing our effort on OpenSource contributions and foster our community, we c
 
 ----------
 
-<br/>
+
 
 
 ## KubeCon 2024 ##
@@ -70,7 +70,7 @@ Join Omnistrate at booth #Q39 for our Kubecon Coffee challenge. Omnistrate will 
 
 
 ----------
-<br/>
+
 
 
 ## AWS Re-Invent ##

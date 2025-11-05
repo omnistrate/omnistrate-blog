@@ -37,7 +37,7 @@ In this model there is no need to meter the usage of the service, as the limitat
 
 When using Omnistrate API, List and Describe APIs can be used to calculate the number of services, and requests can be limited to certain Service Offerings.
 
-###Usage Based
+### Usage Based
 
 The implementation of a Usage Based model requires collecting usage information from the service once it is provisioned. This usage information can be mapped to different dimensions of usage and the aggregation of these values will generate the final bill. To calculate the usage we need to monitor the live instances of the services, measure the defined dimensions and then do an aggregation per time.
 

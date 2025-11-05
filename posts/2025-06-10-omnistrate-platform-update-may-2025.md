@@ -74,7 +74,7 @@ We’re introducing a new level of tenant isolation with Isolated Kubernetes (K8
 
   - Deprecated versions are hidden by default when launching an instance but can be revealed with a toggle.
 
-<br/>
+
 
 
 ### Omnistrate Azure Support is now Generally Available
@@ -86,7 +86,7 @@ We’re thrilled to announce Omnistrate’s Azure is Generally Available! Whethe
 
 In-fact, Omnistrate is now listed on Azure marketplace, making it easier for Microsoft customers to procure Omnistrate Platform.
 
-<br/>
+
 
 
 ### 📢 Upcoming Event: From Open Source to SaaS: Turning AI Innovation into Scalable Products
@@ -104,7 +104,7 @@ Join us for an expert-led session featuring leaders from AWS, Omnistrate, Anysca
 
   - Avoid the most common OSS-to-SaaS pitfalls
 
-<br/>
+
 
 🗓️ Date: Tuesday, June 24th, 1:30-6:00pm PT
 
@@ -112,12 +112,12 @@ Join us for an expert-led session featuring leaders from AWS, Omnistrate, Anysca
 
 [👉 Register now](https://lu.ma/4nwzwq0i?utm_source=Newsletter)
 
-<br/>
+
 
 [![Upcoming Event](/images/posts/omnistrate-platform-update-may-2025-3.png)](https://lu.ma/4nwzwq0i?utm_source=Newsletter)
 
 
-<br/>
+
 
 
 ### 📣 Introducing our video series:
@@ -134,7 +134,7 @@ Don’t miss our next episode coming up June 13th —join us as we dive into one
 
 [👉 Register here for the live link!](https://lu.ma/eykxkrqi)
 
-<br/>
+
 
 
 ### 🚀Meet with us at Databricks Data and AI Summit!
@@ -146,7 +146,7 @@ If you’re planning to be at the Moscone Center, let’s connect! Our team will
 
 [👉 Book time with us](https://calendly.com/omnistrate)
 
-<br/>
+
 
 
 ### About Omnistrate

@@ -20,14 +20,14 @@ Hello from Omnistrate 👋
 
 This is our platform update for June 2024!
 
-###Announcement:###
+### Announcement:###
 Spend an afternoon on July 26th 2024 with Omnistrate, AWS SaaS Factory and a group of select partners to learn how to build Modern, Scalable and Cost optimized SaaS solutions on AWS. 
 
 [Link to Registration Website][1]
 
 *Space is limited, and an RSVP is required*
 
-###New in the platform this month:###
+### New in the platform this month:###
 
 [Omnistrate][2] enables you to launch your SaaS offer in minutes, saving you 90% in costs and engineering hours compared to a DIY solution. You can focus on making your product amazing.
 

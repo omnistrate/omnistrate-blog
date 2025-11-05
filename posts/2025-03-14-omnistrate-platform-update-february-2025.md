@@ -61,7 +61,7 @@ Also, we are thrilled to introduce our new **Cost Control and Insights**, design
 
 Explore these new features today and elevate your SaaS experience with Omnistrate!
 
-<br/>
+
 
 
 ### Revamped Homepage: New Look, Same Mission!
@@ -75,7 +75,7 @@ Whether you need **BYOA/BYOC solutions**, **automated upgrades**, or other **day
 
 Let us know what you think! 🚀  
 
-<br/>
+
 
 
 ### Building Open-Core SaaS
@@ -101,7 +101,7 @@ These examples showcase best practices and real-world usage, making it easy to i
 
 We are excited to continue expanding our open-source ecosystem and look forward to community contributions and feedback! 🚀  
 
-<br/>
+
 
 
 ## SaaS Mondays Updates!
@@ -130,7 +130,7 @@ If you missed it, don’t worry—you can read the **transcript here**, or **wat
 
 Join the conversation, connect with like-minded professionals, and help shape the future of SaaS!
 
-<br/>
+
 
 
 ### About Omnistrate

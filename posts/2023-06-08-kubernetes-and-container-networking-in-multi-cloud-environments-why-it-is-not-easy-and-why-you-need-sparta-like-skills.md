@@ -23,7 +23,7 @@ As the world of technology continues to evolve, containerization has become a po
 
 However, managing Kubernetes and container networking in multi-cloud environments can be challenging. This is where **Sparta-like** skills can come in handy.
 
-#Sparta-like Skills
+# Sparta-like Skills
 
 The ancient Spartans were known for their military prowess, and their skills can be applied in the modern-day technology landscape. Here are some Sparta-like skills that can help you master Kubernetes and container networking in multi-cloud environments:
 
@@ -47,60 +47,60 @@ In this blog post, we will explore how Kubernetes handles container networking i
 
 ----------
 
-#Kubernetes and Container Networking
+# Kubernetes and Container Networking
 
 Before we dive into multi-cloud environments, it is important to understand how Kubernetes handles container networking. Each container in a Kubernetes cluster is assigned a unique IP address, and all containers can communicate with each other using this IP address. Kubernetes creates a virtual network for each container and all the containers on a node are connected to a common network. This enables containers to communicate with each other even if they are running on different nodes in the cluster.
 
 Kubernetes also provides a service discovery mechanism for containers. Services are used to group a set of pods that provide the same functionality. A service is assigned a virtual IP address that is used to access the pods. Kubernetes also provides load balancing for services, which distributes traffic among the pods in the service.
 
-##Multi-Cloud Environments
+## Multi-Cloud Environments
 
 Multi-cloud environments have become increasingly popular as companies look to distribute their workloads across multiple cloud providers for increased redundancy and flexibility. Kubernetes can be used to manage containers across different cloud providers, enabling companies to easily migrate workloads between clouds or use multiple clouds for different parts of their application.
 
 Let’s explore how Kubernetes handles container networking in multi-cloud environments with examples from GCP, Azure, and AWS.
 
-##Container Networking in Google Cloud Platform (GCP)
+## Container Networking in Google Cloud Platform (GCP)
 
 GCP provides a Kubernetes Engine service that enables users to easily deploy and manage Kubernetes clusters on GCP. Kubernetes Engine uses Google’s global network to provide fast and secure communication between nodes in the cluster. Each node in the cluster is assigned a unique IP address from a subnet defined by the user. Kubernetes Engine also provides load balancing for services using Google’s Cloud Load Balancer service.
 
 To create a Kubernetes cluster on GCP, you can use the following command:
 
-    gcloud container clusters create [CLUSTER_NAME] - zone [ZONE]
+      gcloud container clusters create [CLUSTER_NAME] - zone [ZONE]
 
 This will create a cluster with the specified name and zone. You can then create a deployment and service using the usual Kubernetes commands.
 
-##Container Networking in Microsoft Azure
+## Container Networking in Microsoft Azure
 
 Azure provides an Azure Kubernetes Service (AKS) that enables users to easily deploy and manage Kubernetes clusters on Azure. AKS uses Azure’s networking infrastructure to provide secure communication between nodes in the cluster. 
 Each node in the cluster is assigned a unique IP address from a subnet defined by the user. AKS also provides load balancing for services using Azure’s Load Balancer service.
 
 To create a Kubernetes cluster on Azure, you can use the following command:
 
-    az aks create - name [CLUSTER_NAME] - resource-group [RESOURCE_GROUP] - node-count [NODE_COUNT] - generate-ssh-keys
+      az aks create - name [CLUSTER_NAME] - resource-group [RESOURCE_GROUP] - node-count [NODE_COUNT] - generate-ssh-keys
 
 This will create a cluster with the specified name and resource group. You can then create a deployment and service using the usual Kubernetes commands.
 
-##Container Networking in Amazon Web Services (AWS)
+## Container Networking in Amazon Web Services (AWS)
 
 AWS provides an Elastic Kubernetes Service (EKS) that enables users to easily deploy and manage Kubernetes clusters on AWS. EKS uses AWS’s networking infrastructure to provide secure communication between nodes in the cluster. Each node in the cluster is assigned a unique IP address from a subnet defined by the user. EKS also provides load balancing for services using AWS’s Elastic Load Balancer service.
 
 To create a Kubernetes cluster on AWS, you can use the following command:
 
-    eksctl create cluster - name [CLUSTER_NAME] - region [REGION]
+      eksctl create cluster - name [CLUSTER_NAME] - region [REGION]
 
 This will create a cluster with the specified name and region. You can then create a deployment and service using the usual Kubernetes commands.
 
 ----------
-#Deploying a sample application in Kubernetes
+# Deploying a sample application in Kubernetes
 
 Kubernetes provides a powerful and flexible container orchestration platform that can be used to manage containers across multiple cloud providers. By understanding how Kubernetes handles container networking and service discovery, users can easily deploy and manage containers in multi-cloud environments. With the examples provided for GCP, Azure, and AWS, users can get started with deploying their own multi-cloud Kubernetes clusters.
 
 
-##Deploying on Google Cloud Platform (GCP)
+## Deploying on Google Cloud Platform (GCP)
 
 1) Create a Kubernetes cluster on GCP using the following command:
 
-    gcloud container clusters create [CLUSTER_NAME] - zone [ZONE]
+        gcloud container clusters create [CLUSTER_NAME] - zone [ZONE]
 
 2) Deploy a sample application using the following Kubernetes deployment and service definitions:
 
@@ -148,11 +148,11 @@ deployment.yaml:
 4) Access the application using the external IP address of the load balancer service created in step 3.
 
 
-##Deploying on Microsoft Azure
+## Deploying on Microsoft Azure
 
 1) Create a Kubernetes cluster on Azure using the following command:
 
-    az aks create - name [CLUSTER_NAME] - resource-group [RESOURCE_GROUP] - node-count [NODE_COUNT] - generate-ssh-keys
+          az aks create - name [CLUSTER_NAME] - resource-group [RESOURCE_GROUP] - node-count [NODE_COUNT] - generate-ssh-keys
 
 2) Deploy a sample application using the following Kubernetes deployment and service definitions:
 
@@ -199,11 +199,11 @@ deployment.yaml:
 
 4) Access the application using the external IP address of the load balancer service created in step 3.
 
-##Deploying on Amazon Web Services (AWS)
+## Deploying on Amazon Web Services (AWS)
 
 1) Create a Kubernetes cluster on AWS using the following command:
 
-    eksctl create cluster - name [CLUSTER_NAME] - region [REGION]
+          eksctl create cluster - name [CLUSTER_NAME] - region [REGION]
 
 2) Deploy a sample application using the following Kubernetes deployment and service definitions:
 
@@ -253,9 +253,9 @@ deployment.yaml:
 
 ----------
 
-#Container networking across Cloud Providers 
+# Container networking across Cloud Providers 
 
-##Connecting Google Kubernetes Engine (GKE) Clusters to Amazon EKS and Azure AKS
+## Connecting Google Kubernetes Engine (GKE) Clusters to Amazon EKS and Azure AKS
 
 Connecting Google Kubernetes Engine (GKE) clusters to Amazon EKS and Azure AKS can be achieved using different methods such as Cluster Federation, Istio, and Anthos. In this example, we will showcase how to connect GKE to EKS and AKS using Anthos.
 
@@ -269,44 +269,44 @@ Anthos is an application management platform that enables you to manage and depl
 
 3) After enabling Anthos, you need to create a service account with the necessary permissions to connect to the EKS and AKS clusters. You can do this by running the following command:
 
-    gcloud iam service-accounts create [SA-NAME] --display-name [SA-DISPLAY-NAME]
+        gcloud iam service-accounts create [SA-NAME] --display-name [SA-DISPLAY-NAME]
 
 4) Next, you need to grant the service account the necessary permissions to access the EKS and AKS clusters. You can do this by running the following commands:
 
-    gcloud iam service-accounts add-iam-policy-binding [SA-NAME] \
-      --member="serviceAccount:[PROJECT-ID]@[PROJECT-ID].iam.gserviceaccount.com" \
-      --role="roles/iam.workloadIdentityUser"
+        gcloud iam service-accounts add-iam-policy-binding [SA-NAME] \
+          --member="serviceAccount:[PROJECT-ID]@[PROJECT-ID].iam.gserviceaccount.com" \
+          --role="roles/iam.workloadIdentityUser"
     
-    gcloud projects add-iam-policy-binding [PROJECT-ID] \
-      --member="serviceAccount:[PROJECT-ID]@[PROJECT-ID].iam.gserviceaccount.com" \
-      --role="roles/gkehub.connect"
+        gcloud projects add-iam-policy-binding [PROJECT-ID] \
+          --member="serviceAccount:[PROJECT-ID]@[PROJECT-ID].iam.gserviceaccount.com" \
+          --role="roles/gkehub.connect"
 
 5) Once the necessary permissions are granted, you need to configure workload identity for the GKE cluster. You can do this by following the instructions in the Anthos documentation.
 
 6) After configuring workload identity, you can create a Kubernetes service account in the GKE cluster that can access the EKS and AKS clusters. You can do this by running the following command:
 
-    kubectl create serviceaccount [SA-NAME] - namespace [NAMESPACE]
+        kubectl create serviceaccount [SA-NAME] - namespace [NAMESPACE]
 
 7) Next, you need to annotate the service account with the necessary information to connect to the EKS and AKS clusters. You can do this by running the following commands:
 
-    kubectl annotate serviceaccount [SA-NAME] \
-      iam.gke.io/gcp-service-account=[SA-NAME]@[PROJECT-ID].iam.gserviceaccount.com \
-      --namespace [NAMESPACE]
+        kubectl annotate serviceaccount [SA-NAME] \
+          iam.gke.io/gcp-service-account=[SA-NAME]@[PROJECT-ID].iam.gserviceaccount.com \
+          --namespace [NAMESPACE]
     
-    kubectl annotate serviceaccount [SA-NAME] \
-      iam.gke.io/gcp-external-id=[AWS-ACCOUNT-ID] \
-      --namespace [NAMESPACE]
+        kubectl annotate serviceaccount [SA-NAME] \
+          iam.gke.io/gcp-external-id=[AWS-ACCOUNT-ID] \
+          --namespace [NAMESPACE]
 
 8) After annotating the service account, you need to create a Kubernetes role and role binding that allows the service account to access the EKS and AKS clusters. You can do this by running the following commands:
 
-    kubectl create clusterrolebinding [RB-NAME] \
-      --clusterrole=cluster-admin \
-      --serviceaccount=[NAMESPACE]:[SA-NAME]
+        kubectl create clusterrolebinding [RB-NAME] \
+          --clusterrole=cluster-admin \
+          --serviceaccount=[NAMESPACE]:[SA-NAME]
     
-    kubectl create rolebinding [RB-NAME] \
-      --clusterrole=view \
-      --serviceaccount=[NAMESPACE]:[SA-NAME] \
-      --namespace=kube-system
+        kubectl create rolebinding [RB-NAME] \
+          --clusterrole=view \
+          --serviceaccount=[NAMESPACE]:[SA-NAME] \
+          --namespace=kube-system
 
 9) Once the role and role binding are created, you can install the Anthos Connect Agent on the GKE cluster. You can do this by following the instructions in the Anthos documentation.
 
@@ -316,33 +316,33 @@ Anthos is an application management platform that enables you to manage and depl
 Select the EKS or AKS option and follow the instructions to register the cluster.
 Once the clusters are registered, you can deploy applications across all the clusters using Anthos. You can do this by creating a Kubernetes deployment that targets the GKE, EKS, and AKS clusters. Here’s an example of how to create a deployment that targets all three clusters:
 
-    apiVersion: apps/v1
-    kind: Deployment
-    metadata:
-      name: hello-world
-    spec:
-      replicas: 3
-      selector:
-        matchLabels:
-          app: hello-world
-      template:
+        apiVersion: apps/v1
+        kind: Deployment
         metadata:
-          labels:
-            app: hello-world
+          name: hello-world
         spec:
-          containers:
-          - name: hello-world
-            image: gcr.io/google-samples/hello-app:1.0
-          nodeSelector:
-            cloud.google.com/gke-os-distribution: ubuntu
-            beta.kubernetes.io/os: linux
+          replicas: 3
+          selector:
+            matchLabels:
+              app: hello-world
+          template:
+            metadata:
+              labels:
+                app: hello-world
+            spec:
+              containers:
+              - name: hello-world
+                image: gcr.io/google-samples/hello-app:1.0
+              nodeSelector:
+                cloud.google.com/gke-os-distribution: ubuntu
+                beta.kubernetes.io/os: linux
 
 In this example, the deployment targets all three clusters by using node selectors that match the GKE, EKS, and AKS clusters.
 
 That’s it! You have now connected GKE to EKS and AKS using Anthos and deployed applications across all the clusters.
 
 
-##Connecting Elastic Kubernetes Engine (EKS) clusters to Google GKE and Azure AKS
+## Connecting Elastic Kubernetes Engine (EKS) clusters to Google GKE and Azure AKS
 
 This can be achieved through Kubernetes federation. 
 
@@ -418,7 +418,7 @@ This should show the nginx deployment across all clusters.
 
 That’s it! You have now federated EKS, GKE, and AKS clusters and deployed an application across all clusters.
 
-#Conclusion
+# Conclusion
 
 In this example, we have shown how to deploy a sample application on Kubernetes in a multi-cloud environment using GCP, Azure, and AWS. By understanding how Kubernetes handles container networking and service discovery, users can easily deploy and manage containers in multi-cloud environments.
 

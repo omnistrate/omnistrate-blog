@@ -28,7 +28,7 @@ Why do some products offer their services only behind obscure APIs which you hav
 
 Today we’re going to try to touch on all these topics and how they relate to each other.  In essence, they’re all a part of the complicated process most of us refer to as provisioning, but it’s such a broad term we’re going to have to break it down.
 
-<h2>The Scheduler</h2>
+### The Scheduler
 To help guide discussion of a topic which has so many facets, let’s imagine we’ve made an amazing new database we’re really proud of and we’d like to build our own SaaS around AwesomeDB.  Like many newer databases, AwesomeDB takes pretty standard VMs, a few different storage technologies, and leverages multiple cloud network features to save money and keep performance consistent.  We also designed AwesomeDB to work both in dedicated tenant modes where single customers can get a guaranteed amount of compute, ram, and storage, and also a multi-tenant model where large AwesomeDB clusters isolated customers from each other using constructs built into the application.
 
 When a new user signs up for their own slice of AwesomeDB on your new SaaS, before anything else happens, a predefined set of business-logic evaluation rules will undoubtedly be executed.  In my experience, this is almost all derived from the product selections the user has made, either implicitly or explicitly.  An example might be - they just signed up for a free trial, so we’re going to be provisioning an ‘instance’ of the simplest, cheapest multi-tenant product offering.  Or the user has already signed a big contract and the AwesomeDB engineer has used an internal tool to create a new dedicated cluster - hopefully this makes sense.
@@ -39,7 +39,7 @@ To see why this is, let’s consider how the scheduler is going to decide where 
 
 In both styles, the scheduler has to consider not only what already exists, but also what can exist. It has to find the intersection of business logic, infrastructure capacity, and security/quota constraints, then determine if the request for this new slice is even permitted.  When designed well, the scheduler will take these concerns into account and automatically kicks off the process to create new infrastructure when needed, even if the majority of provisioning requests doesn’t require any VMs or clusters.  We’ll see what this means in the next section.
 
-<h2>Getting the Servers</h2>
+## Getting the Servers
 You might think the first thing that happens when you make a new AwesomeDB is a few VMs are spun up, but in reality this might be less common with your major SaaS providers than you realize.  The main reason for this is that it’s just not very quick (getting new VMs can take anywhere from 1-10 minutes), and most SaaS services have a multitenant design; what’s really getting created for you is probably just an isolated namespace within a larger singular cluster of the software shared by many users.
 
 However, you still need something to run these clusters, and if this infrastructure doesn't exist at all yet it has to be created. There are a variety of ways in which you can do this, including autoscaling groups, (either manually managed or as part of k8s node pools), pre-baked machine images, launch templates, and more, but they all generally share a few characteristics:
@@ -51,7 +51,7 @@ However, you still need something to run these clusters, and if this infrastruct
 
 Ideally this all happens quickly and painlessly, but there are a few complications that can arise.  If you’re trying to make a large number of VMs at once you might run into a quota limit on your account, and even if you don’t hit that limit you could potentially hit a capacity limitation of the cloud provider itself.  These are typically scoped to each region or availability zone so be aware that some flexibility in zone placement will generally help you secure the capacity you want.
 
-<h2>Quotas</h2>
+## Quotas
 Maybe the most surprisingly complicated aspect of regularly making more infrastructure without issue is dealing with quota limits.  I had encountered them plenty at previous companies, but while at Confluent we ran into so many issues with quotas and API rate limits that we ended up having to make a quota service just to automate our requests to increase them.
 
 It’s understandable why cloud providers have created these; most users want to be protected from accidentally creating so many resources that they can’t afford their next bill.  But when your business is designed to make new infrastructure on-demand in response to your customers’ requests, quotas can become a real impediment to the growth you want to see.
@@ -60,7 +60,7 @@ Thankfully, there are still some things you can do to help here.  First of all, 
 
 Finally, if you want to go further, you can make a system that automatically creates quota increase requests as you approach your limits, greatly reducing the operational toil you’d otherwise encounter.
 
-<h2>The Tools</h2>
+## The Tools
 A lot of people reading this post might be wondering why I haven’t talked about Terraform, Kubernetes, or other tools which are typically used in this space.  This is indeed the case, and in my last four companies we even used both (or close facsimiles).  The sad truth though is that as great as these tools are, they really don’t solve the problems you might expect them to when focusing on automated deployments and provisioning as we are here.
 
 Terraform really really shines when your infrastructure is more static; the classic example is when you need to deploy a slowly-changing set of resources and all of the configs for a given stack / state file can be evaluated and reconciled in a minute or two.  As many terraform users can probably attest, these idealistic environments often quickly evolve into behemoth stacks of sprawling configs, with evaluation and reconciliation times climbing up to 10-30 minutes or more, greatly reducing the ability to perform the original function intended - especially if they’re in the critical loop for new customer on-demand provisioning.
@@ -71,7 +71,7 @@ Instead of going down this route, you’ll likely want to leverage terraform or 
 
 For this problem, you’ll likely find even more tools promising the ability to manage your data services with “control planes”, which is indeed what we’re talking about building here as well. And kubernetes itself is of course comprised of a control plane and a data plane too, but simply having a control plane or using one doesn’t mean your provisioning needs will be solved automatically.  This would be akin to thinking that simply selecting a webapp framework means your application will basically be done! The truth is that these control plane frameworks are exceptionally complicated pieces of technology as well, sometimes even making sprawling terraform setups look tame by comparison.  They can still be the right choice, but you’ll want to prepare for a long learning curve and plenty of iterative experimentation and testing before settling on one that will satisfy your requirements for the long run.
 
-<h2>Software Deployment</h2>
+## Software Deployment
 All of this just to get your servers / k8s cluster - and there’s still so much left to do!
 
 Interestingly enough, I’ve found a lot of companies are using helm or something very much like it at this step of the provisioning process.  It makes sense; if you’re using kubernetes, helm is a popular package manager which lets you define the relationship between your various kubernetes application deployments, utilizing the concept of helm charts. However, please note that deployment is just one of the steps in the whole SaaS provisioning as discussed earlier and there is a lot more complexity than just deploying the software to k8s.
@@ -92,7 +92,7 @@ What kind of faults do you need to be on the lookout for?  There are too many to
 -Simulate very slow cluster and instance creations
 -Check to see what happens if a dependent docker image isn’t available anymore - make sure the appropriate alarming notifies you of the problem
 
-<h2>Wrap-Up</h2>
+## Wrap-Up
 
 At the end of the day, the process of deploying your software is going to be similar to the process of ensuring all the dependent infrastructure is in place first; there needs to be control-loop management to take the software step-by-step from your bare machine image or k8s nodes to the entirety of your software stack.  A solid understanding of k8s can help with this immensely, since it has support for operators and custom resource definitions which are an example of an implementation of this, but it’s certainly not necessary to go down this route.
 

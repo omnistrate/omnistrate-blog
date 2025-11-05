@@ -79,7 +79,7 @@ Omnistrate now supports **serverless workloads** — enabling you to deploy and 
 
 Explore these new features today and elevate your SaaS experience with Omnistrate!
 
-<br/>
+
 
 
 ### Omnistrate Community
@@ -101,7 +101,7 @@ Whether you're just getting started or looking to push the boundaries with advan
 
 👉 Dive in now at [github.com/omnistrate-community](https://github.com/omnistrate-community)
 
-<br/>
+
 
 
 ### 🎥 Live from AWS: AI for Builders and Founders!
@@ -121,7 +121,7 @@ What You'll Learn:
 
 [👉 Watch the recording on YouTube](https://www.youtube.com/live/v3qEqlf64SM)
 
-<br/>
+
 
 
 ### Microsoft AI Cloud Partner Program & Azure Marketplace
@@ -131,7 +131,7 @@ We’re excited to celebrate Omnistrate’s growing partnership with Microsoft! 
 
 This marks a major milestone in our multi-cloud journey.
 
-<br/>
+
 
 
 ### 🚀 Omnistrate is Headed to SaaStr Annual 2025!
@@ -149,7 +149,7 @@ Whether you’re launching your first product or scaling globally, Omnistrate ca
 
 Looking forward to great conversations, big ideas, and all things SaaS at SaaStr! 💬
 
-<br/>
+
 
 
 ### About Omnistrate

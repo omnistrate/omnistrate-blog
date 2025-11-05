@@ -51,11 +51,11 @@ There’s also an ethos of control: owning the deployment tooling means you’re
 
 However, as we’ll see next, this path is strewn with landmines. What works for a single environment or a handful of customers can buckle under the complexity of real-world SaaS demands.
 
-##Challenges with the DIY Control Plane Approach
+## Challenges with the DIY Control Plane Approach
 
 For all its initial appeal, a homegrown control plane built on Kubernetes + ArgoCD + Terraform begins to strain as your product and customer base grows. Platform leaders should be aware of several key **architectural and operational challenges** that tend to emerge:
 
-###Day-0 architectural challenges
+### Day-0 architectural challenges
 
 Let’s dig deeper into some of the architectural challenges with the above approach:
 
@@ -87,7 +87,7 @@ Even **offboarding** a tenant is tricky. Terraform can destroy resources, but yo
 
 Another challenge is sheer **scale**: if you land 50 new customers, do you run 50 separate Terraform applies and Argo app bootstraps manually? Platform teams often invest in building an internal self-service UI or automation to handle this volume. Every new tenant is like deploying a mini-instance of your product – it needs to be automated to be efficient. The typical pattern here is to set up a GitOps workflow that has each customer setup tracked as a separate folder in a Git repo much like files.
 
-###Different customers have different deployment needs
+### Different customers have different deployment needs
 
 The first few customers may seem like a victory, but soon it becomes clear that different customers have slightly different needs. They have varying infrastructure requirements, pricing structures, and workloads that need to be tuned differently. While new customers are signing up with newer requirements ever-so slightly different from the previous one, the application team is constantly changing the application and its behavior, the business is learning or making minor pivots to find better product-market fit, cloud providers are constantly bringing new hardware and cloud services to life making some of the old assumptions obsolete, the world around us is evolving with new tech trends or regulatory requirements.
 
@@ -107,7 +107,7 @@ Finally, internal teams will need some sort of visibility into tenants, deployme
 
 Some teams claim their application is special and that the above complexity is unavoidable. However, good teams recognize this early, acknowledge the mistake, and realize that building a control plane is like building an operating system for the cloud. Stitching three open-source tools together is as effective as a graduate school project. At Confluent, we tried the same way only to revert 3-months down the line to build a proper control plane that took several dozens of engineers and years of development, a luxury most startups and platform teams don’t have.
 
-###Multi-Cloud and “Bring Your Own Cloud” (BYOC) Complexity
+### Multi-Cloud and “Bring Your Own Cloud” (BYOC) Complexity
 
 Many data-product or AI-product companies soon face customer demands for flexibility in where the product runs. Enterprise clients might say, “We love your SaaS, but for compliance, it must run in **our** cloud (or on Azure instead of AWS).” Supporting **multi-cloud** deployments or a **BYOC** model (Bring Your Own Cloud/Account) is a major undertaking with a DIY stack.
 
@@ -122,7 +122,7 @@ Now your platform must provision and operate infrastructure in accounts you don�
 
 Networking is a big headache here: How do your control-plane components (say, a central Argo CD instance or CI pipeline) even reach a Kubernetes API in a customer’s locked-down VPC? Some teams set up jumphosts or pry open firewall ports, which raises security flags. The recommended approach is often a **reverse connection** – e.g. an agent in the customer environment phones home to your control plane. Implementing that securely (TLS, token auth, etc.) is a project in itself. In short, DIY multi-cloud/BYOC support tends to balloon into a complex software project – beyond just writing Terraform scripts.
 
-###Day-2 Operations (Upgrades, Patching, Support)
+### Day-2 Operations (Upgrades, Patching, Support)
 
 For **Day-2 operations** – everything that happens after a tenant is up and running – is where a DIY control plane is even more clueless:
 
