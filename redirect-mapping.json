@@ -1,5 +1,20 @@
 [
   {
+    "source": "/posts/165",
+    "destination": "/posts/omnistrate-platform-update-september-2025-edition",
+    "permanent": true
+  },
+  {
+    "source": "/posts/164",
+    "destination": "/posts/why-customers-choose-omnistrate-a-deep-dive-into-the-byoc-landscape",
+    "permanent": true
+  },
+  {
+    "source": "/posts/163",
+    "destination": "/posts/deep-dive-into-the-on-prem-distribution-landscape-why-omnistrate-is-the-only-comprehensive-platform",
+    "permanent": true
+  },
+  {
     "source": "/posts/160",
     "destination": "/posts/omnistrate-platform-update-august-2025-edition",
     "permanent": true

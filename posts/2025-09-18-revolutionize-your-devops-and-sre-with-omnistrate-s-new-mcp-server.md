@@ -13,7 +13,7 @@ excerpt: >-
 slug: revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server
 readTime: 4
 coverImage: >-
-  /images/posts/revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server-1.png
+ /images/posts/revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server-2.png
 category: Product Updates
 ---
 

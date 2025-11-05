@@ -61,7 +61,7 @@ function CookieConsentModal() {
                 <Box component={"span"} sx={{ fontWeight: 400 }}>
                   Read our{" "}
                   <Link
-                    href={"/cookie-policy"}
+                    href={"https://omnistrate.com/cookie-policy"}
                     target="_blank"
                     style={{ textDecoration: "underline", cursor: "pointer" }}
                   >

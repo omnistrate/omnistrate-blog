@@ -1,18 +1,26 @@
 import { PostChip } from "@/app/components/post-chip";
 import { DisplayMD, TextXL, TextXS } from "@/components/text";
 import { BlogCategory } from "@/types/post";
+import { formatDate } from "@/lib/utils";
 
 import { Home } from "lucide-react";
 import Link from "next/link";
 
 type PostHeaderProps = {
   title: string;
-  excerpt: string;
   readTime: string;
   category?: BlogCategory;
+  author: string;
+  date: string;
 };
 
-export const PostHeader: React.FC<PostHeaderProps> = ({ title, excerpt, readTime, category }) => {
+export const PostHeader: React.FC<PostHeaderProps> = ({ 
+  title, 
+  readTime, 
+  category,
+  author,
+  date 
+}) => {
   return (
     <div className="max-w-3xl">
       <Link href="/" className="rounded-full w-fit flex items-center border border-[#E3E8EF] py-0.5 px-2 mb-4">
@@ -20,9 +28,20 @@ export const PostHeader: React.FC<PostHeaderProps> = ({ title, excerpt, readTime
         <TextXS className="font-medium text-[#364152]">Blog</TextXS>
       </Link>
 
-      <PostChip category={category || "Miscellaneous"} readTime={readTime} className="mb-4" />
-      <DisplayMD className="tracking-tight mb-6">{title}</DisplayMD>
-      <TextXL className="font-normal text-[#535862]">{excerpt}</TextXL>
+      <PostChip category={category || "Miscellaneous"} readTime={readTime} className="mb-6" />
+      <DisplayMD className="tracking-tight mb-8">{title}</DisplayMD>
+      
+
+      <div className="mb-8">
+        <span  className="text-sm font-normal text-gray-500">by</span> <span className="text-base font-semibold text-gray-700 mb-1"> {author}</span>
+          
+        <span> |</span>
+        <time dateTime={date} className="text-sm font-normal text-gray-500"> {formatDate(date)}</time>
+          
+        
+      </div>
+
+     
     </div>
   );
 };
