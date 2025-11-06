@@ -77,7 +77,7 @@ This is how Omnistrate handles all of that.
 I mean, you can also specify these values in your compose spec, or when calling our shiny APIs.
 
 Cool huh?
-You can try it yourself and let us know what you think, sign up on [omnistrate.cloud][7]!
+You can try it yourself, sign up on [omnistrate.cloud][7]!
 
   [1]: https://blog.omnistrate.com/posts/21
   [2]: https://blog.omnistrate.com/posts/40

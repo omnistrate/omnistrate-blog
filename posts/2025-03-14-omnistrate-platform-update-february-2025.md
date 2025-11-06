@@ -73,10 +73,6 @@ Whether you need **BYOA/BYOC solutions**, **automated upgrades**, or other **day
 
 👉 **Check it out now**: [omnistrate.com](https://omnistrate.com).
 
-Let us know what you think! 🚀  
-
-
-
 
 ### Building Open-Core SaaS
 

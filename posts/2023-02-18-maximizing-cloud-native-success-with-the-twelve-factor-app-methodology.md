@@ -15,7 +15,7 @@ coverImage: ''
 category: Engineering & Tech
 ---
 
-> Twelve Factor App Methodology
+### Twelve Factor App Methodology
 
 **The Twelve-Factor App methodology** is a set of best practices for building and deploying cloud-native applications. It was developed by Heroku, a cloud platform as a service (PaaS) provider, and has since been widely adopted by organizations as a guide for building cloud-native applications.
 

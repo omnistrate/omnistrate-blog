@@ -863,27 +863,6 @@
     "category": "Product Updates"
   },
   {
-    "slug": "omnistrate-just-made-building-b2b-saas-easier-than-ever",
-    "title": "Omnistrate just made building B2B SaaS easier than ever!",
-    "date": "2024-11-12 13:40:24",
-    "author": {
-      "name": "Kamal Gupta",
-      "email": "kamal@omnistrate.com",
-      "picture": ""
-    },
-    "excerpt": "At Omnistrate, we’ve been hard at work expanding our platform to make B2B SaaS development as seamless as possible.",
-    "coverImage": "http://i3.ytimg.com/vi/VQjpG-x8S4w/hqdefault.jpg",
-    "tags": [
-      "cloud",
-      "platform",
-      "product-release",
-      "SaaS",
-      "update"
-    ],
-    "readTime": 2,
-    "category": "Product Updates"
-  },
-  {
     "slug": "omnistrate-open-source-building-together",
     "title": "Omnistrate + Open Source: Building Together",
     "date": "2024-11-10 00:18:43",
@@ -1257,7 +1236,7 @@
       "email": "kamal@omnistrate.com",
       "picture": ""
     },
-    "excerpt": "Hello from Omnistrate. This is our platform update for June 2024! ###Announcement:Spend an afternoon on July 26th 2024 with Omnistrate, AWS SaaS Factory and a group of select partners to learn how..",
+    "excerpt": "Hello from Omnistrate. This is our platform update for June 2024! Announcement:Spend an afternoon on July 26th 2024 with Omnistrate, AWS SaaS Factory and a group of select partners to learn how..",
     "coverImage": "",
     "tags": [
       "Omnistrate",

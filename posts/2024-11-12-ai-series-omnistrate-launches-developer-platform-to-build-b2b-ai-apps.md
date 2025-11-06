@@ -50,9 +50,9 @@ Whether you're early-stage or scaling fast, Omnistrate gives you the flexibility
 - Expand across deployment models
 - Keep operations simple and scalable
 
-> We’re also excited to announce that we’ll be open-sourcing a base
-> template for multi-tenant applications, making it even easier for
-> anyone to simply fork and get started on their SaaS journey.
+We’re also excited to announce that we’ll be open-sourcing a base
+template for multi-tenant applications, making it even easier for
+anyone to simply fork and get started on their SaaS journey.
 
 Check out the [repo][1] to see how it works—or fork it to build your own AI-native, tenant-aware applications.
 

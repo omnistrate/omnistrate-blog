@@ -57,7 +57,7 @@ Here are some examples:
 
 Each one of them is even further divided in some cases to mean something more specific like DBaaS. DBaaS is a special class of Paas providers that build and maintain cloud database solutions for customers like MongoDB or CockroachDB.
 
-We covered the basics here in this blog post. In the follow up post, we will dig deeper into some of these concepts. Leave your thoughts and suggestions below.
+We covered the basics here in this blog post. In the follow up post, we will dig deeper into some of these concepts.
 
   [1]: https://en.wikipedia.org/wiki/Cloud_computing
   [2]: https://aws.amazon.com

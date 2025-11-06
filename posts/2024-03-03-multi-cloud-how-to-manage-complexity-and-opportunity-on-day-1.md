@@ -40,6 +40,6 @@ In summary, running SaaS across multiple clouds provides resilience, performance
 
 Now, back to achieving both the short and long term goals. We need a better abstraction to hide the low level cloud details and allow us to build our tech stack independent of the cloud providers. At Omnistrate, we are making it simpler for platform teams to build their services multi-cloud and no longer make that tradeoff. For more details, check out [omnistrate.com][1] or reach out to us at support@omnistrate.com for a demo.  
 
-I hope you found this post informative and helpful. If you have any questions or feedback, please leave a comment below. Thank you for reading!
+I hope you found this post informative and helpful. Thank you for reading!
 
   [1]: http://omnistrate.com

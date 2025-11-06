@@ -147,7 +147,7 @@ For example, to create a pipeline that deploys to a multi-cloud Kubernetes clust
 
 In this blog post, we have learned how to achieve autoscaling in multi-cloud Kubernetes deployments, which can help us improve the performance, availability, and efficiency of our applications. We have also shown some code examples of how to configure and deploy autoscaling policies and parameters for each cluster and cloud provider.
 
-We hope you have enjoyed this blog post and learned something new. If you have any questions or feedback, please feel free to leave a comment below. Thank you for reading! 😊
+We hope you have enjoyed this blog post and learned something new. Thank you for reading! 😊
 
 
   [1]: /images/posts/how-to-achieve-autoscaling-in-multi-cloud-kubernetes-deployments-1.svg

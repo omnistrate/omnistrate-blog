@@ -59,7 +59,7 @@ We think that Terraform is an excellent IaC tool if you want to setup your cloud
 
 We started building our control plane at Confluent with Terraform and it was a complete nightmare at even a small scale. Within 3 months, we had to abandon the tool and restart to build it from the ground up.
 
-We have come across so many customers with the similar experience. None of the proper Cloud offers to our knowledge at scale rely on Terraform. We would love to know your experience more in the comments section below.
+We have come across so many customers with the similar experience. None of the proper Cloud offers to our knowledge at scale rely on Terraform. 
 
 
 ### Omnistrate: world's first developer platform to build your Control Plane

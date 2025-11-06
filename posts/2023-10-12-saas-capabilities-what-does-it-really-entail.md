@@ -14,7 +14,7 @@ category: Engineering & Tech
 ---
 
 What does it really mean for software to be available as a service?  Sure, there are plenty of dry definitions out there, but I think a lot of us like to adhere to the ideology of “I know it when I see it” even if we wouldn’t readily admit it.
-What I’d like to explore in this post is the makeup of what I personally would consider to be the table stakes features of a modern SaaS; and spend a bit of extra time going over the areas which you’re probably far more likely to gloss over.  If you think I’ve missed anything, be sure to leave your thoughts in the comments below!
+What I’d like to explore in this post is the makeup of what I personally would consider to be the table stakes features of a modern SaaS; and spend a bit of extra time going over the areas which you’re probably far more likely to gloss over.
 
 ## Entity Management
 First and foremost, SaaS systems are entity managers. They have to keep track of a great deal of records, from user constructs to all the bits and pieces that go into your service offerings.
