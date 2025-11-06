@@ -38,7 +38,7 @@ All these innovations led to a shift from enterprises buying packaged software t
 
 ![Cloud trend][2]
 
-What other shifts did you notice? - leave a comment
+What other shifts did you notice?
 
   [1]: https://omnistrate.com/posts/3
   [2]: /images/posts/emergence-future-of-open-source-and-cloud-1.jpg

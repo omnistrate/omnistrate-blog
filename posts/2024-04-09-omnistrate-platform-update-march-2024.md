@@ -42,7 +42,7 @@ Here are all the new features we have on the platform this month:
 
 We have [a new getting started video][1] for you!
 
-MySQL [Serveress Master-Replica SaaS][2] - built in 1 minute?! 🤯
+MySQL [Serverless Master-Replica SaaS][2] - built in 1 minute?! 🤯
 
 Omnistrate enables you to build, access and **operate your multi-cloud SaaS**, based on your software product, **saving 90% in costs and engineering hours** compared to a DIY solution.
 

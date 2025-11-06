@@ -38,7 +38,7 @@ Omnistrate offers the world’s first developer platform that simplifies and spe
 > FalkorDB, ex-SVP of Redis
 
 > Omnistrate makes it easy and inexpensive to stand up a managed
-> service on any cloud.” – Anurag Gupta, ex-VP of Database and Analytic
+> service on any cloud. – Anurag Gupta, ex-VP of Database and Analytic
 > Services, AWS
 
 > Omnistrate's approach to efficiently and affordably converting

@@ -73,8 +73,8 @@ Creating a SaaS control plane from scratch is technically complex and financiall
 
 > 💸 Estimated cost to build the initial version of a robust Multi-Cloud
 > SaaS control plane: $2M–$4M and 12–18 months of engineering effort
-> (based on internal SaaS factory models and industry estimates).* 📊
-> Source: AWS SaaS Factory estimates & industry interviews*
+> (based on internal SaaS factory models and industry estimates).
+> *📊Source: AWS SaaS Factory estimates & industry interviews*
 
 Omnistrate is a SaaS orchestration platform purpose-built to help B2B companies:
 

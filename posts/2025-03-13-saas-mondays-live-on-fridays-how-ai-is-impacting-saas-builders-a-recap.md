@@ -95,7 +95,6 @@ Our next episode will dive deeper into how SaaS companies can successfully integ
 
 🔗 Follow us on [SaaSMonday LinkedIn Group][13] for more SaaS insights
 
-💡 Have a topic idea? Drop it in the comments!
 
 
   [1]: http://saasmondays.com/

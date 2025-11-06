@@ -27,9 +27,9 @@ Moreover, there are other benefits with this new shift like multi-cloud and gett
 
 It’s no surprise that there has been a sudden rise in SaaS providers from MongoDB to Redis Labs. Here is an interesting [article][3] from [coss.media][4]. As you can see there is a massive increase in #startups from 4 in 2018 to 27 in 2021 so far.
 
-> **Do you folks agree? Do you think this trend is short-lived or here to stay in the longer term?**
+**Do you folks agree? Do you think this trend is short-lived or here to stay in the longer term?**
 
-We would love to hear what you think.
+
 
   [1]: https://blog.omnistrate.com/posts/6
   [2]: /images/posts/where-did-the-cloud-model-go-wrong-1.jpg

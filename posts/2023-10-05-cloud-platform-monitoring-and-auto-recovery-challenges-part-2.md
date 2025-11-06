@@ -82,6 +82,7 @@ Like almost every other solution mentioned so far however, these techniques do c
 
 ### Summary
 
-Hopefully these two articles have given you a deeper insight into both how to go about getting your cloud platform to that next level of high-availability and how difficult it can be.  In our next post in this series we’ll explore how the need for monitoring extends beyond simply handling failures - you also need to know when to scale up your infrastructure, and the various ways that can be done.  Let us know in the comments if you have more ideas!
+Hopefully these two articles have given you a deeper insight into both how to go about getting your cloud platform to that next level of high-availability and how difficult it can be.  In our next post in this series we’ll explore how the need for monitoring extends beyond simply handling failures - you also need to know when to scale up your infrastructure, and the various ways that can be done.
 
-  [1]: /images/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-2-1.jpg
+
+[1]: /images/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-2-1.jpg
