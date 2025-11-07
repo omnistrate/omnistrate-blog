@@ -4,7 +4,7 @@
 #
 
 app = 'omnistrate-blog-prod'
-primary_region = 'iad'
+primary_region = 'sjc'
 kill_signal = 'SIGINT'
 kill_timeout = '5s'
 
@@ -42,6 +42,6 @@ kill_timeout = '5s'
     grace_period = '2s'
 
 [[vm]]
-  memory = '2gb'
+  memory = '1gb'
   cpu_kind = 'shared'
-  cpus = 2
+  cpus = 1
