@@ -6,7 +6,7 @@ import { PostCard } from "./components/post-card";
 import { SearchBar } from "./components/search-bar";
 import { LoadingState } from "./components/loading-state";
 import postsMetadata from "@/data/posts-metadata.json";
-import { DisplayLG, TextMD, TextXL } from "@/components/text";
+import { DisplayMD, TextMD, TextXL } from "@/components/text";
 
 const POSTS_PER_PAGE = 24;
 
@@ -69,11 +69,9 @@ function Homepage() {
 
   return (
     <Container>
-      <TextMD className="text-center mb-3 mt-8 md:mt-12 lg:mt-16">Engineering the Modern Control Plane</TextMD>
-      <DisplayLG className="text-center mb-6 tracking-tight">What It Takes to Distribute Software at Scale</DisplayLG>
-      <TextXL className="font-normal text-[#535862] text-center mx-auto max-w-4xl">
-        From SaaS to Agent-as-a-Service, master software distribution and build the platform that runs anything, anywhere, securely for your most demanding customers.
-      </TextXL>
+      <TextMD className="text-center mb-3 mt-8 md:mt-12 lg:mt-16"></TextMD>
+      <DisplayMD className="text-center mb-6 tracking-tight">Platform Engineering Blog: Architecture, Automation & Scale</DisplayMD>
+      
 
       <SearchBar ref={searchBarRef} value={searchTerm} onChange={setSearchTerm} />
 
