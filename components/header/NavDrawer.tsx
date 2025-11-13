@@ -5,7 +5,7 @@ import { Box, Collapse, Drawer as MuiDrawer, List, ListItemText, styled, useMedi
 
 import { StyledToolbar } from "./Header";
 import ResourceMenu from "./ResourceMenu";
-import { PRODUCT_URL } from "@/constants/site";
+import { PRODUCT_URL, WEBSITE_URL } from "@/constants/site";
 
 const Drawer = styled(MuiDrawer)(({ theme }) => ({
   [theme.breakpoints.up("lg")]: {
@@ -103,11 +103,11 @@ function NavDrawer(props: NavDrawerProps) {
             </Collapse>
 
             <ListItem onClick={closeDrawer}>
-              <Link href={`/pricing`}>Pricing</Link>
+              <Link href={`${WEBSITE_URL}/pricing`}>Pricing</Link>
             </ListItem>
 
             <ListItem onClick={closeDrawer}>
-              <Link href={`/about`}>About</Link>
+              <Link href={`${WEBSITE_URL}/about`}>About</Link>
             </ListItem>
 
             <ListItem hideAboveMobile>

@@ -70,17 +70,7 @@ export const StyledToolbar = styled(Toolbar, {
     height: 68,
     backgroundColor: "#FFF",
     paddingLeft: 24,
-    paddingRight: 24,
-
-    [theme.breakpoints.down("lg")]: {
-      height: 60
-    },
-    [theme.breakpoints.down("md")]: {
-      height: 60
-    },
-    [theme.breakpoints.up("sm")]: {
-      minHeight: 60
-    }
+    paddingRight: 24
   };
 });
 

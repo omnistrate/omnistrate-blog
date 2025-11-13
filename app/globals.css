@@ -131,7 +131,7 @@
 .prose pre code.hljs {
   background-color: transparent !important;
   padding: 0;
-  display: inline-block;
+  display: inline;
   min-width: 100%;
   box-sizing: border-box;
 }

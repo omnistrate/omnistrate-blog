@@ -8,29 +8,56 @@ import { LoadingState } from "./components/loading-state";
 import postsMetadata from "@/data/posts-metadata.json";
 import { DisplayMD, TextMD } from "@/components/text";
 import { ScrollToTopButton } from "@/components/scroll-to-top-button";
+import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const POSTS_PER_PAGE = 24;
 
+const StyledTabTrigger = (props: React.ComponentProps<typeof TabsTrigger>) => (
+  <TabsTrigger
+    {...props}
+    className="text-[#717680] data-[state=active]:text-[#414651] font-semibold text-sm data-[state=active]:bg-white data-[state=active]:border-[#D5D7DA] data-[state=active]:border data-[state=active]:shadow-none cursor-pointer rounded-md"
+  />
+);
+
 function Homepage() {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [displayCount, setDisplayCount] = useState(POSTS_PER_PAGE);
   const loadMoreRef = useRef<HTMLDivElement>(null);
   const searchBarRef = useRef<HTMLDivElement>(null);
 
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedAuthor, setSelectedAuthor] = useState<string>("all");
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [displayCount, setDisplayCount] = useState(POSTS_PER_PAGE);
+
   useEffect(() => {
-    setDisplayCount(POSTS_PER_PAGE); // Reset display count when search changes
-  }, [searchTerm]);
+    setDisplayCount(POSTS_PER_PAGE); // Reset display count when search, author, or category filter changes
+  }, [searchTerm, selectedAuthor, selectedCategory]);
 
   const filteredPosts = useMemo(() => {
-    if (!searchTerm.trim()) return postsMetadata;
+    let filtered = postsMetadata;
 
-    const term = searchTerm.toLowerCase();
-    return postsMetadata.filter((post) => {
-      const titleMatch = post.title.toLowerCase().includes(term);
-      const tagMatch = post.tags?.some((tag) => tag.toLowerCase().includes(term)) || false;
-      return titleMatch || tagMatch;
-    });
-  }, [searchTerm]);
+    // Filter by Category
+    if (selectedCategory !== "all") {
+      filtered = filtered.filter((post) => post.category === selectedCategory);
+    }
+
+    // Filter by Author
+    if (selectedAuthor !== "all") {
+      filtered = filtered.filter((post) => post.author?.name === selectedAuthor);
+    }
+
+    // Filter by Search Term
+    if (searchTerm.trim()) {
+      const term = searchTerm.toLowerCase();
+      filtered = filtered.filter((post) => {
+        const titleMatch = post.title.toLowerCase().includes(term);
+        const tagMatch = post.tags?.some((tag) => tag.toLowerCase().includes(term)) || false;
+        return titleMatch || tagMatch;
+      });
+    }
+
+    return filtered;
+  }, [searchTerm, selectedAuthor, selectedCategory]);
 
   const displayedPosts = useMemo(() => {
     return filteredPosts.slice(0, displayCount);
@@ -44,7 +71,7 @@ function Homepage() {
     }
   }, [hasMore, filteredPosts.length]);
 
-  // Infinite scroll observer
+  // Infinite Scroll Effect
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -68,6 +95,17 @@ function Homepage() {
     };
   }, [hasMore, loadMore]);
 
+  // Sorted By Post Count
+  const authors = useMemo(() => {
+    const authorCount: Record<string, number> = {};
+    postsMetadata.forEach((post) => {
+      if (post.author) {
+        authorCount[post.author.name] = (authorCount[post.author.name] || 0) + 1;
+      }
+    });
+    return Object.keys(authorCount).sort((a, b) => authorCount[b] - authorCount[a]);
+  }, []);
+
   return (
     <Container>
       <TextMD className="text-center mb-3 mt-8 md:mt-12 lg:mt-16"></TextMD>
@@ -76,6 +114,35 @@ function Homepage() {
       </DisplayMD>
 
       <SearchBar ref={searchBarRef} value={searchTerm} onChange={setSearchTerm} />
+
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-x-4 gap-y-6 mb-16">
+        <Tabs value={selectedCategory} onValueChange={setSelectedCategory} className="w-full lg:w-auto overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+          <TabsList className="gap-x-2 p-0 border border-[#E9EAEB] bg-[#FAFAFA] rounded-md flex-nowrap w-max">
+            <StyledTabTrigger value="all">View all</StyledTabTrigger>
+            <StyledTabTrigger value="Industry Insights">Industry Insights</StyledTabTrigger>
+            <StyledTabTrigger value="Customer Stories">Customer Stories</StyledTabTrigger>
+            <StyledTabTrigger value="Engineering & Tech">Engineering & Tech</StyledTabTrigger>
+            <StyledTabTrigger value="Partners & Ecosystem">Partners & Ecosystem</StyledTabTrigger>
+            <StyledTabTrigger value="Product Updates">Product Updates</StyledTabTrigger>
+          </TabsList>
+        </Tabs>
+
+        <Select value={selectedAuthor} onValueChange={setSelectedAuthor}>
+          <SelectTrigger className="w-full sm:w-[240px] lg:w-[170px]">
+            <SelectValue placeholder="Filter by author" />
+          </SelectTrigger>
+          <SelectContent className="max-h-[240px]">
+            <SelectGroup>
+              <SelectItem value="all">All Authors</SelectItem>
+              {authors.map((author) => (
+                <SelectItem key={author} value={author}>
+                  {author}
+                </SelectItem>
+              ))}
+            </SelectGroup>
+          </SelectContent>
+        </Select>
+      </div>
 
       {filteredPosts.length > 0 ? (
         <>
@@ -97,7 +164,15 @@ function Homepage() {
           )}
         </>
       ) : (
-        <LoadingState message={searchTerm ? `No posts found matching "${searchTerm}"` : "No posts found."} />
+        <LoadingState
+          message={
+            searchTerm || selectedAuthor !== "all" || selectedCategory !== "all"
+              ? `No posts found${searchTerm ? ` matching "${searchTerm}"` : ""}${
+                  selectedCategory !== "all" ? ` in ${selectedCategory}` : ""
+                }${selectedAuthor !== "all" ? ` by ${selectedAuthor}` : ""}`
+              : "No posts found."
+          }
+        />
       )}
       <ScrollToTopButton />
     </Container>
