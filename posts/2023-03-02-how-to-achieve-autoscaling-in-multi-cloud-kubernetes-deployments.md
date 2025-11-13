@@ -69,36 +69,44 @@ Here are some code examples of how to achieve autoscaling in multi-cloud Kuberne
 
 To set up horizontal pod autoscaling (HPA) for a deployment, you can use a YAML file or a command line. For example, to create an HPA that scales the number of pods between 1 and 10 based on the average CPU utilization of 50%, you can use the following YAML file:
 
-    apiVersion: autoscaling/v1
-    kind: HorizontalPodAutoscaler
-    metadata:
-      name: nginx-hpa 
-      spec: 
-        scaleTargetRef: 
-            apiVersion: apps/v1 
-            kind: Deployment 
-            name: nginx 
-            minReplicas: 1 
-            maxReplicas: 10 
-            targetCPUUtilizationPercentage: 50
+```
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: nginx-hpa 
+  spec: 
+    scaleTargetRef: 
+        apiVersion: apps/v1 
+        kind: Deployment 
+        name: nginx 
+        minReplicas: 1 
+        maxReplicas: 10 
+        targetCPUUtilizationPercentage: 50
+```
 
 Or you can use the following command line:
 
-    kubectl autoscale deployment nginx --min=1 --max=10 --cpu-percent=50
+```
+kubectl autoscale deployment nginx --min=1 --max=10 --cpu-percent=50
+```
 
 To set up cluster autoscaling (CA) for a cluster, you need to enable the cluster autoscaler feature for each cloud provider. For example, to enable cluster autoscaler for an Amazon EKS cluster, you need to create an Auto Scaling group (ASG) for each availability zone, and tag the ASGs with the cluster name and the auto-discovery option. For example, to create an ASG for us-east-1a, you can use the following command:
 
-    aws autoscaling create-auto-scaling-group \
-        --auto-scaling-group-name eks-worker-nodes-us-east-1a \
-        --launch-configuration-name eks-worker-nodes \
-        --min-size 1 \
-        --max-size 4 \
-        --vpc-zone-identifier subnet-0ff156e0c4a6d300c \
-        --tags ResourceId=eks-worker-nodes-us-east-1a,ResourceType=auto-scaling-group,Key=k8s.io/cluster-autoscaler/enabled,Value=,PropagateAtLaunch=true ResourceId=eks-worker-nodes-us-east-1a,ResourceType=auto-scaling-group,Key=kubernetes.io/cluster/eks-cluster,Value=owned,PropagateAtLaunch=true
+```
+aws autoscaling create-auto-scaling-group \
+    --auto-scaling-group-name eks-worker-nodes-us-east-1a \
+    --launch-configuration-name eks-worker-nodes \
+    --min-size 1 \
+    --max-size 4 \
+    --vpc-zone-identifier subnet-0ff156e0c4a6d300c \
+    --tags ResourceId=eks-worker-nodes-us-east-1a,ResourceType=auto-scaling-group,Key=k8s.io/cluster-autoscaler/enabled,Value=,PropagateAtLaunch=true ResourceId=eks-worker-nodes-us-east-1a,ResourceType=auto-scaling-group,Key=kubernetes.io/cluster/eks-cluster,Value=owned,PropagateAtLaunch=true
+```
 
 To set up multi-cloud Kubernetes deployments, you need to create and connect Kubernetes clusters across different cloud providers. For example, to create a multi-cloud Kubernetes cluster using Scaleway, you need to create a Kubernetes cluster on each cloud provider, and then use a VPN or a service mesh to connect them. For example, to create a Kubernetes cluster on Scaleway, you can use the following command:
 
-    svc k8s cluster create name=scaleway-cluster version=1.21.5 cni=cilium pools.0.name=default-pool pools.0.size=3 pools.0.node-type=GP1-XS pools.0.min-size=1 pools.0.max-size=5 pools.0.autoscaling=true
+```
+svc k8s cluster create name=scaleway-cluster version=1.21.5 cni=cilium pools.0.name=default-pool pools.0.size=3 pools.0.node-type=GP1-XS pools.0.min-size=1 pools.0.max-size=5 pools.0.autoscaling=true
+```
 
 To connect the clusters, you can use a VPN such as WireGuard, or a service mesh such as Istio or Linkerd.
 
@@ -106,40 +114,42 @@ To synchronize the resources and configurations across the multi-cloud Kubernete
 
 For example, to create a pipeline that deploys to a multi-cloud Kubernetes cluster, you can use the following YAML file:
 
-    trigger:
-    - main
-    
-    pool:
-      vmImage: ubuntu-latest
-    
-    steps:
-    - task: Kubernetes@1
-      displayName: Deploy to AWS EKS cluster
-      inputs:
-        connectionType: Kubernetes Service Connection
-        kubernetesServiceEndpoint: AWS EKS cluster
-        namespace: default
-        command: apply
-        arguments: -f $(System.DefaultWorkingDirectory)/manifests
-        useConfigurationFile: false
-    - task: Kubernetes@1
-      displayName: Deploy to Azure AKS cluster
-      inputs:
-        connectionType: Kubernetes Service Connection
-        kubernetesServiceEndpoint: Azure AKS cluster
-        namespace: default
-        command: apply
-        arguments: -f $(System.DefaultWorkingDirectory)/manifests
-        useConfigurationFile: false
-    - task: Kubernetes@1
-      displayName: Deploy to Google GKE cluster
-      inputs:
-        connectionType: Kubernetes Service Connection
-        kubernetesServiceEndpoint: Google GKE cluster
-        namespace: default
-        command: apply
-        arguments: -f $(System.DefaultWorkingDirectory)/manifests
-        useConfigurationFile: false
+```
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: Kubernetes@1
+  displayName: Deploy to AWS EKS cluster
+  inputs:
+    connectionType: Kubernetes Service Connection
+    kubernetesServiceEndpoint: AWS EKS cluster
+    namespace: default
+    command: apply
+    arguments: -f $(System.DefaultWorkingDirectory)/manifests
+    useConfigurationFile: false
+- task: Kubernetes@1
+  displayName: Deploy to Azure AKS cluster
+  inputs:
+    connectionType: Kubernetes Service Connection
+    kubernetesServiceEndpoint: Azure AKS cluster
+    namespace: default
+    command: apply
+    arguments: -f $(System.DefaultWorkingDirectory)/manifests
+    useConfigurationFile: false
+- task: Kubernetes@1
+  displayName: Deploy to Google GKE cluster
+  inputs:
+    connectionType: Kubernetes Service Connection
+    kubernetesServiceEndpoint: Google GKE cluster
+    namespace: default
+    command: apply
+    arguments: -f $(System.DefaultWorkingDirectory)/manifests
+    useConfigurationFile: false
+```
 
 
 ### Conclusion

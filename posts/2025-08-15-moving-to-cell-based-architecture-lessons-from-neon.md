@@ -167,11 +167,13 @@ Omnistrate fundamentally changes this equation by providing cell-based architect
 
 SaaS Products created using Omnistrate's are ready to evolve to a multi-cell architecture. Omnistrete is designed around distributed deployment models that naturally support cellular patterns:
 
-    # Enable custom deployment cell placement
-    x-omnistrate-service-plan:
-      features:
-        CUSTOM_DEPLOYMENT_CELL_PLACEMENT:
-          maximumDeploymentsPerCell: 100  # Max deployments per cells
+```
+# Enable custom deployment cell placement
+x-omnistrate-service-plan:
+  features:
+    CUSTOM_DEPLOYMENT_CELL_PLACEMENT:
+      maximumDeploymentsPerCell: 100  # Max deployments per cells
+```
 
 By default Omnistrate will create a single deployment cell for all your services, but evolving to a cellular base architecture is as simple as adding the annotation described above to your service definition.
 
@@ -198,30 +200,34 @@ Consider how you might implement a PostgreSQL SaaS with cellular architecture us
 ### **Master-Replica Architecture**
 
 
-    services:
-      Master:
-        image: 'omnistrate/pgvector:c227409'
-        x-omnistrate-capabilities:
-          serverlessConfiguration:
-            targetPort: 5432
-            enableAutoStop: true
-            minimumNodesInPool: 5
-  
-      Replica:
-        x-omnistrate-compute:
-          replicaCountAPIParam: numReadReplicas
-        x-omnistrate-capabilities:
-          enableMultiZone: true
-          endpointPerReplica: true
+```
+services:
+  Master:
+    image: 'omnistrate/pgvector:c227409'
+    x-omnistrate-capabilities:
+      serverlessConfiguration:
+        targetPort: 5432
+        enableAutoStop: true
+        minimumNodesInPool: 5
+
+  Replica:
+    x-omnistrate-compute:
+      replicaCountAPIParam: numReadReplicas
+    x-omnistrate-capabilities:
+      enableMultiZone: true
+      endpointPerReplica: true
+```
 
 
 ### **Cellular Deployment Control**
 
  
-    x-omnistrate-service-plan:
-      features:
-        CUSTOM_DEPLOYMENT_CELL_PLACEMENT:
-          maximumDeploymentsPerCell: 100  # Shared cells for cost efficiency
+```
+x-omnistrate-service-plan:
+  features:
+    CUSTOM_DEPLOYMENT_CELL_PLACEMENT:
+      maximumDeploymentsPerCell: 100  # Shared cells for cost efficiency
+```
 
 This configuration provides the same architectural benefits that Neon implemented, but available from day one without custom development.
 
@@ -235,16 +241,18 @@ This configuration provides the same architectural benefits that Neon implemente
 
 Begin with Omnistrate's basic tenancy models and add cellular features as you grow:
 
-    # Start with multi-tenancy
-    x-omnistrate-service-plan:
-      tenancyType: 'OMNISTRATE_MULTI_TENANCY'
+```
+# Start with multi-tenancy
+x-omnistrate-service-plan:
+  tenancyType: 'OMNISTRATE_MULTI_TENANCY'
 
-    # Evolve to dedicated cells as needed
-    x-omnistrate-service-plan:
-      tenancyType: 'OMNISTRATE_DEDICATED_TENANCY'
-      features:
-        CUSTOM_DEPLOYMENT_CELL_PLACEMENT:
-          maximumDeploymentsPerCell: 100
+# Evolve to dedicated cells as needed
+x-omnistrate-service-plan:
+  tenancyType: 'OMNISTRATE_DEDICATED_TENANCY'
+  features:
+    CUSTOM_DEPLOYMENT_CELL_PLACEMENT:
+      maximumDeploymentsPerCell: 100
+```
  
 
 ### **Leverage Existing Investments**

@@ -97,64 +97,66 @@ We made significant architectural improvements in SaaSBuilder, focusing on perfo
 
 To eliminate redundant API calls and improve page load times, we adopted App Router alongside a Global Data Provider that efficiently caches and shares the data across all pages for **Service Offerings**, **Subscriptions** and **Subscription Requests**.
 
-    export const GlobalDataContext = createContext<Context | undefined>(undefined);
-    
-    const GlobalDataProvider = ({ children }: { children: React.ReactNode }) => {
-      const {
-        data: subscriptions = [],
-        isLoading: isLoadingSubscriptions,
-        isFetching: isFetchingSubscriptions,
-        refetch: refetchSubscriptions,
-      } = useSubscriptions();
-    
-      const {
-        data: subscriptionRequests = [],
-        isLoading: isLoadingSubscriptionRequests,
-        isFetching: isFetchingSubscriptionRequests,
-        refetch: refetchSubscriptionRequests,
-      } = useSubscriptionRequests();
+```
+export const GlobalDataContext = createContext<Context | undefined>(undefined);
 
-      const {
-        data: serviceOfferings = [],
-        isLoading: isLoadingServiceOfferings,
-        isFetching: isFetchingServiceOfferings,
-        refetch: refetchServiceOfferings,
-      } = useOrgServiceOfferings();
-    
-      if (!isFetchingServiceOfferings && serviceOfferings.length === 0) {
-        return (
-          <div className="flex flex-col" style={{ minHeight: "100vh" }}>
-            <Navbar />
-            <NoServiceFoundUI text="No Service Offerings Found" />
-          </div>
-        );
-      }
-    
-      return (
-        <GlobalDataContext.Provider
-          value={{
-            subscriptions,
-            isLoadingSubscriptions,
-            isFetchingSubscriptions,
-            refetchSubscriptions,
-    
-            subscriptionRequests,
-            isLoadingSubscriptionRequests,
-            isFetchingSubscriptionRequests,
-            refetchSubscriptionRequests,
+const GlobalDataProvider = ({ children }: { children: React.ReactNode }) => {
+  const {
+    data: subscriptions = [],
+    isLoading: isLoadingSubscriptions,
+    isFetching: isFetchingSubscriptions,
+    refetch: refetchSubscriptions,
+  } = useSubscriptions();
 
-            serviceOfferings,
-            isLoadingServiceOfferings,
-            isFetchingServiceOfferings,
-            refetchServiceOfferings,
-          }}
-        >
-          {children}
-        </GlobalDataContext.Provider>
-      );
-    };
-    
-    export default GlobalDataProvider;
+  const {
+    data: subscriptionRequests = [],
+    isLoading: isLoadingSubscriptionRequests,
+    isFetching: isFetchingSubscriptionRequests,
+    refetch: refetchSubscriptionRequests,
+  } = useSubscriptionRequests();
+
+  const {
+    data: serviceOfferings = [],
+    isLoading: isLoadingServiceOfferings,
+    isFetching: isFetchingServiceOfferings,
+    refetch: refetchServiceOfferings,
+  } = useOrgServiceOfferings();
+
+  if (!isFetchingServiceOfferings && serviceOfferings.length === 0) {
+    return (
+      <div className="flex flex-col" style={{ minHeight: "100vh" }}>
+        <Navbar />
+        <NoServiceFoundUI text="No Service Offerings Found" />
+      </div>
+    );
+  }
+
+  return (
+    <GlobalDataContext.Provider
+      value={{
+        subscriptions,
+        isLoadingSubscriptions,
+        isFetchingSubscriptions,
+        refetchSubscriptions,
+
+        subscriptionRequests,
+        isLoadingSubscriptionRequests,
+        isFetchingSubscriptionRequests,
+        refetchSubscriptionRequests,
+
+        serviceOfferings,
+        isLoadingServiceOfferings,
+        isFetchingServiceOfferings,
+        refetchServiceOfferings,
+      }}
+    >
+      {children}
+    </GlobalDataContext.Provider>
+  );
+};
+
+export default GlobalDataProvider;
+```
 
 This centralized state management strategy minimizes network overhead, ensuring faster page transitions and consistent UI updates without unnecessary re-fetching.
 

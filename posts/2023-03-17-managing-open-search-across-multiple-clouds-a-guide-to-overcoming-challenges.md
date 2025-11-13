@@ -32,19 +32,23 @@ Now, let's dive into some code examples to help you overcome these challenges.
 
 To manage different API endpoints across multiple cloud providers, you can use a simple configuration file that maps each provider's API endpoint to a standard name. Here's an example in Python:
 
-    api_endpoints = {
-      'aws': 'https://search-cluster.aws-region.es.amazonaws.com',
-      'azure': 'https://my-search-service.search.azure.com',
-      'gcp': 'https://my-search-service.us-central1.gcp.cloud.es.io'
-    }
+```
+api_endpoints = {
+  'aws': 'https://search-cluster.aws-region.es.amazonaws.com',
+  'azure': 'https://my-search-service.search.azure.com',
+  'gcp': 'https://my-search-service.us-central1.gcp.cloud.es.io'
+}
+```
 
 
 With this configuration file in place, you can easily switch between cloud providers by referencing the standard name:
 
-    import requests
-    
-    api_endpoint = api_endpoints['aws']
-    response = requests. Get(api_endpoint)
+```
+import requests
+
+api_endpoint = api_endpoints['aws']
+response = requests. Get(api_endpoint)
+```
 
 **Load Balancing and Failover**
 
@@ -52,55 +56,57 @@ To ensure high availability and fault tolerance across all cloud providers, you 
 
 In addition, you'll want to set up failover mechanisms that automatically route traffic to a secondary cluster in case of a primary cluster failure. You can use DNS-based failover or health checks to achieve this. Here's an example in AWS Route 53:
 
-    primary_endpoint = 'https://search-cluster-1.aws-region.es.amazonaws.com'
-    secondary_endpoint = 'https://search-cluster-2.aws-region.es.amazonaws.com'
-    
-    health_check = {
-      'protocol': 'HTTPS',
-      'port': 443,
-      'path': '/_cluster/health',
-      'healthy_threshold': 3,
-      'unhealthy_threshold': 3,
-      'timeout': 5
-    }
-    
-    failover_policy = {
-      'status': 'FAIL',
-      'failover_endpoint': secondary_endpoint
-    }
-    
-    record_set = {
-      'name': 'my-search-service.example.com',
-      'type': 'A',
-      'ttl': 60,
-      'set_identifier': 'primary-cluster',
-      'weighted_routing_policy': {
-        'weight': 100,
-        'failover': failover_policy
+```
+primary_endpoint = 'https://search-cluster-1.aws-region.es.amazonaws.com'
+secondary_endpoint = 'https://search-cluster-2.aws-region.es.amazonaws.com'
+
+health_check = {
+  'protocol': 'HTTPS',
+  'port': 443,
+  'path': '/_cluster/health',
+  'healthy_threshold': 3,
+  'unhealthy_threshold': 3,
+  'timeout': 5
+}
+
+failover_policy = {
+  'status': 'FAIL',
+  'failover_endpoint': secondary_endpoint
+}
+
+record_set = {
+  'name': 'my-search-service.example.com',
+  'type': 'A',
+  'ttl': 60,
+  'set_identifier': 'primary-cluster',
+  'weighted_routing_policy': {
+    'weight': 100,
+    'failover': failover_policy
+  }
+}
+
+response = route53.change_resource_record_sets(
+  HostedZoneId=zone_id,
+  ChangeBatch={
+    'Changes': [
+      {
+        'Action': 'CREATE',
+        'ResourceRecordSet': record_set
       }
-    }
-    
-    response = route53.change_resource_record_sets(
-      HostedZoneId=zone_id,
-      ChangeBatch={
-        'Changes': [
-          {
-            'Action': 'CREATE',
-            'ResourceRecordSet': record_set
-          }
-        ]
-      }
-    )
-    
-    response = route53.create_health_check(
-      CallerReference=str(time.time()),
-      HealthCheckConfig=health_check
-    )
-    
-    response = route53.associate_health_check(
-      HealthCheckId=health_check_id,
-      ResourceRecordSet=record_set
-    )
+    ]
+  }
+)
+
+response = route53.create_health_check(
+  CallerReference=str(time.time()),
+  HealthCheckConfig=health_check
+)
+
+response = route53.associate_health_check(
+  HealthCheckId=health_check_id,
+  ResourceRecordSet=record_set
+)
+```
 
 **Security**
 

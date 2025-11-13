@@ -44,11 +44,13 @@ The implementation of a Usage Based model requires collecting usage information 
 An example of usage based metrics is to charge on the number of CPU metrics per time.
 
 
-    Formula: Total = SUM (Dimension units per hour * unit price for dimension)  
+```
+Formula: Total = SUM (Dimension units per hour * unit price for dimension)  
 
-    Examples: 
-        Total = SUM (# of CPU cores used per hour  * cost per cpu core/hour) 
-        Total = SUM (# of CPU cores used per hour  * cost per cpu core/hour,  #allocated disk * cost per GB/hour)
+Examples: 
+    Total = SUM (# of CPU cores used per hour  * cost per cpu core/hour) 
+    Total = SUM (# of CPU cores used per hour  * cost per cpu core/hour,  #allocated disk * cost per GB/hour)
+```
 To obtain the usage information it is important to consider that the service needs to be monitored, if a service is not available due to failure during provisioning, for example due to lack of capacity in the cloud provider, that service should not record usage of the service until available.
 
 Many services take the approach of measuring infrastructure metrics to calculate the actual cost of usage, an example is if you are running a relational database as a service, measures like CPU cores, provisioned memory, provisioned storage and storage IOPS are considered as dimensions to be measured periodically to assess if the service is active.

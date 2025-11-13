@@ -49,12 +49,14 @@ Omnistrate is essentially a **Agentic Control-Plane-as-a-Service** – a platfor
 
 Next, let’s try to build the above-mentioned real-world example using Omnistrate. To initialize and setup the foundation:
 
-    name: Redis Server  # Service Plan Name
+```yaml
+name: Redis Server  # Service Plan Name
 
-    deployment:
-      hostedDeployment:
-        AwsAccountId: "<AWS_ID>"
-        AwsBootstrapRoleAccountArn: arn:aws:iam::<AWS_ID>:role/omnistrate-bootstrap-role
+deployment:
+  hostedDeployment:
+    AwsAccountId: "<AWS_ID>"
+    AwsBootstrapRoleAccountArn: arn:aws:iam::<AWS_ID>:role/omnistrate-bootstrap-role
+```
 
 That's all it takes on **AWS**:
 
@@ -66,19 +68,21 @@ That's all it takes on **AWS**:
 
 Lets say you want to enable **GCP** or **Azure**, it's as simple as:
 
-    name: Redis Server  # Service Plan Name
+```yaml
+name: Redis Server  # Service Plan Name
 
-    deployment:
-      hostedDeployment:
-        AwsAccountId: "<AWS_ID>"
-        AwsBootstrapRoleAccountArn: arn:aws:iam::<AWS_ID>:role/omnistrate-bootstrap-role
+deployment:
+  hostedDeployment:
+    AwsAccountId: "<AWS_ID>"
+    AwsBootstrapRoleAccountArn: arn:aws:iam::<AWS_ID>:role/omnistrate-bootstrap-role
 
-        GcpProjectId: "<GCP_INFO>"
-        GcpProjectNumber: "<GCP_INFO>"
-        GcpServiceAccountEmail: "<GCP_INFO>"
+    GcpProjectId: "<GCP_INFO>"
+    GcpProjectNumber: "<GCP_INFO>"
+    GcpServiceAccountEmail: "<GCP_INFO>"
 
-        AzureSubscriptionId: '<AZURE_INFO>'
-        AzureTenantId: '<AZURE_INFO>'
+    AzureSubscriptionId: '<AZURE_INFO>'
+    AzureTenantId: '<AZURE_INFO>'
+```
 
 And that’s all to make it **multi-cloud**:
 
@@ -87,20 +91,21 @@ And that’s all to make it **multi-cloud**:
 
 How about enabling a different deployment model, say **BYOC**?
 
-    name: Redis Server BYOC  # Service Plan Name
+```yaml
+name: Redis Server BYOC  # Service Plan Name
 
-    deployment:
-      byoaDeployment:
-        AwsAccountId: "<AWS_ID>"
-        AwsBootstrapRoleAccountArn: arn:aws:iam::<AWS_ID>:role/omnistrate-bootstrap-role
+deployment:
+  byoaDeployment:
+    AwsAccountId: "<AWS_ID>"
+    AwsBootstrapRoleAccountArn: arn:aws:iam::<AWS_ID>:role/omnistrate-bootstrap-role
 
-        GcpProjectId: "<GCP_INFO>"
-        GcpProjectNumber: "<GCP_INFO>"
-        GcpServiceAccountEmail: "<GCP_INFO>"
+    GcpProjectId: "<GCP_INFO>"
+    GcpProjectNumber: "<GCP_INFO>"
+    GcpServiceAccountEmail: "<GCP_INFO>"
 
-        AzureSubscriptionId: '<AZURE_INFO>'
-        AzureTenantId: '<AZURE_INFO>'
-
+    AzureSubscriptionId: '<AZURE_INFO>'
+    AzureTenantId: '<AZURE_INFO>'
+```
 
 And that’s all to expand it to the BYOC model:
 
@@ -119,61 +124,65 @@ Now that the foundation is set up, let's handle the “**Self-serve Deployment l
 
 To setup the Redis SaaS using Helm chart, this is all we need:
 
-    services:
-      - name: Redis Cluster
+```yaml
+services:
+  - name: Redis Cluster
 
-        network:
-          ports:
-            - 6379
+    network:
+      ports:
+        - 6379
 
-        endpointConfiguration:
-          cluster:
-            host: "$sys.network.externalClusterEndpoint"
-            ports:
-              - 6379
-            primary: true
-            networkingType: PUBLIC
-          admin:
-            host: admin-{{ $sys.network.internalClusterEndpoint }}
-            ports:
-              - 8888
-            primary: false
-            networkingType: PRIVATE
+    endpointConfiguration:
+      cluster:
+        host: "$sys.network.externalClusterEndpoint"
+        ports:
+          - 6379
+        primary: true
+        networkingType: PUBLIC
+      admin:
+        host: admin-{{ $sys.network.internalClusterEndpoint }}
+        ports:
+          - 8888
+        primary: false
+        networkingType: PRIVATE
 
-        helmChartConfiguration:
-          chartName: redis
-          chartVersion: 19.6.2
-          chartRepoName: bitnami
-          chartRepoURL: https://charts.bitnami.com/bitnami
-          chartValues:
-            master:
-              persistence:
-                enabled: false
-              resources:
-                requests:
-                  cpu: 100m
-                  memory: 128Mi
-                limits:
-                  cpu: 150m
-                  memory: 256Mi
-            replica:
-              persistence:
-                enabled: false
-              replicaCount: 1
-              resources:
-                requests:
-                  cpu: 100m
-                  memory: 128Mi
-                limits:
-                  cpu: 150m
-                  memory: 256Mi
+    helmChartConfiguration:
+      chartName: redis
+      chartVersion: 19.6.2
+      chartRepoName: bitnami
+      chartRepoURL: https://charts.bitnami.com/bitnami
+      chartValues:
+        master:
+          persistence:
+            enabled: false
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 150m
+              memory: 256Mi
+        replica:
+          persistence:
+            enabled: false
+          replicaCount: 1
+          resources:
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 150m
+              memory: 256Mi
+```
 
 And that’s it, the output of this is a self-serve API / UI / CLI for you or your customers to provision, update, de-provision, manage your SaaS deployments.
 
-    omnistrate-ctl build -f spec.yaml --name 'RedisHelm' \
-    --release-as-preferred --spec-type ServicePlanSpec
+```shell
+omnistrate-ctl build -f spec.yaml --name 'RedisHelm' \
+--release-as-preferred --spec-type ServicePlanSpec
 
-    ✓ Successfully built service
+✓ Successfully built service
+```
 
 Here is a quick video showing the onboarding using the UI and your customer portal: [Omnistrate Onboarding with Helm Chart][5]
 
@@ -186,64 +195,68 @@ And just like that:
 
 Let’s say we want to allow tenants to customize the instance type:
 
-    services:
-      - name: Redis Cluster
-        compute:
-          instanceTypes:
-            - apiParam: instanceType
-              cloudProvider: aws
-            - apiParam: instanceType
-              cloudProvider: gcp
-            - apiParam: instanceType
-              cloudProvider: azure
+```yaml
+services:
+  - name: Redis Cluster
+    compute:
+      instanceTypes:
+        - apiParam: instanceType
+          cloudProvider: aws
+        - apiParam: instanceType
+          cloudProvider: gcp
+        - apiParam: instanceType
+          cloudProvider: azure
 
-        network:
-          ports:
-            - 6379
+    network:
+      ports:
+        - 6379
 
-        helmChartConfiguration:
-          chartValues:
-            master:
-              affinity:
-                nodeAffinity:
-                  requiredDuringSchedulingIgnoredDuringExecution:
-                    nodeSelectorTerms:
-                      - matchExpressions:
-                          - key: node.kubernetes.io/instance-type
-                            operator: In
-                            values:
-                              - $sys.compute.node.instanceType
-              …
+    helmChartConfiguration:
+      chartValues:
+        master:
+          affinity:
+            nodeAffinity:
+              requiredDuringSchedulingIgnoredDuringExecution:
+                nodeSelectorTerms:
+                  - matchExpressions:
+                      - key: node.kubernetes.io/instance-type
+                        operator: In
+                        values:
+                          - $sys.compute.node.instanceType
+          …
 
-    apiParameters:
-      - key: instanceType
-        description: Instance Type
-        name: Instance Type
-        type: String
-        modifiable: true
-        required: false
-        export: true
+apiParameters:
+  - key: instanceType
+    description: Instance Type
+    name: Instance Type
+    type: String
+    modifiable: true
+    required: false
+    export: true
+```
 
 Looking to customize any application configuration and allow your customers to customize in a self-serve fashion, you can just follow the above mechanism for any configuration or environment variables. Similarly, you can enable different plans for your customers based on the isolation levels to cater to different customer segments.
 
 If you want to add simple usage-based billing with paywall and a max quota per tenant, you can just add:
 
-    pricing:
-      - dimension: cpu
-        unit: cores
-        timeUnit: hour
-        price: 0.01
-      - dimension: memory
-        unit: GiB
-        timeUnit: hour
-        price: 0.05
+```yaml
+pricing:
+  - dimension: cpu
+    unit: cores
+    timeUnit: hour
+    price: 0.01
+  - dimension: memory
+    unit: GiB
+    timeUnit: hour
+    price: 0.05
 
-    metering:
-      s3BucketARN: arn:aws:s3:::my_billing_bucket_name
-      gcsBucketName: my-billing-bucket-name
+metering:
+  s3BucketARN: arn:aws:s3:::my_billing_bucket_name
+  gcsBucketName: my-billing-bucket-name
 
-    validPaymentMethodRequired: false
-    maxNumberOfInstancesAllowed: 10
+validPaymentMethodRequired: false
+maxNumberOfInstancesAllowed: 10
+```
 
 In the same way, you can configure:
 
@@ -258,120 +271,130 @@ In this section, we will show you how to build your Installer step-by-step from 
 
 Typically your app will involve various components like an app, cache, database. Here is an example of a Wiki-app based Installer:
 
-    version: '3.9'
-    services:
-      OutlineWiki:
-        image: omnistrate/outline:0.74.0
-        environment:
-          - MAXIMUM_IMPORT_SIZE=5120000
-          - …
-        depends_on:
-          - postgres
-          - redis
+```yaml
+version: '3.9'
+services:
+  OutlineWiki:
+    image: omnistrate/outline:0.74.0
+    environment:
+      - MAXIMUM_IMPORT_SIZE=5120000
+      - …
+    depends_on:
+      - postgres
+      - redis
 
-      postgres:
-        image: postgres:14.8
-        environment:
-          - SECURITY_CONTEXT_FS_GROUP=999
-          - …
+  postgres:
+    image: postgres:14.8
+    environment:
+      - SECURITY_CONTEXT_FS_GROUP=999
+      - …
 
-      redis:
-        image: redis:7.0.12
-        ports:
-          - '6379:6379'
+  redis:
+    image: redis:7.0.12
+    ports:
+      - '6379:6379'
+```
 
 And just like that you can define dependencies that will be honored for provisioning, upgrades, scaling, recovery, backups and so on.
 
 Now, let's add infrastructure requirements:
 
-    version: '3.9'
-    services:
-      OutlineWiki:
-        x-omnistrate-capabilities:
-          httpReverseProxy:
-            targetPort: 3000
-        image: omnistrate/outline:0.74.0
-        ports:
-          - '3000:3000'
-        volumes:
-          - source: ./data
-            target: /var/lib/outline/data
-            type: bind
-        environment:
-          - MAXIMUM_IMPORT_SIZE=5120000
-          - …
-        depends_on:
-          - postgres
-          - redis
+```yaml
+version: '3.9'
+services:
+  OutlineWiki:
+    x-omnistrate-capabilities:
+      httpReverseProxy:
+        targetPort: 3000
+    image: omnistrate/outline:0.74.0
+    ports:
+      - '3000:3000'
+    volumes:
+      - source: ./data
+        target: /var/lib/outline/data
+        type: bind
+    environment:
+      - MAXIMUM_IMPORT_SIZE=5120000
+      - …
+    depends_on:
+      - postgres
+      - redis
 
-      postgres:
-        x-omnistrate-mode-internal: true
-        x-omnistrate-capabilities:
-          networkType: INTERNAL
-        image: postgres:14.8
-        ports:
-          - '5432:5432'
-        volumes:
-          - source: ./pg-data
-            target: /var/lib/postgresql/data
-            type: bind
-        environment:
-          - SECURITY_CONTEXT_FS_GROUP=999
-          - …
+  postgres:
+    x-omnistrate-mode-internal: true
+    x-omnistrate-capabilities:
+      networkType: INTERNAL
+    image: postgres:14.8
+    ports:
+      - '5432:5432'
+    volumes:
+      - source: ./pg-data
+        target: /var/lib/postgresql/data
+        type: bind
+    environment:
+      - SECURITY_CONTEXT_FS_GROUP=999
+      - …
 
-      redis:
-        x-omnistrate-mode-internal: true
-        x-omnistrate-capabilities:
-          networkType: INTERNAL
-        image: redis:7.0.12
-        ports:
-          - '6379:6379'
-
+  redis:
+    x-omnistrate-mode-internal: true
+    x-omnistrate-capabilities:
+      networkType: INTERNAL
+    image: redis:7.0.12
+    ports:
+      - '6379:6379'
+```
 
 Now, lets say we want to templatize the instance type for Redis, we can simply add the following to the Redis config above:
 
-    x-omnistrate-compute:
-      instanceTypes:
-        - apiParam: instanceType
-          cloudProvider: aws
-        - apiParam: instanceType
-          cloudProvider: gcp
-        - apiParam: instanceType
-          cloudProvider: azure
-
+```yaml
+x-omnistrate-compute:
+  instanceTypes:
+    - apiParam: instanceType
+      cloudProvider: aws
+    - apiParam: instanceType
+      cloudProvider: gcp
+    - apiParam: instanceType
+      cloudProvider: azure
+```
 
 Similarly, you can customize any application parameters in no time and you can then expose these variables as API parameters for self-serve deployments:
 
-    environment:
-      - SECURITY_CONTEXT_FS_GROUP=999
-      - SECURITY_CONTEXT_USER_ID=999
-      - SECURITY_CONTEXT_GROUP_ID=999
-      - POSTGRES_DB={{ $var.dbName }}
-      - POSTGRES_USER={{ $var.dbUser }}
-      - POSTGRES_PASSWORD={{ $var.dbPassword }}
-      - PGDATA=/var/lib/postgresql/data/pgdata
+```yaml
+environment:
+  - SECURITY_CONTEXT_FS_GROUP=999
+  - SECURITY_CONTEXT_USER_ID=999
+  - SECURITY_CONTEXT_GROUP_ID=999
+  - POSTGRES_DB={{ $var.dbName }}
+  - POSTGRES_USER={{ $var.dbUser }}
+  - POSTGRES_PASSWORD={{ $var.dbPassword }}
+  - PGDATA=/var/lib/postgresql/data/pgdata
+```
 
 Now - if you want to add auto-scaling including auto-stop to the Redis service:
 
-    x-omnistrate-capabilities:
-      autoscaling:
-        maxReplicas: 1
-        minReplicas: 1
-        idleMinutesBeforeScalingDown: 20
-        idleThreshold: 1
-        overUtilizedMinutesBeforeScalingUp: 3
-        overUtilizedThreshold: 80
-        enableMultiZone: true
-        serverlessConfiguration:
-          enableAutoStop: true
-          minimumNodesInPool: 1
-          targetPort: 6379
+```yaml
+x-omnistrate-capabilities:
+  autoscaling:
+    maxReplicas: 1
+    minReplicas: 1
+    idleMinutesBeforeScalingDown: 20
+    idleThreshold: 1
+    overUtilizedMinutesBeforeScalingUp: 3
+    overUtilizedThreshold: 80
+    enableMultiZone: true
+    serverlessConfiguration:
+      enableAutoStop: true
+      minimumNodesInPool: 1
+      targetPort: 6379
+```
 
 Or, you want to enable instrumentation:
 
-    x-customer-integrations:
-      - omnistrateLogging
-      - omnistrateMetrics
+```yaml
+x-customer-integrations:
+  - omnistrateLogging
+  - omnistrateMetrics
+```
 
 In the same way, you can add other capabilities:
 

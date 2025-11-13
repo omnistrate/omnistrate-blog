@@ -35,7 +35,9 @@ To get started with KEDA, you will need to have a Kubernetes cluster up and runn
 
 To install KEDA on your Kubernetes cluster, you can use the following command:
 
-    kubectl apply -f https://github.com/kedacore/keda/releases/download/v2.0.0/keda-2.0.0.yaml
+```
+kubectl apply -f https://github.com/kedacore/keda/releases/download/v2.0.0/keda-2.0.0.yaml
+```
 
 This will download the KEDA YAML file and apply it to your Kubernetes cluster.
 
@@ -43,32 +45,34 @@ This will download the KEDA YAML file and apply it to your Kubernetes cluster.
 
 Next, you will need to create a Kubernetes deployment that includes the KEDA scaler. For this example, we will use a simple Java application that generates events.
 
-    apiVersion: apps/v1
-    kind: Deployment
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: java-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: java-app
+  template:
     metadata:
-      name: java-deployment
+      labels:
+        app: java-app
     spec:
-      replicas: 1
-      selector:
-        matchLabels:
-          app: java-app
-      template:
-        metadata:
-          labels:
-            app: java-app
-        spec:
-          containers:
-          - name: java-container
-            image: your-java-image
-            ports:
-            - containerPort: 8080
-          - name: keda-container
-            image: kedacore/keda:latest
-            env:
-            - name: KEDA_ENABLED
-              value: "true"
-            - name: KEDA_TARGET_SIZE
-              value: "5"
+      containers:
+      - name: java-container
+        image: your-java-image
+        ports:
+        - containerPort: 8080
+      - name: keda-container
+        image: kedacore/keda:latest
+        env:
+        - name: KEDA_ENABLED
+          value: "true"
+        - name: KEDA_TARGET_SIZE
+          value: "5"
+```
 
 In this deployment, we have added a container that includes the KEDA scaler. We have also set the KEDA_TARGET_SIZE environment variable to 5, which means that KEDA will scale up our deployment to a maximum of 5 replicas when events are generated.
 
@@ -76,16 +80,18 @@ In this deployment, we have added a container that includes the KEDA scaler. We 
 
 Next, you will need to create a KEDA trigger that specifies the event source for your application. For this example, we will use an Azure Queue as our event source.
 
-    apiVersion: keda.k8s.io/v1alpha1
-    kind: AzureQueueTrigger
-    metadata:
-      name: azure-queue-trigger
-    spec:
-      storageConnectionString: YOUR_STORAGE_ACCOUNT_CONNECTION_STRING
-      queueName: YOUR_QUEUE_NAME
-      pollingInterval: 5
-      authentication:
-        type: ConnectionString
+```
+apiVersion: keda.k8s.io/v1alpha1
+kind: AzureQueueTrigger
+metadata:
+  name: azure-queue-trigger
+spec:
+  storageConnectionString: YOUR_STORAGE_ACCOUNT_CONNECTION_STRING
+  queueName: YOUR_QUEUE_NAME
+  pollingInterval: 5
+  authentication:
+    type: ConnectionString
+```
 
 This trigger specifies the storage account connection string and the queue name that will be used as the event source for our application. We have also set the polling interval to 5 seconds, which means that KEDA will check for new events every 5 seconds.
 
@@ -93,8 +99,10 @@ This trigger specifies the storage account connection string and the queue name 
 
 Once you have created the deployment and trigger YAML files, you can deploy them to your Kubernetes cluster using the following command:
 
-    kubectl apply -f deployment.yaml
-    kubectl apply -f trigger.yaml
+```
+kubectl apply -f deployment.yaml
+kubectl apply -f trigger.yaml
+```
 
 This will create the Kubernetes deployment and KEDA trigger in your cluster.
 
@@ -102,38 +110,40 @@ This will create the Kubernetes deployment and KEDA trigger in your cluster.
 
 Finally, you can generate events to test your application and KEDA scaler. For this example, we will use a simple Golang program that sends messages to our Azure Queue.
 
-    package main
-    
-    import (
-     "context"
-     "fmt"
-     "time"
-    
-     "github.com/Azure/azure-sdk-for-go/storage"
-    )
-    
-    func main() {
-     accountName := "YOUR_STORAGE_ACCOUNT_NAME"
-     accountKey := "YOUR_STORAGE_ACCOUNT_KEY"
-     queueName := "YOUR_QUEUE_NAME"
-    
-     connString := fmt.Sprintf("DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s;EndpointSuffix=core.windows.net", accountName, accountKey)
-    
-     client, err := storage.NewQueueClient(connString, queueName)
-     if err != nil {
-      panic(err)
-     }
-    
-     for i := 0; i < 10; i++ {
-      message := fmt.Sprintf("Message %d", i)
-      err = client.PutMessage(context.Background(), message, time.Minute*5, time.Minute*5)
-      if err != nil {
-       panic(err)
-      }
-      fmt.Printf("Sent message: %s\n", message)
-      time.Sleep(time. Second)
-     }
-    }
+```
+package main
+
+import (
+ "context"
+ "fmt"
+ "time"
+
+ "github.com/Azure/azure-sdk-for-go/storage"
+)
+
+func main() {
+ accountName := "YOUR_STORAGE_ACCOUNT_NAME"
+ accountKey := "YOUR_STORAGE_ACCOUNT_KEY"
+ queueName := "YOUR_QUEUE_NAME"
+
+ connString := fmt.Sprintf("DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s;EndpointSuffix=core.windows.net", accountName, accountKey)
+
+ client, err := storage.NewQueueClient(connString, queueName)
+ if err != nil {
+  panic(err)
+ }
+
+ for i := 0; i < 10; i++ {
+  message := fmt.Sprintf("Message %d", i)
+  err = client.PutMessage(context.Background(), message, time.Minute*5, time.Minute*5)
+  if err != nil {
+   panic(err)
+  }
+  fmt.Printf("Sent message: %s\n", message)
+  time.Sleep(time. Second)
+ }
+}
+```
 
 In this Golang program, we are using the Azure SDK for Go to send messages to our Azure Queue. We are sending 10 messages with a delay of 1 second between each message.
 
@@ -141,7 +151,9 @@ In this Golang program, we are using the Azure SDK for Go to send messages to ou
 
 Once you have generated some events, you can check the scaling of your Kubernetes deployment by running the following command:
 
-    kubectl get deployment java-deployment
+```
+kubectl get deployment java-deployment
+```
 
 This will show you the current number of replicas for your deployment. You should see that KEDA has scaled up your deployment to handle the increased workload.
 
