@@ -167,7 +167,7 @@ Omnistrate fundamentally changes this equation by providing cell-based architect
 
 SaaS Products created using Omnistrate's are ready to evolve to a multi-cell architecture. Omnistrete is designed around distributed deployment models that naturally support cellular patterns:
 
-```
+```yaml
 # Enable custom deployment cell placement
 x-omnistrate-service-plan:
   features:
@@ -200,7 +200,7 @@ Consider how you might implement a PostgreSQL SaaS with cellular architecture us
 ### **Master-Replica Architecture**
 
 
-```
+```yaml
 services:
   Master:
     image: 'omnistrate/pgvector:c227409'
@@ -222,7 +222,7 @@ services:
 ### **Cellular Deployment Control**
 
  
-```
+```yaml
 x-omnistrate-service-plan:
   features:
     CUSTOM_DEPLOYMENT_CELL_PLACEMENT:
@@ -241,7 +241,7 @@ This configuration provides the same architectural benefits that Neon implemente
 
 Begin with Omnistrate's basic tenancy models and add cellular features as you grow:
 
-```
+```yaml
 # Start with multi-tenancy
 x-omnistrate-service-plan:
   tenancyType: 'OMNISTRATE_MULTI_TENANCY'

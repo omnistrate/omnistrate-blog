@@ -23,24 +23,24 @@ In talks with current and prospective customers, we noticed that many organizati
 
 The Serverless Framework allows users to define their AWS serverless applications using declarative YAML definitions:
 
-```
-        service: users
-        functions: # Your "Functions"
-          usersCreate:
-            events: # The "Events" that trigger this function
-              - httpApi: 'POST /users/create'
-          usersDelete:
-            events:
-              - httpApi: 'DELETE /users/delete'
-        resources: # The "Resources" your "Functions" use. Raw AWS CloudFormation goes in here.
+```yaml
+service: users
+functions: # Your "Functions"
+  usersCreate:
+    events: # The "Events" that trigger this function
+      - httpApi: 'POST /users/create'
+  usersDelete:
+    events:
+      - httpApi: 'DELETE /users/delete'
+resources: # The "Resources" your "Functions" use. Raw AWS CloudFormation goes in here.
 ```
 
 
 These definitions are then automatically translated into CloudFormation templates and deployed, updated, or destroyed using their CLI:
 
 
-```
-  serverless deploy --config my_serverless_application.yaml
+```bash
+serverless deploy --config my_serverless_application.yaml
 ```
 
 
@@ -62,7 +62,7 @@ The first service leverages Omnistrate's Job controller framework to manage the 
 
 The `omnistrate-ctl build-from-repo` command will package this image and upload it to GitHub Container Registry as part of the service build process:
 
-```
+```bash
 omctl build-from-repo -f spec-serverless-job.yaml --service-name 'Serverless Deployer'
 ```
 
@@ -73,7 +73,7 @@ The second service provides an example of how to build out your SaaS offering wi
 This service can be built using the following command:
 
 
-```
+```bash
 omctl build -f spec-terraform.yaml --name 'Serverless Terraform' --release-as-preferred --spec-type ServicePlanSpec
 ```
 
@@ -82,7 +82,7 @@ omctl build -f spec-terraform.yaml --name 'Serverless Terraform' --release-as-pr
 
 Once both services have been created, we can chain them together using Omnistrate's service orchestration mechanism. The `/orchestration` directory of the repository contains these definitions. To create an instance end-to-end, fill in the template variables in `orchestration/create.yaml` and then run:
 
-```
+```bash
 omnistrate-ctl services-orchestration create --dsl-file orchestration/create.yaml
 ```
 

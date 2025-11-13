@@ -25,7 +25,7 @@ This is Part 2 of our 3-part blog series on the realities of building and scalin
 
 Here is a step-by-step guide of achieving the above, starting with creating a VPC:
 
-```
+```terraform
 data "aws_availability_zones" "available" {}
 
 resource "aws_vpc" "main" {
@@ -38,7 +38,7 @@ resource "aws_vpc" "main" {
 
 Create subnets inside the main-vpc:
 
-```
+```terraform
 resource "aws_subnet" "public_subnet" {
     count                   = 2
     vpc_id                  = aws_vpc.main.id
@@ -52,7 +52,7 @@ resource "aws_subnet" "public_subnet" {
 
 Add an internet gateway:
 
-```
+```terraform
 resource "aws_internet_gateway" "main" {
     vpc_id = aws_vpc.main.id
 
@@ -64,7 +64,7 @@ resource "aws_internet_gateway" "main" {
 
 Add route table entries and associate them with the subnets:
 
-```
+```terraform
 resource "aws_route_table" "public" {
     vpc_id = aws_vpc.main.id
 
@@ -84,7 +84,7 @@ resource "aws_route_table_association" "a" {
 
 Create a cluster role:
 
-```
+```terraform
 resource "aws_iam_role" "eks_cluster_role" {
     name = "eks-role"
 
@@ -103,7 +103,7 @@ resource "aws_iam_role_policy_attachment" "eks_cluster_role_attachment" {
 
 Create a node role:
 
-```
+```terraform
 resource "aws_iam_role" "eks_node_role" {
     name = "eks-node-role"
 
@@ -125,7 +125,7 @@ resource "aws_iam_role_policy_attachment" "eks_role_attachment" {
 
 Create the EKS cluster and the EKS node group:
 
-```
+```terraform
 resource "aws_eks_cluster" "main" {
     name = "main-eks-cluster"
 
@@ -170,7 +170,7 @@ This is a basic setup suitable for a school project. However, modern SaaS compan
 
 And that's just the foundational cloud layer. Now, we still need to set up Argo CD for continuous deployments:
 
-```
+```terraform
 provider "helm" {
     kubernetes {
         config_path = "~/.kube/config"
@@ -194,7 +194,7 @@ resource "helm_release" "argocd" {
 
 Next, let's build a basic Redis SaaS using the Redis Helm chart (alternatively, Redis Operator or Kustomize charts could be used).
 
-```
+```yaml
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
@@ -240,7 +240,7 @@ spec:
 
 Finally, register the EKS cluster with Argo CD and validate everything:
 
-```
+```bash
 # Register EKS Cluster with Argo CD
 aws eks update-kubeconfig --name <your-cluster-name>
 argocd cluster add <your-kube-context>
@@ -255,7 +255,7 @@ kubectl get svc -n redis
 
 Then, you have to setup a DNS hosted zone
 
-```
+```terraform
 resource "aws_route53_zone" "main" {
     name = "example.com"
 }

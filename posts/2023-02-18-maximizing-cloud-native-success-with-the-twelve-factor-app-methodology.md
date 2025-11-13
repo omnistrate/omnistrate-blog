@@ -55,14 +55,14 @@ Now we’ll take a closer look at the Twelve-Factor App methodology and how it c
 
 The codebase should be stored in version control, with a single codebase per application. For example, you might use Git to store your codebase in version control:
 
-```
+```bash
 $ git clone https://github.com/acme-inc/my-app.git
 ```
 
 **2. Dependencies:**
 
 All dependencies should be declared and isolated in a separate environment, using tools such as package managers and containerization. For example, you might use a tool like npm to declare and manage your dependencies in a package.json file:
-```
+```json
 {
   "dependencies": {
     "express": "^4.17.1",
@@ -73,7 +73,7 @@ All dependencies should be declared and isolated in a separate environment, usin
 
 You might also use a tool like Docker to containerize your application and its dependencies:
 
-```
+```dockerfile
 FROM node:14
 COPY . .
 RUN npm install
@@ -86,13 +86,13 @@ Configuration should be stored in the environment, rather than in the codebase.
 
 For example, you might use environment variables to store configuration values, such as database credentials or API keys:
 
-```
+```bash
 MONGODB_URI=mongodb://user:password@localhost:27017/my-app
 ```
 
 You can then access these environment variables in your code using a tool like dotenv:
 
-```
+```js
 const dotenv = require('dotenv');
 dotenv.config();
 const mongodbUri = process.env.MONGODB_URI;
@@ -102,7 +102,7 @@ const mongodbUri = process.env.MONGODB_URI;
 
 The application should be designed to be decoupled from backing services, such as databases and message queues, so that they can be swapped out or scaled independently. For example, you might use an abstractions layer to decouple your application from a specific database implementation:
 
-```
+```js
 const database = require('database-abstraction-layer');
 
 async function createUser(user) {
@@ -141,7 +141,7 @@ pipeline {
 
 The application should be designed as a set of stateless processes that can be horizontally scaled. For example, you might use a tool like Node.js to build your application as a set of stateless processes:
 
-```
+```js
 const http = require('http');
 
 const server = http.createServer((req, res) => {
@@ -157,7 +157,7 @@ server.listen(3000, () => {
 
 The application should be self-contained and should expose its functionality through a set of well-defined interfaces, such as APIs or message queues. For example, you might use a tool like Express to define a set of APIs for your application:
 
-```
+```js
 const express = require('express');
 const app = express();
 
@@ -175,7 +175,7 @@ app.listen(3000, () => {
 
 The application should be designed to scale out horizontally, rather than relying on a single, monolithic process. For example, you might use a tool like Kubernetes to manage a fleet of replicas of your application:
 
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -204,7 +204,7 @@ The application should be designed to be started and stopped quickly, allowing f
 
 For example, you might design your application to start up quickly and shut down gracefully, using a tool like graceful-shutdown:
 
-```
+```js
 const gracefulShutdown = require('graceful-shutdown');
 
 const server = app.listen(3000, () => {

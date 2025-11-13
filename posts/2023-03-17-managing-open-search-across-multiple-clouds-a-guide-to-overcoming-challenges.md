@@ -32,7 +32,7 @@ Now, let's dive into some code examples to help you overcome these challenges.
 
 To manage different API endpoints across multiple cloud providers, you can use a simple configuration file that maps each provider's API endpoint to a standard name. Here's an example in Python:
 
-```
+```py
 api_endpoints = {
   'aws': 'https://search-cluster.aws-region.es.amazonaws.com',
   'azure': 'https://my-search-service.search.azure.com',
@@ -43,7 +43,7 @@ api_endpoints = {
 
 With this configuration file in place, you can easily switch between cloud providers by referencing the standard name:
 
-```
+```py
 import requests
 
 api_endpoint = api_endpoints['aws']
@@ -56,7 +56,7 @@ To ensure high availability and fault tolerance across all cloud providers, you 
 
 In addition, you'll want to set up failover mechanisms that automatically route traffic to a secondary cluster in case of a primary cluster failure. You can use DNS-based failover or health checks to achieve this. Here's an example in AWS Route 53:
 
-```
+```py
 primary_endpoint = 'https://search-cluster-1.aws-region.es.amazonaws.com'
 secondary_endpoint = 'https://search-cluster-2.aws-region.es.amazonaws.com'
 

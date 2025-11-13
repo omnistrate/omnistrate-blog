@@ -35,7 +35,7 @@ To get started with KEDA, you will need to have a Kubernetes cluster up and runn
 
 To install KEDA on your Kubernetes cluster, you can use the following command:
 
-```
+```bash
 kubectl apply -f https://github.com/kedacore/keda/releases/download/v2.0.0/keda-2.0.0.yaml
 ```
 
@@ -45,7 +45,7 @@ This will download the KEDA YAML file and apply it to your Kubernetes cluster.
 
 Next, you will need to create a Kubernetes deployment that includes the KEDA scaler. For this example, we will use a simple Java application that generates events.
 
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -80,7 +80,7 @@ In this deployment, we have added a container that includes the KEDA scaler. We 
 
 Next, you will need to create a KEDA trigger that specifies the event source for your application. For this example, we will use an Azure Queue as our event source.
 
-```
+```yaml
 apiVersion: keda.k8s.io/v1alpha1
 kind: AzureQueueTrigger
 metadata:
@@ -99,7 +99,7 @@ This trigger specifies the storage account connection string and the queue name 
 
 Once you have created the deployment and trigger YAML files, you can deploy them to your Kubernetes cluster using the following command:
 
-```
+```bash
 kubectl apply -f deployment.yaml
 kubectl apply -f trigger.yaml
 ```
@@ -151,7 +151,7 @@ In this Golang program, we are using the Azure SDK for Go to send messages to ou
 
 Once you have generated some events, you can check the scaling of your Kubernetes deployment by running the following command:
 
-```
+```bash
 kubectl get deployment java-deployment
 ```
 

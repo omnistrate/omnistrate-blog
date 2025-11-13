@@ -11,6 +11,7 @@ export const PostBody: React.FC<PostBodyProps> = ({ content }) => {
   return (
     <div className="max-w-5xl mx-auto pt-6">
       <article
+      // Some of the Styling for Code Blocks comes from global.css
         className="prose prose-sm md:prose-lg max-w-none
                    prose-a:no-underline prose-a:text-blue-600 prose-a:hover:underline prose-hr:hidden
                    prose-img:mx-auto"

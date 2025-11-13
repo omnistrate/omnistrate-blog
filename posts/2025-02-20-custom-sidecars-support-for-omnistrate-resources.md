@@ -42,22 +42,22 @@ Adding a sidecar is simple. Just define the configuration, including image, reso
 
 **Example Input to Enable a Sidecar:** 
 
-```
+```yaml
 x-omnistrate-capabilities:
-    sidecars:
-        otel:
-            imageNameWithTag: "otel/opentelemetry-collector-contrib:0.116.1"
-            command:
-                - "/otelcol-contrib"
-                - "--config"
-                - "/mnt/otel-config.yaml"
-            resourceLimits:
-                cpu: "250m"
-                memory: "256Mi"
-            securityContext:
-                runAsUser: 10001
-                runAsGroup: 0
-                runAsNonRoot: true
+  sidecars:
+    otel:
+      imageNameWithTag: "otel/opentelemetry-collector-contrib:0.116.1"
+      command:
+        - "/otelcol-contrib"
+        - "--config"
+        - "/mnt/otel-config.yaml"
+      resourceLimits:
+        cpu: "250m"
+        memory: "256Mi"
+      securityContext:
+        runAsUser: 10001
+        runAsGroup: 0
+        runAsNonRoot: true
 ```
 
 

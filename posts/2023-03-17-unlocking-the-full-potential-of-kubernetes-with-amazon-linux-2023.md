@@ -27,13 +27,13 @@ In this blog post, we will discuss how Amazon Linux 2023 can help you unlock the
 
 Amazon Linux 2023 includes SELinux (Security-Enhanced Linux), which is a security mechanism that provides an extra layer of protection for the Linux kernel. SELinux is enabled by default on Amazon Linux 2023, and it can help you secure your Kubernetes cluster by enforcing strict policies that prevent unauthorized access and ensure that only trusted applications can run on your system. Here's an example of how to enable SELinux on Amazon Linux 2023:
 
-```
+```bash
 sudo setenforce 1
 ```
 
 Here's an example of how to use SELinux with Kubernetes:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:
@@ -54,7 +54,7 @@ spec:
 
 Amazon Linux 2023 also includes Cgroup v2, which is a new version of the control group subsystem in the Linux kernel. Cgroup v2 provides better performance and scalability for containerized workloads, making it an ideal choice for running Kubernetes clusters. Here's an example of how to enable Cgroup v2 on Amazon Linux 2023:
 
-```
+```bash
 sudo mount -t cgroup2 none /sys/fs/cgroup
 ```
 
@@ -67,7 +67,7 @@ Amazon Linux 2023 uses systemd as its init system, which provides a powerful pla
 
 Amazon Linux 2023 offers several optimizations that can help you achieve faster container startup times. One such optimization is the use of the "firecracker" hypervisor. Firecracker is a lightweight hypervisor that can launch microVMs in a fraction of a second, enabling faster container startup times. Here's an example of how to use firecracker with Kubernetes:
 
-```
+```yaml
 apiVersion: v1
 kind: Pod
 metadata:

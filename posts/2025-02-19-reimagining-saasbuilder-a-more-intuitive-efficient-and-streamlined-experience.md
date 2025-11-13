@@ -97,7 +97,7 @@ We made significant architectural improvements in SaaSBuilder, focusing on perfo
 
 To eliminate redundant API calls and improve page load times, we adopted App Router alongside a Global Data Provider that efficiently caches and shares the data across all pages for **Service Offerings**, **Subscriptions** and **Subscription Requests**.
 
-```
+```jsx
 export const GlobalDataContext = createContext<Context | undefined>(undefined);
 
 const GlobalDataProvider = ({ children }: { children: React.ReactNode }) => {

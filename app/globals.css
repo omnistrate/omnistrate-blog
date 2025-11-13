@@ -119,3 +119,26 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Ensure syntax highlighting works with prose */
+.prose pre {
+  padding: 1.25rem;
+  overflow-x: auto;
+  background-color: #1e2939;
+  border-radius: 0.5rem;
+}
+
+.prose pre code.hljs {
+  background-color: transparent !important;
+  padding: 0;
+  display: inline-block;
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.prose code:not(pre code) {
+  background-color: #1e2939;
+  padding: 0.2em 0.4em;
+  border-radius: 0.25rem;
+  font-size: 0.875em;
+}
