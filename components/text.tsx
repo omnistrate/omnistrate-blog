@@ -17,13 +17,13 @@ export const TextXL = (props: React.ComponentProps<"p">) => {
 };
 
 export const DisplayLG = (props: React.ComponentProps<"h1">) => {
-  return (
-    <h1 {...props} className={cn("text-3xl sm:text-4xl md:text-5xl font-semibold text-[#181D27]", props.className)} />
-  );
+  return <h1 {...props} className={cn("text-4xl sm:text-5xl font-semibold text-[#181D27]", props.className)} />;
 };
 
-export const DisplayMD = (props: React.ComponentProps<"h2">) => {
-  return (
-    <h1 {...props} className={cn("text-2xl sm:text-3xl md:text-4xl font-semibold text-[#181D27]", props.className)} />
-  );
+export const DisplayMD = (props: React.ComponentProps<"h1">) => {
+  return <h1 {...props} className={cn("text-3xl sm:text-4xl font-semibold text-[#181D27]", props.className)} />;
+};
+
+export const DisplaySM = (props: React.ComponentProps<"h1">) => {
+  return <h1 {...props} className={cn("text-2xl sm:text-3xl font-bold text-[#181D27]", props.className)} />;
 };

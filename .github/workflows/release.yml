@@ -18,7 +18,7 @@ jobs:
 
   deploy-to-prod:
     name: Deploy to Prod
-    needs: deploy-to-prod-shadow
+    needs: deploy-to-dev
     uses: ./.github/workflows/fly-deploy.yml
     secrets: inherit
     with:

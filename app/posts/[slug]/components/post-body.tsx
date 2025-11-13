@@ -1,5 +1,7 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
+import rehypeHighlight from "rehype-highlight";
+import { YouTubeEmbed } from "./youtube-embed";
 
 type PostBodyProps = {
   content: string;
@@ -7,7 +9,7 @@ type PostBodyProps = {
 
 export const PostBody: React.FC<PostBodyProps> = ({ content }) => {
   return (
-    <div className="mt-8">
+    <div className="max-w-5xl mx-auto pt-6">
       <article
         className="prose prose-sm md:prose-lg max-w-none
                    prose-a:no-underline prose-a:text-blue-600 prose-a:hover:underline prose-hr:hidden
@@ -27,12 +29,14 @@ export const PostBody: React.FC<PostBodyProps> = ({ content }) => {
                 {children}
               </a>
             ),
-            h1: ({ children, ...props }) => <h2 {...props}>{children}</h2>
+            h1: ({ children, ...props }) => <h2 {...props}>{children}</h2>,
+            YouTube: ({ videoId }: { videoId: string }) => <YouTubeEmbed videoId={videoId} />
           }}
           options={{
             mdxOptions: {
               remarkPlugins: [remarkGfm],
-              format: "md"
+              rehypePlugins: [rehypeHighlight],
+              format: "mdx"
             }
           }}
         />

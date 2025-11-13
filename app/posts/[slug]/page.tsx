@@ -5,6 +5,7 @@ import { getAllPosts, getPostBySlug } from "@/actions/post";
 import { Container } from "@/app/components/container";
 import { PostHeader } from "./components/post-header";
 import { PostBody } from "./components/post-body";
+import { ScrollToTopButton } from "@/components/scroll-to-top-button";
 
 export const generateMetadata = async ({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> => {
   const { slug } = await params;
@@ -48,9 +49,11 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           category={post.category}
           author={post.author?.name || "Omnistrate Team"}
           date={post.date}
+          tags={post.tags}
         />
         <PostBody content={post.content || ""} />
       </article>
+      <ScrollToTopButton />
     </Container>
   );
 }

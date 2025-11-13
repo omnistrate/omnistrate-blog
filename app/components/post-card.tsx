@@ -18,10 +18,10 @@ const getCategoryDefaultImage = (category: BlogCategory): string => {
     "Partners & Ecosystem": "/images/posts/partners.svg",
     "Customer Stories": "/images/posts/customer-stories.svg",
     "Industry Insights": "/images/posts/industry-insights.svg",
-    "Miscellaneous": "/images/posts/default-cover.svg"
+    Miscellaneous: "/images/posts/default-cover.svg"
   };
 
-  return categoryImages[category] || categoryImages["Miscellaneous"];
+  return categoryImages[category];
 };
 
 export const PostCard: React.FC<PostCardProps> = ({ post }) => {
@@ -29,32 +29,36 @@ export const PostCard: React.FC<PostCardProps> = ({ post }) => {
 
   return (
     <div className="flex flex-col">
-      <Link
-        href={`/posts/${encodeURIComponent(post.slug)}`}
+      <div
         className={cn(
-          "relative h-60 rounded-2xl flex items-center justify-center mb-4 overflow-hidden",
+          "p-1 h-60 rounded-2xl flex items-center justify-center overflow-hidden mb-4",
           post.coverImage && "border border-[#EDEDED]"
         )}
       >
-        {post.coverImage ? (
-          <img
-            src={post.coverImage}
-            alt={post.title}
-            loading="lazy"
-            className="object-contain"
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          />
-        ) : (
-          <Image
-            src={defaultImage}
-            alt={post.title}
-            fill
-            loading="lazy"
-            className="object-contain"
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          />
-        )}
-      </Link>
+        <Link
+          href={`/posts/${encodeURIComponent(post.slug)}`}
+          className="w-full h-full relative flex items-center justify-center overflow-hidden rounded-xl"
+        >
+          {post.coverImage ? (
+            <img
+              src={post.coverImage}
+              alt={post.title}
+              loading="lazy"
+              className="object-contain"
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            />
+          ) : (
+            <Image
+              src={defaultImage}
+              alt={post.title}
+              fill
+              loading="lazy"
+              className="object-contain"
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            />
+          )}
+        </Link>
+      </div>
       <div className="flex-1 flex flex-col">
         <PostChip category={post.category || "Miscellaneous"} readTime={`${post.readTime} min read`} />
 

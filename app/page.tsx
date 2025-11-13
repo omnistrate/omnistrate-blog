@@ -6,7 +6,8 @@ import { PostCard } from "./components/post-card";
 import { SearchBar } from "./components/search-bar";
 import { LoadingState } from "./components/loading-state";
 import postsMetadata from "@/data/posts-metadata.json";
-import { DisplayMD, TextMD, TextXL } from "@/components/text";
+import { DisplayMD, TextMD } from "@/components/text";
+import { ScrollToTopButton } from "@/components/scroll-to-top-button";
 
 const POSTS_PER_PAGE = 24;
 
@@ -70,8 +71,9 @@ function Homepage() {
   return (
     <Container>
       <TextMD className="text-center mb-3 mt-8 md:mt-12 lg:mt-16"></TextMD>
-      <DisplayMD className="text-center mb-6 tracking-tight">Platform Engineering Blog: Architecture, Automation & Scale</DisplayMD>
-      
+      <DisplayMD className="text-center mb-6 tracking-tight">
+        Platform Engineering Blog: Architecture, Automation & Scale
+      </DisplayMD>
 
       <SearchBar ref={searchBarRef} value={searchTerm} onChange={setSearchTerm} />
 
@@ -84,7 +86,7 @@ function Homepage() {
             ))}
           </div>
 
-          {/* Infinite scroll trigger */}
+          {/* Infinite Scroll Trigger */}
           {hasMore && (
             <div ref={loadMoreRef} className="flex justify-center py-8 mb-16">
               <div className="flex items-center gap-2 text-[#535862]">
@@ -97,6 +99,7 @@ function Homepage() {
       ) : (
         <LoadingState message={searchTerm ? `No posts found matching "${searchTerm}"` : "No posts found."} />
       )}
+      <ScrollToTopButton />
     </Container>
   );
 }
