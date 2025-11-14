@@ -61,7 +61,7 @@ const StyledTooltip = styled(({ className, title, open, setOpen, offset = [0, 0]
 
 export const StyledToolbar = styled(Toolbar, {
   shouldForwardProp: (prop) => prop !== "drawerOpen"
-})(({ theme }) => {
+})(() => {
   return {
     maxWidth: 1216 + 64,
     margin: "0 auto",

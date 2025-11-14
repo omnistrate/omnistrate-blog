@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState, useEffect, useRef, useCallback } from "react";
+import { useSearchParams, useRouter } from "next/navigation";
 import { Container } from "./components/container";
 import { PostCard } from "./components/post-card";
 import { SearchBar } from "./components/search-bar";
@@ -23,9 +24,13 @@ const StyledTabTrigger = (props: React.ComponentProps<typeof TabsTrigger>) => (
 function Homepage() {
   const loadMoreRef = useRef<HTMLDivElement>(null);
   const searchBarRef = useRef<HTMLDivElement>(null);
+  const searchParams = useSearchParams();
+  const router = useRouter();
+
+  const initialAuthor = searchParams.get("author") || "all";
 
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedAuthor, setSelectedAuthor] = useState<string>("all");
+  const [selectedAuthor, setSelectedAuthor] = useState<string>(initialAuthor);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [displayCount, setDisplayCount] = useState(POSTS_PER_PAGE);
 
@@ -106,6 +111,19 @@ function Homepage() {
     return Object.keys(authorCount).sort((a, b) => authorCount[b] - authorCount[a]);
   }, []);
 
+  const handleAuthorChange = useCallback(
+    (author: string) => {
+      setSelectedAuthor(author);
+      // Update URL with author query parameter
+      if (author !== "all") {
+        router.push(`/?author=${encodeURIComponent(author)}`);
+      } else {
+        router.push("/");
+      }
+    },
+    [router]
+  );
+
   return (
     <Container>
       <TextMD className="text-center mb-3 mt-8 md:mt-12 lg:mt-16"></TextMD>
@@ -116,7 +134,11 @@ function Homepage() {
       <SearchBar ref={searchBarRef} value={searchTerm} onChange={setSearchTerm} />
 
       <div className="flex flex-col lg:flex-row items-center justify-between gap-x-4 gap-y-6 mb-16">
-        <Tabs value={selectedCategory} onValueChange={setSelectedCategory} className="w-full lg:w-auto overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        <Tabs
+          value={selectedCategory}
+          onValueChange={setSelectedCategory}
+          className="w-full lg:w-auto overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+        >
           <TabsList className="gap-x-2 p-0 border border-[#E9EAEB] bg-[#FAFAFA] rounded-md flex-nowrap w-max">
             <StyledTabTrigger value="all">View all</StyledTabTrigger>
             <StyledTabTrigger value="Industry Insights">Industry Insights</StyledTabTrigger>
@@ -127,7 +149,7 @@ function Homepage() {
           </TabsList>
         </Tabs>
 
-        <Select value={selectedAuthor} onValueChange={setSelectedAuthor}>
+        <Select value={selectedAuthor} onValueChange={handleAuthorChange}>
           <SelectTrigger className="w-full sm:w-[240px] lg:w-[170px]">
             <SelectValue placeholder="Filter by author" />
           </SelectTrigger>
