@@ -7,7 +7,6 @@ import { Button } from "@/components/ui/button";
 type CodeBlockProps = {
   children: React.ReactNode;
   className?: string;
-  [key: string]: any;
 };
 
 export const CodeBlock: React.FC<CodeBlockProps> = ({ children, className, ...props }) => {
@@ -16,14 +15,14 @@ export const CodeBlock: React.FC<CodeBlockProps> = ({ children, className, ...pr
 
   const handleCopy = async () => {
     if (!preRef.current) return;
-    const textToCopy = preRef.current.textContent || '';
+    const textToCopy = preRef.current.textContent || "";
 
     try {
       await navigator.clipboard.writeText(textToCopy);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch (err) {
-      console.error('Failed to copy code:', err);
+      console.error("Failed to copy code:", err);
     }
   };
 

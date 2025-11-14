@@ -9,6 +9,7 @@ import Header from "@/components/header/Header";
 import Footer from "@/components/Footer";
 import { RootProviders } from "@/context/RootProvider";
 import { SITE_URL } from "@/constants/site";
+import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -48,7 +49,9 @@ export default function RootLayout({
       >
         <RootProviders>
           <Header />
-          <main className="flex-1">{children}</main>
+          <main className="flex-1">
+            <Suspense>{children}</Suspense>
+          </main>
           <Footer />
         </RootProviders>
       </body>
