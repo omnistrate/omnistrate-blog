@@ -2,6 +2,7 @@ import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
 import { YouTubeEmbed } from "./youtube-embed";
+import { CodeBlock } from "./code-block";
 
 type PostBodyProps = {
   content: string;
@@ -31,6 +32,7 @@ export const PostBody: React.FC<PostBodyProps> = ({ content }) => {
               </a>
             ),
             h1: ({ children, ...props }) => <h2 {...props}>{children}</h2>,
+            pre: CodeBlock,
             YouTube: ({ videoId }: { videoId: string }) => <YouTubeEmbed videoId={videoId} />
           }}
           options={{

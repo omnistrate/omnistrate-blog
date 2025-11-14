@@ -40,9 +40,13 @@ Here are all the new features we have on the platform this month:
     - Incorporated global status API 🌐
     - Serverless advanced UI to manage your custom proxy resources 🤓
 
-We have [a new getting started video][1] for you!
+We have a new getting started video for you!
 
-MySQL [Serverless Master-Replica SaaS][2] - built in 1 minute?! 🤯
+<YouTube videoId="Hw3XMlVqq9Q" />
+
+MySQL Serverless Master-Replica SaaS - built in 1 minute?! 🤯
+
+<YouTube videoId="fYWr1otnLWY" />
 
 Omnistrate enables you to build, access and **operate your multi-cloud SaaS**, based on your software product, **saving 90% in costs and engineering hours** compared to a DIY solution.
 

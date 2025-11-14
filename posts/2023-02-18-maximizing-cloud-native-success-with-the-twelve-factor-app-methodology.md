@@ -244,7 +244,7 @@ end
 
 The application should emit structured logs, rather than writing to stdout or stderr. For example, you might use a tool like Winston to structure your logs and write them to a file or a centralized logging service:
 
-```
+```js
 const winston = require('winston');
 
 const logger = winston.createLogger({
@@ -263,7 +263,7 @@ logger.info('Hello world');
 
 The application should have a well-defined set of admin processes for tasks such as database migrations and data backups. For example, you might use a tool like Knex to define your database migrations:
 
-```
+```js
 exports.up = function(knex) {
   return knex.schema.createTable('users', (table) => {
     table.increments('id').primary();

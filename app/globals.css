@@ -142,3 +142,14 @@
   border-radius: 0.25rem;
   font-size: 0.875em;
 }
+
+.prose code:not(pre code)::before,
+.prose code:not(pre code)::after {
+  content: none;
+}
+
+p > code {
+  color: #c9d1d9;
+  font-weight: inherit;
+  background-color: #1e2939;
+}
