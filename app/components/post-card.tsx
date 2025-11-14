@@ -40,9 +40,10 @@ export const PostCard: React.FC<PostCardProps> = ({ post }) => {
           className="w-full h-full relative flex items-center justify-center overflow-hidden rounded-xl"
         >
           {post.coverImage ? (
-            <img
+            <Image
               src={post.coverImage}
               alt={post.title}
+              fill
               loading="lazy"
               className="object-contain"
               sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
