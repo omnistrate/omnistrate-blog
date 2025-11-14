@@ -127,13 +127,13 @@ function Homepage() {
   return (
     <Container>
       <TextMD className="text-center mb-3 mt-8 md:mt-12 lg:mt-16"></TextMD>
-      <DisplayMD className="text-center mb-6 tracking-tight">
+      <DisplayMD className="text-center mb-6 tracking-tight font-semibold">
         Platform Engineering Blog: Architecture, Automation & Scale
       </DisplayMD>
 
       <SearchBar ref={searchBarRef} value={searchTerm} onChange={setSearchTerm} />
 
-      <div className="flex flex-col lg:flex-row items-center justify-between gap-x-4 gap-y-6 mb-16">
+      <div className="hidden sm:flex flex-col lg:flex-row items-center justify-between gap-x-4 gap-y-6 mb-6">
         <Tabs
           value={selectedCategory}
           onValueChange={setSelectedCategory}
