@@ -1,18 +1,18 @@
 ---
 title: "Omnistrate’s Journey of Trust Continues - From SOC 2 Type I to Type II \U0001F6E1️✨"
-tags: 'cloud, compliance, security, soc2'
-date: '2023-09-18 00:45:02'
+tags: "cloud, compliance, security, soc2"
+date: "2023-09-18 00:45:02"
 author:
-  name: Omnistrate Team
+  name: Team Omnistrate
   email: founders@omnistrate.com
-  picture: ''
+  picture: ""
 excerpt: >-
   Certification We are back with more exciting news. After our proud
   announcement of achieving the SOC 2 Type I certification, we have now achieved
   another significant milestone by earning the SOC.
 slug: omnistrate-s-journey-of-trust-continues-from-soc-2-type-i-to-type-ii
 readTime: 3
-coverImage: ''
+coverImage: ""
 category: Product Updates
 ---
 
@@ -32,11 +32,11 @@ While our earlier SOC 2 Type I compliance showcased our commitment to implementi
 
 Achieving this certification required a rigorous, in-depth examination of our practices over a set period by external auditors. During this time, Omnistrate persistently emphasized the following
 
- - Security Training - Ensuring all our employees are well-equipped with
-   up-to-date security knowledge. 
- - Robust Cloud Architecture - Offering secure environments with features like unique encryption keys, data
-   isolation, and role-based access controls to guarantee data safety.
- - Continuous Monitoring and Threat Detection - Continuous monitoring,logging, alerts, tests and threat detection on our systems ensuring our clients' data remains protected.
+- Security Training - Ensuring all our employees are well-equipped with
+  up-to-date security knowledge.
+- Robust Cloud Architecture - Offering secure environments with features like unique encryption keys, data
+  isolation, and role-based access controls to guarantee data safety.
+- Continuous Monitoring and Threat Detection - Continuous monitoring,logging, alerts, tests and threat detection on our systems ensuring our clients' data remains protected.
 
 **Our Promise to You**
 
@@ -48,5 +48,4 @@ Our dedication to protecting the safety and security of your data has never been
 
 Your insights and questions are important to us. Whether you're seeking clarity on these certifications, have ideas for improvement, or just want to delve deeper into our services, we're here to chat. Reach out anytime at security@omnistrate.com.
 
-
-  [1]: https://blog.omnistrate.com/posts/26
+[1]: https://blog.omnistrate.com/posts/26

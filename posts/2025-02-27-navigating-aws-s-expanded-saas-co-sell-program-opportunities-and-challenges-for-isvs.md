@@ -77,7 +77,7 @@ Omnistrate simplifies the SaaS control plane and AWS onboarding process so you c
 
 - ✅ Pass FTR Faster – Streamline security & cloud assessments
 - ✅ Build a Stronger ACE Pipeline – Create a free tier to attract and convert qualified leads into your pipeline
-- ✅ Simplify AWS Marketplace Listing – Automate deployments & billing to build your AWS Cloud Offer, and list it in <2 weeks through our Marketplace partners
+- ✅ Simplify AWS Marketplace Listing – Automate deployments & billing to build your AWS Cloud Offer, and list it in &lt;2 weeks through our Marketplace partners
 - ✅ Accelerate GTM with AWS – Focus on co-selling, not compliance headaches
 
 

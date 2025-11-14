@@ -75,103 +75,119 @@ Now, we will see with an example how one can transform their application into a 
 
 Let's start simple and we will extend the offering incrementally. Here is a hello world version of PostgreSQL:
 
-    version: "3"
-    services:
-     Database:
-        image: 'bitnami/postgresql:latest'
-        ports:
-          - 5432:5432
-        volumes:
-          - ./data:/var/lib/postgresql/data
-        environment:
-          - POSTGRESQL_PASSWORD=password
-          - POSTGRESQL_DATABASE=testdb
-          - POSTGRESQL_USERNAME=root
-          - POSTGRESQL_POSTGRES_PASSWORD=rootpassword
-          - POSTGRESQL_PGAUDIT_LOG=READ,WRITE
-          - POSTGRESQL_LOG_HOSTNAME=true
-          - POSTGRESQL_REPLICATION_MODE=master
-          - POSTGRESQL_REPLICATION_USER=repl_user
-          - POSTGRESQL_REPLICATION_PASSWORD=repl_password
-          - POSTGRESQL_DATA_DIR=/var/lib/postgresql/data/dbdata
-          - SECURITY_CONTEXT_USER_ID=1001
-          - SECURITY_CONTEXT_FS_GROUP=1001
-          - SECURITY_CONTEXT_GROUP_ID=0
+```yaml
+version: "3"
+services:
+ Database:
+    image: 'bitnami/postgresql:latest'
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data:/var/lib/postgresql/data
+    environment:
+      - POSTGRESQL_PASSWORD=password
+      - POSTGRESQL_DATABASE=testdb
+      - POSTGRESQL_USERNAME=root
+      - POSTGRESQL_POSTGRES_PASSWORD=rootpassword
+      - POSTGRESQL_PGAUDIT_LOG=READ,WRITE
+      - POSTGRESQL_LOG_HOSTNAME=true
+      - POSTGRESQL_REPLICATION_MODE=master
+      - POSTGRESQL_REPLICATION_USER=repl_user
+      - POSTGRESQL_REPLICATION_PASSWORD=repl_password
+      - POSTGRESQL_DATA_DIR=/var/lib/postgresql/data/dbdata
+      - SECURITY_CONTEXT_USER_ID=1001
+      - SECURITY_CONTEXT_FS_GROUP=1001
+      - SECURITY_CONTEXT_GROUP_ID=0
+```
 
 Let’s say that you want to host this SaaS in your account, just add this:
 
-    x-omnistrate-my-account:
-      AwsAccountId: '123456789012'  
-      AwsBootstrapRoleAccountArn: 'arn:aws:iam::123456789012:role/omnistrate-bootstrap-role'
-      GcpProjectId: 'omnistrate-internal'
-      GcpProjectNumber: '1234567890123' 
-      GcpServiceAccountEmail: 'bootstrap.service@gcp.test.iam'
+```yaml
+x-omnistrate-my-account:
+  AwsAccountId: '123456789012'  
+  AwsBootstrapRoleAccountArn: 'arn:aws:iam::123456789012:role/omnistrate-bootstrap-role'
+  GcpProjectId: 'omnistrate-internal'
+  GcpProjectNumber: '1234567890123' 
+  GcpServiceAccountEmail: 'bootstrap.service@gcp.test.iam'
+```
 
 Now, you want to provide visibility into application metrics and logging:
 
-    x-omnistrate-integrations:
-      - omnistrateLogging
-      - omnistrateMetrics
+```yaml
+x-omnistrate-integrations:
+  - omnistrateLogging
+  - omnistrateMetrics
+```
 
 With AI, your customers also want to use vector support, you can inject custom code at database initialization:
 
-    x-omnistrate-actionhooks:
-      - scope: CLUSTER
-        type: INIT
-        commandTemplate: >
-          PGPASSWORD=rootpassword12345 psql -U postgres
-          -h master testdb -c "create extension vector"
+```yaml
+x-omnistrate-actionhooks:
+  - scope: CLUSTER
+    type: INIT
+    commandTemplate: >
+      PGPASSWORD=rootpassword12345 psql -U postgres
+      -h master testdb -c "create extension vector"
+```
 
 Let’s say you want to allow your users to customize instance type as input from your customers, just add:
 
-    x-omnistrate-api-params:
-      - key: masterInstanceType
-        description: Master Instance Type
-        name: Master Instance Type
-        type: String
-        modifiable: true
-        required: true
-        export: true
-        options:
-        - t4.large
-        - t4.xlarge
-        - t4.2xlarge
+```yaml
+x-omnistrate-api-params:
+  - key: masterInstanceType
+    description: Master Instance Type
+    name: Master Instance Type
+    type: String
+    modifiable: true
+    required: true
+    export: true
+    options:
+    - t4.large
+    - t4.xlarge
+    - t4.2xlarge
+```
 
 But lets say your customers want replica support. We can add a replica service component and add a numReadReplicas API parameter to allow your users to configure the number of read replicas:
 
   Replica:
-    x-omnistrate-compute:
-      replicaCountAPIParam: numReadReplicas
-    x-omnistrate-api-params:
-      - key: numReadReplicas
-        description: Number of Read Replicas
-        name: Number of Read Replicas
-        type: Float64
-        modifiable: true
-        required: true
-        export: true
+```yaml
+x-omnistrate-compute:
+  replicaCountAPIParam: numReadReplicas
+x-omnistrate-api-params:
+  - key: numReadReplicas
+    description: Number of Read Replicas
+    name: Number of Read Replicas
+    type: Float64
+    modifiable: true
+    required: true
+    export: true
+```
 
 Your customers are asking this service to Multi-Zone and auto-scaling with scale down to zero:
 
-    x-omnistrate-capabilities:
-      enableMultiZone: true
-      enableEndpointPerReplica: true
-      autoscaling:
-        maxReplicas: 5
-        minReplicas: 1
-        idleMinutesBeforeScalingDown: 20
-        idleThreshold: 1
-        overUtilizedMinutesBeforeScalingUp: 3
-        overUtilizedThreshold: 80
-      serverlessConfiguration:
-        targetPort: 5432
-        enableAutoStop: true
-        minimumNodesInPool: 5
+```yaml
+x-omnistrate-capabilities:
+  enableMultiZone: true
+  enableEndpointPerReplica: true
+  autoscaling:
+    maxReplicas: 5
+    minReplicas: 1
+    idleMinutesBeforeScalingDown: 20
+    idleThreshold: 1
+    overUtilizedMinutesBeforeScalingUp: 3
+    overUtilizedThreshold: 80
+  serverlessConfiguration:
+    targetPort: 5432
+    enableAutoStop: true
+    minimumNodesInPool: 5
+```
 
 To bill your customers, you have to meter their usage. To enable that, just add:
 
-    x-omnistrate-integrations:
-      - omnistrateMetering
+```yaml
+x-omnistrate-integrations:
+  - omnistrateMetering
+```
 
 Now, you will automatically get patching, monitoring with auto-recovery, alerting, fleet observability, continuous deployment with access control for your teams, automated fleet operations, infrastructure management, security controls and much more out of the box.
 
@@ -179,31 +195,35 @@ As you can see, we took an open-source PostgreSQL software and built a multi-clo
 
 Now, database is one of the components but let’s say you want to add more components to build a complex application. Let’s say you want to build a Wiki SaaS and deploy it in your customers’ account - an application with cache and database dependency. You can model dependencies using depends_on clause like this:
 
-      app:
-        ....
-        image: omnistrate/outline:0.74.0
-        depends_on:
-          - postgres
-          - redis
-    
-      redis:
-        ....
-        image: redis:7.0.12
-    
-      postgres:
-        ....
-        image: postgres:14.8
+```yaml
+  app:
+    ....
+    image: omnistrate/outline:0.74.0
+    depends_on:
+      - postgres
+      - redis
+
+  redis:
+    ....
+    image: redis:7.0.12
+
+  postgres:
+    ....
+    image: postgres:14.8
+```
 
 For full example, please see this: [simple application with multiple components][3]
 
 In case you want to deploy your app in your customers’ account, you can add this block:
 
-    x-omnistrate-byoa:
-      AwsAccountId: 'your-aws-account-id'
-      AwsBootstrapRoleAccountArn: 'arn:aws:iam::your-aws-account-id:role/omnistrate-bootstrap-role'
-      GcpProjectId: 'your-gcp-id'
-      GcpProjectNumber: 'your-project-number'
-      GcpServiceAccountEmail: 'your-gcp-service-email'
+```yaml
+x-omnistrate-byoa:
+  AwsAccountId: 'your-aws-account-id'
+  AwsBootstrapRoleAccountArn: 'arn:aws:iam::your-aws-account-id:role/omnistrate-bootstrap-role'
+  GcpProjectId: 'your-gcp-id'
+  GcpProjectNumber: 'your-project-number'
+  GcpServiceAccountEmail: 'your-gcp-service-email'
+```
 
 For full example on BYOA (Bring Your Own Account), please see this: [BYOA example][4]
 

@@ -65,7 +65,9 @@ GCP provides a Kubernetes Engine service that enables users to easily deploy and
 
 To create a Kubernetes cluster on GCP, you can use the following command:
 
-      gcloud container clusters create [CLUSTER_NAME] - zone [ZONE]
+```bash
+gcloud container clusters create [CLUSTER_NAME] - zone [ZONE]
+```
 
 This will create a cluster with the specified name and zone. You can then create a deployment and service using the usual Kubernetes commands.
 
@@ -76,7 +78,9 @@ Each node in the cluster is assigned a unique IP address from a subnet defined b
 
 To create a Kubernetes cluster on Azure, you can use the following command:
 
-      az aks create - name [CLUSTER_NAME] - resource-group [RESOURCE_GROUP] - node-count [NODE_COUNT] - generate-ssh-keys
+```bash
+az aks create - name [CLUSTER_NAME] - resource-group [RESOURCE_GROUP] - node-count [NODE_COUNT] - generate-ssh-keys
+```
 
 This will create a cluster with the specified name and resource group. You can then create a deployment and service using the usual Kubernetes commands.
 
@@ -86,7 +90,9 @@ AWS provides an Elastic Kubernetes Service (EKS) that enables users to easily de
 
 To create a Kubernetes cluster on AWS, you can use the following command:
 
-      eksctl create cluster - name [CLUSTER_NAME] - region [REGION]
+```bash
+eksctl create cluster - name [CLUSTER_NAME] - region [REGION]
+```
 
 This will create a cluster with the specified name and region. You can then create a deployment and service using the usual Kubernetes commands.
 
@@ -100,50 +106,59 @@ Kubernetes provides a powerful and flexible container orchestration platform tha
 
 1) Create a Kubernetes cluster on GCP using the following command:
 
-        gcloud container clusters create [CLUSTER_NAME] - zone [ZONE]
+```bash
+gcloud container clusters create [CLUSTER_NAME] - zone [ZONE]
+```
 
 2) Deploy a sample application using the following Kubernetes deployment and service definitions:
 
 deployment.yaml:
 
-    apiVersion: apps/v1
-    kind: Deployment
+deployment.yaml:
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sample-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: sample-app
+  template:
     metadata:
-     name: sample-app
+      labels:
+        app: sample-app
     spec:
-     replicas: 3
-     selector:
-     matchLabels:
-     app: sample-app
-     template:
-     metadata:
-     labels:
-     app: sample-app
-     spec:
-     containers:
-     - name: sample-app
-     image: nginx
-     ports:
-     - containerPort: 80
-    service.yaml:
-    
-    apiVersion: v1
-    kind: Service
-    metadata:
-     name: sample-app
-    spec:
-     selector:
-     app: sample-app
-     ports:
-     - name: http
-     port: 80
-     targetPort: 80
-     type: LoadBalancer
+      containers:
+      - name: sample-app
+        image: nginx
+        ports:
+        - containerPort: 80
+```
+
+service.yaml:
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: sample-app
+spec:
+  selector:
+    app: sample-app
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+  type: LoadBalancer
+```
 
 3) Apply the deployment and service definitions using the following commands:
 
-    kubectl apply -f deployment.yaml
-    kubectl apply -f service.yaml
+```bash
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+```
 
 4) Access the application using the external IP address of the load balancer service created in step 3.
 
@@ -152,50 +167,59 @@ deployment.yaml:
 
 1) Create a Kubernetes cluster on Azure using the following command:
 
-          az aks create - name [CLUSTER_NAME] - resource-group [RESOURCE_GROUP] - node-count [NODE_COUNT] - generate-ssh-keys
+```bash
+az aks create - name [CLUSTER_NAME] - resource-group [RESOURCE_GROUP] - node-count [NODE_COUNT] - generate-ssh-keys
+```
 
 2) Deploy a sample application using the following Kubernetes deployment and service definitions:
 
 deployment.yaml:
 
-    apiVersion: apps/v1
-    kind: Deployment
+deployment.yaml:
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sample-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: sample-app
+  template:
     metadata:
-     name: sample-app
+      labels:
+        app: sample-app
     spec:
-     replicas: 3
-     selector:
-     matchLabels:
-     app: sample-app
-     template:
-     metadata:
-     labels:
-     app: sample-app
-     spec:
-     containers:
-     - name: sample-app
-     image: nginx
-     ports:
-     - containerPort: 80
-    service.yaml:
-    
-    apiVersion: v1
-    kind: Service
-    metadata:
-     name: sample-app
-    spec:
-     selector:
-     app: sample-app
-     ports:
-     - name: http
-     port: 80
-     targetPort: 80
-     type: LoadBalancer
+      containers:
+      - name: sample-app
+        image: nginx
+        ports:
+        - containerPort: 80
+```
+
+service.yaml:
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: sample-app
+spec:
+  selector:
+    app: sample-app
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+  type: LoadBalancer
+```
 
 3) Apply the deployment and service definitions using the following commands:
 
-    kubectl apply -f deployment.yaml
-    kubectl apply -f service.yaml
+```bash
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+```
 
 4) Access the application using the external IP address of the load balancer service created in step 3.
 
@@ -203,50 +227,59 @@ deployment.yaml:
 
 1) Create a Kubernetes cluster on AWS using the following command:
 
-          eksctl create cluster - name [CLUSTER_NAME] - region [REGION]
+```bash
+eksctl create cluster - name [CLUSTER_NAME] - region [REGION]
+```
 
 2) Deploy a sample application using the following Kubernetes deployment and service definitions:
 
 deployment.yaml:
 
-    apiVersion: apps/v1
-    kind: Deployment
+deployment.yaml:
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sample-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: sample-app
+  template:
     metadata:
-     name: sample-app
+      labels:
+        app: sample-app
     spec:
-     replicas: 3
-     selector:
-     matchLabels:
-     app: sample-app
-     template:
-     metadata:
-     labels:
-     app: sample-app
-     spec:
-     containers:
-     - name: sample-app
-     image: nginx
-     ports:
-     - containerPort: 80
-    service.yaml:
-    
-    apiVersion: v1
-    kind: Service
-    metadata:
-     name: sample-app
-    spec:
-     selector:
-     app: sample-app
-     ports:
-     - name: http
-     port: 80
-     targetPort: 80
-     type: LoadBalancer
+      containers:
+      - name: sample-app
+        image: nginx
+        ports:
+        - containerPort: 80
+```
+
+service.yaml:
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: sample-app
+spec:
+  selector:
+    app: sample-app
+  ports:
+  - name: http
+    port: 80
+    targetPort: 80
+  type: LoadBalancer
+```
 
 3) Apply the deployment and service definitions using the following commands:
 
-    kubectl apply -f deployment.yaml
-    kubectl apply -f service.yaml
+```bash
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+```
 
 4) Access the application using the external IP address of the load balancer service created in step 3.
 
@@ -269,44 +302,54 @@ Anthos is an application management platform that enables you to manage and depl
 
 3) After enabling Anthos, you need to create a service account with the necessary permissions to connect to the EKS and AKS clusters. You can do this by running the following command:
 
-        gcloud iam service-accounts create [SA-NAME] --display-name [SA-DISPLAY-NAME]
+```bash
+gcloud iam service-accounts create [SA-NAME] --display-name [SA-DISPLAY-NAME]
+```
 
 4) Next, you need to grant the service account the necessary permissions to access the EKS and AKS clusters. You can do this by running the following commands:
 
-        gcloud iam service-accounts add-iam-policy-binding [SA-NAME] \
-          --member="serviceAccount:[PROJECT-ID]@[PROJECT-ID].iam.gserviceaccount.com" \
-          --role="roles/iam.workloadIdentityUser"
-    
-        gcloud projects add-iam-policy-binding [PROJECT-ID] \
-          --member="serviceAccount:[PROJECT-ID]@[PROJECT-ID].iam.gserviceaccount.com" \
-          --role="roles/gkehub.connect"
+```bash
+gcloud iam service-accounts add-iam-policy-binding [SA-NAME] \
+  --member="serviceAccount:[PROJECT-ID]@[PROJECT-ID].iam.gserviceaccount.com" \
+  --role="roles/iam.workloadIdentityUser"
+
+gcloud projects add-iam-policy-binding [PROJECT-ID] \
+  --member="serviceAccount:[PROJECT-ID]@[PROJECT-ID].iam.gserviceaccount.com" \
+  --role="roles/gkehub.connect"
+```
 
 5) Once the necessary permissions are granted, you need to configure workload identity for the GKE cluster. You can do this by following the instructions in the Anthos documentation.
 
 6) After configuring workload identity, you can create a Kubernetes service account in the GKE cluster that can access the EKS and AKS clusters. You can do this by running the following command:
 
-        kubectl create serviceaccount [SA-NAME] - namespace [NAMESPACE]
+```bash
+kubectl create serviceaccount [SA-NAME] - namespace [NAMESPACE]
+```
 
 7) Next, you need to annotate the service account with the necessary information to connect to the EKS and AKS clusters. You can do this by running the following commands:
 
-        kubectl annotate serviceaccount [SA-NAME] \
-          iam.gke.io/gcp-service-account=[SA-NAME]@[PROJECT-ID].iam.gserviceaccount.com \
-          --namespace [NAMESPACE]
-    
-        kubectl annotate serviceaccount [SA-NAME] \
-          iam.gke.io/gcp-external-id=[AWS-ACCOUNT-ID] \
-          --namespace [NAMESPACE]
+```bash
+kubectl annotate serviceaccount [SA-NAME] \
+  iam.gke.io/gcp-service-account=[SA-NAME]@[PROJECT-ID].iam.gserviceaccount.com \
+  --namespace [NAMESPACE]
+
+kubectl annotate serviceaccount [SA-NAME] \
+  iam.gke.io/gcp-external-id=[AWS-ACCOUNT-ID] \
+  --namespace [NAMESPACE]
+```
 
 8) After annotating the service account, you need to create a Kubernetes role and role binding that allows the service account to access the EKS and AKS clusters. You can do this by running the following commands:
 
-        kubectl create clusterrolebinding [RB-NAME] \
-          --clusterrole=cluster-admin \
-          --serviceaccount=[NAMESPACE]:[SA-NAME]
-    
-        kubectl create rolebinding [RB-NAME] \
-          --clusterrole=view \
-          --serviceaccount=[NAMESPACE]:[SA-NAME] \
-          --namespace=kube-system
+```bash
+  kubectl create clusterrolebinding [RB-NAME] \
+    --clusterrole=cluster-admin \
+    --serviceaccount=[NAMESPACE]:[SA-NAME]
+
+  kubectl create rolebinding [RB-NAME] \
+    --clusterrole=view \
+    --serviceaccount=[NAMESPACE]:[SA-NAME] \
+    --namespace=kube-system
+```
 
 9) Once the role and role binding are created, you can install the Anthos Connect Agent on the GKE cluster. You can do this by following the instructions in the Anthos documentation.
 
@@ -316,26 +359,28 @@ Anthos is an application management platform that enables you to manage and depl
 Select the EKS or AKS option and follow the instructions to register the cluster.
 Once the clusters are registered, you can deploy applications across all the clusters using Anthos. You can do this by creating a Kubernetes deployment that targets the GKE, EKS, and AKS clusters. Here’s an example of how to create a deployment that targets all three clusters:
 
-        apiVersion: apps/v1
-        kind: Deployment
-        metadata:
-          name: hello-world
-        spec:
-          replicas: 3
-          selector:
-            matchLabels:
-              app: hello-world
-          template:
-            metadata:
-              labels:
-                app: hello-world
-            spec:
-              containers:
-              - name: hello-world
-                image: gcr.io/google-samples/hello-app:1.0
-              nodeSelector:
-                cloud.google.com/gke-os-distribution: ubuntu
-                beta.kubernetes.io/os: linux
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-world
+  template:
+    metadata:
+      labels:
+        app: hello-world
+    spec:
+      containers:
+      - name: hello-world
+        image: gcr.io/google-samples/hello-app:1.0
+      nodeSelector:
+        cloud.google.com/gke-os-distribution: ubuntu
+        beta.kubernetes.io/os: linux
+```
 
 In this example, the deployment targets all three clusters by using node selectors that match the GKE, EKS, and AKS clusters.
 
@@ -358,12 +403,16 @@ Before we begin, ensure that you have set up EKS, GKE, and AKS clusters. Follow 
 
 To create the federation control plane, first, install kubefed. You can install kubefed using the following command:
 
-    $ kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/kubefed/master/manifests/setup.yaml
-    $ kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/kubefed/master/manifests/kubefed.yaml
+```bash
+$ kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/kubefed/master/manifests/setup.yaml
+$ kubectl apply -f https://raw.githubusercontent.com/kubernetes-sigs/kubefed/master/manifests/kubefed.yaml
+```
 
 Next, create the federation control plane using the following command:
 
-    $ kubefed init federation --host-cluster-context=<EKS_CLUSTER_CONTEXT>
+```bash
+$ kubefed init federation --host-cluster-context=<EKS_CLUSTER_CONTEXT>
+```
 
 Replace **EKS_CLUSTER_CONTEXT** with the context of your EKS cluster.
 
@@ -371,11 +420,13 @@ Replace **EKS_CLUSTER_CONTEXT** with the context of your EKS cluster.
 
 To join the GKE and AKS clusters to the federation, use the following command:
 
-    $ kubectl config use-context <GKE_CLUSTER_CONTEXT>
-    $ kubefed join federation --cluster-context=<GKE_CLUSTER_CONTEXT> --host-cluster-context=<EKS_CLUSTER_CONTEXT> --v=2
+```bash
+$ kubectl config use-context <GKE_CLUSTER_CONTEXT>
+$ kubefed join federation --cluster-context=<GKE_CLUSTER_CONTEXT> --host-cluster-context=<EKS_CLUSTER_CONTEXT> --v=2
 
-    $ kubectl config use-context <AKS_CLUSTER_CONTEXT>
-    $ kubefed join federation --cluster-context=<AKS_CLUSTER_CONTEXT> --host-cluster-context=<EKS_CLUSTER_CONTEXT> --v=2
+$ kubectl config use-context <AKS_CLUSTER_CONTEXT>
+$ kubefed join federation --cluster-context=<AKS_CLUSTER_CONTEXT> --host-cluster-context=<EKS_CLUSTER_CONTEXT> --v=2
+```
 
 Replace **GKE_CLUSTER_CONTEXT** and **AKS_CLUSTER_CONTEXT** with the context of your GKE and AKS clusters.
 
@@ -383,36 +434,42 @@ Replace **GKE_CLUSTER_CONTEXT** and **AKS_CLUSTER_CONTEXT** with the context of 
 
 To deploy an application across clusters, create a Kubernetes deployment manifest file with the following contents:
 
-    apiVersion: apps/v1
-    kind: Deployment
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+spec:
+  selector:
+    matchLabels:
+      app: nginx
+  replicas: 3
+  template:
     metadata:
-      name: nginx
+      labels:
+        app: nginx
     spec:
-      selector:
-        matchLabels:
-          app: nginx
-      replicas: 3
-      template:
-        metadata:
-          labels:
-            app: nginx
-        spec:
-          containers:
-          - name: nginx
-            image: nginx:latest
-            ports:
-            - containerPort: 80
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+```
 
 Save the file and use the following command to deploy the application across clusters:
 
-    $ kubectl apply -f <deployment_manifest_file> --context=<GKE_CLUSTER_CONTEXT>
-    $ kubectl apply -f <deployment_manifest_file> --context=<AKS_CLUSTER_CONTEXT>
+```bash
+$ kubectl apply -f <deployment_manifest_file> --context=<GKE_CLUSTER_CONTEXT>
+$ kubectl apply -f <deployment_manifest_file> --context=<AKS_CLUSTER_CONTEXT>
+```
 
 Replace **deployment_manifest_file** , **GKE_CLUSTER_CONTEXT** , and **AKS_CLUSTER_CONTEXT** with the deployment manifest file path, context of your GKE and AKS clusters.
 
 You can verify that the application is deployed across all clusters using the following command:
 
-    $ kubectl get deployment nginx --all-namespaces
+```bash
+$ kubectl get deployment nginx --all-namespaces
+```
 
 This should show the nginx deployment across all clusters.
 

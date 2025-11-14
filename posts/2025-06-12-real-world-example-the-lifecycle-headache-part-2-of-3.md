@@ -25,114 +25,128 @@ This is Part 2 of our 3-part blog series on the realities of building and scalin
 
 Here is a step-by-step guide of achieving the above, starting with creating a VPC:
 
-    data "aws_availability_zones" "available" {}
+```terraform
+data "aws_availability_zones" "available" {}
 
-    resource "aws_vpc" "main" {
-        cidr_block = "10.0.0.0/16"
-        tags = {
-            Name = "main-vpc"
-        }
+resource "aws_vpc" "main" {
+    cidr_block = "10.0.0.0/16"
+    tags = {
+        Name = "main-vpc"
     }
+}
+```
 
 Create subnets inside the main-vpc:
 
-    resource "aws_subnet" "public_subnet" {
-        count                   = 2
-        vpc_id                  = aws_vpc.main.id
-        …
+```terraform
+resource "aws_subnet" "public_subnet" {
+    count                   = 2
+    vpc_id                  = aws_vpc.main.id
+    …
 
-        tags = {
-            Name = "public-subnet-${count.index}"
-        }
+    tags = {
+        Name = "public-subnet-${count.index}"
     }
+}
+```
 
 Add an internet gateway:
 
-    resource "aws_internet_gateway" "main" {
-        vpc_id = aws_vpc.main.id
+```terraform
+resource "aws_internet_gateway" "main" {
+    vpc_id = aws_vpc.main.id
 
-        tags = {
-            Name = "main-igw"
-        }
+    tags = {
+        Name = "main-igw"
     }
+}
+```
 
 Add route table entries and associate them with the subnets:
 
-    resource "aws_route_table" "public" {
-        vpc_id = aws_vpc.main.id
+```terraform
+resource "aws_route_table" "public" {
+    vpc_id = aws_vpc.main.id
 
-        route {
-            …
-        }
-
-        tags = {
-            Name = "main-route-table"
-        }
-    }
-
-    resource "aws_route_table_association" "a" {
+    route {
         …
     }
+
+    tags = {
+        Name = "main-route-table"
+    }
+}
+
+resource "aws_route_table_association" "a" {
+    …
+}
+```
 
 Create a cluster role:
 
-    resource "aws_iam_role" "eks_cluster_role" {
-        name = "eks-role"
+```terraform
+resource "aws_iam_role" "eks_cluster_role" {
+    name = "eks-role"
 
-        …
+    …
 
-        tags = {
-            Name = "eks-role"
-        }
+    tags = {
+        Name = "eks-role"
     }
+}
 
-    resource "aws_iam_role_policy_attachment" "eks_cluster_role_attachment" {
-        role       = aws_iam_role.eks_cluster_role.name
-        policy_arn = "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"
-    }
+resource "aws_iam_role_policy_attachment" "eks_cluster_role_attachment" {
+    role       = aws_iam_role.eks_cluster_role.name
+    policy_arn = "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"
+}
+```
 
 Create a node role:
 
-    resource "aws_iam_role" "eks_node_role" {
-        name = "eks-node-role"
+```terraform
+resource "aws_iam_role" "eks_node_role" {
+    name = "eks-node-role"
 
-        assume_role_policy = <<EOF
-        …
-        EOF
+    assume_role_policy = <<EOF
+    …
+    EOF
 
-        tags = {
-            Name = "eks-node-role"
-        }
+    tags = {
+        Name = "eks-node-role"
     }
+}
 
-    resource "aws_iam_role_policy_attachment" "eks_role_attachment" {
-        for_each   = toset(local.policies)
-        role       = aws_iam_role.eks_node_role.name
-        policy_arn = each.value
-    }
+resource "aws_iam_role_policy_attachment" "eks_role_attachment" {
+    for_each   = toset(local.policies)
+    role       = aws_iam_role.eks_node_role.name
+    policy_arn = each.value
+}
+```
 
 Create the EKS cluster and the EKS node group:
 
-    resource "aws_eks_cluster" "main" {
-        name = "main-eks-cluster"
+```terraform
+resource "aws_eks_cluster" "main" {
+    name = "main-eks-cluster"
 
-        …
+    …
 
-        tags = {
-            Name = "main-eks-cluster"
-        }
+    tags = {
+        Name = "main-eks-cluster"
     }
+}
 
-    resource "aws_eks_node_group" "main" {
-        cluster_name    = aws_eks_cluster.main.name
-        node_group_name = "main-eks-node-group"
+resource "aws_eks_node_group" "main" {
+    cluster_name    = aws_eks_cluster.main.name
+    node_group_name = "main-eks-node-group"
 
-        …
+    …
 
-        tags = {
-            Name = "main-eks-node-group"
-        }
+    tags = {
+        Name = "main-eks-node-group"
     }
+}
+```
 
 This is a basic setup suitable for a school project. However, modern SaaS companies must address several additional challenges in such a setup
 
@@ -156,104 +170,112 @@ This is a basic setup suitable for a school project. However, modern SaaS compan
 
 And that's just the foundational cloud layer. Now, we still need to set up Argo CD for continuous deployments:
 
-    provider "helm" {
-        kubernetes {
-            config_path = "~/.kube/config"
-        }
+```terraform
+provider "helm" {
+    kubernetes {
+        config_path = "~/.kube/config"
     }
+}
 
-    resource "helm_release" "argocd" {
-        name       = "argocd"
-        repository = "https://argoproj.github.io/argo-helm"
-        chart      = "argo-cd"
-        namespace  = "argocd"
-        create_namespace = true
-        version    = "5.51.6" # Optional: pin to a specific version
+resource "helm_release" "argocd" {
+    name       = "argocd"
+    repository = "https://argoproj.github.io/argo-helm"
+    chart      = "argo-cd"
+    namespace  = "argocd"
+    create_namespace = true
+    version    = "5.51.6" # Optional: pin to a specific version
 
-        values = [
-            file("argocd-values.yaml") # optional customization
-        ]
-    }
+    values = [
+        file("argocd-values.yaml") # optional customization
+    ]
+}
+```
 
 
 Next, let's build a basic Redis SaaS using the Redis Helm chart (alternatively, Redis Operator or Kustomize charts could be used).
 
-    apiVersion: argoproj.io/v1alpha1
-    kind: Application
-    metadata:
-        name: redis
-        namespace: argocd
-    spec:
-        project: default
-        source:
-            repoURL: https://charts.bitnami.com/bitnami
-            chart: redis
-            targetRevision: 18.3.2  # use latest if preferred
-            helm:
-                values: |
-                    architecture: replication
-                    auth:
-                        enabled: false
-                    service:
-                        type: LoadBalancer
-                        port: 6379
-                    master:
-                        persistence:
-                            enabled: true
-                        resources:
-                            limits:
-                                memory: 256Mi
-                    replica:
-                        replicaCount: 2
-                        persistence:
-                            enabled: true
-                        resources:
-                            limits:
-                                memory: 128Mi
-        destination:
-            server: https://kubernetes.default.svc  # use Argo's registered cluster if external
-            namespace: redis
-        syncPolicy:
-            automated:
-                selfHeal: true
-                prune: true
-            syncOptions:
-              - CreateNamespace=true
+```yaml
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+    name: redis
+    namespace: argocd
+spec:
+    project: default
+    source:
+        repoURL: https://charts.bitnami.com/bitnami
+        chart: redis
+        targetRevision: 18.3.2  # use latest if preferred
+        helm:
+            values: |
+                architecture: replication
+                auth:
+                    enabled: false
+                service:
+                    type: LoadBalancer
+                    port: 6379
+                master:
+                    persistence:
+                        enabled: true
+                    resources:
+                        limits:
+                            memory: 256Mi
+                replica:
+                    replicaCount: 2
+                    persistence:
+                        enabled: true
+                    resources:
+                        limits:
+                            memory: 128Mi
+    destination:
+        server: https://kubernetes.default.svc  # use Argo's registered cluster if external
+        namespace: redis
+    syncPolicy:
+        automated:
+            selfHeal: true
+            prune: true
+        syncOptions:
+          - CreateNamespace=true
+```
 
 Finally, register the EKS cluster with Argo CD and validate everything:
 
-    # Register EKS Cluster with Argo CD
-    aws eks update-kubeconfig --name <your-cluster-name>
-    argocd cluster add <your-kube-context>
+```bash
+# Register EKS Cluster with Argo CD
+aws eks update-kubeconfig --name <your-cluster-name>
+argocd cluster add <your-kube-context>
 
-    # Apply the Application
-    kubectl apply -f redis-app.yaml
+# Apply the Application
+kubectl apply -f redis-app.yaml
 
-    # Verify the Deployment
-    kubectl get pods -n redis
-    kubectl get svc -n redis
+# Verify the Deployment
+kubectl get pods -n redis
+kubectl get svc -n redis
+```
 
 Then, you have to setup a DNS hosted zone
 
-    resource "aws_route53_zone" "main" {
-        name = "example.com"
-    }
+```terraform
+resource "aws_route53_zone" "main" {
+    name = "example.com"
+}
 
-    resource "aws_route53_zone" "dev" {
-        name = "dev.example.com"
+resource "aws_route53_zone" "dev" {
+    name = "dev.example.com"
 
-        tags = {
-            Environment = "dev"
-        }
+    tags = {
+        Environment = "dev"
     }
+}
 
-    resource "aws_route53_record" "dev-ns" {
-        zone_id = aws_route53_zone.main.zone_id
-        name    = "dev.example.com"
-        type    = "NS"
-        ttl     = "30"
-        records = aws_route53_zone.dev.name_servers
-    }
+resource "aws_route53_record" "dev-ns" {
+    zone_id = aws_route53_zone.main.zone_id
+    name    = "dev.example.com"
+    type    = "NS"
+    ttl     = "30"
+    records = aws_route53_zone.dev.name_servers
+}
+```
 
 Then, you have to set up a cert-manager for TLS certificate provisioning and rotation. Let’s say we somehow handled that.
 
