@@ -31,7 +31,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post }) => {
     <div className="flex flex-col">
       <div
         className={cn(
-          "p-1 h-60 rounded-2xl flex items-center justify-center overflow-hidden mb-4",
+          "p-1 h-52 sm:h-60 rounded-2xl flex items-center justify-center overflow-hidden mb-4",
           post.coverImage && "border border-[#EDEDED]"
         )}
       >

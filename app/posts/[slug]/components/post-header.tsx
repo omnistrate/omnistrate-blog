@@ -33,13 +33,7 @@ export const PostHeader: React.FC<PostHeaderProps> = ({ title, readTime, categor
       <DisplaySM className="font-bold text-[#181D27] mb-4">{title}</DisplaySM>
 
       <TextXS className="mb-4 font-medium text-[#181D27]">
-        <span className="font-semibold">
-          by{" "}
-          <Link href={`/?author=${encodeURIComponent(author)}`} className="text-blue-600">
-            {author}
-          </Link>
-        </span>{" "}
-        | {formatDate(date)}
+        <span className="font-semibold">by {author}</span> | {formatDate(date)}
       </TextXS>
 
       <div className="pt-3 flex flex-wrap gap-2 border-t border-[#E9EAEB] mb-8">
