@@ -151,8 +151,8 @@ Use Use triple asterisks:
 
 Use three backticks on each side of the code block. Optionally, the language can be added for syntax highlighting when rendered. List of supported languages: [Supported Languages](https://github.com/wooorm/lowlight?tab=readme-ov-file#data)
 
-```md
-\`\`\`yaml
+````md
+```yaml
 x-omnistrate-capabilities:
   sidecars:
     otel:
@@ -168,8 +168,8 @@ x-omnistrate-capabilities:
         runAsUser: 10001
         runAsGroup: 0
         runAsNonRoot: true
-\`\`\`
 ```
+````
 
 **Example:**
 
