@@ -9,7 +9,6 @@ author:
 excerpt: >-
   A business generating 200 billion dollars per year, cannot be ignored. What
   kind of business are we talking about? SaaS.
-slug: a-200-billion-dollar-business-that-you-cannot-ignore
 readTime: 4
 coverImage: ''
 category: Industry Insights

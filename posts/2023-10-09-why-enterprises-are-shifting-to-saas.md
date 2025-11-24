@@ -9,7 +9,6 @@ author:
 excerpt: >-
   In today's fast-paced digital landscape, the way enterprises consume and
   leverage software is undergoing a profound transformation.
-slug: why-enterprises-are-shifting-to-saas
 readTime: 12
 coverImage: /images/posts/why-enterprises-are-shifting-to-saas-1.jpg
 category: Industry Insights

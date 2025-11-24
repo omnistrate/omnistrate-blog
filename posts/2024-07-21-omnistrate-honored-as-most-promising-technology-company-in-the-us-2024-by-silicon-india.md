@@ -12,8 +12,6 @@ excerpt: >-
   Omnistrate, a leading innovator in accelerating SaaS development for
   businesses, is proud to announce that it has been awarded the prestigious
   title of "MOST...
-slug: >-
-  omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india
 readTime: 2
 coverImage: >-
   /images/posts/omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india-1.jpg

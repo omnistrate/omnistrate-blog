@@ -8,7 +8,6 @@ author:
   picture: ''
 excerpt: >-
   Omnistrate now makes it seamless to distribute and install your software in air-gapped or customer-managed environments with the new On-Prem Distribution Channel. This unifies the experience of delivering your product across cloud and on-prem setups—preserving the same automation, security, and lifecycle management everywhere.
-slug: omnistrate-platform-update-september-2025-edition
 readTime: 7
 coverImage: /images/posts/omnistrate-platform-update-august-2025-edition-1.png
 category: Product Updates

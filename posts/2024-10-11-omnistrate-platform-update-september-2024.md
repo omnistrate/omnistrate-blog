@@ -9,7 +9,6 @@ author:
 excerpt: >-
   We’re thrilled to introduce several powerful updates that enhance the
   Omnistrate platform!
-slug: omnistrate-platform-update-september-2024
 readTime: 3
 coverImage: /images/posts/omnistrate-platform-update-september-2024-1.png
 category: Product Updates

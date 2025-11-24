@@ -10,7 +10,6 @@ excerpt: >-
   Software as a Service (SaaS) is a popular and convenient way of delivering
   applications over the internet, without requiring users to install or maintain
   them on their own devices.
-slug: the-future-of-saas-and-kubernetes-trends-and-predictions
 readTime: 4
 coverImage: ''
 category: Industry Insights

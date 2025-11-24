@@ -8,7 +8,6 @@ author:
   picture: ''
 excerpt: >-
   When teams talk about Bring Your Own Cloud (BYOC) enablement, the conversation often gets conflated with tools that only address small slices of the problem. At first glance, platforms like Nuon might appear to help you “run in your customer’s environment,” but what they actually provide is far narrower. 
-slug: why-customers-choose-omnistrate-a-deep-dive-into-the-byoc-landscape
 readTime: 4
 coverImage: ''
 category:  Engineering & Tech

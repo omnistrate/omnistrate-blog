@@ -10,7 +10,6 @@ excerpt: >-
   The Complications and Strategies In the first post of this two-part series, we
   introduced primary topics under the umbrella of cloud platform monitoring and
   went into a bit of detail for how.
-slug: cloud-platform-monitoring-and-auto-recovery-challenges-part-2
 readTime: 11
 coverImage: >-
   /images/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-2-1.jpg

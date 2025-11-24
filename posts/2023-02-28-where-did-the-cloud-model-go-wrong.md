@@ -9,7 +9,6 @@ author:
 excerpt: >-
   In our last post, we talked about the emergence of the Cloud and we feel this
   is where the Cloud model went wrong.
-slug: where-did-the-cloud-model-go-wrong
 readTime: 2
 coverImage: /images/posts/where-did-the-cloud-model-go-wrong-1.jpg
 category: Industry Insights

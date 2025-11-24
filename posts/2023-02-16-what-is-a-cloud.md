@@ -9,7 +9,6 @@ author:
 excerpt: >-
   The term Cloud isn’t a physical entity but is meant to represent the
   infrastructure of the internet.
-slug: what-is-a-cloud
 readTime: 6
 coverImage: /images/posts/what-is-a-cloud-1.jpg
 category: Industry Insights

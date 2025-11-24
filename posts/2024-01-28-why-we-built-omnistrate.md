@@ -10,7 +10,6 @@ excerpt: >-
   We witness the proliferation of SaaS solutions daily — from AI applications
   like Private ChatGPT and infrastructure services like Snowflake, to content
   management systems such as WordPress, and HR...
-slug: why-we-built-omnistrate
 readTime: 4
 coverImage: ''
 category: Engineering & Tech

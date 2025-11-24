@@ -9,7 +9,6 @@ author:
 excerpt: >-
   Kubernetes is a popular open-source platform for managing containerized
   applications across multiple nodes and clusters.
-slug: how-to-achieve-autoscaling-in-multi-cloud-kubernetes-deployments
 readTime: 7
 coverImage: >-
   /images/posts/how-to-achieve-autoscaling-in-multi-cloud-kubernetes-deployments-1.svg

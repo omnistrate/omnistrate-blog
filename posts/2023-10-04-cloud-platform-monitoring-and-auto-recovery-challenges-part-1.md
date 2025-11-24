@@ -10,7 +10,6 @@ excerpt: >-
   Introduction to Cloud Monitoring. Most people who work in platform engineering
   and cloud infrastructure are aware that you need to design both your
   applications and your underlying platform...
-slug: cloud-platform-monitoring-and-auto-recovery-challenges-part-1
 readTime: 10
 coverImage: >-
   /images/posts/cloud-platform-monitoring-and-auto-recovery-challenges-part-1-1.jpg

@@ -9,7 +9,6 @@ author:
 excerpt: >-
   Organizations today face mounting pressure to deliver AI capabilities while
   managing exploding infrastructure costs.
-slug: maximizing-ai-infrastructure-value-through-smart-resource-sharing
 readTime: 5
 coverImage: ''
 category: Engineering & Tech

@@ -9,7 +9,6 @@ author:
 excerpt: >-
   The recent stability issues at Neon provide a compelling case study of what
   happens when products grow beyond their initial architectural assumptions.
-slug: moving-to-cell-based-architecture-lessons-from-neon
 readTime: 6
 coverImage: ''
 category: Engineering & Tech

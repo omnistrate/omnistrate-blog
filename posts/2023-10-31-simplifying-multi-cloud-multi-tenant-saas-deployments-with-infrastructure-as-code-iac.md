@@ -11,8 +11,6 @@ author:
 excerpt: >-
   The cloud landscape has evolved significantly in recent years, moving
   businesses beyond the confines of single cloud providers.
-slug: >-
-  simplifying-multi-cloud-multi-tenant-saas-deployments-with-infrastructure-as-code-iac
 readTime: 7
 coverImage: >-
   /images/posts/simplifying-multi-cloud-multi-tenant-saas-deployments-with-infrastructure-as-code-iac-1.jpg

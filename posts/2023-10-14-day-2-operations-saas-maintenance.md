@@ -10,7 +10,6 @@ excerpt: >-
   In my previous posts, I have covered what it takes to build a SaaS Control
   Plane. In this post, we will cover some of the challenges in operating a SaaS
   service.
-slug: day-2-operations-saas-maintenance
 readTime: 9
 coverImage: ''
 category: Engineering & Tech

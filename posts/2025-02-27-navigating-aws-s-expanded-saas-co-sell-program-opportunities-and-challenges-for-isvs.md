@@ -11,8 +11,6 @@ author:
 excerpt: >-
   AWS has recently expanded its SaaS co-sell benefits, making them available to
   all ISV Accelerate partners, including startups.
-slug: >-
-  navigating-aws-s-expanded-saas-co-sell-program-opportunities-and-challenges-for-isvs
 readTime: 3
 coverImage: ''
 category: Industry Insights

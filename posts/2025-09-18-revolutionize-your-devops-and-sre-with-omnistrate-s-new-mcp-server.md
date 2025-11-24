@@ -10,7 +10,6 @@ excerpt: >-
   Harness the power of natural language to simplify complex cloud operations. We
   are thrilled to announce a new way to interact with the Omnistrate platform:
   native Agentic AI integrations powered by our new server.
-slug: revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server
 readTime: 4
 coverImage: >-
  /images/posts/revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server-2.png

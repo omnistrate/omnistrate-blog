@@ -10,7 +10,6 @@ excerpt: >-
   Speed ​​is an important factor for business in this era when customers are
   looking for instant gratification. If the fact doesn’t convince you, the
   statistics might.
-slug: cloud-native-vs-cloud-agnostic-weighing-the-trade-offs
 readTime: 10
 coverImage: ''
 category: Industry Insights

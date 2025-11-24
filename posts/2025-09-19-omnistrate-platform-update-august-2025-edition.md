@@ -10,7 +10,6 @@ excerpt: >-
   Exciting New Features in Omnistrate Omnistrate MCP tool We're excited to
   introduce the Omnistrate MCP tool, designed to seamlessly connect your
   favorite AI agents with Omnistrate.
-slug: omnistrate-platform-update-august-2025-edition
 readTime: 7
 coverImage: /images/posts/omnistrate-platform-update-august-2025-edition-1.png
 category: Product Updates

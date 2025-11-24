@@ -33,7 +33,6 @@ author:
 excerpt: >-
   A brief description of your blog post. This appears in previews
   and search results. Can span multiple lines.
-slug: your-blog-post-url-slug
 readTime: 5
 coverImage: /images/posts/your-cover-image.png
 category: Category Name

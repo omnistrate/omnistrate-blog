@@ -10,7 +10,6 @@ excerpt: >-
   Service Level Agreements (SLAs), Service Level Indicators (SLIs), and Service
   Level Objectives (SLOs) are critical metrics for measuring the performance and
   reliability of IT services.
-slug: a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres
 readTime: 6
 coverImage: >-
   /images/posts/a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres-1.webp

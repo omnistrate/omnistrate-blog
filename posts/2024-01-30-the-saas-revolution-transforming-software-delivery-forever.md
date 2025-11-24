@@ -9,7 +9,6 @@ author:
 excerpt: >-
   Innovation is the heartbeat of the technology industry, a relentless pursuit
   to deliver greater value and meet evolving customer needs.
-slug: the-saas-revolution-transforming-software-delivery-forever
 readTime: 3
 coverImage: ''
 category: Industry Insights

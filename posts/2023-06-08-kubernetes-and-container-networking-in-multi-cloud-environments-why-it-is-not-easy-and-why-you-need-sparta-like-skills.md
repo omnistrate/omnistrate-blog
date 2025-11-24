@@ -11,8 +11,6 @@ author:
 excerpt: >-
   As the world of technology continues to evolve, containerization has become a
   popular choice for deploying applications.
-slug: >-
-  kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills
 readTime: 13
 coverImage: >-
   /images/posts/kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills-1.webp

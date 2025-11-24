@@ -12,8 +12,6 @@ excerpt: >-
   We are thrilled to announce that Omnistrate, the industry’s leading SaaS
   Control Plane service provider, has successfully completed an external
   penetration..
-slug: >-
-  omnistrate-successfully-achieves-soc-2-type-ii-compliance-and-completes-external-penetration-testing
 readTime: 3
 coverImage: ''
 category: Product Updates

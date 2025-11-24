@@ -1,21 +1,24 @@
-import { MDXRemote } from "next-mdx-remote/rsc";
 import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
-import { YouTubeEmbed } from "./youtube-embed";
-import { CodeBlock } from "./code-block";
+import { MDXRemote } from "next-mdx-remote/rsc";
+
+import { YouTubeEmbed } from "./post-components/youtube-embed";
+import { CodeBlock } from "./post-components/code-block";
+import { cn } from "@/lib/utils";
+import { Post } from "@/types/post";
 
 type PostBodyProps = {
-  content: string;
+  post: Post;
 };
 
-export const PostBody: React.FC<PostBodyProps> = ({ content }) => {
+export const PostBody: React.FC<PostBodyProps> = ({ post }) => {
+  const { content = "" } = post;
+
   return (
     <div className="max-w-5xl mx-auto pt-6">
       <article
-      // Some of the Styling for Code Blocks comes from global.css
-        className="prose prose-sm md:prose-lg max-w-none
-                   prose-a:no-underline prose-a:text-blue-600 prose-a:hover:underline prose-hr:hidden
-                   prose-img:mx-auto"
+        // Some of the Styling for Code Blocks comes from global.css
+        className={cn("prose prose-sm md:prose-lg max-w-none", "prose-hr:hidden prose-img:mx-auto")}
       >
         <MDXRemote
           source={content}

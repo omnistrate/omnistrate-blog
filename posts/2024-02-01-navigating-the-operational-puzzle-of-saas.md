@@ -9,7 +9,6 @@ author:
 excerpt: >-
   Building SaaS is just one part of the challenge. Operating a SaaS is another
   major challenge.
-slug: navigating-the-operational-puzzle-of-saas
 readTime: 2
 coverImage: ''
 category: Industry Insights

@@ -10,7 +10,6 @@ excerpt: >-
   In the world of computing and cloud services, the terms "control plane" and
   “data plane” are increasingly mentioned, even though these are actually older
   terms that originally came about in the...
-slug: introduction-to-control-plane-and-data-plane
 readTime: 5
 coverImage: ''
 category: Engineering & Tech

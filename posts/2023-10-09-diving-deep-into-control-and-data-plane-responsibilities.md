@@ -9,7 +9,6 @@ author:
 excerpt: >-
   Building upon our initial introduction of the control and data planes, this
   post delves deep into the interplay between these two planes.
-slug: diving-deep-into-control-and-data-plane-responsibilities
 readTime: 10
 coverImage: /images/posts/diving-deep-into-control-and-data-plane-responsibilities-1.jpg
 category: Engineering & Tech

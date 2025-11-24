@@ -10,7 +10,6 @@ excerpt: >-
   Omnistrate, Inc., a B2B SaaS company that revolutionizes the way software
   offerings are turned into multi-cloud SaaS services, is pleased to announce
   that it has successfully achieved Service...
-slug: omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust
 readTime: 4
 coverImage: >-
   /images/posts/omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust-1.png

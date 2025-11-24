@@ -7,7 +7,6 @@ author:
   email: joshua@omnistrate.com
   picture: ''
 excerpt: What does it really mean for software to be available as a service?
-slug: saas-capabilities-what-does-it-really-entail
 readTime: 7
 coverImage: ''
 category: Engineering & Tech

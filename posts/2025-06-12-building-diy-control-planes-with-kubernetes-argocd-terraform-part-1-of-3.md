@@ -10,7 +10,6 @@ excerpt: >-
   Modern platform engineering teams often assemble “DIY” control planes for
   their Products using open-source building blocks: Kubernetes for the runtime,
   Terraform for infrastructure provisioning, and..
-slug: building-diy-control-planes-with-kubernetes-argocd-terraform-part-1-of-3
 readTime: 19
 coverImage: >-
   /images/posts/building-diy-control-planes-with-kubernetes-argocd-terraform-part-1-of-3-1.png

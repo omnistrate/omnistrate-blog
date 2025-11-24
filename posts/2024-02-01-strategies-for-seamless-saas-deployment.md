@@ -10,7 +10,6 @@ excerpt: >-
   SaaS provisioning requires tenant account creation, user provisioning,
   figuring out the tenant placement, configuring the tenant, and storing all the
   metadata.
-slug: strategies-for-seamless-saas-deployment
 readTime: 3
 coverImage: ''
 category: Engineering & Tech
