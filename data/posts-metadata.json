@@ -1,21 +1,52 @@
 [
   {
-    "slug": "autoblocks-case-study",
-    "title": "How Autoblocks Expanded Into Regulated Markets with Omnistrate",
-    "date": "2025-11-24 12:00:00",
+    "slug": "experio-solidified-its-ai-first-advantage-with-omnistrate",
+    "title": "6-Month Competitive Lead: Experio Solidified Its AI-First Advantage by Accelerating Multi-Cloud SaaS Launch with Omnistrate",
+    "date": "2025-11-25 12:00:00",
     "author": {
-      "name": "Nihal Mohammed",
-      "email": "nihalm@omnistrate.com",
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
       "picture": ""
     },
-    "excerpt": "Omnistrate now makes it seamless to distribute and install your software in air-gapped or customer-managed environments with the new On-Prem Distribution Channel. This unifies the experience of delivering your product across cloud and on-prem setups—preserving the same automation, security, and lifecycle management everywhere.",
+    "excerpt": "Discover how Experio leveraged Omnistrate's Control Plane as-a-Service to accelerate their transition from pilot to enterprise-ready, multi-cloud SaaS, gaining a 6-month competitive lead while preserving their AI-First advantage.",
     "coverImage": "",
     "tags": [
-      "Cloud",
-      "Platform",
-      "Product-release",
-      "SaaS",
-      "Update"
+      "Case Study"
+    ],
+    "category": "Customer Stories",
+    "type": "Case Study"
+  },
+  {
+    "slug": "why-rox-selected-omnistrate-to-enable-flexible-deployment-and-airgapped-solutions",
+    "title": "Unlocking International Markets: Why Rox Selected Omnistrate to Enable Flexible Deployment and AirGapped Solutions",
+    "date": "2025-11-25 12:00:00",
+    "author": {
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Discover how Rox leveraged Omnistrate's Control Plane as-a-Service to rapidly enter international markets with flexible deployment options, including Dedicated, BYOC, and Air-Gapped solutions, while preserving engineering focus on AI innovation.",
+    "coverImage": "",
+    "tags": [
+      "Case Study"
+    ],
+    "category": "Customer Stories",
+    "type": "Case Study"
+  },
+  {
+    "slug": "from-app-to-enterprise-saas-in-days-perinimble-case-study",
+    "title": "From App to Enterprise SaaS in Days: How an Early-Stage Energy SaaS Company Used Omnistrate to Offer Hosted & BYOC Deployments in Regulated Markets",
+    "date": "2025-11-24 12:00:00",
+    "author": {
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "PeriNimble leveraged Omnistrate's SaaS Control Plane to rapidly launch its PeriGridAI™ platform with both hosted and Bring Your Own Cloud (BYOC) deployment options, enabling secure, compliant access to the energy sector.",
+    "coverImage": "",
+    "tags": [
+      "Case Study",
+      "Energy SaaS"
     ],
     "readTime": 7,
     "category": "Customer Stories",
@@ -817,15 +848,15 @@
   },
   {
     "slug": "why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal",
-    "title": "Why Autoblocks.ai turned to Omnistrate to Launch their AI Development Portal",
+    "title": "Unlocking a $230B Enterprise Opportunity: How an Early-Stage AI Company Expanded into Regulated Markets with Omnistrate",
     "date": "2025-01-29 20:49:38",
     "author": {
       "name": "Michael Cooper",
       "email": "michaelc@omnistrate.com",
       "picture": ""
     },
-    "excerpt": "\"We chose Omnistrate because it empowered us to deliver on our promise to create a safety-first approach to building & managing AI Applications.",
-    "coverImage": "/images/posts/why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal-1.png",
+    "excerpt": "Autoblocks used Omnistrate to evolve from a serverless cloud product into an enterprise-ready SaaS platform, enabling secure, compliant, customer-controlled deployments.",
+    "coverImage": "",
     "tags": [
       "AI",
       "AI-developer",
@@ -835,9 +866,9 @@
       "Omnistrate",
       "SaaS"
     ],
-    "readTime": 4,
+    "readTime": 7,
     "category": "Customer Stories",
-    "type": "Post"
+    "type": "Case Study"
   },
   {
     "slug": "omnistrate-platform-update-december-2024",
@@ -1093,24 +1124,24 @@
   },
   {
     "slug": "aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service",
-    "title": "AWS and Omnistrate partnered to bring FalkorDB Managed Cloud Service",
+    "title": "How FalkorDB Used Omnistrate for a Rapid Multi-Cloud Launch to Enter the $200B GenAI Market",
     "date": "2024-10-01 12:13:56",
     "author": {
-      "name": "Kamal Gupta",
-      "email": "kamal@omnistrate.com",
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
       "picture": ""
     },
-    "excerpt": "“Omnistrate dramatically accelerated our GTM, cutting launch time from months to weeks.",
+    "excerpt": "FalkorDB leveraged Omnistrate's Control Plane-as-a-Service to rapidly launch its GenAI database platform across multiple clouds, enabling secure, compliant deployments and unlocking access to a $200B market.",
     "coverImage": "/images/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service-1.jpg",
     "tags": [
-      "case-study",
+      "Case Study",
       "falkordb",
       "Omnistrate",
       "SaaS"
     ],
-    "readTime": 7,
+    "readTime": 4,
     "category": "Customer Stories",
-    "type": "Post"
+    "type": "Case Study"
   },
   {
     "slug": "omnistrate-platform-update-august-2024",

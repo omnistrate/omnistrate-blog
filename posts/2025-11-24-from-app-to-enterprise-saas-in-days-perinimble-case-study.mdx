@@ -1,0 +1,193 @@
+---
+title: "From App to Enterprise SaaS in Days: How an Early-Stage Energy SaaS Company Used Omnistrate to Offer Hosted & BYOC Deployments in Regulated Markets"
+tags: "Case Study, Energy SaaS"
+date: "2025-11-24 12:00:00"
+author:
+  name: Kristine Newman
+  email: kristinen@omnistrate.com
+  picture: ""
+excerpt: PeriNimble leveraged Omnistrate's SaaS Control Plane to rapidly launch its PeriGridAI™ platform with both hosted and Bring Your Own Cloud (BYOC) deployment options, enabling secure, compliant access to the energy sector.
+readTime: 7
+coverImage: ""
+category: Customer Stories
+type: Case Study
+---
+
+<Section>
+  <SectionHeading>At-a-Glance</SectionHeading>
+  <PointsBox
+    points={[
+      {
+        title: "Company",
+        content:
+          "PeriNimble, an innovative software company building advanced AI solutions for the energy and utilities sector."
+      },
+      {
+        title: "Category",
+        content: "AI-Powered SaaS for Smart Grid Analytics."
+      },
+      {
+        title: "Challenge",
+        content:
+          "PeriNimble needed to sell its PeriGridAI™ platform to the entire energy market, which required offering both a fully hosted SaaS and a customer-controlled Bring Your Own Cloud (BYOC) model to meet strict regulatory and data sovereignty demands."
+      },
+      {
+        title: "Result",
+        content:
+          "By building on Omnistrate's SaaS Control Plane, PeriNimble saved significant time and capital, launching a sophisticated, dual-model enterprise product in days and empowering their team to remain focused on application innovation."
+      }
+    ]}
+  />
+</Section>
+
+<Section>
+  <SectionTopic>The Challenge</SectionTopic>
+  <SectionHeading>A Regulated Market Demanding Deployment Flexibility</SectionHeading>
+  <SectionText>
+    PeriNimble designed PeriGridAI™ to revolutionize how energy providers interact with smart meters, using AI to
+    deliver critical insights for grid reliability, fraud detection, and predictive maintenance.
+    <br />
+    However, the modern utilities market is fragmented. While some customers want a simple, fully-hosted SaaS solution,
+    many larger or regulated utilities have non-negotiable data governance requirements. To succeed, PeriNimble had to
+    meet two distinct distribution challenges from day one:
+  </SectionText>
+  <PointsBox
+    points={[
+      {
+        title: "Strict Data Sovereignty",
+        content:
+          "Regulated utilities required that all sensitive smart meter and customer data remain within their own cloud accounts to comply with regional mandates like GDPR and NERC CIP."
+      },
+      {
+        title: "Accelerated Procurement",
+        content:
+          "Enterprise customers could adopt PeriGridAI™ much faster if it could be deployed directly into their pre-approved cloud environments, avoiding lengthy new-vendor security reviews."
+      },
+      {
+        title: "Engineering Focus",
+        content: (
+          <>
+            Building a platform to support both hosted SaaS and{" "}
+            <GreenLink href="/posts/deep-dive-into-the-on-prem-distribution-landscape-why-omnistrate-is-the-only-comprehensive-platform">
+              BYOC
+            </GreenLink>{" "}
+            deployments would require PeriNimble to build and maintain a complex control plane—a prime example of
+            <b>undifferentiated heavy lifting</b> that would divert critical engineering resources from their core AI application.
+          </>
+        )
+      }
+    ]}
+  />
+  <Testimonial
+    testimonial="At PeriNimble, we are redefining the next generation of Energy and Utilities SaaS software and leveraging Omnistrate has helped us save tons of time and money. Best decision we have made so far."
+    author="Nikhil Gudi"
+    role="CTO, PeriNimble"
+    imageUrl="/images/case-studies/perinimble-case-study-1.jpeg"
+    roundedImage
+  />
+</Section>
+
+<Section shadedbg>
+  <SectionTopic>The Solution</SectionTopic>
+  <SectionHeading>A Unified Control Plane for Any Deployment Model</SectionHeading>
+  <SectionText>
+    Rather than dedicating significant time and capital to
+    [building](/posts/building-diy-control-planes-with-kubernetes-argocd-terraform-part-1-of-3) a distribution platform,
+    PeriNimble made the strategic decision to partner with Omnistrate. They used Omnistrate's [SaaS Control
+    Plane](https://omnistrate.com/control-plane-demystified) as the foundation for PeriGridAI™, allowing them to build
+    their application once and offer it via any delivery model their customers required.
+  </SectionText>
+  <PointsBox
+    points={[
+      {
+        title: "Secure Hosted SaaS",
+        content:
+          "For its standard SaaS offering, PeriGridAI™ runs on a robust, multi-cloud architecture managed by Omnistrate. This provides isolated tenant environments, multi-region failover, continuous deployment, and enterprise-grade compliance from the start."
+      },
+      {
+        title: "Instant BYOC (Bring Your Own Cloud)",
+        content:
+          "The same Omnistrate control plane enables PeriGridAI™ to be deployed directly into a utility's own AWS, Azure, or Google Cloud account. This gives customers full control over their data and infrastructure spend, satisfying all data sovereignty and compliance requirements."
+      },
+      {
+        title: "Zero-Overhead Operations",
+        content:
+          "Omnistrate expertly handles all aspects of the control plane and monitoring. This partnership freed PeriNimble's team from all infrastructure complexity, allowing them to focus entirely on application innovation."
+      }
+    ]}
+  />
+</Section>
+
+<Section>
+  <SectionTopic>The Results</SectionTopic>
+  <SectionHeading>Accelerated Growth and Total Market Access</SectionHeading>
+  <SectionText>
+    The partnership with Omnistrate proved transformative for PeriNimble, enabling them to launch a mature,
+    enterprise-ready platform capable of serving 100% of their target market from day one.
+  </SectionText>
+  <PointsBox
+    points={[
+      {
+        title: "Accelerated Time-to-Market",
+        content: (
+          <>
+            PeriNimble bypassed the complex project of building a custom control plane—a project that,{" "}
+            <b>
+              according to industry reviews, typically requires{" "}
+              <GreenLink href="https://clickhouse.com/blog/building-clickhouse-cloud-from-scratch-in-a-year">
+                12-18 months of upfront engineering effort
+              </GreenLink>{" "}
+              and 20-30% of the constant engineering bandwidth to evolve as you scale
+            </b>
+            . This saved significant time and capital, allowing them to launch their product and secure customers faster.
+          </>
+        )
+      },
+      {
+        title: "Reduced Operational Overhead",
+        content: (
+          <>
+            PeriNimble automated <b>its Day 2 operations</b> by leveraging Omnistrate to manage the complete lifecycle.
+            The platform now handles critical tasks—including deployment, scaling, patching, tenant isolation,
+            monitoring, upgrades, observability, and compliance—allowing their lean team to focus on application design
+            and growth."
+          </>
+        )
+      },
+      {
+        title: "Unlocked the Full Enterprise Market",
+        content:
+          "By offering both hosted and BYOC models, PeriGridAI™ quickly meets the procurement and regulatory needs of any utility, turning data governance from a sales barrier into a competitive advantage."
+      }
+    ]}
+  />
+</Section>
+
+<Section shadedbg>
+  <SectionTopic>Why Omnistrate</SectionTopic>
+  <SectionHeading>Why PeriNimble Selected Omnistrate</SectionHeading>
+  <SectionText>
+    PeriNimble's leadership team recognized that winning in the AI-driven energy market required elite focus. They chose
+    Omnistrate because it was the only solution that abstracted away the entire complexity of software distribution.
+    <br />
+    While PeriNimble's engineers focused on AI-powered load forecasting and anomaly detection, Omnistrate's control
+    plane provided the automated, multi-cloud, and tenant-aware infrastructure needed to securely run those workloads
+    anywhere. The decision was simple and, according to its CTO, the 'best one the company had made'.
+  </SectionText>
+  <Testimonial
+    testimonial={
+      <>
+        Working with Omnistrate has been a game-changer for us... Their team enables our application — where we are
+        redefining the next generation of Energy and Utilities SaaS software — to run seamlessly in a platform- and
+        cloud-agnostic environment by expertly handling all aspects of the control plane and monitoring. This has
+        allowed us to focus on what we do best: staying laser-focused on application design and growth, without getting
+        caught up in infrastructure complexity. Their deep expertise, reliability, and hands-on support have made them
+        an invaluable partner in our growth journey.
+      </>
+    }
+    author="Satish Iyer"
+    role="CEO, PeriNimble"
+    imageUrl="/images/case-studies/perinimble-case-study-2.jpg"
+    roundedImage
+  />
+</Section>

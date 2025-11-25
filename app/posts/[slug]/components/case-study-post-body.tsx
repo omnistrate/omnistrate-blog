@@ -62,18 +62,31 @@ export const CaseStudyPostBody: React.FC<CaseStudyPostBodyProps> = ({ post }) =>
             </TextLG>
           ),
           PointsBox: ({ points }: { points: { title: string; content: React.ReactNode }[] }) => {
+            const isThreeItems = points.length === 3;
+            const isFourItems = points.length === 4;
+
             return (
-              <div className="bg-[#13161B] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 auto-rows-fr border border-[#9AA4B2] shadow-[0_1px_2px_0_#0A0D120D] mt-8">
+              <div
+                className={cn(
+                  "bg-[#13161B] grid grid-cols-1 auto-rows-fr border border-[#9AA4B2] shadow-[0_1px_2px_0_#0A0D120D] mt-8",
+                  isFourItems && "md:grid-cols-2 lg:grid-cols-4",
+                  isThreeItems && "lg:grid-cols-3"
+                )}
+              >
                 {points.map((point, index) => (
                   <div
                     key={index}
                     className={cn(
                       "border-[#9AA4B2]",
-                      index !== 0 && "border-t md:border-t-0",
-                      index % 2 !== 0 && "md:border-l",
-                      points.length > 2 && index < 2 && "md:border-b lg:border-b-0",
-                      points.length === 3 && index >= 1 && "lg:border-l",
-                      points.length === 4 && index % 4 !== 0 && "lg:border-l"
+                      // Common: border-top for all items except first
+                      index !== 0 && "border-t",
+                      // For 4 items: remove border-top on md, add left border for odd items, bottom border for first 2
+                      isFourItems && index !== 0 && "md:border-t-0",
+                      isFourItems && index % 2 !== 0 && "md:border-l",
+                      isFourItems && index < 2 && "md:border-b lg:border-b-0",
+                      isFourItems && index % 4 !== 0 && "lg:border-l",
+                      // For 3 items: remove border-top on lg, add left border for items after first
+                      isThreeItems && index !== 0 && "lg:border-t-0 lg:border-l"
                     )}
                   >
                     <div className="px-4 py-5">
@@ -117,7 +130,7 @@ export const CaseStudyPostBody: React.FC<CaseStudyPostBodyProps> = ({ post }) =>
           }) => (
             <div className="mt-12 md:mt-16 grid grid-cols-1 gap-8 md:gap-0 md:grid-cols-7">
               <div className="flex flex-col justify-center sm:ml-8 lg:ml-16 md:col-span-5 mr-6 sm:mr-12 lg:mr-24 order-2 md:order-1">
-                <DisplayXS className="text-[#181D27] font-medium italic mb-10">"{testimonial}"</DisplayXS>
+                <DisplayXS className="text-[#181D27] font-medium italic mb-10">&quot;{testimonial}&quot;</DisplayXS>
                 <TextLG className="font-semibold text-[#181D27] mb-1">— {author}</TextLG>
                 <TextMD className="font-normal text-[#535862]">{role}</TextMD>
               </div>
