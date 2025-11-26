@@ -14,6 +14,15 @@ import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const POSTS_PER_PAGE = 24;
 
+const CATEGORIES = [
+  { value: "all", label: "View all" },
+  { value: "Industry Insights", label: "Industry Insights" },
+  { value: "Customer Stories", label: "Customer Stories" },
+  { value: "Engineering & Tech", label: "Engineering & Tech" },
+  { value: "Partners & Ecosystem", label: "Partners & Ecosystem" },
+  { value: "Product Updates", label: "Product Updates" }
+];
+
 const StyledTabTrigger = (props: React.ComponentProps<typeof TabsTrigger>) => (
   <TabsTrigger
     {...props}
@@ -133,24 +142,41 @@ function Homepage() {
 
       <SearchBar ref={searchBarRef} value={searchTerm} onChange={setSearchTerm} />
 
-      <div className="hidden sm:flex flex-col lg:flex-row items-center justify-between gap-x-4 gap-y-6 mb-6">
+      <div className="flex flex-row items-stretch lg:items-center justify-between gap-x-4 gap-y-4 lg:gap-y-6 mb-6">
+        {/* Category Select - Mobile Only */}
+        <Select value={selectedCategory} onValueChange={setSelectedCategory}>
+          <SelectTrigger className="flex-1 max-w-[calc(50%-0.5rem)] lg:hidden">
+            <SelectValue placeholder="Filter by category" />
+          </SelectTrigger>
+          <SelectContent className="max-h-[240px]">
+            <SelectGroup>
+              {CATEGORIES.map((category) => (
+                <SelectItem key={category.value} value={category.value}>
+                  {category.label}
+                </SelectItem>
+              ))}
+            </SelectGroup>
+          </SelectContent>
+        </Select>
+
+        {/* Category Tabs - Desktop Only */}
         <Tabs
           value={selectedCategory}
           onValueChange={setSelectedCategory}
-          className="w-full lg:w-auto overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+          className="hidden lg:block lg:w-auto overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
         >
           <TabsList className="gap-x-2 p-0 border border-[#E9EAEB] bg-[#FAFAFA] rounded-md flex-nowrap w-max">
-            <StyledTabTrigger value="all">View all</StyledTabTrigger>
-            <StyledTabTrigger value="Industry Insights">Industry Insights</StyledTabTrigger>
-            <StyledTabTrigger value="Customer Stories">Customer Stories</StyledTabTrigger>
-            <StyledTabTrigger value="Engineering & Tech">Engineering & Tech</StyledTabTrigger>
-            <StyledTabTrigger value="Partners & Ecosystem">Partners & Ecosystem</StyledTabTrigger>
-            <StyledTabTrigger value="Product Updates">Product Updates</StyledTabTrigger>
+            {CATEGORIES.map((category) => (
+              <StyledTabTrigger key={category.value} value={category.value}>
+                {category.label}
+              </StyledTabTrigger>
+            ))}
           </TabsList>
         </Tabs>
 
+        {/* Author Select */}
         <Select value={selectedAuthor} onValueChange={handleAuthorChange}>
-          <SelectTrigger className="w-full sm:w-[240px] lg:w-[170px]">
+          <SelectTrigger className="flex-1 max-w-[calc(50%-0.5rem)] lg:max-w-[170px]">
             <SelectValue placeholder="Filter by author" />
           </SelectTrigger>
           <SelectContent className="max-h-[240px]">
