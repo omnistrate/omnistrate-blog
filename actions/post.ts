@@ -46,7 +46,7 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
     const realSlug = slug.replace(/\.mdx?$/, "");
     const files = fs.readdirSync(postsDirectory);
     const matchingFile = files.find((file) => {
-      return file.endsWith(`${realSlug}.md`) || file === `${realSlug}.md` || file.endsWith(`${realSlug}.mdx`) || file === `${realSlug}.mdx`;
+      return file.endsWith(`${realSlug}.md`) || file.endsWith(`${realSlug}.mdx`);
     });
 
     if (!matchingFile) {
