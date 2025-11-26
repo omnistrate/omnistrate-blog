@@ -42,7 +42,7 @@ export const CaseStudyPostBody: React.FC<CaseStudyPostBodyProps> = ({ post }) =>
             </a>
           ),
           Section: ({ children, shadedbg, ...props }) => (
-            <section {...props} className={cn(props.className, shadedbg && "bg-[#F8FAFC]", "py-12 md:py-18 lg:py-24")}>
+            <section {...props} className={cn(props.className, shadedbg && "bg-[#F8FAFC]", "py-8 md:py-12 lg:py-16")}>
               <Container>{children}</Container>
             </section>
           ),
@@ -57,9 +57,9 @@ export const CaseStudyPostBody: React.FC<CaseStudyPostBodyProps> = ({ post }) =>
             </TextMDBlock>
           ),
           SectionTopic: ({ children, ...props }) => (
-            <TextLG {...props} className="text-[#202939] font-semibold max-w-3xl">
+            <DisplaySM {...props} className="text-[#202939] font-semibold max-w-3xl">
               {children}
-            </TextLG>
+            </DisplaySM>
           ),
           PointsBox: ({ points }: { points: { title: string; content: React.ReactNode }[] }) => {
             const isThreeItems = points.length === 3;
