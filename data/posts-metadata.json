@@ -1,5 +1,41 @@
 [
   {
+    "slug": "tiledb-accelerates-critical-enterprise-deals-by-automating-deployment-across-any-cloud-with-omnistrate",
+    "title": "TileDB Accelerates Critical Enterprise Deals by Automating Deployment Across Any Cloud with Omnistrate",
+    "date": "2025-11-27 12:00:00",
+    "author": {
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "TileDB, a leader in omnimodal data intelligence, partnered with Omnistrate to automate the deployment of its Carrara data platform across any cloud, including Microsoft Azure. This strategic move enabled TileDB to meet stringent enterprise requirements, unlock new revenue opportunities, and streamline customer onboarding through self-service provisioning.",
+    "coverImage": "",
+    "tags": [
+      "Case Study"
+    ],
+    "readTime": 5,
+    "category": "Customer Stories",
+    "type": "Case Study"
+  },
+  {
+    "slug": "how-plotline-streamlines-internal-deployments-to-support-massive-scale-and-free-engineers-to-innovate",
+    "title": "How Plotline Streamlines Internal Deployments to Support Massive Scale and Free Engineers to Innovate",
+    "date": "2025-11-26 12:00:00",
+    "author": {
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Discover how Rox leveraged Omnistrate's Control Plane as-a-Service to rapidly enter international markets with flexible deployment options, including Dedicated, BYOC, and Air-Gapped solutions, while preserving engineering focus on AI innovation.",
+    "coverImage": "/images/posts/how-plotline-streamlines-internal-deployments-to-support-massive-scale-and-free-engineers-to-innovate-1.png",
+    "tags": [
+      "Case Study"
+    ],
+    "readTime": 5,
+    "category": "Customer Stories",
+    "type": "Case Study"
+  },
+  {
     "slug": "experio-solidified-its-ai-first-advantage-with-omnistrate",
     "title": "6-Month Competitive Lead: Experio Solidified Its AI-First Advantage by Accelerating Multi-Cloud SaaS Launch with Omnistrate",
     "date": "2025-11-25 12:00:00",
@@ -27,7 +63,7 @@
       "picture": ""
     },
     "excerpt": "Discover how Rox leveraged Omnistrate's Control Plane as-a-Service to rapidly enter international markets with flexible deployment options, including Dedicated, BYOC, and Air-Gapped solutions, while preserving engineering focus on AI innovation.",
-    "coverImage": "",
+    "coverImage": "/images/posts/why-rox-selected-omnistrate-to-enable-flexible-deployment-and-airgapped-solutions-1.png",
     "tags": [
       "Case Study"
     ],
