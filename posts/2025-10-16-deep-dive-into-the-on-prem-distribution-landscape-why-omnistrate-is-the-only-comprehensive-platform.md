@@ -8,7 +8,6 @@ author:
   picture: ''
 excerpt: >-
   Delivering software into on-premises enterprise environments is a challenge many vendors are still struggling to solve. As IT leaders look for seamless distribution, effortless operations, and robust customer experiences, they quickly discover that most solutions in the market are limited to one-off packaging or manual deployment tooling.
-slug: deep-dive-into-the-on-prem-distribution-landscape-why-omnistrate-is-the-only-comprehensive-platform
 readTime: 4
 coverImage: ''
 category:  Engineering & Tech

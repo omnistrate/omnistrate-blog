@@ -11,8 +11,6 @@ author:
 excerpt: >-
   In today's fast-paced world of cloud computing, the importance of full
   lifecycle management in cloud infrastructure cannot be overstated.
-slug: >-
-  lifecycle-management-and-infrastructure-cleanup-the-overlooked-challenge-of-efficiently-decommissioning-resources
 readTime: 10
 coverImage: >-
   /images/posts/lifecycle-management-and-infrastructure-cleanup-the-overlooked-challenge-of-efficiently-decommissioning-resources-1.jpg

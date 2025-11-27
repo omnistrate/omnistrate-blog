@@ -7,7 +7,6 @@ author:
   email: kamal@omnistrate.com
   picture: ''
 excerpt: 'SaaS applications need to be highly available, with several 9’s of SLA.'
-slug: saas-reliability-achieving-high-availability
 readTime: 2
 coverImage: ''
 category: Engineering & Tech

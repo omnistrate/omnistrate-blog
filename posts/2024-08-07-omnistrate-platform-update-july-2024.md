@@ -9,7 +9,6 @@ author:
 excerpt: >-
   Product updates We are excited to announce several new features and
   improvements to the Omnistrate platform!
-slug: omnistrate-platform-update-july-2024
 readTime: 4
 coverImage: /images/posts/omnistrate-platform-update-july-2024-1.jpg
 category: Product Updates

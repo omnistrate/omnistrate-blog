@@ -9,7 +9,6 @@ author:
 excerpt: >-
   In the software industry, entrepreneurs have to go through 4 phases of
   innovation to build a product: Idea: What change are they trying to make?
-slug: build-your-own-software-platform-in-days
 readTime: 7
 coverImage: /images/posts/build-your-own-software-platform-in-days-1.png
 category: Engineering & Tech

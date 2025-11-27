@@ -9,8 +9,6 @@ author:
   email: michaelc@omnistrate.com
   picture: ''
 excerpt: '"Omnistrate made it easy for us to launch AutoDBA as a SaaS product.'
-slug: >-
-  omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service
 readTime: 3
 coverImage: >-
   /images/posts/omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service-1.png

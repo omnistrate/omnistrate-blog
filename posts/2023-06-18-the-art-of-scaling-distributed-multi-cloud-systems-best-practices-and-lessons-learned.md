@@ -11,8 +11,6 @@ author:
 excerpt: >-
   Hello, fellow developers! In this blog post, I want to share with you some of
   the best practices and lessons learned from scaling distributed systems.
-slug: >-
-  the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned
 readTime: 6
 coverImage: >-
   /images/posts/the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned-1.webp

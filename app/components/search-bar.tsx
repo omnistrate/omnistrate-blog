@@ -9,7 +9,7 @@ interface SearchBarProps {
 export const SearchBar = forwardRef<HTMLDivElement, SearchBarProps>(
   ({ value = "", onChange, disabled = false }, ref) => {
     return (
-      <div ref={ref} className="sticky top-[70px] z-[50] bg-white flex justify-center my-8 lg:my-12">
+      <div ref={ref} className="hidden sticky top-[70px] z-[50] bg-white md:flex justify-center my-8 lg:my-12">
         <div className="relative w-full" style={{ maxWidth: "566px" }}>
           <input
             type="text"

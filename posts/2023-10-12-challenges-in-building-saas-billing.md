@@ -9,7 +9,6 @@ author:
 excerpt: >-
   By far the most consistent area of focus I’ve had in my career is monitoring
   and observability.
-slug: challenges-in-building-saas-billing
 readTime: 11
 coverImage: /images/posts/challenges-in-building-saas-billing-1.jpg
 category: Engineering & Tech

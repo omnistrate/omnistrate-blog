@@ -10,7 +10,6 @@ excerpt: >-
   Exciting New Features in Omnistrate We're thrilled to introduce several
   powerful updates that enhance flexibility, security, and operational control
   across the Omnistrate platform.
-slug: omnistrate-platform-update-jun-2025
 readTime: 7
 coverImage: /images/posts/omnistrate-platform-update-jun-2025-1.png
 category: Product Updates

@@ -8,6 +8,8 @@ export type BlogCategory =
   | "Partners & Ecosystem"
   | "Miscellaneous";
 
+export type PostType = "Post" | "Case Study";
+
 export type Post = {
   slug: string;
   title: string;
@@ -18,6 +20,7 @@ export type Post = {
   tags?: string[];
   readTime?: number;
   category?: BlogCategory;
+  type: PostType;
   ogImage: {
     url: string;
   };
@@ -35,4 +38,5 @@ export type PostMetadata = {
   tags?: string[];
   readTime?: number;
   category?: BlogCategory;
+  type: PostType;
 };

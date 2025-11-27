@@ -10,7 +10,6 @@ excerpt: >-
   Building software distribution channel(s) is hard, costly and time-consuming.
   I have discussed the challenges in building and operating your Control Plane
   before.
-slug: control-plane-unpacking-the-build-vs-buy-dilemma
 readTime: 5
 coverImage: /images/posts/control-plane-unpacking-the-build-vs-buy-dilemma-1.png
 category: Engineering & Tech

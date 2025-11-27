@@ -12,8 +12,6 @@ excerpt: >-
   Bringing software to the cloud is only half the challenge—proving it’s secure,
   compliant, and enterprise-ready is what unlocks adoption in regulated
   industries and large-scale procurement pipelines.
-slug: >-
-  omnistrate-brownstone-modernize-your-software-offering-with-built-in-compliance-and-cloud-automation
 readTime: 4
 coverImage: ''
 category: Partners & Ecosystem

@@ -33,7 +33,6 @@ author:
 excerpt: >-
   A brief description of your blog post. This appears in previews
   and search results. Can span multiple lines.
-slug: your-blog-post-url-slug
 readTime: 5
 coverImage: /images/posts/your-cover-image.png
 category: Category Name
@@ -91,7 +90,7 @@ Use double asterisks or double underscores:
 
 ```md
 **This text is bold**
-__This is also bold__
+**This is also bold**
 ```
 
 ### 4. Italic Text
@@ -99,7 +98,7 @@ __This is also bold__
 Use single asterisks or single underscores:
 
 ```md
-*This text is italic*
+_This text is italic_
 _This is also italic_
 ```
 
@@ -108,7 +107,7 @@ _This is also italic_
 Use Use triple asterisks:
 
 ```md
-***This text is bold and italic***
+**_This text is bold and italic_**
 ```
 
 ### 6. Links
@@ -130,7 +129,7 @@ Use Use triple asterisks:
 ```md
 [Link Text][1]
 
-[1]: https://example.com (at the end of blog content)
+[1]: https://example.com "at the end of blog content"
 ```
 
 ![Reference Links](/readme-assets/reference-links.png)
@@ -181,7 +180,7 @@ x-omnistrate-capabilities:
 
 **Unordered Lists**
 
-Use -, *, or +:
+Use -, \*, or +:
 
 ```md
 - Item 1
@@ -233,7 +232,7 @@ Use pipes and hyphens:
 
 ```md
 | Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
+| -------- | -------- | -------- |
 | Data 1   | Data 2   | Data 3   |
 | Data 4   | Data 5   | Data 6   |
 ```
@@ -242,8 +241,8 @@ Alignment:
 
 ```md
 | Left-aligned | Center-aligned | Right-aligned |
-|:-------------|:--------------:|--------------:|
-| Left         | Center         | Right         |
+| :----------- | :------------: | ------------: |
+| Left         |     Center     |         Right |
 ```
 
 ### 12. YouTube Video Embed

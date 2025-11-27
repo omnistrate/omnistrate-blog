@@ -10,7 +10,6 @@ excerpt: >-
   Software as a Service, commonly known as SaaS, is more than just a tech
   buzzword. It has reinvented the software ecosystem and redefined the user
   experience.
-slug: why-is-the-saas-paradigm-so-powerful
 readTime: 5
 coverImage: ''
 category: Industry Insights

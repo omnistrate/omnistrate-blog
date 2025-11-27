@@ -7,7 +7,6 @@ author:
   email: michaelc@omnistrate.com
   picture: ''
 excerpt: 'We hosted our second SaaS Mondays , Live on Fridays on Friday.'
-slug: why-cloud-marketplaces-are-the-new-launchpad-for-saas-startups
 readTime: 5
 coverImage: >-
   /images/posts/why-cloud-marketplaces-are-the-new-launchpad-for-saas-startups-1.jpg

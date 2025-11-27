@@ -9,7 +9,6 @@ author:
 excerpt: >-
   Imagine a data analytics SaaS startup, “DataCo”, that wants to build Redis
   SaaS as an example.
-slug: real-world-example-the-lifecycle-headache-part-2-of-3
 readTime: 9
 coverImage: ''
 category: Engineering & Tech

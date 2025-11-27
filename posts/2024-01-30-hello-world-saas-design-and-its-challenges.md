@@ -9,7 +9,6 @@ author:
 excerpt: >-
   Time and time again, we observe organizations grappling with the right design,
   consequently entangled in perpetual operations.
-slug: hello-world-saas-design-and-its-challenges
 readTime: 2
 coverImage: ''
 category: Engineering & Tech

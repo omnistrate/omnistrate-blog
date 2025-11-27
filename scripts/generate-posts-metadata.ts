@@ -35,13 +35,13 @@ const generateMetadata = async () => {
   const posts: PostMetadata[] = [];
 
   for (const file of files) {
-    if (!file.endsWith(".md")) continue;
+    if (!file.endsWith(".md") && !file.endsWith(".mdx")) continue;
 
     const fullPath = join(postsDirectory, file);
     const fileContents = fs.readFileSync(fullPath, "utf8");
     const { data } = matter(fileContents);
 
-    const slug = file.replace(/^\d{4}-\d{2}-\d{2}-/, "").replace(/\.md$/, "");
+    const slug = file.replace(/^\d{4}-\d{2}-\d{2}-/, "").replace(/\.mdx?$/, "");
 
     posts.push({
       slug,
@@ -52,7 +52,8 @@ const generateMetadata = async () => {
       coverImage: data.coverImage,
       tags: parseTags(data.tags),
       readTime: data.readTime,
-      category: data.category
+      category: data.category,
+      type: data.type || "Post"
     });
   }
 

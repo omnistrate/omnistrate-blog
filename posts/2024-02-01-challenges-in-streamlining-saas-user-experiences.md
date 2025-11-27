@@ -9,7 +9,6 @@ author:
 excerpt: >-
   To interact with the SaaS service, we will need to build some sort of UX (API,
   GUI, CLI) interaction.
-slug: challenges-in-streamlining-saas-user-experiences
 readTime: 2
 coverImage: ''
 category: Engineering & Tech

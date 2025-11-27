@@ -1,5 +1,96 @@
 [
   {
+    "slug": "tiledb-accelerates-critical-enterprise-deals-by-automating-deployment-across-any-cloud-with-omnistrate",
+    "title": "TileDB Accelerates Critical Enterprise Deals by Automating Deployment Across Any Cloud with Omnistrate",
+    "date": "2025-11-27 12:00:00",
+    "author": {
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "TileDB, a leader in omnimodal data intelligence, partnered with Omnistrate to automate the deployment of its Carrara data platform across any cloud, including Microsoft Azure. This strategic move enabled TileDB to meet stringent enterprise requirements, unlock new revenue opportunities, and streamline customer onboarding through self-service provisioning.",
+    "coverImage": "/images/posts/tiledb-accelerates-critical-enterprise-deals-by-automating-deployment-across-any-cloud-with-omnistrate-1.png",
+    "tags": [
+      "Case Study"
+    ],
+    "readTime": 5,
+    "category": "Customer Stories",
+    "type": "Case Study"
+  },
+  {
+    "slug": "how-plotline-streamlines-internal-deployments-to-support-massive-scale-and-free-engineers-to-innovate",
+    "title": "How Plotline Streamlines Internal Deployments to Support Massive Scale and Free Engineers to Innovate",
+    "date": "2025-11-26 12:00:00",
+    "author": {
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Discover how Rox leveraged Omnistrate's Control Plane as-a-Service to rapidly enter international markets with flexible deployment options, including Dedicated, BYOC, and Air-Gapped solutions, while preserving engineering focus on AI innovation.",
+    "coverImage": "/images/posts/how-plotline-streamlines-internal-deployments-to-support-massive-scale-and-free-engineers-to-innovate-1.png",
+    "tags": [
+      "Case Study"
+    ],
+    "readTime": 5,
+    "category": "Customer Stories",
+    "type": "Case Study"
+  },
+  {
+    "slug": "experio-solidified-its-ai-first-advantage-with-omnistrate",
+    "title": "6-Month Competitive Lead: Experio Solidified Its AI-First Advantage by Accelerating Multi-Cloud SaaS Launch with Omnistrate",
+    "date": "2025-11-25 12:00:00",
+    "author": {
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Discover how Experio leveraged Omnistrate's Control Plane as-a-Service to accelerate their transition from pilot to enterprise-ready, multi-cloud SaaS, gaining a 6-month competitive lead while preserving their AI-First advantage.",
+    "coverImage": "/images/posts/experio-solidified-its-ai-first-advantage-with-omnistrate-1.png",
+    "tags": [
+      "Case Study"
+    ],
+    "readTime": 6,
+    "category": "Customer Stories",
+    "type": "Case Study"
+  },
+  {
+    "slug": "why-rox-selected-omnistrate-to-enable-flexible-deployment-and-airgapped-solutions",
+    "title": "Unlocking International Markets: Why Rox Selected Omnistrate to Enable Flexible Deployment and AirGapped Solutions",
+    "date": "2025-11-25 12:00:00",
+    "author": {
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Discover how Rox leveraged Omnistrate's Control Plane as-a-Service to rapidly enter international markets with flexible deployment options, including Dedicated, BYOC, and Air-Gapped solutions, while preserving engineering focus on AI innovation.",
+    "coverImage": "/images/posts/why-rox-selected-omnistrate-to-enable-flexible-deployment-and-airgapped-solutions-1.png",
+    "tags": [
+      "Case Study"
+    ],
+    "readTime": 5,
+    "category": "Customer Stories",
+    "type": "Case Study"
+  },
+  {
+    "slug": "from-app-to-enterprise-saas-in-days-perinimble-case-study",
+    "title": "From App to Enterprise SaaS in Days: How an Early-Stage Energy SaaS Company Used Omnistrate to Offer Hosted & BYOC Deployments in Regulated Markets",
+    "date": "2025-11-24 12:00:00",
+    "author": {
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "PeriNimble leveraged Omnistrate's SaaS Control Plane to rapidly launch its PeriGridAI™ platform with both hosted and Bring Your Own Cloud (BYOC) deployment options, enabling secure, compliant access to the energy sector.",
+    "coverImage": "/images/posts/from-app-to-enterprise-saas-in-days-perinimble-case-study-1.png",
+    "tags": [
+      "Case Study",
+      "Energy SaaS"
+    ],
+    "readTime": 7,
+    "category": "Customer Stories",
+    "type": "Case Study"
+  },
+  {
     "slug": "omnistrate-platform-update-september-2025-edition",
     "title": "Omnistrate Platform Update - September 2025 edition",
     "date": "2025-10-24  23:25:25",
@@ -18,7 +109,8 @@
       "Update"
     ],
     "readTime": 7,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "deep-dive-into-the-on-prem-distribution-landscape-why-omnistrate-is-the-only-comprehensive-platform",
@@ -38,7 +130,8 @@
       "Replicated"
     ],
     "readTime": 4,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "why-customers-choose-omnistrate-a-deep-dive-into-the-byoc-landscape",
@@ -59,7 +152,8 @@
       "Omnistrate"
     ],
     "readTime": 4,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-august-2025-edition",
@@ -79,7 +173,8 @@
       "AI"
     ],
     "readTime": 7,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "revolutionize-your-devops-and-sre-with-omnistrate-s-new-mcp-server",
@@ -102,7 +197,8 @@
       "sre"
     ],
     "readTime": 4,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "case-study-how-ferretdb-went-from-opensource-project-to-commercial-dbaas-success-in-weeks-not-years",
@@ -114,7 +210,7 @@
       "picture": ""
     },
     "excerpt": "Omnistrate gave us an enterprise-grade control plane without the need to hire or build one in-house.",
-    "coverImage": "",
+    "coverImage": "/images/posts/case-study-how-ferretdb-went-from-opensource-project-to-commercial-dbaas-success-in-weeks-not-years-1.png",
     "tags": [
       "case-study",
       "cloud",
@@ -125,7 +221,8 @@
       "PostgreSQL"
     ],
     "readTime": 5,
-    "category": "Customer Stories"
+    "category": "Customer Stories",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-july-2025-edition",
@@ -146,7 +243,8 @@
       "update"
     ],
     "readTime": 7,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-brownstone-modernize-your-software-offering-with-built-in-compliance-and-cloud-automation",
@@ -166,7 +264,8 @@
       "SaaS"
     ],
     "readTime": 4,
-    "category": "Partners & Ecosystem"
+    "category": "Partners & Ecosystem",
+    "type": "Post"
   },
   {
     "slug": "maximizing-ai-infrastructure-value-through-smart-resource-sharing",
@@ -188,7 +287,8 @@
       "SaaS"
     ],
     "readTime": 5,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "moving-to-cell-based-architecture-lessons-from-neon",
@@ -208,7 +308,8 @@
       "platform"
     ],
     "readTime": 6,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-jun-2025",
@@ -229,7 +330,8 @@
       "update"
     ],
     "readTime": 7,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "build-your-own-software-platform-in-days",
@@ -251,7 +353,8 @@
       "SaaS"
     ],
     "readTime": 7,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3",
@@ -274,7 +377,8 @@
       "SaaS"
     ],
     "readTime": 15,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "real-world-example-the-lifecycle-headache-part-2-of-3",
@@ -296,7 +400,8 @@
       "SaaS"
     ],
     "readTime": 9,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "building-diy-control-planes-with-kubernetes-argocd-terraform-part-1-of-3",
@@ -319,7 +424,8 @@
       "SaaS"
     ],
     "readTime": 19,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-may-2025",
@@ -340,7 +446,8 @@
       "update"
     ],
     "readTime": 6,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-april-2025",
@@ -361,7 +468,8 @@
       "update"
     ],
     "readTime": 6,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "integrating-serverless-framework-with-omnistrate-a-developer-s-journey",
@@ -381,7 +489,8 @@
       "terraform"
     ],
     "readTime": 3,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "beyond-ecs-or-cloud-run-terraform-building-scalable-saas-infrastructure",
@@ -403,7 +512,8 @@
       "terraform"
     ],
     "readTime": 2,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-march-2025",
@@ -424,7 +534,8 @@
       "update"
     ],
     "readTime": 5,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "ai-series-powering-high-performance-ai-workloads-gpu-soci-mig-and-keda",
@@ -444,7 +555,8 @@
       "SaaS"
     ],
     "readTime": 4,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "ai-series-cost-controls-insights",
@@ -465,7 +577,8 @@
       "SaaS"
     ],
     "readTime": 4,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "ai-series-introducing-omnistrate-s-new-job-controller-paradigm",
@@ -486,7 +599,8 @@
       "Scheduling"
     ],
     "readTime": 6,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "whiteswan-security-case-study",
@@ -508,7 +622,8 @@
       "whiteswan-security"
     ],
     "readTime": 4,
-    "category": "Customer Stories"
+    "category": "Customer Stories",
+    "type": "Post"
   },
   {
     "slug": "why-cloud-marketplaces-are-the-new-launchpad-for-saas-startups",
@@ -525,7 +640,8 @@
       "AWS Marketplace"
     ],
     "readTime": 5,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-february-2025",
@@ -546,7 +662,8 @@
       "update"
     ],
     "readTime": 5,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "saas-mondays-live-on-fridays-how-ai-is-impacting-saas-builders-a-recap",
@@ -568,7 +685,8 @@
       "SaaS"
     ],
     "readTime": 4,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "build-vs-buy-why-platform-teams-choose-omnistrate-for-their-control-plane",
@@ -589,7 +707,8 @@
       "SaaS"
     ],
     "readTime": 7,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "navigating-aws-s-expanded-saas-co-sell-program-opportunities-and-challenges-for-isvs",
@@ -611,7 +730,8 @@
       "SaaS"
     ],
     "readTime": 3,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "beyond-helm-building-scalable-saas-infrastructure",
@@ -632,7 +752,8 @@
       "terraform"
     ],
     "readTime": 5,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "on-prem-software-distribution-overcoming-licensing-deployment-challenges",
@@ -653,7 +774,8 @@
       "SaaS"
     ],
     "readTime": 3,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "custom-sidecars-support-for-omnistrate-resources",
@@ -673,7 +795,8 @@
       "sidecars"
     ],
     "readTime": 2,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-january-2025",
@@ -694,7 +817,8 @@
       "update"
     ],
     "readTime": 4,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "reimagining-saasbuilder-a-more-intuitive-efficient-and-streamlined-experience",
@@ -712,7 +836,8 @@
       "saasbuilder"
     ],
     "readTime": 6,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-enables-crystaldb-to-transform-autodba-into-a-multi-cloud-cloud-service",
@@ -734,7 +859,8 @@
       "SaaS"
     ],
     "readTime": 3,
-    "category": "Customer Stories"
+    "category": "Customer Stories",
+    "type": "Post"
   },
   {
     "slug": "ai-series-what-is-byoc-and-why-does-it-matter-apps-must-go-to-the-data-in-2025",
@@ -755,18 +881,19 @@
       "SaaS"
     ],
     "readTime": 6,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal",
-    "title": "Why Autoblocks.ai turned to Omnistrate to Launch their AI Development Portal",
+    "title": "Unlocking a $230B Enterprise Opportunity: How an Early-Stage AI Company Expanded into Regulated Markets with Omnistrate",
     "date": "2025-01-29 20:49:38",
     "author": {
       "name": "Michael Cooper",
       "email": "michaelc@omnistrate.com",
       "picture": ""
     },
-    "excerpt": "\"We chose Omnistrate because it empowered us to deliver on our promise to create a safety-first approach to building & managing AI Applications.",
+    "excerpt": "Autoblocks used Omnistrate to evolve from a serverless cloud product into an enterprise-ready SaaS platform, enabling secure, compliant, customer-controlled deployments.",
     "coverImage": "/images/posts/why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal-1.png",
     "tags": [
       "AI",
@@ -777,8 +904,9 @@
       "Omnistrate",
       "SaaS"
     ],
-    "readTime": 4,
-    "category": "Customer Stories"
+    "readTime": 7,
+    "category": "Customer Stories",
+    "type": "Case Study"
   },
   {
     "slug": "omnistrate-platform-update-december-2024",
@@ -799,7 +927,8 @@
       "update"
     ],
     "readTime": 5,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-november-2024",
@@ -820,7 +949,8 @@
       "update"
     ],
     "readTime": 4,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "building-private-service-on-the-cloud",
@@ -840,7 +970,8 @@
       "security"
     ],
     "readTime": 4,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "ai-series-omnistrate-launches-developer-platform-to-build-b2b-ai-apps",
@@ -860,7 +991,8 @@
       "SaaS"
     ],
     "readTime": 3,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-open-source-building-together",
@@ -879,7 +1011,8 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-october-2024",
@@ -900,7 +1033,8 @@
       "update"
     ],
     "readTime": 4,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-developer-platform-to-build-b2b-saas",
@@ -919,7 +1053,8 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "kubernetes-at-the-edge-revolutionizing-computing-and-resource-management",
@@ -937,7 +1072,8 @@
       "OpenSource"
     ],
     "readTime": 7,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "why-kubernetes-is-the-foundation-of-modern-cloud-infrastructure",
@@ -957,27 +1093,8 @@
       "SaaS"
     ],
     "readTime": 7,
-    "category": "Engineering & Tech"
-  },
-  {
-    "slug": "aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud",
-    "title": "AWS and Omnistrate partnered to bring Percona Ivee Cloud ",
-    "date": "2024-10-16 16:35:13",
-    "author": {
-      "name": "Kamal Gupta",
-      "email": "kamal@omnistrate.com",
-      "picture": ""
-    },
-    "excerpt": "Percona, known for providing world-class open-source database software, has always been at the forefront of innovation.",
-    "coverImage": "/images/posts/aws-and-omnistrate-partnered-to-bring-percona-ivee-cloud-1.png",
-    "tags": [
-      "case-study",
-      "Omnistrate",
-      "percona",
-      "SaaS"
-    ],
-    "readTime": 2,
-    "category": "Customer Stories"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "ai-for-b2b-from-training-to-tenant-management-and-day-2-ops",
@@ -997,7 +1114,8 @@
       "SaaS"
     ],
     "readTime": 3,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-september-2024",
@@ -1018,27 +1136,29 @@
       "update"
     ],
     "readTime": 3,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service",
-    "title": "AWS and Omnistrate partnered to bring FalkorDB Managed Cloud Service",
+    "title": "How FalkorDB Used Omnistrate for a Rapid Multi-Cloud Launch to Enter the $200B GenAI Market",
     "date": "2024-10-01 12:13:56",
     "author": {
-      "name": "Kamal Gupta",
-      "email": "kamal@omnistrate.com",
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
       "picture": ""
     },
-    "excerpt": "“Omnistrate dramatically accelerated our GTM, cutting launch time from months to weeks.",
+    "excerpt": "FalkorDB leveraged Omnistrate's Control Plane-as-a-Service to rapidly launch its GenAI database platform across multiple clouds, enabling secure, compliant deployments and unlocking access to a $200B market.",
     "coverImage": "/images/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service-1.jpg",
     "tags": [
-      "case-study",
+      "Case Study",
       "falkordb",
       "Omnistrate",
       "SaaS"
     ],
-    "readTime": 7,
-    "category": "Customer Stories"
+    "readTime": 4,
+    "category": "Customer Stories",
+    "type": "Case Study"
   },
   {
     "slug": "omnistrate-platform-update-august-2024",
@@ -1059,7 +1179,8 @@
       "update"
     ],
     "readTime": 3,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-successfully-completes-annual-soc-2-type-ii-attestation",
@@ -1079,7 +1200,8 @@
       "soc2"
     ],
     "readTime": 2,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-july-2024",
@@ -1100,7 +1222,8 @@
       "update"
     ],
     "readTime": 4,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-strengthens-aws-partnership-with-key-milestones",
@@ -1121,7 +1244,8 @@
       "SaaS"
     ],
     "readTime": 3,
-    "category": "Partners & Ecosystem"
+    "category": "Partners & Ecosystem",
+    "type": "Post"
   },
   {
     "slug": "convoy-case-study-from-two-years-to-two-weeks",
@@ -1141,7 +1265,8 @@
       "SaaS"
     ],
     "readTime": 6,
-    "category": "Customer Stories"
+    "category": "Customer Stories",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-honored-as-most-promising-technology-company-in-the-us-2024-by-silicon-india",
@@ -1162,7 +1287,8 @@
       "top-companies"
     ],
     "readTime": 2,
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-successfully-achieves-soc-2-type-ii-compliance-and-completes-external-penetration-testing",
@@ -1182,7 +1308,8 @@
       "security"
     ],
     "readTime": 3,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-joins-cncf-family-sponsors-cncf-and-open-sources-saasbuilder",
@@ -1204,7 +1331,8 @@
       "SaaS"
     ],
     "readTime": 3,
-    "category": "Partners & Ecosystem"
+    "category": "Partners & Ecosystem",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-welcomes-michael-cooper-as-new-gtm-executive-leader",
@@ -1225,7 +1353,8 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Miscellaneous"
+    "category": "Miscellaneous",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-june-2024",
@@ -1247,7 +1376,8 @@
       "update"
     ],
     "readTime": 3,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "rethinking-open-source-licenses-empowering-startups-with-omnistrate",
@@ -1268,7 +1398,8 @@
       "startups"
     ],
     "readTime": 3,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "why-oss-creators-need-to-start-with-saas",
@@ -1288,7 +1419,8 @@
       "SaaS"
     ],
     "readTime": 4,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-may-2024",
@@ -1308,7 +1440,8 @@
       "update"
     ],
     "readTime": 3,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "should-your-startup-start-with-saas",
@@ -1327,7 +1460,8 @@
       "startups"
     ],
     "readTime": 4,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-april-2024",
@@ -1347,7 +1481,8 @@
       "update"
     ],
     "readTime": 2,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "restoring-the-promise-of-open-source-with-omnistrate",
@@ -1366,7 +1501,8 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-march-2024",
@@ -1386,7 +1522,8 @@
       "update"
     ],
     "readTime": 3,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "the-three-key-components-of-building-a-billing-system",
@@ -1405,7 +1542,8 @@
       "SaaS"
     ],
     "readTime": 6,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "understanding-saas-billing-models",
@@ -1425,7 +1563,8 @@
       "SaaS"
     ],
     "readTime": 6,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-platform-update-february-2024",
@@ -1445,7 +1584,8 @@
       "update"
     ],
     "readTime": 3,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "abcs-of-control-plane",
@@ -1465,7 +1605,8 @@
       "SaaS"
     ],
     "readTime": 4,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "multi-cloud-how-to-manage-complexity-and-opportunity-on-day-1",
@@ -1483,7 +1624,8 @@
       "platform engineering"
     ],
     "readTime": 3,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "helping-entrepreneurs-to-improve-their-startup-success-odds-by-10x",
@@ -1504,7 +1646,8 @@
       "time"
     ],
     "readTime": 3,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "engineering-blog-how-to-handle-multi-cloud-auto-scaling-when-building-a-saas",
@@ -1530,7 +1673,8 @@
       "vpa"
     ],
     "readTime": 4,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "startup-challenges-and-how-to-improve-your-odds-by-10x",
@@ -1554,7 +1698,8 @@
       "SaaS"
     ],
     "readTime": 4,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "accelerating-saas-innovation-omnistrate-s-latest-platform-release",
@@ -1572,7 +1717,8 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "navigating-the-operational-puzzle-of-saas",
@@ -1592,7 +1738,8 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "unlocking-the-complexity-of-billing-in-saas",
@@ -1613,7 +1760,8 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "fortifying-saas-safeguarding-data-and-compliance-across-layers",
@@ -1633,7 +1781,8 @@
       "security"
     ],
     "readTime": 2,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "challenges-in-streamlining-saas-user-experiences",
@@ -1653,7 +1802,8 @@
       "UX"
     ],
     "readTime": 2,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "saas-reliability-achieving-high-availability",
@@ -1673,7 +1823,8 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "strategies-for-seamless-saas-deployment",
@@ -1694,7 +1845,8 @@
       "tenant provisioning"
     ],
     "readTime": 3,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "tenant-isolation-strategy-for-your-saas-application",
@@ -1713,7 +1865,8 @@
       "tenant isolation"
     ],
     "readTime": 3,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "control-plane-unpacking-the-build-vs-buy-dilemma",
@@ -1733,7 +1886,8 @@
       "SaaS"
     ],
     "readTime": 5,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "role-of-kubernetes-operators-in-saas-development",
@@ -1755,7 +1909,8 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "beyond-terraform-building-scalable-saas-infrastructure",
@@ -1775,7 +1930,8 @@
       "terraform"
     ],
     "readTime": 5,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "hello-world-saas-design-and-its-challenges",
@@ -1794,7 +1950,8 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "top-5-saas-mistakes-to-avoid",
@@ -1812,7 +1969,8 @@
       "SaaS"
     ],
     "readTime": 2,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "need-for-saas-abstractions",
@@ -1833,7 +1991,8 @@
       "SaaS"
     ],
     "readTime": 3,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "the-saas-revolution-transforming-software-delivery-forever",
@@ -1853,7 +2012,8 @@
       "technology"
     ],
     "readTime": 3,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "introducing-omnistrate-platform",
@@ -1873,7 +2033,8 @@
       "SaaS"
     ],
     "readTime": 5,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "what-is-a-saas-control-plane",
@@ -1896,7 +2057,8 @@
       "terraform"
     ],
     "readTime": 14,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "why-we-built-omnistrate",
@@ -1916,7 +2078,8 @@
       "SaaS"
     ],
     "readTime": 4,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "a-200-billion-dollar-business-that-you-cannot-ignore",
@@ -1934,7 +2097,8 @@
       "startup"
     ],
     "readTime": 4,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "lifecycle-management-and-infrastructure-cleanup-the-overlooked-challenge-of-efficiently-decommissioning-resources",
@@ -1954,7 +2118,8 @@
       "SaaS"
     ],
     "readTime": 10,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "simplifying-multi-cloud-multi-tenant-saas-deployments-with-infrastructure-as-code-iac",
@@ -1974,7 +2139,8 @@
       "SaaS"
     ],
     "readTime": 7,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "day-2-operations-saas-maintenance",
@@ -1993,7 +2159,8 @@
       "SaaS"
     ],
     "readTime": 9,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "saas-capabilities-what-does-it-really-entail",
@@ -2012,7 +2179,8 @@
       "SaaS"
     ],
     "readTime": 7,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "challenges-in-building-saas-billing",
@@ -2033,7 +2201,8 @@
       "SaaS"
     ],
     "readTime": 11,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "provisioning-and-deployments-your-saas-foundation",
@@ -2053,7 +2222,8 @@
       "SaaS"
     ],
     "readTime": 12,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "why-enterprises-are-shifting-to-saas",
@@ -2072,7 +2242,8 @@
       "SaaS"
     ],
     "readTime": 12,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "diving-deep-into-control-and-data-plane-responsibilities",
@@ -2092,7 +2263,8 @@
       "SaaS"
     ],
     "readTime": 10,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "everything-about-scaling",
@@ -2113,7 +2285,8 @@
       "scaling"
     ],
     "readTime": 16,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "cloud-platform-monitoring-and-auto-recovery-challenges-part-2",
@@ -2133,7 +2306,8 @@
       "platform engineering"
     ],
     "readTime": 11,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "cloud-platform-monitoring-and-auto-recovery-challenges-part-1",
@@ -2153,7 +2327,8 @@
       "platform engineering"
     ],
     "readTime": 10,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "why-is-the-saas-paradigm-so-powerful",
@@ -2172,7 +2347,8 @@
       "SaaS"
     ],
     "readTime": 5,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "introduction-to-control-plane-and-data-plane",
@@ -2192,7 +2368,8 @@
       "SaaS"
     ],
     "readTime": 5,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-s-journey-of-trust-continues-from-soc-2-type-i-to-type-ii",
@@ -2212,7 +2389,8 @@
       "soc2"
     ],
     "readTime": 3,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "the-future-of-saas-and-kubernetes-trends-and-predictions",
@@ -2231,7 +2409,8 @@
       "SaaS"
     ],
     "readTime": 4,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "inside-the-cloud-understanding-iaas-paas-and-saas",
@@ -2252,7 +2431,8 @@
       "gcp"
     ],
     "readTime": 10,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "distributed-system-design-scaling-from-0-1k-1k-10k-10k-100k-100k-1m-and-1m-to-1b-users",
@@ -2272,7 +2452,8 @@
       "scaling"
     ],
     "readTime": 5,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "the-art-of-scaling-distributed-multi-cloud-systems-best-practices-and-lessons-learned",
@@ -2293,7 +2474,8 @@
       "security"
     ],
     "readTime": 6,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "kubernetes-and-container-networking-in-multi-cloud-environments-why-it-is-not-easy-and-why-you-need-sparta-like-skills",
@@ -2314,7 +2496,8 @@
       "Kubernetes"
     ],
     "readTime": 13,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "a-step-by-step-guide-to-calculate-slas-slis-and-slos-for-new-sres",
@@ -2335,7 +2518,8 @@
       "sre"
     ],
     "readTime": 6,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "omnistrate-achieves-soc-2-type-i-compliance-upholding-security-and-trust",
@@ -2355,7 +2539,8 @@
       "soc2"
     ],
     "readTime": 4,
-    "category": "Product Updates"
+    "category": "Product Updates",
+    "type": "Post"
   },
   {
     "slug": "managing-open-search-across-multiple-clouds-a-guide-to-overcoming-challenges",
@@ -2376,7 +2561,8 @@
       "open-search"
     ],
     "readTime": 4,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "unlocking-the-full-potential-of-kubernetes-with-amazon-linux-2023",
@@ -2397,7 +2583,8 @@
       "Kubernetes"
     ],
     "readTime": 3,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "aks-edge-essentials-on-premises-kubernetes-implementation-of-azure-kubernetes-service",
@@ -2417,7 +2604,8 @@
       "Kubernetes"
     ],
     "readTime": 2,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "an-introduction-to-kubernetes-based-event-driven-autoscaling",
@@ -2437,7 +2625,8 @@
       "event-driven"
     ],
     "readTime": 5,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "how-to-achieve-autoscaling-in-multi-cloud-kubernetes-deployments",
@@ -2456,7 +2645,8 @@
       "multi-cloud"
     ],
     "readTime": 7,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "where-did-the-cloud-model-go-wrong",
@@ -2474,7 +2664,8 @@
       "open-source"
     ],
     "readTime": 2,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "cloud-native-vs-cloud-agnostic-weighing-the-trade-offs",
@@ -2493,7 +2684,8 @@
       "cloud-native"
     ],
     "readTime": 10,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "emergence-future-of-open-source-and-cloud",
@@ -2511,7 +2703,8 @@
       "open-source"
     ],
     "readTime": 4,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   },
   {
     "slug": "maximizing-cloud-native-success-with-the-twelve-factor-app-methodology",
@@ -2530,7 +2723,8 @@
       "cloud-native"
     ],
     "readTime": 6,
-    "category": "Engineering & Tech"
+    "category": "Engineering & Tech",
+    "type": "Post"
   },
   {
     "slug": "what-is-a-cloud",
@@ -2551,6 +2745,7 @@
       "gcp"
     ],
     "readTime": 6,
-    "category": "Industry Insights"
+    "category": "Industry Insights",
+    "type": "Post"
   }
 ]

@@ -31,8 +31,8 @@ export async function getPostSlugs(): Promise<string[]> {
     const files = fs.readdirSync(postsDirectory);
 
     const slugs = files
-      .filter((file) => file.endsWith(".md"))
-      .map((file) => file.replace(/^\d{4}-\d{2}-\d{2}-/, "").replace(/\.md$/, ""));
+      .filter((file) => file.endsWith(".md") || file.endsWith(".mdx"))
+      .map((file) => file.replace(/^\d{4}-\d{2}-\d{2}-/, "").replace(/\.mdx?$/, ""));
 
     return slugs;
   } catch (error) {
@@ -43,10 +43,10 @@ export async function getPostSlugs(): Promise<string[]> {
 
 export async function getPostBySlug(slug: string): Promise<Post | null> {
   try {
-    const realSlug = slug.replace(/\.md$/, "");
+    const realSlug = slug.replace(/\.mdx?$/, "");
     const files = fs.readdirSync(postsDirectory);
     const matchingFile = files.find((file) => {
-      return file.endsWith(`${realSlug}.md`) || file === `${realSlug}.md`;
+      return file.endsWith(`${realSlug}.md`) || file.endsWith(`${realSlug}.mdx`);
     });
 
     if (!matchingFile) {
@@ -68,7 +68,8 @@ export async function getPostBySlug(slug: string): Promise<Post | null> {
       ...data,
       slug: realSlug,
       content,
-      tags: parseTags(data.tags)
+      tags: parseTags(data.tags),
+      type: data.type || "Post"
     } as Post;
   } catch (error) {
     console.error(`Error reading post ${slug}:`, error);

@@ -10,7 +10,6 @@ excerpt: >-
   Exciting New Features in Omnistrate We’ve expanded the power and flexibility
   of deployment cell management, giving you greater control over how workloads
   are isolated, maintained, and accessed.
-slug: omnistrate-platform-update-july-2025-edition
 readTime: 7
 coverImage: /images/posts/omnistrate-platform-update-july-2025-edition-1.png
 category: Product Updates

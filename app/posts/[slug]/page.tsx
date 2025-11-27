@@ -6,6 +6,8 @@ import { Container } from "@/app/components/container";
 import { PostHeader } from "./components/post-header";
 import { PostBody } from "./components/post-body";
 import { ScrollToTopButton } from "@/components/scroll-to-top-button";
+import { CaseStudyPostHeader } from "./components/case-study-post-header";
+import { CaseStudyPostBody } from "./components/case-study-post-body";
 
 export const generateMetadata = async ({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> => {
   const { slug } = await params;
@@ -40,9 +42,9 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     return notFound();
   }
 
-  return (
+  return post.type === "Post" ? (
     <Container>
-      <article className="mb-16 md:mb-24 mt-6 md:mt-8">
+      <div className="mb-16 md:mb-24 mt-6 md:mt-8">
         <PostHeader
           title={post.title}
           readTime={`${post.readTime} min read`}
@@ -51,9 +53,15 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           date={post.date}
           tags={post.tags}
         />
-        <PostBody content={post.content || ""} />
-      </article>
+        <PostBody post={post} />
+      </div>
       <ScrollToTopButton />
     </Container>
+  ) : (
+    <>
+      <CaseStudyPostHeader title={post.title} />
+      <CaseStudyPostBody post={post} />
+      <ScrollToTopButton />
+    </>
   );
 }

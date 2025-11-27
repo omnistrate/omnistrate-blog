@@ -10,7 +10,6 @@ excerpt: >-
   The proliferation of various cloud computing services has resulted in the
   widespread adoption of several new concepts and vocabularies in the world of
   IT infrastructure.
-slug: inside-the-cloud-understanding-iaas-paas-and-saas
 readTime: 10
 coverImage: /images/posts/inside-the-cloud-understanding-iaas-paas-and-saas-1.jpg
 category: Industry Insights

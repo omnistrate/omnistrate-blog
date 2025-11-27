@@ -9,7 +9,6 @@ author:
 excerpt: >-
   Twelve Factor App Methodology The Twelve-Factor App methodology is a set of
   best practices for building and deploying cloud-native applications.
-slug: maximizing-cloud-native-success-with-the-twelve-factor-app-methodology
 readTime: 6
 coverImage: ''
 category: Engineering & Tech

@@ -9,7 +9,6 @@ author:
 excerpt: >-
   Omnistrate now supports a new tenancy model with Dedicated Networks for
   resource provisioning.
-slug: omnistrate-platform-update-august-2024
 readTime: 3
 coverImage: /images/posts/omnistrate-platform-update-august-2024-1.png
 category: Product Updates

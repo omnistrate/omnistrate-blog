@@ -9,7 +9,6 @@ author:
 excerpt: >-
   At Omnistrate, we’ve been hard at work expanding our platform to make B2B SaaS
   development as seamless as possible.
-slug: omnistrate-just-made-building-b2b-saas-easier-than-ever
 readTime: 2
 coverImage: ''
 category: Product Updates

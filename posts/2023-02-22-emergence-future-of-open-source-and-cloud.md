@@ -10,7 +10,6 @@ excerpt: >-
   Before 2005, most of the technology was open source and enterprises were
   consuming open source to accomplish their business goals and the trend seems
   to continue to grow.
-slug: emergence-future-of-open-source-and-cloud
 readTime: 4
 coverImage: /images/posts/emergence-future-of-open-source-and-cloud-1.jpg
 category: Industry Insights

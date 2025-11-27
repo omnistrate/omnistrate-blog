@@ -12,8 +12,6 @@ excerpt: >-
   Now in Part 3, we turn to the solution: What if you didn’t have to abandon
   your existing stack, but could augment it with a purpose-built control plane,
   one that handled tenant lifecycle, deployment..
-slug: >-
-  enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3
 readTime: 15
 coverImage: >-
   /images/posts/enter-omnistrate-developer-platform-to-build-your-software-distribution-part-3-of-3-1.png

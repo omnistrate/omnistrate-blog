@@ -7,7 +7,6 @@ author:
   email: joshua@omnistrate.com
   picture: ''
 excerpt: 'Scaling - it’s the reason we’re all using this cloud thing anyway, right?'
-slug: everything-about-scaling
 readTime: 16
 coverImage: /images/posts/everything-about-scaling-1.png
 category: Engineering & Tech
