@@ -2,6 +2,7 @@ import { PostChip } from "@/app/components/post-chip";
 import { DisplaySM, TextSM, TextXS } from "@/components/text";
 import { BlogCategory } from "@/types/post";
 import { formatDate } from "@/lib/utils";
+import { buildHomeUrlWithFilters, FilterState } from "@/lib/filters";
 
 import { Home } from "lucide-react";
 import Link from "next/link";
@@ -14,13 +15,17 @@ type PostHeaderProps = {
   author: string;
   date: string;
   tags?: string[];
+  returnFilters?: FilterState;
 };
 
-export const PostHeader: React.FC<PostHeaderProps> = ({ title, readTime, category, author, date, tags }) => {
+export const PostHeader: React.FC<PostHeaderProps> = ({ title, readTime, category, author, date, tags, returnFilters }) => {
+  // Build home URL with filters if they were passed from the homepage
+  const homeUrl = returnFilters ? buildHomeUrlWithFilters(returnFilters) : "/";
+
   return (
     <div className="max-w-full">
       <Link
-        href="/"
+        href={homeUrl}
         className="block w-fit rounded-full mb-4 bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF1F] p-0.5 shadow-[0_1px_2px_0_#0A0D120D]"
       >
         <div className="flex items-center py-2 px-3 bg-[#121926] rounded-full">

@@ -26,7 +26,7 @@
       "email": "kristinen@omnistrate.com",
       "picture": ""
     },
-    "excerpt": "Discover how Rox leveraged Omnistrate's Control Plane as-a-Service to rapidly enter international markets with flexible deployment options, including Dedicated, BYOC, and Air-Gapped solutions, while preserving engineering focus on AI innovation.",
+    "excerpt": "Plotline used Omnistrate to build a scalable Internal Delivery Platform, replacing fragile manual processes to support 1.5 billion daily API calls. This transition saved 30-50% in costs and eliminated the need for dedicated DevOps, freeing engineers to focus entirely on innovation.",
     "coverImage": "/images/posts/how-plotline-streamlines-internal-deployments-to-support-massive-scale-and-free-engineers-to-innovate-1.png",
     "tags": [
       "Case Study"
@@ -87,6 +87,51 @@
       "Energy SaaS"
     ],
     "readTime": 7,
+    "category": "Customer Stories",
+    "type": "Case Study"
+  },
+  {
+    "slug": "why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal",
+    "title": "Unlocking a $230B Enterprise Opportunity: How an Early-Stage AI Company Expanded into Regulated Markets with Omnistrate",
+    "date": "2025-11-21 20:49:38",
+    "author": {
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "Autoblocks used Omnistrate to evolve from a serverless cloud product into an enterprise-ready SaaS platform, enabling secure, compliant, customer-controlled deployments.",
+    "coverImage": "/images/posts/why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal-1.png",
+    "tags": [
+      "AI",
+      "AI-developer",
+      "autoblocks.ai",
+      "BYOA",
+      "case-study",
+      "Omnistrate",
+      "SaaS"
+    ],
+    "readTime": 7,
+    "category": "Customer Stories",
+    "type": "Case Study"
+  },
+  {
+    "slug": "aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service",
+    "title": "How FalkorDB Used Omnistrate for a Rapid Multi-Cloud Launch to Enter the $200B GenAI Market",
+    "date": "2025-11-01 12:13:56",
+    "author": {
+      "name": "Kristine Newman",
+      "email": "kristinen@omnistrate.com",
+      "picture": ""
+    },
+    "excerpt": "FalkorDB leveraged Omnistrate's Control Plane-as-a-Service to rapidly launch its GenAI database platform across multiple clouds, enabling secure, compliant deployments and unlocking access to a $200B market.",
+    "coverImage": "/images/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service-1.jpg",
+    "tags": [
+      "Case Study",
+      "falkordb",
+      "Omnistrate",
+      "SaaS"
+    ],
+    "readTime": 4,
     "category": "Customer Stories",
     "type": "Case Study"
   },
@@ -885,30 +930,6 @@
     "type": "Post"
   },
   {
-    "slug": "why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal",
-    "title": "Unlocking a $230B Enterprise Opportunity: How an Early-Stage AI Company Expanded into Regulated Markets with Omnistrate",
-    "date": "2025-01-29 20:49:38",
-    "author": {
-      "name": "Michael Cooper",
-      "email": "michaelc@omnistrate.com",
-      "picture": ""
-    },
-    "excerpt": "Autoblocks used Omnistrate to evolve from a serverless cloud product into an enterprise-ready SaaS platform, enabling secure, compliant, customer-controlled deployments.",
-    "coverImage": "/images/posts/why-autoblocks-ai-turned-to-omnistrate-to-launch-their-ai-development-portal-1.png",
-    "tags": [
-      "AI",
-      "AI-developer",
-      "autoblocks.ai",
-      "BYOA",
-      "case-study",
-      "Omnistrate",
-      "SaaS"
-    ],
-    "readTime": 7,
-    "category": "Customer Stories",
-    "type": "Case Study"
-  },
-  {
     "slug": "omnistrate-platform-update-december-2024",
     "title": "Omnistrate Platform Update (December 2024)",
     "date": "2025-01-10 20:18:14",
@@ -1138,27 +1159,6 @@
     "readTime": 3,
     "category": "Product Updates",
     "type": "Post"
-  },
-  {
-    "slug": "aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service",
-    "title": "How FalkorDB Used Omnistrate for a Rapid Multi-Cloud Launch to Enter the $200B GenAI Market",
-    "date": "2024-10-01 12:13:56",
-    "author": {
-      "name": "Kristine Newman",
-      "email": "kristinen@omnistrate.com",
-      "picture": ""
-    },
-    "excerpt": "FalkorDB leveraged Omnistrate's Control Plane-as-a-Service to rapidly launch its GenAI database platform across multiple clouds, enabling secure, compliant deployments and unlocking access to a $200B market.",
-    "coverImage": "/images/posts/aws-and-omnistrate-partnered-to-bring-falkordb-managed-cloud-service-1.jpg",
-    "tags": [
-      "Case Study",
-      "falkordb",
-      "Omnistrate",
-      "SaaS"
-    ],
-    "readTime": 4,
-    "category": "Customer Stories",
-    "type": "Case Study"
   },
   {
     "slug": "omnistrate-platform-update-august-2024",
