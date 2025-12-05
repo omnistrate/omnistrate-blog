@@ -6,9 +6,11 @@ import { PostMetadata } from "@/types/post";
 import { TextSM, TextXL } from "@/components/text";
 import { cn } from "@/lib/utils";
 import { BlogCategory } from "@/types/post";
+import { buildUrlWithFilters, FilterState } from "@/lib/filters";
 
 type PostCardProps = {
   post: PostMetadata;
+  currentFilters?: FilterState;
 };
 
 const getCategoryDefaultImage = (category: BlogCategory): string => {
@@ -24,8 +26,13 @@ const getCategoryDefaultImage = (category: BlogCategory): string => {
   return categoryImages[category];
 };
 
-export const PostCard: React.FC<PostCardProps> = ({ post }) => {
+export const PostCard: React.FC<PostCardProps> = ({ post, currentFilters }) => {
   const defaultImage = getCategoryDefaultImage(post.category || "Miscellaneous");
+
+  // Build post URL with current filters to preserve them on navigation
+  const postUrl = currentFilters
+    ? buildUrlWithFilters(`/posts/${encodeURIComponent(post.slug)}`, currentFilters)
+    : `/posts/${encodeURIComponent(post.slug)}`;
 
   return (
     <div className="flex flex-col">
@@ -36,7 +43,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post }) => {
         )}
       >
         <Link
-          href={`/posts/${encodeURIComponent(post.slug)}`}
+          href={postUrl}
           className="w-full h-full relative flex items-center justify-center overflow-hidden rounded-xl"
         >
           {post.coverImage ? (
@@ -64,7 +71,7 @@ export const PostCard: React.FC<PostCardProps> = ({ post }) => {
         <PostChip category={post.category || "Miscellaneous"} readTime={`${post.readTime} min read`} />
 
         <div className="flex-1">
-          <Link href={`/posts/${encodeURIComponent(post.slug)}`} className="flex gap-4 mb-2">
+          <Link href={postUrl} className="flex gap-4 mb-2">
             <TextXL className="line-clamp-2">{post.title}</TextXL>
           </Link>
 

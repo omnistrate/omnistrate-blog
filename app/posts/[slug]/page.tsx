@@ -8,6 +8,7 @@ import { PostBody } from "./components/post-body";
 import { ScrollToTopButton } from "@/components/scroll-to-top-button";
 import { CaseStudyPostHeader } from "./components/case-study-post-header";
 import { CaseStudyPostBody } from "./components/case-study-post-body";
+import { parseFiltersFromUrl } from "@/lib/filters";
 
 export const generateMetadata = async ({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> => {
   const { slug } = await params;
@@ -34,13 +35,29 @@ export async function generateStaticParams() {
   return posts.map((post) => ({ slug: post.slug }));
 }
 
-export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
+export default async function Post({
+  params,
+  searchParams
+}: {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}) {
   const { slug } = await params;
   const post = await getPostBySlug(slug);
 
   if (!post) {
     return notFound();
   }
+
+  // Parse filters from URL to preserve them when navigating back to homepage
+  const rawSearchParams = await searchParams;
+  const urlSearchParams = new URLSearchParams(
+    Object.entries(rawSearchParams).reduce((acc, [key, value]) => {
+      if (value) acc[key] = Array.isArray(value) ? value[0] : value;
+      return acc;
+    }, {} as Record<string, string>)
+  );
+  const returnFilters = parseFiltersFromUrl(urlSearchParams);
 
   return post.type === "Post" ? (
     <Container>
@@ -52,6 +69,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
           author={post.author?.name || "Omnistrate Team"}
           date={post.date}
           tags={post.tags}
+          returnFilters={returnFilters}
         />
         <PostBody post={post} />
       </div>
@@ -59,7 +77,7 @@ export default async function Post({ params }: { params: Promise<{ slug: string 
     </Container>
   ) : (
     <>
-      <CaseStudyPostHeader title={post.title} />
+      <CaseStudyPostHeader title={post.title} returnFilters={returnFilters} />
       <CaseStudyPostBody post={post} />
       <ScrollToTopButton />
     </>

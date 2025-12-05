@@ -1,13 +1,18 @@
 import { Container } from "@/app/components/container";
 import { DisplayLG, TextMD, TextSM } from "@/components/text";
+import { buildHomeUrlWithFilters, FilterState } from "@/lib/filters";
 import { Home } from "lucide-react";
 import Link from "next/link";
 
 type CaseStudyPostHeaderProps = {
   title: string;
+  returnFilters?: FilterState;
 };
 
-export const CaseStudyPostHeader: React.FC<CaseStudyPostHeaderProps> = ({ title }) => {
+export const CaseStudyPostHeader: React.FC<CaseStudyPostHeaderProps> = ({ title, returnFilters }) => {
+  // Build home URL with filters if they were passed from the homepage
+  const homeUrl = returnFilters ? buildHomeUrlWithFilters(returnFilters) : "/";
+
   return (
     <div
       className="bg-[#FAFAFA]"
@@ -20,7 +25,7 @@ export const CaseStudyPostHeader: React.FC<CaseStudyPostHeaderProps> = ({ title 
     >
       <Container className="pt-6 md:pt-8">
         <Link
-          href="/"
+          href={homeUrl}
           className="block w-fit rounded-full mb-2 md:mb-6 lg:mb-12 bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF1F] p-0.5 shadow-[0_1px_2px_0_#0A0D120D]"
         >
           <div className="flex items-center py-2 px-3 bg-[#121926] rounded-full">

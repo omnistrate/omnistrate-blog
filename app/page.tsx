@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useEffect, useRef, useCallback } from "react";
+import { useMemo, useState, useRef, useCallback } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { Container } from "./components/container";
 import { PostCard } from "./components/post-card";
@@ -11,8 +11,7 @@ import { DisplayMD, TextMD } from "@/components/text";
 import { ScrollToTopButton } from "@/components/scroll-to-top-button";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
-
-const POSTS_PER_PAGE = 24;
+import { parseFiltersFromUrl, buildUrlWithFilters } from "@/lib/filters";
 
 const CATEGORIES = [
   { value: "all", label: "View all" },
@@ -31,21 +30,16 @@ const StyledTabTrigger = (props: React.ComponentProps<typeof TabsTrigger>) => (
 );
 
 function Homepage() {
-  const loadMoreRef = useRef<HTMLDivElement>(null);
   const searchBarRef = useRef<HTMLDivElement>(null);
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  const initialAuthor = searchParams.get("author") || "all";
+  // Initialize filters from URL params
+  const initialFilters = parseFiltersFromUrl(searchParams);
 
-  const [searchTerm, setSearchTerm] = useState("");
-  const [selectedAuthor, setSelectedAuthor] = useState<string>(initialAuthor);
-  const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  const [displayCount, setDisplayCount] = useState(POSTS_PER_PAGE);
-
-  useEffect(() => {
-    setDisplayCount(POSTS_PER_PAGE); // Reset display count when search, author, or category filter changes
-  }, [searchTerm, selectedAuthor, selectedCategory]);
+  const [searchTerm, setSearchTerm] = useState(initialFilters.search || "");
+  const [selectedAuthor, setSelectedAuthor] = useState<string>(initialFilters.author || "all");
+  const [selectedCategory, setSelectedCategory] = useState<string>(initialFilters.category || "all");
 
   const filteredPosts = useMemo(() => {
     let filtered = postsMetadata;
@@ -73,42 +67,6 @@ function Homepage() {
     return filtered;
   }, [searchTerm, selectedAuthor, selectedCategory]);
 
-  const displayedPosts = useMemo(() => {
-    return filteredPosts.slice(0, displayCount);
-  }, [filteredPosts, displayCount]);
-
-  const hasMore = displayCount < filteredPosts.length;
-
-  const loadMore = useCallback(() => {
-    if (hasMore) {
-      setDisplayCount((prev) => Math.min(prev + POSTS_PER_PAGE, filteredPosts.length));
-    }
-  }, [hasMore, filteredPosts.length]);
-
-  // Infinite Scroll Effect
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const firstEntry = entries[0];
-        if (firstEntry.isIntersecting && hasMore) {
-          loadMore();
-        }
-      },
-      { threshold: 0.1, rootMargin: "200px" }
-    );
-
-    const currentRef = loadMoreRef.current;
-    if (currentRef) {
-      observer.observe(currentRef);
-    }
-
-    return () => {
-      if (currentRef) {
-        observer.unobserve(currentRef);
-      }
-    };
-  }, [hasMore, loadMore]);
-
   // Sorted By Post Count
   const authors = useMemo(() => {
     const authorCount: Record<string, number> = {};
@@ -120,17 +78,37 @@ function Homepage() {
     return Object.keys(authorCount).sort((a, b) => authorCount[b] - authorCount[a]);
   }, []);
 
+  // Update URL whenever filters change
+  const updateUrl = useCallback(
+    (filters: { category: string; author: string; search: string }) => {
+      const url = buildUrlWithFilters("/", filters);
+      router.replace(url);
+    },
+    [router]
+  );
+
+  const handleCategoryChange = useCallback(
+    (category: string) => {
+      setSelectedCategory(category);
+      updateUrl({ category, author: selectedAuthor, search: searchTerm });
+    },
+    [selectedAuthor, searchTerm, updateUrl]
+  );
+
   const handleAuthorChange = useCallback(
     (author: string) => {
       setSelectedAuthor(author);
-      // Update URL with author query parameter
-      if (author !== "all") {
-        router.push(`/?author=${encodeURIComponent(author)}`);
-      } else {
-        router.push("/");
-      }
+      updateUrl({ category: selectedCategory, author, search: searchTerm });
     },
-    [router]
+    [selectedCategory, searchTerm, updateUrl]
+  );
+
+  const handleSearchChange = useCallback(
+    (search: string) => {
+      setSearchTerm(search);
+      updateUrl({ category: selectedCategory, author: selectedAuthor, search });
+    },
+    [selectedCategory, selectedAuthor, updateUrl]
   );
 
   return (
@@ -140,11 +118,11 @@ function Homepage() {
         Platform Engineering Blog: Architecture, Automation & Scale
       </DisplayMD>
 
-      <SearchBar ref={searchBarRef} value={searchTerm} onChange={setSearchTerm} />
+      <SearchBar ref={searchBarRef} value={searchTerm} onChange={handleSearchChange} />
 
       <div className="flex flex-row items-stretch lg:items-center justify-between gap-x-4 gap-y-4 lg:gap-y-6 mb-6">
         {/* Category Select - Mobile Only */}
-        <Select value={selectedCategory} onValueChange={setSelectedCategory}>
+        <Select value={selectedCategory} onValueChange={handleCategoryChange}>
           <SelectTrigger className="flex-1 max-w-[calc(50%-0.5rem)] lg:hidden">
             <SelectValue placeholder="Filter by category" />
           </SelectTrigger>
@@ -162,7 +140,7 @@ function Homepage() {
         {/* Category Tabs - Desktop Only */}
         <Tabs
           value={selectedCategory}
-          onValueChange={setSelectedCategory}
+          onValueChange={handleCategoryChange}
           className="hidden lg:block lg:w-auto overflow-x-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
         >
           <TabsList className="gap-x-2 p-0 border border-[#E9EAEB] bg-[#FAFAFA] rounded-md flex-nowrap w-max">
@@ -193,24 +171,16 @@ function Homepage() {
       </div>
 
       {filteredPosts.length > 0 ? (
-        <>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12 mb-16 md:mb-20">
-            {displayedPosts.map((post) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-12 mb-16 md:mb-20">
+          {filteredPosts.map((post) => (
+            <PostCard
+              key={post.slug}
               // @ts-expect-error Need to fix this
-              <PostCard key={post.slug} post={post} />
-            ))}
-          </div>
-
-          {/* Infinite Scroll Trigger */}
-          {hasMore && (
-            <div ref={loadMoreRef} className="flex justify-center py-8 mb-16">
-              <div className="flex items-center gap-2 text-[#535862]">
-                <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-[#535862]"></div>
-                <TextMD>Loading more posts...</TextMD>
-              </div>
-            </div>
-          )}
-        </>
+              post={post}
+              currentFilters={{ category: selectedCategory, author: selectedAuthor, search: searchTerm }}
+            />
+          ))}
+        </div>
       ) : (
         <LoadingState
           message={
